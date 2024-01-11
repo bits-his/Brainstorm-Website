@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <header className={`navbar ${isSticky ? 'isSticky' : ''} ${isMenuOpen ? 'open' : ''}`}>
+      <header className={`${isSticky ? 'isSticky' : ''} ${isMenuOpen ? 'open' : ''}`}>
         <a href="" className="logo">
           <img src={Logo} alt="" />
         </a>
