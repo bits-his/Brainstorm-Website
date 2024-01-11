@@ -1,10 +1,11 @@
 import './App.css';
-import Footer from './Components/footer/Footer';
+import 'bootstrap/dist/css/bootstrap.css'
+import AboutUs from './pages/about-us/AboutUs'
 
 function App() {
   return (
     <div className="App">
-     <Footer />
+     <AboutUs />
     </div>
   );
 }
