@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import map from "../../assets/logos/map.webp";
 import call from "../../assets/logos/call.webp";
 import message from "../../assets/logos/message.webp";
-import "../footer/footer.css";
+import "./footer.css";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
