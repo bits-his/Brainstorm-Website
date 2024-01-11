@@ -1,0 +1,55 @@
+.teem-card{
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+ 
+    border: #E8E8E8 solid;
+    border-radius: 5px; */
+    
+}
+.teem-card img{
+    width: 20%;
+}
+
+
+/* TeamMember.css */
+.team_thumb {
+    position: relative;
+    
+  }
+  
+  .team_image {
+    /* Your image styles here */
+  }
+  
+  .team_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .team_thumb:hover .team_hover {
+    display: flex;
+  }
+  
+  .social_icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px; /* Adjust as needed */
+  }
+  
+  .social_icons li a {
+    color: #fff; /* Adjust the icon color as needed */
+    text-decoration: none;
+    font-size: 20px; /* Adjust the icon size as needed */
+  }
+  
