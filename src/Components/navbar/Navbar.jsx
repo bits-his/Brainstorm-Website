@@ -30,9 +30,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div>
-      <header className={`navbar ${isSticky ? 'isSticky' : ''} ${isMenuOpen ? 'open' : ''}`}>
-        <a href="" className="logo">
+    <>
+      <header className={` ${isSticky ? 'isSticky' : ''} ${isMenuOpen ? 'open' : ''}`}>
+        <a href="home" className="logo">
           <img src={Logo} alt="" />
         </a>
 
@@ -70,6 +70,6 @@ export default function Navbar() {
           </div>
         </div>
       </header>
-    </div>
+    </>
   );
 }

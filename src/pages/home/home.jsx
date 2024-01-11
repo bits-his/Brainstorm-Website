@@ -3,8 +3,8 @@ import './home.css'
 import Contact from '../contact/Contact'
 import Card from './services-card/cards'
 import Img from '../../assets/img/hero.png'
-import Teem from '../home/teem-card/teem'
-import Img1 from '../../assets/img/murtala1.jpg'
+// import Teem from '../home/teem-card/teem'
+// import Img1 from '../../assets/img/murtala1.jpg'
 
 import { AiFillProject , AiFillSnippets , AiFillSignal } from "react-icons/ai";
 
@@ -18,7 +18,7 @@ export default function Home() {
   <div className='text'>
     <h1>Branstorm <br/><span>Innovation </span>hub</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-    <a href="#" className="btn">Explore</a>
+    <a href="a" className="btn">Explore</a>
     </div>
     <div className="hero">
       <img src={Img} alt="" />

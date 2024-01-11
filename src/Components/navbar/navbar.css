@@ -1,16 +1,16 @@
-
-
   .isSticky {
     background-color:var(--bg-color); 
   }
 
- 
+  .head{
+    height: 10vh;
+  }
   header{
     width: 100%;
     top: 0;
     right: 0;
     z-index: 1000;
-    position: fixed;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,8 +30,6 @@
    margin-left: 40px;
   }
 
-  
-  
   .navlist{
     display: flex;
     list-style: none;
