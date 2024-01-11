@@ -1,3 +1,5 @@
+
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import Footer from './Components/footer/Footer';
 
