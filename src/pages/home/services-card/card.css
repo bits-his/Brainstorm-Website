@@ -1,0 +1,38 @@
+.card{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   padding: 15px;
+   border: #E8E8E8 solid;
+   border-radius: 5px;
+
+
+}
+.icon{
+    color: var(--main-color);
+    font-size: 40px;
+}
+.card {
+    font-size: 24px;
+  font-weight: 400;
+  color: #1F1F1F;
+  margin-top: 29px;
+  margin-bottom: 13px;
+  margin: 15px;
+  transition: 0.5s;
+}
+.card:hover{
+    border: 3px solid #615CFD;
+    cursor: pointer !important;
+
+}
+.card p{
+    color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+   
