@@ -32,33 +32,45 @@ export default function Navbar() {
   return (
     <>
       <header className={` ${isSticky ? 'isSticky' : ''} ${isMenuOpen ? 'open' : ''}`}>
-        <a href="home" className="logo">
+        <div className="logo-container">
+        <a href="home" className="logo-">
           <img src={Logo} alt="" />
         </a>
+        </div>
 
         <ul className={`navlist ${isMenuOpen ? 'open' : ''}`}>
           <li>
-            <NavLink to="/" onClick={handleLinkClick}>
+            <NavLink ctiveClassName='active' to="/" onClick={handleLinkClick}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about-us" onClick={handleLinkClick}>
+            <NavLink ctiveClassName='active' to="/about-us" onClick={handleLinkClick}>
               About
             </NavLink>
           </li>
           <li>
-            <NavLink to="/services" onClick={handleLinkClick}>
+            <NavLink ctiveClassName='active' to="/services" onClick={handleLinkClick}>
               Services
             </NavLink>
           </li>
+          {/* <li>
+            <NavLink ctiveClassName='active' to="/blog" onClick={handleLinkClick}>
+              Blog
+            </NavLink>
+          </li> */}
           <li>
-            <NavLink to="/our-client" onClick={handleLinkClick}>
+            <NavLink ctiveClassName='active' to="/bi-hub" onClick={handleLinkClick}>
+              Bi-Hub
+            </NavLink>
+          </li>
+          <li>
+            <NavLink ctiveClassName='active' to="/our-client" onClick={handleLinkClick}>
               Our Client
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" onClick={handleLinkClick}>
+            <NavLink ctiveClassName='active' to="/contact" onClick={handleLinkClick}>
               Contact
             </NavLink>
           </li>

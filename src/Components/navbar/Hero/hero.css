@@ -1,0 +1,28 @@
+.Hero{
+    background-image: url('../../../assets/download.jpg');
+    margin: -10vh 0;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    min-height: 70vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 20%;
+}
+.overlay ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #f1f1f1;
+    width: 52%;
+}
+.overlay li, .overlay h1{
+    color: #f1f1f1;
+    font-weight: bold;
+}

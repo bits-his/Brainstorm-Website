@@ -1,6 +1,7 @@
 .home{
   min-height: 100vh;
   width: 100%;
+  margin: -10vh 0;
   /* padding-left: 60px; */
   padding-top: 50px;
   background: url(../../assets/img/bg2.jpeg);
@@ -34,12 +35,12 @@ span{
   justify-content: space-around;
 }
 .home-text h1{
-  font-size: var(--big-font);
+  font-size: 3rem;
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: .6rem;
   flex-wrap: wrap;
-  margin-bottom: 1.4rem;
+  margin-top: 15rem;
   
 
 }
@@ -50,7 +51,7 @@ span{
 .home-text p{
   font-size: var(--normal-font);
   font-weight: 500;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   letter-spacing: .1rem;
 }
 
@@ -128,9 +129,6 @@ span{
       
         
 } 
- .d{
-  
- }
 
 .card-title{
   display: flex;
@@ -138,12 +136,10 @@ span{
   text-align: center;
 }
 
-.card-title span{
+.card-title h2{
   position: relative;
   margin-top: 5rem;
-  
   z-index: 3;
-  font-size: 14px;
   font-weight: 500;
   color: #615CFD;
   text-transform: capitalize;
@@ -159,6 +155,7 @@ span{
   color: #1F1F1F;
   position: relative;
   z-index: 0;
+  margin-top: 0;
   padding-bottom: 15px;
 }
 

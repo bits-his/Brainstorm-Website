@@ -1,5 +1,7 @@
 .Hero{
-
+    background-image: url('../../assets/download.jpg');
+    margin: -10vh 0;
+    opacity: 0.8;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -12,9 +14,29 @@
     top: 60%;
     left: 10%;
 }
-.team-carousel{
+/* .team-carousel{
     display: grid;
+} */
+.team{
+    display: flex;
+    flex-wrap: wrap;
 }
 .card img {
-    width: 50px;
+    width: 100%;
+}
+.connect{
+    position: relative;
+}
+.social{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.social ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
 }

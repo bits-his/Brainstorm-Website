@@ -3,7 +3,7 @@ import  './card.css'
 
 function Cards(props) {
   return (
-    <div>
+    <>
 
         <div className="card">
             <div className="icon">
@@ -20,7 +20,7 @@ function Cards(props) {
             <p>Lorem ipsum dolor sit, .</p>
         </div>
  
-    </div>
+    </>
   )
 }
 

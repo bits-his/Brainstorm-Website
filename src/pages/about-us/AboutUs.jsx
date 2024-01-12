@@ -1,25 +1,13 @@
 import React from 'react'
 import './about-us.css'
-// import TeamContainer from './TeamContainer'
+import Hero from '../../Components/navbar/Hero/Hero'
+import TeamContainer from './TeamContainer'
 export default function AboutUs() {
   return (
     <>
-     <div className="Hero">
-      <div className="overlay">
-        <h1>About Us</h1>
-        <ul>
-          <li>
-            home
-          </li>
-          <li>
+      <Hero page='About'/>
 
-          </li>
-        </ul>
-
-      </div>
-     </div>
-
-     {/* <TeamContainer /> */}
+     <TeamContainer />
     </>
   )
 }

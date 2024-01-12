@@ -35,11 +35,11 @@ export default function Footer() {
                   <h5 className="mt-5">Fast links</h5>
                   <ul>
                     <li className="mb-2">
-                      <Link to="/Aboutus">About us</Link>
+                      <Link to="/about-us">About us</Link>
                     </li>
 
                     <li className="mb-2">
-                      <Link to="/Services">Services</Link>
+                      <Link to="/services">Services</Link>
                     </li>
                     <li className="mb-2">
                       <Link to="/Our client">Our client</Link>

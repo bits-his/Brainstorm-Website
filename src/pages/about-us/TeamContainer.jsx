@@ -16,23 +16,25 @@ import Ahmad from '../../assets/team/musty.jpg'
 import TeamCard from './TeamCard'
 
 export default function TeamContainer() {
+  const nam = 'Mustapha'
+  const role ='Senoir Developer'
   return (
-    <div className='Container'>
-        <h2>Our Creative Team</h2>
+    <div className=' mt-5 pt-5'>
+        <h2 className='s-heading'>Our Creative Team</h2>
         <div className="container-fluid">
-        <div className="team-carousel">
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
-        <TeamCard pic={Ahmad} />
+        <div className="team">
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        {/* <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} />
+        <TeamCard pic={Ahmad} name={nam} role={role} /> */}
         </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import Contact from '../contact/Contact'
+// import Contact from '../contact/Contact'
 import Card from './services-card/cards'
 import Img from '../../assets/img/hero.png'
 // import Teem from '../home/teem-card/teem'
@@ -27,9 +27,9 @@ export default function Home() {
 </div>
 
 </section>
-<div>
+<div className='mt-5 pt-3'>
 <div className="card-title">
-  <span>services</span>
+  <h2>services</h2>
   <h3>With more than 20 years of <br /> experience we can deliver the best <br /> product design.</h3>
 
 </div>
@@ -74,7 +74,7 @@ icon ={<AiFillSnippets />}
   />
   </div>
 </div> */}
-<Contact />
+{/* <Contact /> */}
   </>
   )
 }
