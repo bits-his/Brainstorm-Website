@@ -36,6 +36,34 @@ export default function OurClient() {
         <div className="row">
           <CustumeClient
             col="3"
+            col2="6"
+            alt="sanda"
+            img={aminu}
+            text="sanda tireda"
+          />
+          <CustumeClient
+            col="3"
+            col2="6"
+            alt="sanda"
+            img={govt}
+            text="sanda tireda"
+          />
+          <CustumeClient
+            col="3"
+            col2="6"
+            alt="sanda"
+            img={state}
+            text="sanda tireda"
+          />
+          <CustumeClient
+            col="3"
+            col2="6"
+            alt="sanda"
+            img={health}
+            text="sanda tireda"
+          />
+          <CustumeClient
+            col="3"
             alt="sanda"
             col2="6"
             img={sanda}
@@ -64,21 +92,6 @@ export default function OurClient() {
             img={katsina}
             text="sanda tireda"
           />
-          <CustumeClient
-            col="3"
-            col2="6"
-            alt="sanda"
-            img={habeeby}
-            text="sanda tireda"
-          />
-
-          <CustumeClient
-            col="3"
-            col2="6"
-            alt="sanda"
-            img={kano}
-            text="sanda tireda"
-          />
 
           <CustumeClient
             col="3"
@@ -99,28 +112,15 @@ export default function OurClient() {
             col="3"
             col2="6"
             alt="sanda"
-            img={aminu}
+            img={habeeby}
             text="sanda tireda"
           />
+
           <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
-            img={govt}
-            text="sanda tireda"
-          />
-          <CustumeClient
-            col="3"
-            col2="6"
-            alt="sanda"
-            img={state}
-            text="sanda tireda"
-          />
-          <CustumeClient
-            col="3"
-            col2="6"
-            alt="sanda"
-            img={health}
+            img={kano}
             text="sanda tireda"
           />
           <CustumeClient
