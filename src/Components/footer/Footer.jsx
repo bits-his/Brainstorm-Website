@@ -24,9 +24,10 @@ export default function Footer() {
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident itaque facilis obcaecati? Veritatis id blanditiis,
-                    aperiam saepe aliquid.
+                    Discover the power of tailored software at brainstorm. Our team is dedicated to providing innovative
+                    solutions that align with your unique business requirements.
+                    Reach out for personalized software development,
+                    consultation, and support.
                   </p>
                 </div>
               </div>
