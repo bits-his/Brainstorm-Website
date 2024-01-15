@@ -6,23 +6,49 @@
     width: 100%;
     background-size: cover;
     background-position: center center;
-    min-height: 70vh;
+    min-height: 70dvh;
     position: relative;
+}
+.hero-heading {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: tahoma;
+    color: #f1f1f1;
 }
 .overlay{
     position: absolute;
     top: 50%;
     left: 10%;
-    width: 20%;
 }
 .overlay ul {
     display: flex;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.overlay li{
     list-style-type: none;
     color: #f1f1f1;
-    width: 52%;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: tahoma;
+    font-weight: 600;
 }
-.overlay li, .overlay h1{
+.overlay li a {
     color: #f1f1f1;
-    font-weight: bold;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: tahoma;
+    margin-right: 3px;
+    font-weight: 600;
+}
+@media (max-width: 826px) {
+    .hero-heading {
+    font-size: 2rem;
+}
+}
+@media (max-width: 570px) {
+    .hero-heading {
+    font-size: 1.7rem;
+}
 }

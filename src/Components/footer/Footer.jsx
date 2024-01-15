@@ -42,7 +42,7 @@ export default function Footer() {
                       <Link to="/services">Services</Link>
                     </li>
                     <li className="mb-2">
-                      <Link to="/Our client">Our client</Link>
+                      <Link to="/our-client">Our client</Link>
                     </li>
                     <li className="mb-2">
                       <Link to="/Bi-hub">Bi-hub</Link>

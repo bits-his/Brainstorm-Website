@@ -1,5 +1,4 @@
 import React from "react";
-import background from "../../assets/team/new york.jpg";
 import "./ourclient.css";
 import CustumeClient from "./CustumeClient";
 import sanda from '../../assets/logos/sanda.png'
@@ -16,11 +15,12 @@ import aminu from '../../assets/logos/3.jpg'
 import govt from '../../assets/logos/4.jpg'
 import state from '../../assets/logos/5.jpg'
 import health from '../../assets/logos/6.jpg'
+import Hero from "../../Components/navbar/Hero/Hero";
 
 export default function OurClient() {
   return (
     <>
-      <img src={background} alt="background" className="background" />
+      <Hero page="our client" />
       <h3>Our Clients</h3>
       <p className="paragraph">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum
@@ -38,16 +38,17 @@ export default function OurClient() {
             col="3"
             col2="6"
             alt="sanda"
-            img={aminu}
+            img={govt}
             text="sanda tireda"
           />
           <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
-            img={govt}
+            img={aminu}
             text="sanda tireda"
           />
+
           <CustumeClient
             col="3"
             col2="6"
