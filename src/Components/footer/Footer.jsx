@@ -24,10 +24,9 @@ export default function Footer() {
                   </Link>
 
                   <p>
-                    Discover the power of tailored software at brainstorm. Our team is dedicated to providing innovative
+                    Discover the power of customized software at brainstorm. Our team is dedicated to providing innovative
                     solutions that align with your unique business requirements.
-                    Reach out for personalized software development,
-                    consultation, and support.
+                    
                   </p>
                 </div>
               </div>
