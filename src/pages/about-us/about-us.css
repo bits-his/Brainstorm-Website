@@ -51,9 +51,6 @@
     align-items: center;
     width: 50%;
 }
-.connect img:hover {
-    filter: blur(1px);
-}
 .social hover{
     bottom: 0;
 }

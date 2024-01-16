@@ -20,7 +20,7 @@ export default function TeamContainer() {
   return (
     <div className='container-fluid mt-5 pt-5'>
         {/* <h2 className='s-heading'>Our Creative Team</h2> */}
-      <Scroll title='MEET OUR TEAM' />
+      <Scroll title='MEET OUR TEAM' page="about"/>
         <div className="contain r">
         <div className="team pt-3">
         <TeamCard pic={murtala} name='Murtala' role={role} />

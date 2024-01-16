@@ -24,7 +24,7 @@
   
 }
 
-img:hover{
+.hero img:hover{
   animation: bounce 2.5s infinite;
 }
 .home-text{

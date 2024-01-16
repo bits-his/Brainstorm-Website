@@ -1,25 +1,26 @@
 .scroll-text{
     width: 70%;
+    height: 70vh;
     margin: 20vh auto 0;
     text-align: center;
     z-index: 10;
 }
 .scroll-text span {
-    color: hsla(0, 100%, 0%, 0.4);
+    color: hsla(0, 100%, 99%, 0.4);
     background-image: linear-gradient(45deg, teal, black);
     background-size: 0% 100%;
     background-repeat: no-repeat;
     background-clip: text;
     animation: scroll linear forwards;
-    animation-timeline: view(-150px) ;
+    animation-timeline: view(100px) ;
 }
 .scroll-text h2 span{
     animation-range-start: 10vh;
     animation-range-end: 40vh;
 }
 .scroll-text p span{
-    animation-range-start: 50vh;
-    animation-range-end: 90vh;
+    animation-range-start: 20vh;
+    animation-range-end: 100vh;
 }
 @keyframes scroll{
     to{

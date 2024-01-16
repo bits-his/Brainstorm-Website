@@ -75,7 +75,13 @@ export default function Navbar() {
             </NavLink>
           </li>
         </ul>
-
+        <div className="noti">
+          <ul>
+            <li>
+              Contact
+            </li>
+          </ul>
+        </div>
         <div className="header-icons">
           <div id="menu-icon" onClick={handleMenuClick}>
            {isMenuOpen ? <AiOutlineClose/> : < AiOutlineMenu/>}

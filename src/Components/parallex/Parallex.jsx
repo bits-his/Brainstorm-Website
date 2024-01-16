@@ -9,7 +9,6 @@ export default function Parallex() {
     <div className="hero-p">
       <img src={hero} alt="img" />
       <div className="parallex-overlay">
-        <h1> BRAINSTORM INNOVATION HUB</h1>
        <New />
     
         {/* <p className="history">
