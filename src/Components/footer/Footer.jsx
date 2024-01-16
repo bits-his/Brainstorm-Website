@@ -37,7 +37,6 @@ export default function Footer() {
                     <li className="mb-2">
                       <Link to="/about-us">About us</Link>
                     </li>
-
                     <li className="mb-2">
                       <Link to="/services">Services</Link>
                     </li>
