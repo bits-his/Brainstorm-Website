@@ -1,80 +1,76 @@
 import React from 'react'
 import './home.css'
-// import Contact from '../contact/Contact'
-import Card from './services-card/cards'
-import Img from '../../assets/img/hero.png'
-// import Teem from '../home/teem-card/teem'
-// import Img1 from '../../assets/img/murtala1.jpg'
+import Features from '../home/features/Features'
+import Img from '../../assets/img/hero_1.png.webp'
+import About from '../about-us/AboutUs'
+import Testimonials from './te/Testimonials'
+
 
 import { AiFillProject , AiFillSnippets , AiFillSignal } from "react-icons/ai";
 
 
 
+
 export default function Home() {
   return (
-    <>
-   <section className="home" id="home">
-<div className="home-text">
-  <div className='text'>
-    <h1>Branstorm <br/><span>Innovation </span>hub</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-    <a href="a" className="btn">Explore</a>
-    </div>
-    <div className="hero">
-      <img src={Img} alt="" />
-    </div>
-    
+    <div>
+   <section className="home bg-light " id="home">
+   <div class="hero-section">
+<div class="container">
+<div class="row justify-content-between">
+<div class="col-lg-5">
+<span class="subheading mb-2 ">Welcome to our site</span>
+<h1 class="heading mb-3 " data-aos-delay="100">Expert in, software development</h1>
+<p class="mb-5 " data-aos-delay="200">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+<p ><button class="btn ">Learn More</button> <button class="btn2 ">Contact us</button></p>
 </div>
-
+<div class="col-lg-6">
+<div class="img-wrap ">
+<img src={Img} alt="Image" class="img-fluid" />
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <div className='mt-5 pt-3'>
 <div className="card-title">
-  <h2>services</h2>
-  <h3>With more than 20 years of <br /> experience we can deliver the best <br /> product design.</h3>
-
+<div class="section pt-0 section-2">
+<div class="container">
+<div class="row mb-5">
+<div class="col-lg-5 mx-auto text-center aos-init aos-animate" data-aos="fade-up">
+<span class="subheading mb-2">Features</span>
+<h1 class="heading mb-3">Our Features</h1>
+<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
-<div className="flex">
-<Card 
-title='graphic' 
+</div>
+
+<div class="row g-5 text-center">
+<Features 
 icon={<AiFillProject/>}
+title='web development'
+p=''
+ />
+<Features 
+icon={< AiFillSnippets/>}
+title='security'
+p=''
 />
-<Card
-title ='web development'
-icon={< AiFillSignal/>}
-
-/>
-<Card 
-title= 'app development'
-icon ={<AiFillSnippets />}
-
-/>
+<Features icon={<AiFillSignal/>}
+title='SCO'
+p=''
+ />
+</div>
+</div>
 </div>
 
 </div>
-{/* <div className="teem">
-  <h3>Our Teem</h3>
-  <p>Tour function information without cross action media value quickly maximize timely deliverables.</p>
-<div className=" flex d">
- 
-  <Teem 
-  img ={Img1}
-  title = 'ADEWALE MURTALA'
 
-  />
 
-<Teem 
-  img ={Img1}
-  title = 'ADEWALE MURTALA'
+</div>
+<About/>
+<Testimonials/>
 
-  />
-  <Teem 
-  img ={Img1}
-  title = 'ADEWALE MURTALA'
-
-  />
   </div>
-</div> */}
-{/* <Contact /> */}
-  </>
   )
 }

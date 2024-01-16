@@ -1,37 +1,26 @@
-.blob{
-    width: 100px;
-    height: 100px;
-    margin: 10vh auto;
-    position: relative;
+.service {
+    padding: 30px;
+    border: 1px solid #efefef;
+    margin-bottom: 30px;
+}  
+
+
+.service h3, .service .h3 {
+  font-size: 16px;
+  font-weight: 700;
 }
-.blob1{
-    /* display: none; */
-    position: absolute;
-}
-.blob2{
-    /* display: none; */
-    position: absolute;
-}.service-container{
-    justify-content: space-between;
-    width: 99%;
-    margin: 0 auto;
-}
-.service-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 24%;
+
+
+.service :last-child {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
     margin-bottom: 1rem;
-    border: 2px solid #ddd;
-}
-.service-info{
-    text-align: center;
-    margin: 10px 0 0;
-    color: #727272;
-    font-size: 17px;
-    font-weight: 400;
-}
-.s-heading{
-    text-align: center;
-    color: #615CFD;
-}
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  
