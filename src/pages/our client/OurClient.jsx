@@ -23,14 +23,15 @@ export default function OurClient() {
       <Hero page="our client" />
       <h3>Our Clients</h3>
       <p className="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum
-        modi nihil temporibus. Mollitia et quaerat obcaecati consequuntur
+        Thank you for choosing Brainstorm as your trusted technology partner. At
+        brainstorm, we are committed to delivering cutting-edge software
+        solutions tailored to meet the unique needs of your business.
       </p>
       <p className="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi
-        quam, consequuntur quaerat similique, consectetur magni ratione
-        accusantium in optio omnis eius necessitatibus sunt obcaecati rem
-        repellendus hic laboriosam sequi.
+        Our journey with clients like you has been both inspiring and rewarding.
+        Your success stories motivate us to continually innovate and exceed your
+        expectations. As we work together to navigate the dynamic landscape of
+        the digital world, we are grateful for the trust you place in our team.
       </p>
       <div className="contain">
         <div className="row">
@@ -39,14 +40,14 @@ export default function OurClient() {
             col2="6"
             alt="sanda"
             img={govt}
-            text="sanda tireda"
+            text="Kano State Govt"
           />
           <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
             img={aminu}
-            text="sanda tireda"
+            text="Aminu Kano"
           />
 
           <CustumeClient
@@ -83,7 +84,7 @@ export default function OurClient() {
             alt="sanda"
             col2="6"
             img={pikme}
-            text="sanda tireda"
+            text="Pikme"
             circle="rounded-circle"
           />
           <CustumeClient
@@ -91,7 +92,7 @@ export default function OurClient() {
             col2="6"
             alt="sanda"
             img={katsina}
-            text="sanda tireda"
+            text="Katsina State Govt"
           />
 
           <CustumeClient

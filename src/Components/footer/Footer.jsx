@@ -24,9 +24,9 @@ export default function Footer() {
                   </Link>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident itaque facilis obcaecati? Veritatis id blanditiis,
-                    aperiam saepe aliquid.
+                    Discover the power of customized software at brainstorm. Our team is dedicated to providing innovative
+                    solutions that align with your unique business requirements.
+                    
                   </p>
                 </div>
               </div>
@@ -37,7 +37,6 @@ export default function Footer() {
                     <li className="mb-2">
                       <Link to="/about-us">About us</Link>
                     </li>
-
                     <li className="mb-2">
                       <Link to="/services">Services</Link>
                     </li>
