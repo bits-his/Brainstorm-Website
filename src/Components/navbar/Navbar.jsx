@@ -70,7 +70,7 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink ctiveClassName='active' to="/contact" onClick={handleLinkClick}>
+            <NavLink ctiveClassName='active ' to="/contact" onClick={handleLinkClick}>
               Contact
             </NavLink>
           </li>

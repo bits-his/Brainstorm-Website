@@ -5,8 +5,8 @@ import CardContainer from './CardContainer'
 export default function Services() {
   return (
     <>
-     <Hero page='Services'/>
-     <h2 className='mt-5 pt-5 text-center'>WHAT WE OFFER</h2>
+   
+     <h2 className='mt-5 pt-5 text-center'></h2>
      <CardContainer />
       {/* <div className="blob">
       <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">

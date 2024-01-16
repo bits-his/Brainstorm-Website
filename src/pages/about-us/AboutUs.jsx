@@ -5,9 +5,9 @@ import TeamContainer from './TeamContainer'
 export default function AboutUs() {
   return (
     <>
-      <Hero page='About'/>
+    
 
-     <TeamContainer />
+     {/* <TeamContainer /> */}
     </>
   )
 }
