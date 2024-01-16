@@ -5,7 +5,7 @@ import Card from './card'
 function Testimonials() {
   return (
     <div>
-        <div class="row mb-5">
+        <div class="row mb-5 mt-5">
 <div class="col-lg-8 mx-auto text-center aos-init aos-animate" data-aos="fade-up">
 <span class="subheading mb-2">Testimonials</span>
 <h1 class="heading mb-3">Testimonials</h1>

@@ -19,8 +19,8 @@ export default function Home() {
 <div class="row justify-content-between">
 <div class="col-lg-5">
 <span class="subheading mb-2 ">Welcome to our site</span>
-<h1 class="heading mb-3 " data-aos-delay="100">Expert in, software development</h1>
-<p class="mb-5 " data-aos-delay="200">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+<h1 class="heading mb-3 ">Expert in, software development</h1>
+<p class="mb-3 ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 <p ><button class="btn ">Learn More</button> <button class="btn2 ">Contact us</button></p>
 </div>
 <div class="col-lg-6">

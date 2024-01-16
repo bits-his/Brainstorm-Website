@@ -3,6 +3,7 @@ import './navbar.css';
 import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/logos/logo.png';
 import { AiOutlineMenu,  AiOutlineClose} from "react-icons/ai"
+import { FaBell, FaSearch } from 'react-icons/fa';
 
 
 
@@ -72,6 +73,16 @@ export default function Navbar() {
           <li>
             <NavLink to="/contact" >
               Contact
+            </NavLink>
+          </li>
+          <li>
+          <NavLink className='nav-icon-div' activeClassName='active ' to="/contact" onClick={handleLinkClick}>
+              <FaSearch  className='nav-icon'/>
+            </NavLink>
+          </li>
+          <li>
+          <NavLink className='nav-icon-div' activeClassName='active ' to="/contact" onClick={handleLinkClick}>
+              <FaBell  className='nav-icon'/>
             </NavLink>
           </li>
         </ul>
