@@ -5,7 +5,7 @@ function Cards(props) {
   return (
     <>
 
-        <div className="card">
+        <div className="card ">
             <div className="icon">
                 {props.icon}
 

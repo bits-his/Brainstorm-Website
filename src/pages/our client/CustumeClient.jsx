@@ -13,12 +13,14 @@ export default function CustumeClient({
   return (
     <>
       <div className={`col-lg-${col} col-sm-${col2}`}>
-        <div className={``}>
-          <div className="d-flex style">
-            <img src={img} alt={alt} className={circle} />
-            <p>{text}</p>
+          <div className="d-flex align-items-center style">
+            <div className="div">
+              <img src={img} alt={alt} className={circle} />
+            </div>
+            <div className="text">
+              <p>{text}</p>
+            </div>
           </div>
-        </div>
       </div>
     </>
   );

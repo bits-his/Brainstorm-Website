@@ -1,0 +1,99 @@
+.cared {
+  width: 45%;
+  height: auto;
+  background: #c4e8ff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2b2a2a;
+  transition: 0.2s ease-in-out;
+  margin: 63px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+.cover {
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #c4e8ff;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+.img {
+  height: 18%;
+  position: absolute;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+}
+.styled {
+  padding: 20px;
+}
+.textBox {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.textBox > .text {
+  font-weight: 600;
+}
+
+.textBox > .price {
+  font-size: 17px;
+}
+
+.cared:hover > .textBox {
+  opacity: 1;
+}
+
+.cared:hover > .img {
+  height: 55%;
+  filter: blur(7px);
+  animation: anim 3s infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+  75% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.cared:hover {
+  transform: scale(1.04);
+}
+@media (max-width: 872px) {
+.cared {
+    width: 80%;
+}
+}
+@media (max-width: 819px) {
+
+}
+@media (max-width: 570px) {
+
+.cared .img {
+  height: 55%;
+  filter: blur(7px);
+  animation: anim 3s infinite;
+
+}
+.cared .textBox {
+  opacity: 1;
+}
+}

@@ -6,14 +6,20 @@
 .contain {
   padding: 50px;
 }
-
-.style img {
-  width: 70px;
+.div {
+  width: 30%;
+  height: 50%;
+}
+.div img {
+  width: 100%;
   height: auto;
   margin-right: 20px;
   align-items: center;
 }
-.style p {
+.text {
+  width: 70%;
+}
+.text p {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;

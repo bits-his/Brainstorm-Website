@@ -11,8 +11,8 @@
 }
 .overlay{
     position: absolute;
-    top: 60%;
-    left: 10%;
+    bottom: 0;
+    left: 10px;
 }
 
 .team{
@@ -24,6 +24,7 @@
 }
 .team-card:hover .social{
     bottom: 0px;
+    display: flex;
     /* height:100% */
 }
 .cards img {
@@ -39,6 +40,8 @@
     bottom: -25px;
     width: 100%;
     display: flex;
+    display: none;
+    transition: linear 2s;
     justify-content: center;
     transition: linear .2s;
 }

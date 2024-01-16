@@ -5,8 +5,8 @@
   object-fit: cover;
   background-position: center;
 }
-h3{
-  color: #1F1F1F;
+h3 {
+  color: #1f1f1f;
   font-size: 30px;
   font-weight: 700;
   font-family: tahoma;
@@ -21,4 +21,9 @@ h3{
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 10px;
+}
+@media (max-width: 574px) {
+  .paragraph {
+    max-width: 90%;
+  }
 }
