@@ -1,35 +1,35 @@
-.blob{
-    width: 100px;
-    height: 100px;
-    margin: 10vh auto;
-    position: relative;
-}
-.blob1{
-    /* display: none; */
-    position: absolute;
-}
-.blob2{
-    /* display: none; */
-    position: absolute;
-}.service-container{
+.service-container{
     justify-content: space-between;
-    width: 99%;
-    margin: 0 auto;
+    width: 98%;
+    margin-inline:auto;
+    /* background-color: #615CFD; */
 }
 .service-card{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    /* background-color: #ca4646; */
+    box-shadow:1px 1px 3px 1px #dedede;
+    border-radius: 7px;
     width: 24%;
     margin-bottom: 1rem;
     border: 2px solid #ddd;
 }
+.service-card:hover{
+    transform: translateY(-5px);
+    /* transform: translateX(-2px); */
+    /* transform: translateZ(2px); */
+}
 .service-info{
-    text-align: center;
+    /* text-align: center; */
     margin: 10px 0 0;
+    /* position: absolute; */
+    z-index: 1;
     color: #727272;
     font-size: 17px;
     font-weight: 400;
+    z-index: 2;
 }
 .s-heading{
     text-align: center;

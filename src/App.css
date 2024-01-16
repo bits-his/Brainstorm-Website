@@ -8,3 +8,6 @@
     --normal-font:1rem;
   
   }
+  html{
+    color-scheme: dark light;
+  }

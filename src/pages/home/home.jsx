@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 // import Contact from '../contact/Contact'
 import Card from './services-card/cards'
-import Img from '../../assets/img/hero.png'
+// import Img from '../../assets/img/hero.png'
 // import Teem from '../home/teem-card/teem'
 // import Img1 from '../../assets/img/murtala1.jpg'
 
@@ -21,7 +21,7 @@ export default function Home() {
     <a href="a" className="btn">Explore</a>
     </div>
     <div className="hero">
-      <img src={Img} alt="" />
+      {/* <img src={Img} alt="a" /> */}
     </div>
     
 </div>
@@ -30,7 +30,7 @@ export default function Home() {
 <div className='mt-5 pt-3'>
 <div className="card-title">
   <h2>services</h2>
-  <h3>With more than 20 years of <br /> experience we can deliver the best <br /> product design.</h3>
+  <h3>With more than 15+ years of <br /> experience we can deliver the best <br /> product design.</h3>
 
 </div>
 <div className="flex">

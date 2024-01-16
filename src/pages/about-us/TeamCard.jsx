@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function TeamCard({pic,name,role}) {
+export default function TeamCard({pic,name,role,ceo}) {
   return (
     <>
-     <div className="card col-12 col-md-6">
+     <div className="team-card col-12 col-md-6 col-lg-3 cards">
       <div className="connect">
       <img src={pic} alt="team" />
       <div className="social">
@@ -14,9 +14,9 @@ export default function TeamCard({pic,name,role}) {
         </ul>
       </div>
       </div>
-      <div className="info">
-        <h3>{name}</h3>
-        <p className="role">{role}</p>
+      <div className="info pt-3">
+        <h4>{name}</h4>
+        <p className="role"> {role} {ceo} </p>
       </div>
      </div>
     </>

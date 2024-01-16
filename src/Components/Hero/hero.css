@@ -1,5 +1,5 @@
 .Hero{
-    background-image: url('../../../assets/download.jpg');
+    background-image: url('../../assets/download.jpg');
     margin: -10vh 0;
     opacity: 0.8;
     background-repeat: no-repeat;

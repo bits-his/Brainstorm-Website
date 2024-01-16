@@ -1,0 +1,53 @@
+.hero-p{
+    position: relative;
+    height: 100vh;
+    margin-bottom: 70px;
+
+}
+.hero-p img{
+   /* position: relative;  */
+   width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: 2;
+   animation: para linear forwards;
+   animation-timeline: view();
+}
+.parallex-overlay{
+    position: absolute;
+    bottom: 25vh;
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+    animation: fade-up linear;
+    animation-range: exit -400px;
+    animation-timeline: view();
+}
+.parallex-overlay p{
+    /* width: 80%; */
+    text-align: center;
+    font-size: 1.2rem;
+    line-break: auto;
+}
+/* .parallex-overlay h1{
+    animation: fade-up linear;
+    animation-range: exit -400px;
+    animation-timeline: view();
+} */
+@keyframes fade-up{
+    to{
+        opacity: 0;
+    }
+}
+@keyframes para {
+    25%{
+     opacity: 1;
+     scale: 1;
+    }
+    85%{
+         scale: 2; opacity: 0.1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

@@ -2,6 +2,7 @@
   min-height: 100vh;
   width: 100%;
   margin: -10vh 0;
+  animation-timeline: scroll();
   /* padding-left: 60px; */
   padding-top: 50px;
   background: url(../../assets/img/bg2.jpeg);

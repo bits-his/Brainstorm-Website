@@ -1,11 +1,14 @@
 import React from 'react'
 import './about-us.css'
-import Hero from '../../Components/navbar/Hero/Hero'
+// import Hero from '../../Components/Hero/Hero'
 import TeamContainer from './TeamContainer'
+import Parallex from '../../Components/parallex/Parallex'
 export default function AboutUs() {
   return (
     <>
-      <Hero page='About'/>
+      <Parallex />
+      
+      {/* <Hero page='About'/> */}
 
      <TeamContainer />
     </>
