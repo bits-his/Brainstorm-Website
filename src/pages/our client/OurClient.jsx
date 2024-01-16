@@ -40,14 +40,14 @@ export default function OurClient() {
             col2="6"
             alt="sanda"
             img={govt}
-            text="sanda tireda"
+            text="Kano State Govt"
           />
           <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
             img={aminu}
-            text="sanda tireda"
+            text="Aminu Kano"
           />
 
           <CustumeClient
@@ -84,7 +84,7 @@ export default function OurClient() {
             alt="sanda"
             col2="6"
             img={pikme}
-            text="sanda tireda"
+            text="Pikme"
             circle="rounded-circle"
           />
           <CustumeClient
@@ -92,7 +92,7 @@ export default function OurClient() {
             col2="6"
             alt="sanda"
             img={katsina}
-            text="sanda tireda"
+            text="Katsina State Govt"
           />
 
           <CustumeClient
