@@ -1,7 +1,22 @@
+.subheading {
+    display: inline-block;
+    padding: 5px 20px;
+    color: #fb4444;
+    text-transform: uppercase;
+    background-color: rgba(251, 68, 68, 0.2);
+    border-radius: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+  }
+  .s-heading{
+    margin-top: 0;
+  }
 .scroll-text{
     width: 70%;
-    height: 70vh;
-    margin: 20vh auto 0;
+    /* height: 70vh; */
+    margin: 20vh auto 5vh;
     text-align: center;
     z-index: 10;
 }
@@ -12,15 +27,15 @@
     background-repeat: no-repeat;
     background-clip: text;
     animation: scroll linear forwards;
-    animation-timeline: view(100px) ;
+    animation-timeline: view() ;
 }
-.scroll-text h2 span{
-    animation-range-start: 10vh;
-    animation-range-end: 40vh;
+.scroll-text h3 span{
+    animation-range-start:contain ;
+    animation-range-end:contain 20vh;
 }
 .scroll-text p span{
-    animation-range-start: 20vh;
-    animation-range-end: 100vh;
+    animation-range-start: 30vh;
+    animation-range-end: 60vh;
 }
 @keyframes scroll{
     to{

@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import Scroll from '../../Components/scroll/Scroll'
+import { VscRemoteExplorer } from "react-icons/vsc";  
 
 export default function CardContainer() {
   return (
@@ -9,21 +10,13 @@ export default function CardContainer() {
        <div className='row service-container'>
      
         {/* <h2 className='s-heading'>Services</h2> */}
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-       <Card />
-    </div>
-
-
+       <Card heading='Web Decelopment' img={<VscRemoteExplorer />}/>
+       <Card heading='Software Development' img={<VscRemoteExplorer />}/>
+       <Card heading='Co-operate Trainings' img={<VscRemoteExplorer />}/>
+       <Card heading='Consultancy services' img={<VscRemoteExplorer />}/>
+       <Card heading='Lorem Ipsum' img={<VscRemoteExplorer />}/>
+       <Card heading='Lorem Ipsum ' img={<VscRemoteExplorer />} />
+    </div>  
     </div>
       
    

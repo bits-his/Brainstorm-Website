@@ -3,7 +3,7 @@ import './navbar.css';
 import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/logos/logo.png';
 import { AiOutlineMenu,  AiOutlineClose} from "react-icons/ai"
-import { FaBell, FaSearch } from 'react-icons/fa';
+// import {FaSearch } from 'react-icons/fa';
 
 
 
@@ -21,7 +21,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsSticky(window.scrollY > 0);
+      setIsSticky(window.scrollY > 100);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -33,13 +33,14 @@ export default function Navbar() {
   return (
     <>
       <header className={` ${isSticky ? 'isSticky' : ''} ${isMenuOpen ? 'open' : ''}`}>
-        <div className="logo-container">
-        <NavLink to="home" className="logo-">
+      <div className="header">
+      <div className="logo-container">
+      <NavLink to="home" className="logo-">
           <img src={Logo} alt="" />
         </NavLink>
         </div>
-
-        <ul className={`navlist ${isMenuOpen ? 'open' : ''}`} onClick={handleLinkClick}>
+       <div className="inner">
+       <ul className={`navlist ${isMenuOpen ? 'open' : ''}`} onClick={handleLinkClick}>
           <li>
             <NavLink to="/" >
               Home
@@ -71,33 +72,28 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" >
-              Contact
-            </NavLink>
-          </li>
-          <li>
-          <NavLink className='nav-icon-div' activeClassName='active ' to="/contact" onClick={handleLinkClick}>
-              <FaSearch  className='nav-icon'/>
-            </NavLink>
-          </li>
-          <li>
-          <NavLink className='nav-icon-div' activeClassName='active ' to="/contact" onClick={handleLinkClick}>
-              <FaBell  className='nav-icon'/>
+            <NavLink to="/blog" >
+              Team
             </NavLink>
           </li>
         </ul>
-        <div className="noti">
-          <ul>
-            <li>
+       </div>
+       <div className="last">
+        <ul>
+        <li className='contact'>
+              <NavLink to="/contact">
               Contact
+              </NavLink>
             </li>
-          </ul>
-        </div>
+        </ul>
+       </div>
+  
         <div className="header-icons">
           <div id="menu-icon" onClick={handleMenuClick}>
            {isMenuOpen ? <AiOutlineClose/> : < AiOutlineMenu/>}
           </div>
         </div>
+      </div>
       </header>
     </>
   );

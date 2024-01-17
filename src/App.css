@@ -11,3 +11,6 @@
   html{
     color-scheme: dark light;
   }
+  body {
+    font-family: 'Rubik', sans-serif;
+  }

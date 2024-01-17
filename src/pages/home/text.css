@@ -1,0 +1,68 @@
+#animatedInput {
+    color: #f1f1f1;
+    font-size: 1.4rem;
+    padding: 8px;
+    border: 1px solid #f1f1ff;
+    outline: none;
+    width: 150px;
+    background-color: #ffffff56;
+    border-radius: 4px;
+    user-select: none;
+}
+::selection{
+    color: black ;
+}
+/* fieldset{
+    border: 1px solid #fff;
+} */
+
+.typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(22) step-end infinite;
+}
+
+.input-container {
+    position: relative;
+}
+
+.typing-animation::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    margin-left: 3px; /* Adjust as needed */
+    background-color: black; /* Adjust the color as needed */
+    animation: blink-caret 0.5s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: black; /* Adjust the color as needed */
+    }
+}
+
+
+/* @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+} */
+
+/* @keyframes blinking-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+} */

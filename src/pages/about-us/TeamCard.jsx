@@ -1,12 +1,13 @@
 import React from 'react'
 
-export default function TeamCard({pic,name,role,ceo}) {
+export default function TeamCard({pic,name,role,ceo,delay}) {
   return (
     <>
-     <div className="team-card col-12 col-md-6 col-lg-3 cards">
+     <div data-aos="fade-right" data-aos-once='true' data-aos-delay={`${delay}` } className='col-12 col-sm-6 col-md-4 col-lg-3'>
+     <div className="team-card cards">
       <div className="connect">
       <img src={pic} alt="team" />
-      <div className="social">
+      <div className="social">  
         <ul>
           <li>L</li>
           <li>T</li>
@@ -14,10 +15,11 @@ export default function TeamCard({pic,name,role,ceo}) {
         </ul>
       </div>
       </div>
-      <div className="info pt-3">
+      <div className="info">
         <h4>{name}</h4>
         <p className="role"> {role} {ceo} </p>
       </div>
+     </div> 
      </div>
     </>
   )
