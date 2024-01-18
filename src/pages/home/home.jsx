@@ -4,6 +4,7 @@ import "./home.css";
 import image4 from "./img/3853675.jpg";
 import Text from "./Text";
 import Carousel from "./Carousel";
+import What from '../What -we-do/what'
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
@@ -52,6 +53,7 @@ export default function Home() {
           today and unlock the opportunities of tomorrow.
         </p>
         <Carousel />
+        <What/>
       </div>
 
       {/* <section className="home bg-light " id="home">
