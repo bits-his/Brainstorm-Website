@@ -1,0 +1,26 @@
+.software {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.software-content {
+  background-color: #FFF;
+  box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.211);
+  width: 90%;
+  height: 300px;
+  display: flex;
+}
+ .software-content h1 {
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+.tab-content {
+  background-color: red;
+}
+.tab {
+  background-color: blue;
+
+}
