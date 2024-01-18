@@ -48,8 +48,9 @@ export default function Home() {
           today and unlock the opportunities of tomorrow.
         </p>
         <Carousel />
-        <What/>
+       
       </div>
+      <What/>
       {/* <Soft /> */}
     </>
   );
