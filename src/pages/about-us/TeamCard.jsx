@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaWhatsapp, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export default function TeamCard({pic,name,role,ceo,delay}) {
   return (
@@ -9,9 +10,9 @@ export default function TeamCard({pic,name,role,ceo,delay}) {
       <img src={pic} alt="team" />
       <div className="social">  
         <ul>
-          <li>L</li>
-          <li>T</li>
-          <li>F</li>
+          <li><FaWhatsapp /></li>
+          <li><FaTwitter/></li>
+          <li><FaLinkedin/></li>
         </ul>
       </div>
       </div>

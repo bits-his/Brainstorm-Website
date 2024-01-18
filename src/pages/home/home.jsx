@@ -1,5 +1,4 @@
 import React from "react";
-import { useState} from "react";
 import "./home.css";
 import image4 from "./img/3853675.jpg";
 import Text from "./Text";
@@ -9,13 +8,9 @@ import Stories from './stories_home/Stories'
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
 // import image5 from "./img/516089.png";
-// import Features from "../home/features/Features";
-// import Img from "../../assets/img/hero_1.png.webp";
-// import Testimonials from './te/Testimonials'
-// import { AiFillProject, AiFillSnippets, AiFillSignal } from "react-icons/ai";
+
 
 export default function Home() {
-  const [bgIndex, setBgIndex] = useState(0);
 
   // Array of background images
   const images = [image4];
@@ -38,14 +33,13 @@ export default function Home() {
     <>
       <div
         className="home-page"
-        style={{ backgroundImage: `url(${images[bgIndex]})` }}
+        style={{ backgroundImage: `url(${images})` }}
       >
         <h1>Welcome to the Innovation Hub</h1>
         <p>
           we are <Text /> digital success
         </p>
       </div>
-
       <div className="center-text">
         <p>
           Since 2006. For millions of users. We transform businesses with

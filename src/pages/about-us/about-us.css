@@ -20,10 +20,14 @@
     /* padding:10px; */
     border-radius: 10px;
     box-shadow: 1px 1px 5px #dedede;
+    transition: .3s;
 }
 .team-card:hover .social{
-    bottom: 10px;
+    bottom: 0px;
     display: flex;
+    transform: translateY(10%);
+    opacity: 1;
+    transition: .3s;
     /* height:100% */
 }
 .cards img {
@@ -33,23 +37,33 @@
 }
 .connect{
     position: relative;
+    transition:all .3s;
 }
 .social{
-    /* background-color: blue; */
     position: absolute;
-    bottom: -25px;
+    bottom: -30px;
     width: 100%;
-    /* display: flex; */
-    display: none;
+    height: 50px;
+    display: flex;
+    opacity: 0;
+    color: #dedede;
     justify-content: center;
-    transition: all 1s;
+}
+.social li{
+    background-color: var(--main-color);
+    color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .social ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
-    transition: all 1s ease-in-out;
 }
 .info{
     padding: 5px;
