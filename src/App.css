@@ -14,3 +14,10 @@
   body {
     font-family: 'Rubik', sans-serif;
   }
+
+
+
+  .underline{
+    border: red solid 1px;
+    width: 10%;
+}
