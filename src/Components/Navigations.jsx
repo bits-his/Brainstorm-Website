@@ -6,7 +6,7 @@ import AboutUs from '../pages/about-us/AboutUs'
 import OurClient from '../pages/our client/OurClient'
 import Services from '../pages/services/Services'
 import NotFound from '../pages/errors/NotFound'
-import Bihub from '../pages/bi-hub/Bihub'
+import Bihub from '../pages/Bi-hub/Bihub'
 
 export default function Navigations() {
   return (
