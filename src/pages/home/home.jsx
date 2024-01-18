@@ -4,7 +4,7 @@ import "./home.css";
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
-import image4 from "./img/3853675.jpg";
+import image4 from "../../assets/img/bg2.jpeg";
 // import image5 from "./img/516089.png";
 
 // import Features from "../home/features/Features";

@@ -32,15 +32,16 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={` ${isSticky ? 'isSticky' : ''} ${isMenuOpen ? 'open' : ''}`}>
+      <header className={` ${isSticky ? 'isSticky' : ''}`}>
       <div className="header">
       <div className="logo-container">
       <NavLink to="home" className="logo-">
           <img src={Logo} alt="" />
         </NavLink>
         </div>
-       <div className="inner">
-       <ul className={`navlist ${isMenuOpen ? 'open' : ''}`} onClick={handleLinkClick}>
+      <div className={`head-main ${isMenuOpen ? 'open' : ''}`}>
+      <div className="inner">
+       <ul className={`navlist`} onClick={handleLinkClick}>
           <li>
             <NavLink to="/" >
               Home
@@ -78,7 +79,7 @@ export default function Navbar() {
           </li>
         </ul>
        </div>
-       <div className="last">
+       <div className="last" onClick={handleMenuClick}>
         <ul>
         <li className='contact'>
               <NavLink to="/contact">
@@ -87,11 +88,12 @@ export default function Navbar() {
             </li>
         </ul>
        </div>
+      </div>
   
         <div className="header-icons">
-          <div id="menu-icon" onClick={handleMenuClick}>
+          <button id="menu-icon" onClick={handleMenuClick}>
            {isMenuOpen ? <AiOutlineClose/> : < AiOutlineMenu/>}
-          </div>
+          </button>
         </div>
       </div>
       </header>
