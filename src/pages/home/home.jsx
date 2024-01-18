@@ -1,8 +1,8 @@
 import React from "react";
 import "./home.css";
 import image4 from "./img/3853675.jpg";
-import Text from "./Text";
-import Carousel from "./Carousel";
+import Text from "./text/Text";
+import Carousel from "./carousel/Carousel";
 import Stories from './stories_home/Stories'
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
