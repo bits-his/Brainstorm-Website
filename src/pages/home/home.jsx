@@ -1,17 +1,17 @@
 import React from "react";
 import { useState} from "react";
 import "./home.css";
+import image4 from "./img/3853675.jpg";
+import Text from "./Text";
+import Carousel from "./Carousel";
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
-import image4 from "./img/3853675.jpg";
 // import image5 from "./img/516089.png";
-
 // import Features from "../home/features/Features";
 // import Img from "../../assets/img/hero_1.png.webp";
 // import Testimonials from './te/Testimonials'
 // import { AiFillProject, AiFillSnippets, AiFillSignal } from "react-icons/ai";
-import Text from "./Text";
 
 export default function Home() {
   const [bgIndex, setBgIndex] = useState(0);
@@ -45,13 +45,13 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="container">
-        <p className="text-center small">
+      <div className="center-text">
+        <p>
           Since 2006. For millions of users. We transform businesses with
           powerful and adaptable digital solutions that satisfy the needs of
           today and unlock the opportunities of tomorrow.
         </p>
-     
+        <Carousel />
       </div>
 
       {/* <section className="home bg-light " id="home">
