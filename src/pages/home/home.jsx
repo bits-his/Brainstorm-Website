@@ -3,7 +3,7 @@ import "./home.css";
 import image4 from "./img/3853675.jpg";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
-import Soft from "./software/Soft";
+// import Soft from "./software/Soft";
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
@@ -48,7 +48,7 @@ export default function Home() {
         </p>
         <Carousel />
       </div>
-      <Soft />
+      {/* <Soft /> */}
     </>
   );
 }
