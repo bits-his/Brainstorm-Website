@@ -1,4 +1,4 @@
-import React from 'react'
+import { HiArrowNarrowRight } from "react-icons/hi";
 import './stories.css'
 
 function Stories() {
@@ -18,12 +18,19 @@ function Stories() {
                   </div>
                   <div className='headline-description'>
                     <p className='stories-category'>Product Development</p>
+                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
                   </div>
                   <div className='headline-hover-content'>
-                    <p>React</p>
-                    <p>React Native</p>
-                    <p>3D Designing</p>
+                    <div>
+                      <p>React</p>
+                      <p>React Native</p>
+                      <p>3D Designing</p>
+                    </div>
+                    <button className="animated-arrow-button">
+                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
+                    </button>
                   </div>
+
                 </div>
                 <div class="item2">
                   <div className='headline-stories'>
@@ -32,9 +39,15 @@ function Stories() {
                   </div>
                   <div className='headline-description'>
                     <p className='stories-category'>Secure Programming</p>
+                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
                   </div>
                   <div className='headline-hover-content'>
-                    <p>Blockchain</p>
+                    <div>
+                      <p>Blockchain</p>
+                    </div>
+                    <button className="animated-arrow-button">
+                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
+                    </button>
                   </div>
                 </div>
                 <div class="item3">
@@ -44,10 +57,16 @@ function Stories() {
                   </div>
                   <div className='headline-description'>
                     <p className='stories-category'>Service</p>
+                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
                   </div>
                   <div className='headline-hover-content'>
-                    <p>Node js</p>
-                    <p>Kubernets</p>
+                    <div>
+                      <p>Node js</p>
+                      <p>Kubernets</p>
+                    </div>
+                    <button className="animated-arrow-button">
+                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
+                    </button>
                   </div>  
                 </div>  
                 <div class="item4">
@@ -57,9 +76,15 @@ function Stories() {
                   </div>
                   <div className='headline-description'>
                     <p className='stories-category'>Service</p>
+                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
                   </div>
                   <div className='headline-hover-content'>
-                    <p>Cloud Computing</p>
+                    <div>
+                      <p>Cloud Computing</p>
+                    </div>
+                    <button className="animated-arrow-button">
+                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
+                    </button>
                   </div>
                 </div>
                 <div class="item5">
@@ -71,8 +96,13 @@ function Stories() {
                     <p className='stories-category'>Software Testing</p>
                   </div>
                   <div className='headline-hover-content'>
-                    <p>Web Pentest</p>
-                    <p>Application Pentest</p>
+                    <div>
+                      <p>Web Pentest</p>
+                      <p>Application Pentest</p>
+                    </div>
+                    <button className="animated-arrow-button">
+                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
+                    </button>
                   </div>
                 </div>
               </div>

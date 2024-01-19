@@ -1,16 +1,13 @@
 #animatedInput {
-    color: #f1f1f1;
+    color: var(--text-color);
     font-size: 1.4rem;
     padding: 8px;
-    border: 1px solid #f1f1ff;
+    border: 1px solid var(--main-color);
     outline: none;
     width: 150px;
-    background-color: #ffffff56;
+    background-color: #63636356;
     border-radius: 4px;
     user-select: none;
-}
-::selection{
-    color: black ;
 }
 /* fieldset{
     border: 1px solid #fff;

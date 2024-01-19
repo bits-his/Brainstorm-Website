@@ -11,7 +11,16 @@
   transition: 0.2s ease-in-out;
   margin: 63px auto;
   overflow: hidden;
-  padding: 10px;
+  padding: 20px;
+}
+.textBox {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+  z-index: 2;
 }
 .cover {
   width: 190px;
@@ -29,34 +38,25 @@
 .styled {
   padding: 20px;
 }
-.textBox {
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: 0.2s ease-in-out;
-  z-index: 2;
-}
-
-.textBox > .text {
-  font-weight: 600;
-}
 
 .textBox > .price {
   font-size: 17px;
+  font-weight: 400;
 }
 
 .cared:hover > .textBox {
   opacity: 1;
 }
 
-.cared:hover > .img {
-  height: 55%;
-  filter: blur(7px);
-  animation: anim 3s infinite;
+@media (max-width: 872px) {
+.cared {
+    width: 80%;
 }
-
+}
+@media (min-width: 769px){
+.cared:hover {
+  transform: scale(1.04);
+}
 @keyframes anim {
   0% {
     transform: translateY(0);
@@ -73,27 +73,43 @@
     transform: translateY(0);
   }
 }
-
-.cared:hover {
-  transform: scale(1.04);
-}
-@media (max-width: 872px) {
-.cared {
-    width: 80%;
-}
-}
-@media (max-width: 819px) {
-
-}
-@media (max-width: 570px) {
-
-.cared .img {
+.cared:hover > .img {
   height: 55%;
   filter: blur(7px);
   animation: anim 3s infinite;
+}
 
 }
+@media (max-width: 769px) {
+
+.cared .img {
+  height: 18%;
+  animation: anim 3s infinite;
+  position: static;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+  margin: 5px 0;
+}
+
 .cared .textBox {
   opacity: 1;
+}
+.textBox > .price {
+  font-size: 15px;
+  font-weight: 400;
+}
+}
+@media (max-width: 560px) {
+  /* .textBox > .price {
+  font-size: 15px;
+  font-weight: 400;
+} */
+.cared .img img{
+  width: 200px;
+  height: 10%;
+  margin: auto;
+}
+.cared {
+  display: block;
 }
 }

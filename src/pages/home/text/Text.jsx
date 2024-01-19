@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './text.css'; // Import your CSS file
 
 const Text = () => {
-    const words = ['First', 'Second', 'Third', 'Fourth'];
+    const words = ['Empower', 'Innovate', 'Create', 'Deliver'];
 
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     const [currentWord, setCurrentWord] = useState('');

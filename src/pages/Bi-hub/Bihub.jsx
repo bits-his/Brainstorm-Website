@@ -21,7 +21,7 @@ export default function Bihub() {
           <img src={bihub} alt="bihub" />
         </div>
         <div className="textBox">
-          <p className="text price">
+          <p className="price">
             In order to give back to the society, we created an innovation space
             known as Bi-Hub where young innovative minds come to learn more
             about technology and create businesses out of it. Some of the
@@ -67,6 +67,7 @@ export default function Bihub() {
             text="Pharmpay is payment system for associations to manage their
             members’ monthly, annual dues as well as providing adequate reporting. Other services it provides include association voting, announcements and 
             association events registration and management."
+            number="146"
           />
           <CustumeCard
             col="4"
@@ -95,6 +96,7 @@ export default function Bihub() {
             text="DrugCipher introduces a safer and reliable means of 
             eradicating the problems of drug counterfeiting in an ever growing
               world of the pharmaceutical Industry."
+            number="146"
           />
           <CustumeCard
             col="4"
@@ -105,6 +107,7 @@ export default function Bihub() {
             text="A ride hailing platform that enable users
             to book a ride at their convenience while improving the drivers’ 
             income generation as well as keep record of his/her earnings"
+            number="146"
           />
         </div>
       </div>
