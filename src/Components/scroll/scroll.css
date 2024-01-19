@@ -26,6 +26,7 @@
     background-size: 0% 100%;
     background-repeat: no-repeat;
     background-clip: text;
+    -webkit-background-clip: text;
     animation: scroll linear forwards;
     animation-timeline: view() ;
 }
