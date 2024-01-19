@@ -1,8 +1,9 @@
 import React from "react";
 import "./home.css";
-import image4 from "./img/3853675.jpg";
+import image4 from "../../assets/img/bg1.jpg";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
+import Stories from './stories_home/Stories'
 // import Soft from "./software/Soft";
 import What from '../What -we-do/what'
 // import image1 from "./img/1158893.jpg";
@@ -51,6 +52,10 @@ export default function Home() {
        
       </div>
       <What/>
+      <div>
+        <Stories />
+      </div>
+
       {/* <Soft /> */}
     </>
   );

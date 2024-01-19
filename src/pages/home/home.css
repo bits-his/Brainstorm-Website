@@ -138,13 +138,13 @@
   transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
 .home-page h1{
-  color: #f1f1f1;
+  color: var(--text-color);
   font-size: 3.5rem;
   margin-top: -150px;
 
 }
 .home-page p{
-  color: #f1f1f1;
+  color:var(--text-color);
   font-size: 2rem;
   margin-top: 10px;
 }
