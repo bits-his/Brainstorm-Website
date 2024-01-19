@@ -9,38 +9,38 @@ export default function Trends() {
     <div className="tabs-container">
       <div className="container tabs">
       <Tab.Container id="left-tabs-example" defaultActiveKey="WD" transition={false} >
-        <Nav variant="underline" as="ul" fill >
-          <Nav.Item>
+        <Nav variant="underline" as="ul" className="tabs-navs" fill bsPrefix>
+          <Nav.Item as='li'>
             <Nav.Link eventKey="WD" className="tab-link">
               <VscRemoteExplorer />
               Web
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item as='li'>
             <Nav.Link eventKey="SD" className='tab-link'>
             <VscRemoteExplorer />
               Software
               </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item as='li'>
             <Nav.Link eventKey="ML" className="tab-link">
               <VscRemoteExplorer />
               Machine
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item as='li'>
             <Nav.Link eventKey="AI" className="tab-link">
               <VscRemoteExplorer />
               Artificial
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item as='li'>
             <Nav.Link eventKey="CT" className="tab-link">
               <VscRemoteExplorer />
               Cooperate
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item as='li'>
             <Nav.Link eventKey="BC" className="tab-link">
               <VscRemoteExplorer />
               Blockchain

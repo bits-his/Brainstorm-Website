@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import {
   Carousel,
   CarouselItem,
-
   CarouselIndicators,
- 
-  Card, CardBody, CardTitle, CardSubtitle, CardText
+  Card, CardBody, CardTitle, CardSubtitle,
 } from 'reactstrap';
 
 const items = [

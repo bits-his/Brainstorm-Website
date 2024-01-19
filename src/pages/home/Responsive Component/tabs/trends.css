@@ -8,9 +8,24 @@
   background-color: white;
   
 }
+.tabs-navs{
+  display: flex;
+  justify-content: space-between;
+}
+.tabs-navs li{
+  width: 100%;
+}
 .tab-link{
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--text-color);
+}
+.tab-link:hover{
+  border: none;
+  color: var(--main-color);
+}
+.nav-item .tab-link.active{
+  color: var(--main-color);
 }
 

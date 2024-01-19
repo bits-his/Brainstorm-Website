@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import './text.css'; // Import your CSS file
 
@@ -29,9 +30,8 @@ const Text = () => {
             }, (wordLength + 1) * 150); // Adjust the duration as needed
         }, wordLength * 150 + 1500); // Total duration for writing + waiting
     };
-
     useEffect(() => {
-        animateText();
+        animateText()
     }, [currentWordIndex]);
 
     return (
