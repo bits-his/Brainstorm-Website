@@ -5,7 +5,6 @@ import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
 import Stories from "./stories_home/Stories";
 import What from "./What -we-do/what";
-import Trends from "./Responsive Component/tabs/Trends";
 import Faqs from "../../Components/Accordion/Faqs";
 import Responsive from "./Responsive Component/Responsive";
 // import image1 from "./img/1158893.jpg";
