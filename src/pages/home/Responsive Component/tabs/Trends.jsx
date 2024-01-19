@@ -7,74 +7,86 @@ import { VscRemoteExplorer } from "react-icons/vsc";
 export default function Trends() {
   return (
     <div className="tabs-container">
-      {/* <div className="container tabs"> */}
-      <Tab.Container id="left-tabs-example" defaultActiveKey="first" transition='false'>
+      <div className="container tabs">
+      <Tab.Container id="left-tabs-example" defaultActiveKey="WD" transition={false} >
         <Nav variant="underline" as="ul" fill >
           <Nav.Item>
-            <Nav.Link eventKey="first" className="flex">
+            <Nav.Link eventKey="WD" className="tab-link">
               <VscRemoteExplorer />
               Web
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="second">Software</Nav.Link>
+            <Nav.Link eventKey="SD" className='tab-link'>
+            <VscRemoteExplorer />
+              Software
+              </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="first" className="flex">
+            <Nav.Link eventKey="ML" className="tab-link">
               <VscRemoteExplorer />
               Machine
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="first" className="flex">
+            <Nav.Link eventKey="AI" className="tab-link">
               <VscRemoteExplorer />
               Artificial
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="first" className="flex">
+            <Nav.Link eventKey="CT" className="tab-link">
               <VscRemoteExplorer />
               Cooperate
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="first" className="flex">
+            <Nav.Link eventKey="BC" className="tab-link">
               <VscRemoteExplorer />
               Blockchain
             </Nav.Link>
           </Nav.Item>
         </Nav>
-
         <Tab.Content>
-          <Tab.Pane eventKey="first">
-            First tab Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <Tab.Pane eventKey="WD">
+            Web Development ipsum dolor sit amet consectetur adipisicing elit.
             Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
             rem dignissimos consequatur unde. Alias atque assumenda voluptatem
-            cum neque iure veniam, animi nam! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Iste, soluta! Facilis, cupiditate
-            voluptatibus, odit deleniti repellendus inventore, perspiciatis quod
-            cum autem molestiae aliquam voluptatum neque provident quasi iusto!
-            Necessitatibus, quod? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptas hic adipisci vel alias, veritatis odio
-            cum optio quod vitae. Debitis hic nesciunt at dolorem quas dicta ex
-            magnam! Cumque, et.
+            cum neque iure veniam, animi nam! 
           </Tab.Pane>
-          <Tab.Pane eventKey="second">
-            Second tab Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <Tab.Pane eventKey="SD">
+            Software development ipsum dolor sit amet consectetur adipisicing elit.
             Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
             rem dignissimos consequatur unde. Alias atque assumenda voluptatem
-            cum neque iure veniam, animi nam! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Iste, soluta! Facilis, cupiditate
-            voluptatibus, odit deleniti repellendus inventore, perspiciatis quod
-            cum autem molestiae aliquam voluptatum neque provident quasi iusto!
-            Necessitatibus, quod? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Voluptas hic adipisci vel alias, veritatis odio
-            cum optio quod vitae. Debitis hic nesciunt at dolorem quas dicta ex
-            magnam! Cumque, et.
+            cum neque iure veniam, animi nam! 
+          </Tab.Pane>
+          <Tab.Pane eventKey="AI">
+           Aitificial Intelegence ipsum dolor sit amet consectetur adipisicing elit.
+            Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
+            rem dignissimos consequatur unde. Alias atque assumenda voluptatem
+            cum neque iure veniam, animi nam!
+          </Tab.Pane>
+          <Tab.Pane eventKey="ML">
+            Machine Learning ipsum dolor sit amet consectetur adipisicing elit.
+            Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
+            rem dignissimos consequatur unde. Alias atque assumenda voluptatem
+            cum neque iure veniam, animi nam!
+          </Tab.Pane>
+          <Tab.Pane eventKey="BC">
+            Blockchain ipsum dolor sit amet consectetur adipisicing elit.
+            Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
+            rem dignissimos consequatur unde. Alias atque assumenda voluptatem
+            cum neque iure veniam, animi nam!.
+          </Tab.Pane>
+          <Tab.Pane eventKey="CT">
+            Cooperate ipsum dolor sit amet consectetur adipisicing elit.
+            Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
+            rem dignissimos consequatur unde. Alias atque assumenda voluptatem
+            cum neque iure veniam, animi nam! .
           </Tab.Pane>
         </Tab.Content>
       </Tab.Container>
-      {/* </div> */}
+      </div>
     </div>
   );
 }

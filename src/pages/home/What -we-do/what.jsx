@@ -1,6 +1,6 @@
 import "./what.css";
 import "../../..";
-import Img from "../../../assets/img/1216493_131857-OSETU9-806.jpg";
+import Img from "../../../assets/img/wat.png";
 import { GoDotFill } from "react-icons/go";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
@@ -10,12 +10,13 @@ function what() {
       <div className="container bg-light mt-5 d-flex p-4 mb-5 what">
         <div className="what-text p-3">
           <h2>
-            Every Part of Your IT Ecosystem. Taken <br /> Care Of.
+            Ensuring the Well-being of Every Aspect in Your
+            IT Environment.
           </h2>
           <div className="underline"></div>
           <span className="span">
-            Comprehensive care of your cloud or on-premises infrastructure and
-            applications:
+            Holistic Management for Your Cloud or On-Premises Infrastructure and
+            Applications.
           </span>
           <ul>
             <li>

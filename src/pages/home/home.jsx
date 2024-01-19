@@ -35,7 +35,7 @@ export default function Home() {
       <div className="home-page" style={{ backgroundImage: `url(${images})` }}>
         <h1>Welcome to the Innovation Hub</h1>
         <p>
-          We <Text /> digital success
+          We <Text /> digital solutions
         </p>
       </div>
       <div className="center-text">
