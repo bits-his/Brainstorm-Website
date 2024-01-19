@@ -3,19 +3,16 @@ import "./home.css";
 import image4 from "../../assets/img/bg1.jpg";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
-import Stories from './stories_home/Stories'
-// import Soft from "./software/Soft";
-import What from '../What -we-do/what'
-import Trends from "./tabs/Trends";
+import Stories from "./stories_home/Stories";
+import What from "./What -we-do/what";
 import Faqs from "../../Components/Accordion/Faqs";
+import Responsive from "./Responsive Component/Responsive";
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
 // import image5 from "./img/516089.png";
 
-
 export default function Home() {
-
   // Array of background images
   const images = [image4];
 
@@ -27,18 +24,15 @@ export default function Home() {
   //     setTimeout(() => {
   //       setBgIndex((prevIndex) => (prevIndex + 1) % images.length);
   //       document.querySelector(".home-page").classList.remove("animate");
-  //     }, 2000); 
-  //   }, 4000); 
+  //     }, 2000);
+  //   }, 4000);
 
   //   return () => clearInterval(intervalId);
   // }, [images.length]);
 
   return (
     <>
-      <div
-        className="home-page"
-        style={{ backgroundImage: `url(${images})` }}
-      >
+      <div className="home-page" style={{ backgroundImage: `url(${images})` }}>
         <h1>Welcome to the Innovation Hub</h1>
         <p>
           We <Text /> digital success
@@ -51,27 +45,16 @@ export default function Home() {
           today and unlock the opportunities of tomorrow.
         </p>
         <Carousel />
-       
       </div>
-      <What/>
+      <What />
 
-      <Trends />
+      <Responsive />
 
       <div>
         <Stories />
       </div>
 
-
-
-
-     <Faqs />
-
-
-
-
-
-
-   
+      <Faqs />
     </>
   );
 }
