@@ -33,16 +33,16 @@
 }
 
 .span{
-    font-size: 18px;
+    font-size: 20px;
   line-height: 1.78;
   margin-bottom: 18px;
-  margin-top: 0;
+
 }
 
 .what-text ul li{
     padding: 7px;
     color: var(--text-color);
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.78;
     text-transform: capitalize;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -50,9 +50,13 @@
 
 .what-text .btns{
     color: var(--main-color);
-   /* position: absolute;
    text-transform: capitalize;
-   left: 210px; */
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+   font-size: 20px;
+   margin-top: 50px         ;
+  
 }
 
 .what-text .icon{
