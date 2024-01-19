@@ -5,9 +5,7 @@ export default function Soft() {
   return (
     <>
       <div className="tabs-container">
-        <div className="tabs">
-          
-        </div>
+        <div className="tabs"></div>
       </div>
     </>
   );
