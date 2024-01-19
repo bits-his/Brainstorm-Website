@@ -75,7 +75,9 @@
     
 
 }
-
+.what-text h2{
+    font-size: 25px;
+}
 .what-img img{
     width: 100%;
     margin-top: 20px;
