@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import image4 from "./img/3853675.jpg";
+import image4 from "../../assets/img/bg1.jpg";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
 import Stories from './stories_home/Stories'

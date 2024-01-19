@@ -1,6 +1,6 @@
 import './what.css'
 import '../../'
-import  Img  from'../../assets/img/managed-it-services~-~media--e324573b--query.webp'
+import  Img  from'../../assets/img/1216493_131857-OSETU9-806.jpg'
 import { GoDotFill,} from "react-icons/go";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
