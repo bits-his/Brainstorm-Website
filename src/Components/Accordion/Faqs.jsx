@@ -1,7 +1,7 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 
-export default function Accordation() {
+export default function Faqs() {
   return (
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
