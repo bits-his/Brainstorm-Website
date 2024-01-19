@@ -41,7 +41,7 @@ export default function Home() {
       >
         <h1>Welcome to the Innovation Hub</h1>
         <p>
-          we are <Text /> digital success
+          We <Text /> digital success
         </p>
       </div>
       <div className="center-text">
