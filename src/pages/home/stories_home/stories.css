@@ -1,8 +1,4 @@
-.special-dash {
-    display: inline-block;
-    height: 2px; /* Adjust the height of the line as needed */
-    width: 35px; /* Adjust the width of the line as needed */
-    background-color: #ff0000; /* Set the color of the line */
+.shift {
     margin: 0 12px; /* Add margin to create space around the line */
 }
 
@@ -10,35 +6,97 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    position: relative;
 }
 
 .flex-container > div {
+    position: relative;
     background-image: url('./paris.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; /* Align content at the bottom left */
+    text-wrap: wrap;
+    padding: 10px;
+    font-size: 18px;
     height: 250px;
-    filter: hue-rotate(200deg) saturate(150%) brightness(80%);
+    transition: background-image 5s ease-in-out;
     color: white;
+}
+
+.flex-container > div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+    background-repeat: inherit;
+    background-size: inherit;
+    filter: hue-rotate(200deg) saturate(150%) brightness(80%);
+    z-index: -1;
+}
+
+.headline-hover-content {
+    display: none;
+}
+
+.flex-container > div:hover {
+    background-image: none;
+    justify-content: flex-start;
+    color: black;
+    box-shadow: 1px 1px 7px gray;
+}
+
+.flex-container > div:hover .headline-description {
+    display: none;
+}
+
+.flex-container > div:hover .headline-hover-content {
+    display: block;
+}
+
+.stories-head{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stories-category {
+    font-size: 15px;
 }
 
 .item1 {
     width: 40%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
 .item2 {
-   width: 59.4% 
+   width: 59.4%;
+   position: absolute;
+   top: 0;
+   z-index: 1; 
 }
 .item3 {
     width: 49.4%;
+    position: absolute;
+    top: 0;
+    z-index: 1; 
 }
 .item4 {
     width: 24.7%;
+    position: absolute;
+    top: 0;
+    z-index: 1; 
 }
 .item5 {
     width: 24.7%;
+    position: absolute;
+    top: 0;
+    z-index: 1; 
 }
 
 @media screen and (max-width: 1200px) {
@@ -82,3 +140,7 @@
         width: 100%;
     }
 }
+
+/* This is the starting point for the animated arrow button on top of the stories */
+
+  /* the animated arrow button stops here */
