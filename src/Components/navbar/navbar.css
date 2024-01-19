@@ -79,10 +79,8 @@ header {
   transition: all 0.36s ease;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 19px;
-}
-.navlist a {
   position: relative;
+  font-size: 15px;
 }
 .navlist a::after {
   content: "";
@@ -97,14 +95,14 @@ header {
   scale: 0;
   transform-origin: center;
   background-color: var(--small-color);
-  transition: linear 0.2s;
+  transition: linear .2s;
 }
 .navlist a:hover::after {
   /* bottom: 5px; */
   width: 100%;
   left: 0;
   scale: 1;
-  transition: linear 2s ease-in-out;
+  transition: linear .2s;
 }
 .navlist .active::after {
   scale: 1;
@@ -186,12 +184,14 @@ header {
   display: none;
 }
 
+
 @media (width < 768px) {
   .header {
     justify-content: space-between;
     min-width: 100%;
   }
   .header-icons {
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +212,7 @@ header {
   .last{
     position: relative;
     width: 100%;
-    bottom: -10vh;
+    bottom: -11vh;
   }
 
   .head-main{
@@ -223,28 +223,32 @@ header {
     width: 60%;
     height: 100vh;
     right: -500px;
-    transition: 1s ease-in;
-    /* top: 4.3 rem; */
+    transition: linear .2s;
   }
   .navlist{
     width: 100%;
-    /* height: 90vh; */
-    /* background: #fff !important; */
     flex-direction: column;
-    transition: all 0.45s ease;
   }
   .navlist a {
     display: block;
-    padding: 10px;
-    margin: .2rem 0;
+    width: 100%;
+    padding: 15px;
+    /* margin: .2rem 0; */
   }
   .head-main.open {
     /* left: 0; */
     right: 0;
-    transition: 1s ease-in-out;
+    transition: linear .2s ;
   }
 }
-
+@media (width <540px){
+  .header-icons{
+    justify-content: flex-start;
+  }
+  .logo-container img{
+    width: 75%;
+  }
+}
 @media (max-width: 1000px) {
   header {
     /* padding: 7px 4%; */

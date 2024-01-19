@@ -32,10 +32,10 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={` ${isSticky ? 'isSticky' : ''}`}>
+      <header className={` ${isSticky ? 'isSticky' : ''}`} >
       <div className="header">
       <div className="logo-container">
-      <NavLink to="home" className="logo-">
+      <NavLink to="/" className="logo-">
           <img src={Logo} alt="" />
         </NavLink>
         </div>
@@ -73,7 +73,7 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/blog" >
+            <NavLink to="/team" >
               Team
             </NavLink>
           </li>
