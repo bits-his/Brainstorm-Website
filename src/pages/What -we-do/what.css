@@ -73,9 +73,9 @@
 }
 
 .what-img img{
-    width: 100%;
+    width: 70%;
     margin-top: 20px;
-    /* height: 40vh; */
+    height: 40vh;
     position: relative;
     left: 0;
     bottom: 0;
