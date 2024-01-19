@@ -94,7 +94,7 @@ header {
   border-radius: 10px;
   scale: 0;
   transform-origin: center;
-  background-color: var(--small-color);
+  background-color: var(--red-color);
   transition: linear .2s;
 }
 .navlist a:hover::after {

@@ -1,57 +1,80 @@
 import React from "react";
-import './trends.css'
+import "./trends.css";
 import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
+import Nav from "react-bootstrap/Nav";
+import { VscRemoteExplorer } from "react-icons/vsc";
 
 export default function Trends() {
   return (
-   <div className="tabs-container">
-     <div className="container tabs">
-      <Tabs
-        defaultActiveKey="BD"
-        transition={false}
-        id="trends"
-        fill
-        className="mb-3"
-      >
-        <Tab eventKey="BD" title="Big Data">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-          deleniti molestias maxime exercitationem debitis consequuntur
-          obcaecati dignissimos earum, accusantium alias repudiandae. Maxime
-          quibusdam cumque expedita ipsum enim corrupti. Voluptate?
-        </Tab>
-        <Tab eventKey="AI" title="Airtificial Inteligence">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-          deleniti molestias maxime exercitationem debitis consequuntur
-          obcaecati dignissimos earum, accusantium alias repudiandae. Maxime
-          quibusdam cumque expedita ipsum enim corrupti. Voluptate?ile
-        </Tab>
-        <Tab eventKey="ML" title="Machine Learning" >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-          deleniti molestias maxime exercitationem debitis consequuntur
-          obcaecati dignissimos earum, accusantium alias repudiandae. Maxime
-          quibusdam cumque expedita ipsum enim corrupti. Voluptate?act
-        </Tab>
-        <Tab eventKey="WD" title="Web Development">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-          deleniti molestias maxime exercitationem debitis consequuntur
-          obcaecati dignissimos earum, accusantium alias repudiandae. Maxime
-          quibusdam cumque expedita ipsum enim corrupti. Voluptate?act
-        </Tab>
-        <Tab eventKey="SD" title="Software development">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-          deleniti molestias maxime exercitationem debitis consequuntur
-          obcaecati dignissimos earum, accusantium alias repudiandae. Maxime
-          quibusdam cumque expedita ipsum enim corrupti. Voluptate?act
-        </Tab>
-        <Tab eventKey="BC" title="Blockchain">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse
-          deleniti molestias maxime exercitationem debitis consequuntur
-          obcaecati dignissimos earum, accusantium alias repudiandae. Maxime
-          quibusdam cumque expedita ipsum enim corrupti. Voluptate?act
-        </Tab>
-      </Tabs>
+    <div className="tabs-container">
+      {/* <div className="container tabs"> */}
+      <Tab.Container id="left-tabs-example" defaultActiveKey="first" transition='false'>
+        <Nav variant="underline" as="ul" fill >
+          <Nav.Item>
+            <Nav.Link eventKey="first" className="flex">
+              <VscRemoteExplorer />
+              Web
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="second">Software</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="first" className="flex">
+              <VscRemoteExplorer />
+              Machine
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="first" className="flex">
+              <VscRemoteExplorer />
+              Artificial
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="first" className="flex">
+              <VscRemoteExplorer />
+              Cooperate
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="first" className="flex">
+              <VscRemoteExplorer />
+              Blockchain
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
+
+        <Tab.Content>
+          <Tab.Pane eventKey="first">
+            First tab Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
+            rem dignissimos consequatur unde. Alias atque assumenda voluptatem
+            cum neque iure veniam, animi nam! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iste, soluta! Facilis, cupiditate
+            voluptatibus, odit deleniti repellendus inventore, perspiciatis quod
+            cum autem molestiae aliquam voluptatum neque provident quasi iusto!
+            Necessitatibus, quod? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptas hic adipisci vel alias, veritatis odio
+            cum optio quod vitae. Debitis hic nesciunt at dolorem quas dicta ex
+            magnam! Cumque, et.
+          </Tab.Pane>
+          <Tab.Pane eventKey="second">
+            Second tab Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iure obcaecati possimus dolore mollitia voluptatem velit repellendus
+            rem dignissimos consequatur unde. Alias atque assumenda voluptatem
+            cum neque iure veniam, animi nam! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iste, soluta! Facilis, cupiditate
+            voluptatibus, odit deleniti repellendus inventore, perspiciatis quod
+            cum autem molestiae aliquam voluptatum neque provident quasi iusto!
+            Necessitatibus, quod? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptas hic adipisci vel alias, veritatis odio
+            cum optio quod vitae. Debitis hic nesciunt at dolorem quas dicta ex
+            magnam! Cumque, et.
+          </Tab.Pane>
+        </Tab.Content>
+      </Tab.Container>
+      {/* </div> */}
     </div>
-   </div>
   );
 }
