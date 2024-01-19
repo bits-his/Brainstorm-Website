@@ -7,6 +7,7 @@ import Stories from './stories_home/Stories'
 // import Soft from "./software/Soft";
 import What from '../What -we-do/what'
 import Trends from "./tabs/Trends";
+import Faqs from "../../Components/Accordion/Faqs";
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
@@ -63,7 +64,7 @@ export default function Home() {
 
 
 
-
+     <Faqs />
 
 
 

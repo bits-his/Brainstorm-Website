@@ -1,10 +1,11 @@
 .tabs-container{
-  background-color: gray;
+  background-color: var(--grey-color);
+  padding: 30px;
 }
 .tabs{
   margin-block: 6rem;
   padding: 2rem;
-  /* background-color: var(--main-color); */
+  background-color: white;
   
 }
 

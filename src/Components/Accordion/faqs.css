@@ -1,0 +1,5 @@
+.accordion{
+    background-color: var(--grey-color);
+    padding: 20px;
+    margin-block: 20px;
+}
