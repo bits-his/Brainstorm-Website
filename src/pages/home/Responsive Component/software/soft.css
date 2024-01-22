@@ -1,1 +1,18 @@
-
+.soft {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.soft h4{
+  font-weight: 700;
+  font-family: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.taas {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #7c78782e;
+  /* padding: 20px; */
+}
+.owl-carousel .owl-stage{
+  margin: 20px;
+}

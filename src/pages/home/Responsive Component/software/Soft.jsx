@@ -1,106 +1,109 @@
-import React, { useState } from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  CarouselIndicators,
-  Card, CardBody, CardTitle, CardSubtitle,
-} from 'reactstrap';
+import React from "react";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+// import "./carousel.css";
+import { VscRemoteExplorer } from "react-icons/vsc";
+import "./soft.css";
 
-const items = [
-  {
-    id: 1,
-    altText: 'Slide 1',
-    caption: 'Slide 1',
-  },
-  {
-    id: 2,
-    altText: 'Slide 2',
-    caption: 'Slide 2',
-  },
-  {
-    id: 3,
-    altText: 'Slide 3',
-    caption: 'Slide 3',
-  },
-];
-
-function Soft(props) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
+<p>
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias,
+  optio accusamus temporibus eum maxime, a fuga facere excepturi qui, sed
+  deleniti dolores? Non quaerat amet veniam ipsam. Quasi, esse.
+</p>;
+export default function Soft() {
+  const option = {
+    items: 1,
+    loop: false,
+    autoplay: false,
+    nav: false,
+    dots: true,
+    margin: 0,
   };
-
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  };
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        className="tab-container"
-        tag="div"
-        // key={item.id}
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-      >
-          <Card className='border-0'>
-        {/* Add your card content here */}
-        <CardBody>
-          <CardTitle tag="h5">{item.caption}</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted slider-card tabs">
-            Subtitle
-          </CardSubtitle>
-      
-        </CardBody>
-      </Card>
-       
-      </CarouselItem>
-    );
-  });
-
   return (
-    <div>
-      <style>
-        {`.custom-tag {
-              // max-width: 100%;
-              // height: 500px;
-              // background-color: grey;
-              // padding: 30px;
-            }
-            .custom-tag:hover {
-              border:none !important;
-            }
-
-            .slider-card{
-              height: 30vh;
-              padding:10px;
-              background-color: lightgray;
-            }
-            
-            `}
-      </style>
-      <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-        <CarouselIndicators
-          items={items}
-          activeIndex={activeIndex}
-          onClickHandler={goToIndex}
-        />
-        {slides}
-        
-      </Carousel>
-    </div>
+    <>
+      <div className="tabs-container">
+        <div className="taas">
+          <OwlCarousel className="owl-theme" {...option}>
+            <div className="item">
+              <div className="soft">
+                <div className="top">
+                  <VscRemoteExplorer />
+                </div>
+                <h4>Software Development</h4>
+                <p>
+                  Software Development ipsum dolor sit amet consectetur
+                  adipisicing elit. Quae molestias,
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="soft">
+                <div className="top">
+                  <VscRemoteExplorer />
+                  <h4>Web Development</h4>
+                </div>
+                <p>
+                  Web Development ipsum dolor sit amet consectetur adipisicing
+                  elit. Quae molestias, optio accusamus temporibus eum maxime, a
+                  fuga facere excepturi qui esse.
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="soft">
+                <div className="top">
+                  <VscRemoteExplorer />
+                  <h4>Machine learning</h4>
+                </div>
+                <p>
+                  Machine learning dolor sit amet consectetur adipisicing elit.
+                  Quae molestias, optio accusamus temporibus eum maxime, a fuga
+                  facere excepturi
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="soft">
+                <div className="top">
+                  <VscRemoteExplorer />
+                  <h4>Artficial Inteligence</h4>
+                </div>
+                <p>
+                  Artficial Inteligence sit amet consectetur adipisicing elit.
+                  Quae molestias, optio accusamus temporibus eum maxime, a fuga
+                  facere excepturi qui
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="soft">
+                <div className="top">
+                  <VscRemoteExplorer />
+                  <h4>Cooperate Training</h4>
+                </div>
+                <p>
+                  Cooperate Training sit amet consectetur adipisicing elit. Quae
+                  molestias, optio accusamus temporibus eum maxime, a fuga
+                  facere excepturi qui
+                </p>
+              </div>
+            </div>
+            <div className="item">
+              <div className="soft">
+                <div className="top">
+                  <VscRemoteExplorer />
+                  <h4>Blockchain</h4>
+                </div>
+                <p>
+                  Blockchain Molestias eligendi earum excepturi dicta libero
+                  illum maiores nihil consequuntur?
+                </p>
+              </div>
+            </div>
+          </OwlCarousel>
+        </div>
+      </div>
+    </>
   );
 }
-
-export default Soft;
