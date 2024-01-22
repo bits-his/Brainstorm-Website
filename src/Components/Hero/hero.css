@@ -1,12 +1,12 @@
 .Hero{
-    background-image: url('../../assets/download.jpg');
+    background-image: url('../../assets/img/260168\ \(2\).jpg');
     margin: -10vh 0;
     opacity: 0.8;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     background-position: center center;
-    min-height: 70dvh;
+    min-height: 50dvh;
     position: relative;
 }
 .hero-heading {
