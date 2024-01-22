@@ -15,8 +15,9 @@
 .parallex-overlay{
     text-align: left;
     position: absolute;
-    bottom: 10%;
-    left: 15%;
+    /* bottom: 10%; */
+    top: 50%;
+    left: 5%;
     width: 70%;
     margin:0 auto;
     text-align: center;
