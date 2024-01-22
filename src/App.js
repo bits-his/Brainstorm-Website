@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import './App.css';
 import React, {useEffect} from 'react';
 import {  useLocation} from 'react-router-dom';
