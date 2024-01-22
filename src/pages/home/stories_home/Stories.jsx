@@ -108,6 +108,17 @@ function Stories() {
               </div>
             </div>
         </div>
+        <section>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="fixed-background">
+                <div className="content">
+                  <p>This is the content that will scroll over the fixed background.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </div>
   )
 }
