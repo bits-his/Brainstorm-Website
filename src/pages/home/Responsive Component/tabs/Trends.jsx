@@ -3,7 +3,7 @@ import "./trends.css";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import { VscRemoteExplorer } from "react-icons/vsc";
-
+  
 export default function Trends() {
   return (
     <div className="tabs-container">
