@@ -14,7 +14,6 @@ export default function Parallex({page, details}) {
           <p>
             {details}   
           </p>
-       
         </div>
       </div>
     </div>
