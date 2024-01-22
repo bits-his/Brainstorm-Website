@@ -24,8 +24,7 @@ export default function Footer() {
                   </Link>
 
                   <p>
-                    Discover the power of customized software at brainstorm. Our team is dedicated to providing innovative
-                    solutions that align with your unique business requirements.
+                    Discover the power of customized software at brainstorm.
                     
                   </p>
                 </div>
