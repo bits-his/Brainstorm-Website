@@ -77,4 +77,9 @@
 
 }
 
-
+@media (width < 546px){
+    .team-card{
+        width: 85%;
+        margin-inline: auto;
+    }
+}

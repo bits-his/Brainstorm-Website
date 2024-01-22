@@ -6,7 +6,7 @@ import fahad from "../../assets/team/fahad.jpg";
 import ishaq from "../../assets/team/ishaq1.jpg";
 import mustapha from "../../assets/team/musty.jpg";
 // import  from '../../assets/team/.jpg'
-import ahmad1 from "../../assets/team/musty.jpg";
+import dadi from "../../assets/photo_2024-01-22_16-51-49.jpg";
 // import nazif from '../../assets/team/musty.jpg'
 // import bashir from '../../assets/team/musty.jpg'
 // import mide from '../../assets/team/musty.jpg'
@@ -31,7 +31,7 @@ export default function TeamContainer() {
         <TeamCard pic={murtala} name='Murtala' role={role} delay={300}/>
         <TeamCard pic={fahad} name='Fahad' role={role} delay={350}/>
         
-        <TeamCard pic={ahmad1} name={nam} role={role} delay={400}/>
+        <TeamCard pic={dadi} name={'Abdussalam'} role={role} delay={400}/>
         {/* <TeamCard pic={} name={nam} role={role} />
         <TeamCard pic={} name={nam} role={role} />
         <TeamCard pic={} name={nam} role={role} /> */}

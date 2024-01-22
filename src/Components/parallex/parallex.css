@@ -74,3 +74,36 @@
     }
 
 }
+@media (width <992px){
+    .hero-p{
+        height: 110vh;
+        /* overflow-x: hidden; */
+    }
+    .hero-p img{
+        height: 100%;
+        
+    }
+    .parallex-overlay{
+        width: 80%;
+        top: 30%;
+    }
+    .parallex-overlay h1{
+        margin-bottom: .5rem !important;
+    }
+    .parallex-overlay p{
+        font-size: 1rem;
+    }
+}
+@media (width <768px){
+    .hero-p{
+        height: 130vh;
+    }
+    /* .parallex-overlay{
+        top: 20%;
+    } */
+}
+@media (width < 568px){
+    .hero-p{
+        height: 100vh;
+    }
+}
