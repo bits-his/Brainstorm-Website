@@ -184,7 +184,7 @@
     background-position: center;
     background-attachment: fixed; /* This keeps the background fixed while scrolling */
     height: 80vh; /* Set the height of the section to the viewport height */
-    filter: blur(2px) hue-rotate(200deg) saturate(150%) brightness(80%);
+    filter: hue-rotate(200deg) saturate(150%) brightness(80%);
     display: flex;
     align-items: center;
     justify-content: center;
