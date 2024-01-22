@@ -114,7 +114,9 @@ function Stories() {
               <div className="fixed-background">
                 
                 <div className="content">
-                  <p>This is the content that will scroll over the fixed background.</p>
+                  <h6>GIVE US SHOUT</h6>
+                  <h1 className="mt-3">Are you Ready to have a Talk?</h1>
+                  <button className="btn btn-primary rounded-pill">Contact Us</button>
                 </div>
               </div>
             </div>
