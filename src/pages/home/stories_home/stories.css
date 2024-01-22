@@ -177,23 +177,3 @@
   }
 /* the animated arrow button stops here */
 
-/* This part is where the image that has a fixed background styling is located */
-.fixed-background {
-    background-image: url('../../../assets/img/fixed-background-img.jpg'); /* Replace 'your-image.jpg' with the actual path to your image */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* This keeps the background fixed while scrolling */
-    height: 60vh; /* Set the height of the section to the viewport height */
-    /* filter: hue-rotate(200deg) saturate(150%) brightness(80%); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white; /* Adjust text color as needed */
-    font-size: 24px; /* Adjust font size as needed */
-}
-
-.content {
-    padding: 20px;
-    text-align: center;
-}
-/* the fixed background styling stops here */

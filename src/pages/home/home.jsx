@@ -7,6 +7,7 @@ import Stories from "./stories_home/Stories";
 import What from "./What -we-do/what";
 import Faqs from "../../Components/Accordion/Faqs";
 import Responsive from "./Responsive Component/Responsive";
+import GetInTouch from "./brief-contact-us/GetInTouch"
 // import image1 from "./img/1158893.jpg";
 // import image2 from "./img/1158900.jpg";
 // import image3 from "./img/1158937.jpg";
@@ -55,6 +56,7 @@ export default function Home() {
       </div>
 
       <Faqs />
+      <GetInTouch />
     </>
   );
 }
