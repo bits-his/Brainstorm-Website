@@ -48,72 +48,72 @@ export default function Carousel() {
   return (
     <>
       <OwlCarousel className="owl-theme" {...options}>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={state} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={kano} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={katsina} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={aminu} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={insurance} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={health} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={govt} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={immigration} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={pikme} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={prime} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={sanda} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={zagis} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={loogo} alt="sii" />
           </div>
         </div>
-        <div class="item" style = {{width: 100}}>
+        <div className="item" style = {{width: 100}}>
           <div className="caro">
             <img src={habeeby} alt="sii" />
           </div>
