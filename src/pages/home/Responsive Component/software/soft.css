@@ -1,9 +1,7 @@
-.soft {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+.taas {
+  overflow: hidden;
 }
-.soft h4{
+.soft h4 {
   font-weight: 700;
   font-family: 25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +11,6 @@
   box-shadow: 2px 2px 5px #7c78782e;
   /* padding: 20px; */
 }
-.owl-carousel .owl-stage{
+.taas .owl-carousel .owl-stage {
   margin: 20px;
 }
