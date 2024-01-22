@@ -3,7 +3,7 @@ import "./trends.css";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import { VscRemoteExplorer } from "react-icons/vsc";
-  
+
 export default function Trends() {
   return (
     <div className="tabs-container">
@@ -13,37 +13,37 @@ export default function Trends() {
           <Nav.Item as='li'>
             <Nav.Link eventKey="WD" className="tab-link">
               <VscRemoteExplorer />
-              Web
+              Web Development
             </Nav.Link>
           </Nav.Item>
           <Nav.Item as='li'>
             <Nav.Link eventKey="SD" className='tab-link'>
             <VscRemoteExplorer />
-              Software
+              Software Development
               </Nav.Link>
           </Nav.Item>
           <Nav.Item as='li'>
             <Nav.Link eventKey="ML" className="tab-link">
               <VscRemoteExplorer />
-              Machine
+              Machine Learning
             </Nav.Link>
           </Nav.Item>
           <Nav.Item as='li'>
             <Nav.Link eventKey="AI" className="tab-link">
               <VscRemoteExplorer />
-              Artificial
+              Artificial Intelegence
             </Nav.Link>
           </Nav.Item>
           <Nav.Item as='li'>
             <Nav.Link eventKey="CT" className="tab-link">
               <VscRemoteExplorer />
-              Cooperate
+              Cooperate Training
             </Nav.Link>
           </Nav.Item>
           <Nav.Item as='li'>
             <Nav.Link eventKey="BC" className="tab-link">
               <VscRemoteExplorer />
-              Blockchain
+              Blockchain Technology
             </Nav.Link>
           </Nav.Item>
         </Nav>

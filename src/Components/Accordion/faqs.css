@@ -1,5 +1,14 @@
-.accordion{
-    background-color: var(--grey-color);
-    padding: 20px;
+.accordion-container{
+    padding: 5px;
     margin-block: 20px;
+}
+.accordion-item:first-of-type,
+.accordion-item:first-of-type .accordion-button,
+.accordion-item:last-of-type{
+    border-radius: 0px;
+}
+
+.simple-accord{
+    background-color: var(--grey-color);
+    margin-bottom: 1rem;
 }
