@@ -6,6 +6,7 @@ import {  useLocation} from 'react-router-dom';
 import Layout from './Components/Layout';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import 'jquery/dist/jquery.slim'
 
 // import '@fortawesome/fontawesome-free/css/all.css';
 

@@ -8,7 +8,7 @@ export default function Services() {
     <>
      {/* <Hero page='Services'/>
      <h2 className='mt-5 pt-5'>WHAT WE OFFER</h2> */}
-     <Parallex />
+     <Parallex page='Services' />
      <CardContainer />
     </>
   )

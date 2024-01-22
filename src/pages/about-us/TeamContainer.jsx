@@ -24,13 +24,13 @@ export default function TeamContainer() {
       <Scroll title='MEET OUR TEAM' page="about"/>
         <div className="container">
         <div className="team row pt-3">  
-         <TeamCard pic={isah} name='Isah' role='COO'  delay={200}/>
-         <TeamCard pic={mary} name={'Mary'} role={role} delay={250}/>  
+         <TeamCard pic={isah} name='Isah' role='COO'  delay={50}/>
+         <TeamCard pic={mary} name={'Mary'} role={role} delay={100}/>  
          <TeamCard pic={mustapha} name={nam} role={role} delay={150}/>
-         <TeamCard pic={ishaq} name={'Ishaq'} role={role} delay={300}/>
-        <TeamCard pic={sadiq} name={'Sadiq'} role={role} delay={350}/>
-        <TeamCard pic={murtala} name='Murtala' role={role} delay={50}/>
-        <TeamCard pic={fahad} name='Fahad' role={role} delay={100}/>
+         <TeamCard pic={ishaq} name={'Ishaq'} role={role} delay={200}/>
+        <TeamCard pic={sadiq} name={'Sadiq'} role={role} delay={250}/>
+        <TeamCard pic={murtala} name='Murtala' role={role} delay={300}/>
+        <TeamCard pic={fahad} name='Fahad' role={role} delay={350}/>
         
         <TeamCard pic={ahmad1} name={nam} role={role} delay={400}/>
         {/* <TeamCard pic={} name={nam} role={role} />
