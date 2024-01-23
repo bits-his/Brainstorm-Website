@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function Faqs() {
   return (
-    <div className="accordion-container">
+    <div className="accordion-container mb-5">
     <div className="container">
       <h2>Faqs</h2>
       <div className="underline"></div>

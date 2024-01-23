@@ -1,25 +1,30 @@
 :root{
-    --text-color:#111111;
-    --red-color:#ff3b45;
-    --main-color:#076ACD;
-    --grey-color:#f9f9f9;
-    --big-font:5.5rem;
-    --h2-font:3.3rem;
-    --h3-font:2rem;
-    --normal-font:1rem;
-  
-  }
-  html{
-    color-scheme: dark light;
-  }
-  body {
-    font-family: 'Rubik', sans-serif;
-  }
+  --text-color:#111111;
+  --red-color:#ff3b45;
+  --main-color:#076ACD;
+  --grey-color:#f9f9f9;
+  --big-font:5.5rem;
+  --h2-font:3.3rem;
+  --h3-font:2rem;
+  --normal-font:1rem;
+
+}
+html{
+  color-scheme: dark light;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+}
 
 
 
-  .underline{
-    border: red solid 1px;
-    width: 10%;
-    margin-bottom: 15px;
+.underline{
+  border: var(--red-color) solid 1px;
+  width: 10%;
+  margin-bottom: 15px;
+}
+.underline-small{
+  width: 5%;
+  border: 1px solid var(--red-color);
+  margin-bottom: 12px;
 }
