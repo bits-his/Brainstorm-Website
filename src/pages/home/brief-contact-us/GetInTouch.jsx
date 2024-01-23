@@ -1,4 +1,5 @@
 import './getInTouch.css'
+import { NavLink } from 'react-router-dom';
 
 export default function getInTouch(){
     return(
@@ -8,9 +9,11 @@ export default function getInTouch(){
                     <div className="row">
                         <div className="fixed-background">
                             <div className="content">
-                                <h6 className='shout-out'>GIVE US SHOUT</h6>
+                                <h6 className='shout-out'>GIVE US A SHOUT</h6>
                                 <h1 className="mt-3">Are you Ready to have a Talk?</h1>
-                                <button className="btn btn-primary rounded-pill cont">Contact us</button>
+                                <NavLink className="btn btn-primary rounded-pill cont" to="/contact">
+                                    Contact us
+                                </NavLink>
                             </div>
                         </div>
                     </div>
