@@ -20,8 +20,9 @@ import Hero from "../../Components/Hero/Hero";
 export default function OurClient() {
   return (
     <>
-      <Hero page="our client" />
-      <h3>Our Clients</h3>
+      <div className="cl">
+        <h3 className="claye">Our Clients</h3>
+      </div>
       <p className="paragraph">
         Thank you for choosing Brainstorm as your trusted technology partner. At
         brainstorm, we are committed to delivering cutting-edge software
