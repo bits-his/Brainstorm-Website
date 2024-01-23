@@ -3,7 +3,6 @@ import {
   Carousel,
   CarouselItem,
   CarouselIndicators,
-  CarouselCaption,
 } from "reactstrap";
 import "./soft.css";
 import wd from "../../img/WD.svg";
@@ -80,20 +79,37 @@ export default function Soft(args) {
 
   const slides = items.map((item) => {
     return (
-      
-        <CarouselItem
-          onExiting={() => setAnimating(true)}
-          onExited={() => setAnimating(false)}
-          key={item.key}
-        >
-          <div className="soft">
-            <div className="d-flex align-items-center">
-              <img src={item.src} alt={item.altText} />
-              <h4>{item.altText}</h4>
-            </div>
-            <p>{item.caption}</p>
+      <CarouselItem
+        onExiting={() => setAnimating(true)}
+        onExited={() => setAnimating(false)}
+        key={item.key}
+      >
+        <div className="soft">
+          <div className="d-flex align-items-center">
+            <img src={item.src} alt={item.altText} />
+            <h4>{item.altText}</h4>
           </div>
-        </CarouselItem>
+          <p>{item.caption}</p>
+          <div className="offers">
+            <h4>Service We Offers</h4>
+            <div className="underline-small"></div>
+            <ul>
+              <li>
+                <h5>The Service</h5>
+              </li>
+              <li>
+                <h5>The Service</h5>
+              </li>
+              <li>
+                <h5>The Service</h5>
+              </li>
+              <li>
+                <h5>The Service</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </CarouselItem>
     );
   });
 
