@@ -1,16 +1,52 @@
 .taas {
-  overflow: hidden;
+  background-color: rgba(128, 128, 128, 0.516);
+  box-shadow: 2px 2px 5px #7c78782e;
+  padding: 20px;
+}
+.soft {
+  background-color: #fff;
+  padding: 10px;
+}
+.soft img {
+  width: 60px;
+  height: 60px;
 }
 .soft h4 {
   font-weight: 700;
   font-family: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.taas {
-  background-color: #fff;
-  box-shadow: 2px 2px 5px #7c78782e;
-  /* padding: 20px; */
+.taas .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
 }
-.taas .owl-carousel .owl-stage {
-  margin: 20px;
+.taas .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: red;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.taas .carousel-indicators .active {
+  opacity: 1;
 }
