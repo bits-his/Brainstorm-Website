@@ -11,8 +11,7 @@ export default function Card(props) {
       <div className="service-info">
         <h4>{props.heading}</h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta
-          consectetur 
+         {props.describtion} 
         </p>
       </div>
       </div>
