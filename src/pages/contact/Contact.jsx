@@ -1,10 +1,6 @@
-// import React, { useState } from "react";
 import "./contact.css";
-// import { CiFacebook } from "react-icons/ci";
-// import { FaInstagram } from "react-icons/fa";
-// import { FaWhatsapp } from "react-icons/fa";
 import Img from "../../assets/img/about_1.png.webp";
-const ContactFrom = () => {
+export default function ContactFrom() {
   return (
     <>
       <div className="hero-section ">
@@ -106,6 +102,4 @@ const ContactFrom = () => {
       </div>
     </>
   );
-};
-
-export default ContactFrom;
+}

@@ -15,8 +15,6 @@ import aminu from '../../assets/logos/3.jpg'
 import govt from '../../assets/logos/4.jpg'
 import state from '../../assets/logos/5.jpg'
 import health from '../../assets/logos/6.jpg'
-import Hero from "../../Components/Hero/Hero";
-
 export default function OurClient() {
   return (
     <>
