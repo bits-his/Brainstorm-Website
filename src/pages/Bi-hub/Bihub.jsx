@@ -1,6 +1,6 @@
 import React from "react";
 import "./bihub.css";
-import bihub from "../../assets/logos/BIHUB1.jpg";
+// import bihub from "../../assets/logos/BIHUB1.jpg";
 import CustumeCard from "./CustumeCard";
 import mylikita from "../../assets/logos/mlt.png";
 import Bitcoops from "../../assets/logos/bit-removebg-preview.png";
