@@ -22,7 +22,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  width: 70%;
+  padding-bottom: 10px;
   font-weight: bold;
   line-height: 1.1;
   text-align: center;
@@ -34,8 +36,9 @@
   color: var(--main-color);
 }
 .tab-link img{
-  width:100px;
-  height: 100px;
+  width:80px;
+  height: 80px;
+  margin-bottom: 5px;
 }
 .nav-item .tab-link.active{
   color: var(--main-color);

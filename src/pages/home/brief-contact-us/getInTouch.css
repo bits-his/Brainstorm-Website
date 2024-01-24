@@ -27,6 +27,9 @@
     padding: 10px 20px;
 }
 @media(width <768px){
+    .fixed-background{
+        height: 30vh;
+    }
     .content{
         padding: 5px;
     }

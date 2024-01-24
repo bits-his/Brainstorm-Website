@@ -2,7 +2,6 @@ import React from "react";
 import "./trends.css";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import { VscRemoteExplorer } from "react-icons/vsc";
 import wd from "../../img/WD.svg";
 import ct from "../../img/SD.jpg";
 import ai from "../../img/AI.jpg";
