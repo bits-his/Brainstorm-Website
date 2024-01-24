@@ -3,15 +3,14 @@ import "../../..";
 import Img from "../../../assets/img/ensuring.jpg";
 import { GoDotFill } from "react-icons/go";
 import { IoIosArrowRoundForward } from "react-icons/io";
-
+import { Link } from "react-router-dom";
 function what() {
   return (
     <>
       <div className="container bg-light mt-5 d-flex p-4 mb-5 what">
         <div className="what-text p-3">
           <h2>
-            Ensuring the Well-being of Every Aspect in Your
-            IT Environment.
+            Ensuring the Well-being of Every Aspect in Your IT Environment.
           </h2>
           <div className="underline"></div>
           <span className="span">
@@ -45,7 +44,9 @@ function what() {
             </li>
           </ul>
           <div className="btns">
-            explore <IoIosArrowRoundForward />
+            <Link to="#">
+              explore <IoIosArrowRoundForward />
+            </Link>
           </div>
         </div>
         <div className="what-img">
