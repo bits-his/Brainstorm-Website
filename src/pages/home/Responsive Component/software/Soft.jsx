@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  Carousel,
-  CarouselItem,
-  CarouselIndicators,
-} from "reactstrap";
+import { Carousel, CarouselItem, CarouselIndicators } from "reactstrap";
 import "./soft.css";
 import wd from "../../img/WD.svg";
 import ct from "../../img/SD.jpg";
@@ -11,6 +7,8 @@ import ai from "../../img/AI.jpg";
 import ml from "../../img/ML.jpg";
 import bc from "../../img/BC.jpg";
 import sd from "../../img/CT.jpg";
+import { Link } from "react-router-dom";
+
 const items = [
   {
     src: wd,
@@ -91,20 +89,20 @@ export default function Soft(args) {
           </div>
           <p>{item.caption}</p>
           <div className="offers">
-            <h4>Service We Offers</h4>
+            <h3>Service We Offers</h3>
             <div className="underline-small"></div>
             <ul>
               <li>
-                <h5>The Service</h5>
+                <Link to="#">The Service</Link>
               </li>
               <li>
-                <h5>The Service</h5>
+                <Link to="#">The Service</Link>
               </li>
               <li>
-                <h5>The Service</h5>
+                <Link to="#">The Service</Link>
               </li>
               <li>
-                <h5>The Service</h5>
+                <Link to="#">The Service</Link>
               </li>
             </ul>
           </div>
@@ -113,21 +111,21 @@ export default function Soft(args) {
     );
   });
 
-return (
-  <div className="taas">
-    <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-      {...args}
-    >
-      <CarouselIndicators
-        items={items}
+  return (
+    <div className="taas">
+      <Carousel
         activeIndex={activeIndex}
-        onClickHandler={goToIndex}
-      />
-      {slides}
-    </Carousel>
-  </div>
-);
+        next={next}
+        previous={previous}
+        {...args}
+      >
+        <CarouselIndicators
+          items={items}
+          activeIndex={activeIndex}
+          onClickHandler={goToIndex}
+        />
+        {slides}
+      </Carousel>
+    </div>
+  );
 }

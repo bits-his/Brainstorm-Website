@@ -1,10 +1,10 @@
 // ContactForm.js
 import React from "react";
 import "./contact.css";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import Img from '../../assets/img/about_1.png.webp';
+import Img from "../../assets/img/about_1.png.webp";
+import { Link } from "react-router-dom";
 
-const ContactForm = () => {
+export default function ContactForm() {
   return (
     <>
       <div className="hero-section">
@@ -14,15 +14,15 @@ const ContactForm = () => {
               <span className="subheading">Contact</span>
               <h1 className="heading mb-3">Get In Touch</h1>
               <p className="mb-5">
-                Far far away, behind the word mountains, far from the
-                countries Vokalia and Consonantia, there live the blind texts.
-                Separated they live in Bookmarksgrove right at the coast of the
-                Semantics, a large language ocean.
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
               </p>
               <p>
-                <a href="#" className="btn btn-primary mr-2">
+                <Link to="#" className="btn btn-primary mr-2">
                   How we work
-                </a>{" "}
+                </Link>
                 <button className="btn btn-outline-primary">Contact us</button>
               </p>
             </div>
@@ -31,14 +31,13 @@ const ContactForm = () => {
                 className="img-wrap aos-init aos-animate"
                 data-aos="fade-left"
               >
-                <img src={Img} alt="Image" className="img-fluid" />
+                <img src={Img} alt="pic" className="img-fluid" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div >
-     
+      <div>
         <div className="container mt-5 mb-5  pt-0">
           <div className="row justify-content-center">
             <div className="col-lg-6 order-lg-2 mb-5 mb-lg-0">
@@ -53,11 +52,7 @@ const ContactForm = () => {
                       <label className="text-black" htmlFor="fname">
                         First name
                       </label>
-                      <input
-                        type="text"
-                        className="form-control"
-                        id="fname"
-                      />
+                      <input type="text" className="form-control" id="fname" />
                     </div>
                   </div>
                   <div className="col-12 col-md-6">
@@ -65,11 +60,7 @@ const ContactForm = () => {
                       <label className="text-black" htmlFor="lname">
                         Last name
                       </label>
-                      <input
-                        type="text"
-                        className="form-control"
-                        id="lname"
-                      />
+                      <input type="text" className="form-control" id="lname" />
                     </div>
                   </div>
                 </div>
@@ -77,11 +68,7 @@ const ContactForm = () => {
                   <label className="text-black" htmlFor="email">
                     Email address
                   </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="email"
-                  />
+                  <input type="email" className="form-control" id="email" />
                 </div>
                 <div className="form-group mb-3">
                   <label className="text-black" htmlFor="message">
@@ -107,15 +94,13 @@ const ContactForm = () => {
                 height="500"
                 allowFullScreen=""
                 loading="lazy"
+                title="map"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-          
           </div>
         </div>
       </div>
     </>
   );
-};
-
-export default ContactForm;
+}

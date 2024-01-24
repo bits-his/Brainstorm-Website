@@ -1,6 +1,6 @@
 import "./what.css";
 import "../../..";
-import Img from "../../../assets/img/wat.png";
+import Img from "../../../assets/img/ensuring.jpg";
 import { GoDotFill } from "react-icons/go";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
