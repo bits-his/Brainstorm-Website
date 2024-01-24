@@ -24,5 +24,17 @@
 .cont {
     font-size: 18px;
     font-weight: 500;
+    padding: 10px 20px;
+}
+@media(width <768px){
+    .content{
+        padding: 5px;
+    }
+    .shout-out{
+        margin-bottom: 0;
+    }
+    .mide{
+        font-size: 1.65rem;
+    }
 }
 /* the fixed background styling stops here */

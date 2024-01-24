@@ -98,6 +98,9 @@
     .hero-p{
         height: 130vh;
     }
+    .hero-p img{
+        animation: none;
+    }
     /* .parallex-overlay{
         top: 20%;
     } */

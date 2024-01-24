@@ -3,6 +3,12 @@ import "./trends.css";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import { VscRemoteExplorer } from "react-icons/vsc";
+import wd from "../../img/WD.svg";
+import ct from "../../img/SD.jpg";
+import ai from "../../img/AI.jpg";
+import ml from "../../img/ML.jpg";
+import bc from "../../img/BC.jpg";
+import sd from "../../img/CT.jpg";
 
 export default function Trends() {
   return (
@@ -16,37 +22,37 @@ export default function Trends() {
           <Nav variant="underline" as="ul" className="tabs-navs" pills fill bsPrefix>
             <Nav.Item as="li">
               <Nav.Link eventKey="WD" className="tab-link">
-                <VscRemoteExplorer />
+                <img src={wd} alt='web' />
                 Web Development
               </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Nav.Link eventKey="SD" className="tab-link">
-                <VscRemoteExplorer />
+              <img src={sd} alt='sd' />
                 Software Development
               </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Nav.Link eventKey="ML" className="tab-link">
-                <VscRemoteExplorer />
+              <img src={ml} alt='ml' />
                 Machine Learning
               </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Nav.Link eventKey="AI" className="tab-link">
-                <VscRemoteExplorer />
+              <img src={ai} alt='ai' />
                 Artificial Intelegence
               </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Nav.Link eventKey="CT" className="tab-link">
-                <VscRemoteExplorer />
+              <img src={ct} alt='ct' />
                 Cooperate Training
               </Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Nav.Link eventKey="BC" className="tab-link">
-                <VscRemoteExplorer />
+              <img src={bc} alt='web' />
                 Blockchain Technology
               </Nav.Link>
             </Nav.Item>
@@ -55,28 +61,51 @@ export default function Trends() {
             <Tab.Pane eventKey="WD" className="pane-content">
               <p>
                 Blur the line between the digital and real worlds to make
-                regular tasks and activities easier, safer, and more engaging.
+                your site as amazing as possible 
               </p>
               <div className="pane-services">
                 <h4>Service We Offers</h4>
                 <div className="underline-small"></div>
                 <ul>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                 </ul>
               </div>
             </Tab.Pane>
-            <Tab.Pane eventKey="SD">
+            <Tab.Pane eventKey="SD" className="pane-content">
+            <p>
+                Create your custom software base on your needs
+              </p>
+              <div className="pane-services">
+                <h4>Service We Offers</h4>
+                <div className="underline-small"></div>
+                <ul>
+                  <li>
+                    <h5>The Service</h5>
+                  </li>
+                  <li>
+                    <h5>The Service</h5>
+                  </li>
+                  <li>
+                    <h5>The Service</h5>
+                  </li>
+                  <li>
+                    <h5>The Service</h5>
+                  </li>
+                </ul>
+              </div>
+            </Tab.Pane>
+            <Tab.Pane eventKey="AI" className="pane-content">
             <p>
                 Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
@@ -86,21 +115,21 @@ export default function Trends() {
                 <div className="underline-small"></div>
                 <ul>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                 </ul>
               </div>
             </Tab.Pane>
-            <Tab.Pane eventKey="AI">
+            <Tab.Pane eventKey="ML" className="pane-content">
             <p>
                 Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
@@ -110,21 +139,21 @@ export default function Trends() {
                 <div className="underline-small"></div>
                 <ul>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                 </ul>
               </div>
             </Tab.Pane>
-            <Tab.Pane eventKey="ML">
+            <Tab.Pane eventKey="BC" className="pane-content">
             <p>
                 Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
@@ -134,22 +163,22 @@ export default function Trends() {
                 <div className="underline-small"></div>
                 <ul>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                 </ul>
               </div>
             </Tab.Pane>
-            <Tab.Pane eventKey="BC">
-            <p>
+            <Tab.Pane eventKey="CT" className="pane-content">
+                  <p>
                 Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
               </p>
@@ -158,40 +187,16 @@ export default function Trends() {
                 <div className="underline-small"></div>
                 <ul>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                   <li>
-                    <h5>the Service</h5>
-                  </li>
-                </ul>
-              </div>
-            </Tab.Pane>
-            <Tab.Pane eventKey="CT">
-            <p>
-                Blur the line between the digital and real worlds to make
-                regular tasks and activities easier, safer, and more engaging.
-              </p>
-              <div className="pane-services">
-                <h4>Service We Offers</h4>
-                <div className="underline-small"></div>
-                <ul>
-                  <li>
-                    <h5>the Service</h5>
-                  </li>
-                  <li>
-                    <h5>the Service</h5>
-                  </li>
-                  <li>
-                    <h5>the Service</h5>
-                  </li>
-                  <li>
-                    <h5>the Service</h5>
+                    <h5>The Service</h5>
                   </li>
                 </ul>
               </div>
