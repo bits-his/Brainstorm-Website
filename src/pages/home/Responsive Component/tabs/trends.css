@@ -22,8 +22,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: 1.2rem;
+  width: 70%;
+  padding-bottom: 10px;
+  font-weight: bold;
+  line-height: 1.1;
   text-align: center;
   word-wrap: break-word;
   color: var(--text-color);
@@ -32,12 +35,16 @@
   border: none;
   color: var(--main-color);
 }
-.tab-link svg{
-  font-size: 3rem;
+.tab-link img{
+  width:80px;
+  height: 80px;
+  margin-bottom: 5px;
 }
 .nav-item .tab-link.active{
   color: var(--main-color);
-  border-bottom: 2px solid var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+  /* border-radius: 50%; */
+
 }
 /* .tab-content{
   height: 300px;
@@ -75,4 +82,7 @@
   background-color: var(--main-color);
   bottom: 45%;
   left: -12px;
+}
+.pane-services h5 {
+  color: var(--text-color);
 }

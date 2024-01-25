@@ -43,3 +43,8 @@
         background-size: 100% 100%;
     }
 }
+@media (width < 768px){
+    .scroll-text{
+        margin-top: 0;
+    }
+}

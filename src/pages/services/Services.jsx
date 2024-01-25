@@ -1,4 +1,4 @@
-import './services.css'
+import "./services.css";
 // import Hero from '../../Components/Hero/Hero'
 import CardContainer from './CardContainer'
 import Parallex from '../../Components/parallex/Parallex'
@@ -13,5 +13,5 @@ export default function Services() {
      
      <CardContainer />
     </>
-  )
+  );
 }

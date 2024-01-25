@@ -47,6 +47,9 @@
 .cared:hover > .textBox {
   opacity: 1;
 }
+/* .scroll {
+  margin-top: 100px;
+} */
 
 @media (max-width: 872px) {
 .cared {
