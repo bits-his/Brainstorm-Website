@@ -18,7 +18,7 @@ export default function Trends() {
           defaultActiveKey="WD"
           transition={false}
         >
-          <Nav variant="underline" as="ul" className="tabs-navs" pills fill bsPrefix>
+          <Nav variant="underline" as="ul" className="tabs-navs" fill bsPrefix>
             <Nav.Item as="li">
               <Nav.Link eventKey="WD" className="tab-link">
                 <img src={wd} alt='web' />

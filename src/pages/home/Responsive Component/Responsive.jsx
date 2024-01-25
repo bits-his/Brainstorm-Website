@@ -19,10 +19,10 @@ export default function Responsive() {
 
   return (
     <div className="responsive-component">
-      {windowWidth <= 1500 && windowWidth >= 992 && (
+      {windowWidth <= 1500 && windowWidth >= 846 && (
         <Trends />
       )}
-      {windowWidth < 992 && (
+      {windowWidth < 846 && (
         <Soft />
       )}
     </div>

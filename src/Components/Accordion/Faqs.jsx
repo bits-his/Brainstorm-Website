@@ -8,7 +8,7 @@ export default function Faqs() {
       <div className="container">
         <h2>Faqs</h2>
         <div className="underline"></div>
-        <Accordion defaultActiveKey="" className="simple-accord">
+        <Accordion defaultActiveKey="0" className="simple-accord">
           <Accordion.Item eventKey="0">
             <Accordion.Header>How secure is your software?</Accordion.Header>
             <Accordion.Body>

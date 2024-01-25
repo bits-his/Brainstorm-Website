@@ -17,6 +17,8 @@
 }
 .tabs-navs li{
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .tab-link{
   display: flex;
