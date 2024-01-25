@@ -15,9 +15,6 @@
     margin-bottom: 1rem;
    
 }
-.service-card:hover{
-    scale: 1.01;
-}
 .inner-service{
     display: flex;
     flex-direction: column;
@@ -25,8 +22,14 @@
     padding: 20px;
     border: 2px solid #ddd;
     border-radius: 10px;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     box-shadow: 1px 5px 10px #b3b3b3;
+    height: 300px;
+}
+.inner-service:hover{
+    background-color: #f2f2f2;
+    scale: 1.05;
+    /* border: 2px solid blueviolet; */
 }
 .service-info{
     text-align: center;

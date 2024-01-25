@@ -4,14 +4,14 @@ import hero from "../../assets/img/bg2.jpeg";
 // import New from "../../pages/about-us/about/New"
 // import { Link } from "react-router-dom";
 
-export default function Parallex({page, details}) {
+export default function Parallex({page, details ,img}) {
   return (
     <div className="hero-p">
-      <img src={hero} alt="img" />
+      <img src={img ? img : hero} alt="img" />
       <div className="parallex-overlay">
-        <div class="section section-3">
-          <h1 class="heading mb-4">{page}</h1>
-          <p>
+        <div className="section section-3">
+          <h1 className="heading mb-4">{page}</h1>
+          <p className="details-for-paralax">
             {details}   
           </p>
         </div>

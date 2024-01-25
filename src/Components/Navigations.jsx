@@ -18,7 +18,7 @@ export default function Navigations() {
         <Route path='/contact' element={<Contact />}/>
         <Route path='/our-client' element={<OurClient />} />
         <Route path='/services' element={<Services /> } />
-        <Route path='/blog' element/>
+        <Route path='/blog' element={<NotFound />}/>
         <Route path='/team' element={<Team />}/>
         <Route path='/bi-hub' element={<Bihub />} />
         <Route path='*' element={<NotFound />} />

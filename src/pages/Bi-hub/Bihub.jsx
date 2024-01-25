@@ -9,7 +9,6 @@ import esterbuy from "../../assets/logos/estar.png";
 import iventria from "../../assets/logos/inv.png";
 import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
-import background from "../../assets/img/260168 (2).jpg";
 import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
 import Hero from "../../Components/Hero/Hero";
@@ -18,7 +17,6 @@ export default function Bihub() {
     <>
       <Parallex
         page={<Hero page={"Bihub"} />}
-        img={background}
         details="In order to give back to the society, we created an innovation space
             known as Bi-Hub where young innovative minds come to learn more
             about technology and create businesses out of it. Some of the
@@ -28,12 +26,14 @@ export default function Bihub() {
             million naira to proceed with its Research and development plan.
             With BI-Hub you can innovate and build on new solutions, connect,
             and share expertise with others."
-      />
-      <Scroll
-        title="Get to Know Our Startup."
-        page="bihub"
-        span="Welcome to Bihub - your go-to destination for top-tier software solutions. We turn ideas into reality, delivering innovative and user-friendly software that sets you apart in the digital realm. Join us on this exciting journey of transformation through technology."
-      />
+      /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <div className="container-fluid">
+        <Scroll
+          title="Get to Know Our Startup."
+          page="bihub"
+          span="Welcome to Bihub - your go-to destination for top-tier software solutions. We turn ideas into reality, delivering innovative and user-friendly software that sets you apart in the digital realm. Join us on this exciting journey of transformation through technology."
+        />
+      </div>
       {/* <div className="cared">
         <div className="img">
           <img src={bihub} alt="bihub" />

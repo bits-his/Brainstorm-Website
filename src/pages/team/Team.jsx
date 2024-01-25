@@ -1,9 +1,12 @@
 import React from 'react'
+import Parallex from '../../Components/parallex/Parallex'
+import hero from './img/8912800.jpg'
 
 export default function Team() {
   return (
-    <div className="all-team">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque doloribus debitis, autem, temporibus aut officiis obcaecati sunt minus inventore fugiat nobis mollitia ratione necessitatibus perferendis blanditiis? Consequuntur, illo commodi!
-    </div>
+   <>
+    <Parallex page='Team' img={hero}/>
+    
+   </>
   )
 }

@@ -45,6 +45,11 @@
 .list-check li{
     text-align: left;
 }
+
+.details-for-paralax {
+    text-align: justify;
+}
+
 /* .parallex-overlay h1{
     animation: fade-up linear;
     animation-range: exit -400px;
@@ -70,7 +75,7 @@
 
     }
     85%,100%{
-         scale: 1.8; opacity: 0;
+         scale: 1.3; opacity: 0;
     }
 
 }

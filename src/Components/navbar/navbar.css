@@ -261,10 +261,12 @@ header {
     width: 75%;
   }
 }
-@media (max-width: 1000px) {
-  header {
-    /* padding: 7px 4%; */
-    transition: 0.2s;
+@media (max-width: 992px) {
+  .navlist{
+    width: 100%;
+  }
+  .navlist a{
+    padding: 10px;
   }
 
   header.sticly {
