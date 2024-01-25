@@ -1,10 +1,40 @@
 // ContactForm.js
-import React from "react";
+import React, { useState } from "react";
+
 import "./contact.css";
 import Img from "../../assets/img/about_1.png.webp";
 import { Link } from "react-router-dom";
 
 export default function ContactForm() {
+
+  const [formData, setFormData] = useState({
+    fname: "",
+    lname: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [id]: value,
+    }));
+  };
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form Submitted. Form Data:", formData);
+    const stringifiedData = JSON.stringify(formData);
+    console.log("Stringified Form Data:", stringifiedData);
+    
+  };
+
+
+
+
+
+
   return (
     <>
       <div className="hero-section">
@@ -45,47 +75,67 @@ export default function ContactForm() {
                 <strong className="subtitle">Contact Us</strong>
                 <h2 className="heading">Let's have a talk</h2>
               </div>
-              <form className="contact-form">
-                <div className="row">
-                  <div className="col-12 col-md-6">
-                    <div className="form-group mb-3">
-                      <label className="text-black" htmlFor="fname">
-                        First name
-                      </label>
-                      <input type="text" className="form-control" id="fname" />
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-6">
-                    <div className="form-group mb-3">
-                      <label className="text-black" htmlFor="lname">
-                        Last name
-                      </label>
-                      <input type="text" className="form-control" id="lname" />
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group mb-3">
-                  <label className="text-black" htmlFor="email">
-                    Email address
-                  </label>
-                  <input type="email" className="form-control" id="email" />
-                </div>
-                <div className="form-group mb-3">
-                  <label className="text-black" htmlFor="message">
-                    Message
-                  </label>
-                  <textarea
-                    name=""
-                    className="form-control"
-                    id="message"
-                    cols="30"
-                    rows="5"
-                  ></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary">
-                  Send Message
-                </button>
-              </form>
+              <form className="contact-form" onSubmit={handleSubmit}>
+        <div className="row">
+          <div className="col-6">
+            <div className="form-group mb-3">
+              <label className="text-black" htmlFor="fname">
+                First name
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="fname"
+                value={formData.fname}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+          <div className="col-6">
+            <div className="form-group mb-3">
+              <label className="text-black" htmlFor="lname">
+                Last name
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="lname"
+                value={formData.lname}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="form-group mb-3">
+          <label className="text-black" htmlFor="email">
+            Email address
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            id="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="form-group mb-3">
+          <label className="text-black" htmlFor="message">
+            Message
+          </label>
+          <textarea
+            name=""
+            className="form-control"
+            id="message"
+            cols="30"
+            rows="5"
+            value={formData.message}
+            onChange={handleChange}
+          ></textarea>
+        </div>
+        <button type="submit" className="btn btn-primary">
+          Send Message
+        </button>
+      </form>
             </div>
             <div className="col-lg-6 order-lg-1 mb-5 mb-lg-0 ">
               <iframe
