@@ -59,7 +59,7 @@ export default function Trends() {
           <Tab.Content>
             <Tab.Pane eventKey="WD" className="pane-content">
               <p>
-                Blur the line between the digital and real worlds to make
+                Web Development blur the line between the digital and real worlds to make
                 your site as amazing as possible 
               </p>
               <div className="pane-services">
@@ -83,7 +83,7 @@ export default function Trends() {
             </Tab.Pane>
             <Tab.Pane eventKey="SD" className="pane-content">
             <p>
-                Create your custom software base on your needs
+              Software Development  Create your custom software base on your needs
               </p>
               <div className="pane-services">
                 <h4>Service We Offers</h4>
@@ -106,7 +106,7 @@ export default function Trends() {
             </Tab.Pane>
             <Tab.Pane eventKey="AI" className="pane-content">
             <p>
-                Blur the line between the digital and real worlds to make
+              Artificial Inteligence  Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
               </p>
               <div className="pane-services">
@@ -130,7 +130,7 @@ export default function Trends() {
             </Tab.Pane>
             <Tab.Pane eventKey="ML" className="pane-content">
             <p>
-                Blur the line between the digital and real worlds to make
+              Machine Learning  Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
               </p>
               <div className="pane-services">
@@ -154,7 +154,7 @@ export default function Trends() {
             </Tab.Pane>
             <Tab.Pane eventKey="BC" className="pane-content">
             <p>
-                Blur the line between the digital and real worlds to make
+              Blockchaine  Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
               </p>
               <div className="pane-services">
@@ -178,7 +178,7 @@ export default function Trends() {
             </Tab.Pane>
             <Tab.Pane eventKey="CT" className="pane-content">
                   <p>
-                Blur the line between the digital and real worlds to make
+              Cooperate Training  Blur the line between the digital and real worlds to make
                 regular tasks and activities easier, safer, and more engaging.
               </p>
               <div className="pane-services">

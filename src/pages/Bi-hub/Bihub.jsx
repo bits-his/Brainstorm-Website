@@ -28,12 +28,14 @@ export default function Bihub() {
             million naira to proceed with its Research and development plan.
             With BI-Hub you can innovate and build on new solutions, connect,
             and share expertise with others."
-      />
-      <Scroll
-        title="Get to Know Our Startup."
-        page="bihub"
-        span="Welcome to Bihub - your go-to destination for top-tier software solutions. We turn ideas into reality, delivering innovative and user-friendly software that sets you apart in the digital realm. Join us on this exciting journey of transformation through technology."
-      />
+      /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <div className="container-fluid">
+        <Scroll
+          title="Get to Know Our Startup."
+          page="bihub"
+          span="Welcome to Bihub - your go-to destination for top-tier software solutions. We turn ideas into reality, delivering innovative and user-friendly software that sets you apart in the digital realm. Join us on this exciting journey of transformation through technology."
+        />
+      </div>
       {/* <div className="cared">
         <div className="img">
           <img src={bihub} alt="bihub" />
