@@ -7,6 +7,7 @@ import OurClient from '../pages/our client/OurClient'
 import Services from '../pages/services/Services'
 import NotFound from '../pages/errors/NotFound'
 import Bihub from '../pages/Bi-hub/Bihub'
+import Team from '../pages/team/Team'
 
 export default function Navigations() {
   return (
@@ -18,7 +19,7 @@ export default function Navigations() {
         <Route path='/our-client' element={<OurClient />} />
         <Route path='/services' element={<Services /> } />
         <Route path='/blog' element/>
-        <Route path='/team' />
+        <Route path='/team' element={<Team />}/>
         <Route path='/bi-hub' element={<Bihub />} />
         <Route path='*' element={<NotFound />} />
      </Routes>
