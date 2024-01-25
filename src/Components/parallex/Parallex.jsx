@@ -11,7 +11,7 @@ export default function Parallex({page, details}) {
       <div className="parallex-overlay">
         <div class="section section-3">
           <h1 class="heading mb-4">{page}</h1>
-          <p>
+          <p className="details-for-paralax">
             {details}   
           </p>
         </div>
