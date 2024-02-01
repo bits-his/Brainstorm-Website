@@ -25,8 +25,18 @@ export default function Footer() {
 
                   <p>
                     Discover the power of customized software at brainstorm.
-                    
                   </p>
+                  <div className="social-icon">
+                    <Link to="https://www.facebook.com/BrainstormInnovationHub?_rdc=1&_rdr">
+                      <IoLogoFacebook />
+                    </Link>
+                    <Link to="https://twitter.com/brainstorm_Hub">
+                      <FaTwitter />
+                    </Link>
+                    <Link to="https://www.linkedin.com/company/brainstorm-innovation-hub/">
+                      <FaLinkedinIn />
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div className="col-6 col-sm-6 col-md-4 ps-sm-5 col-lg-3 col-xl-3">
@@ -132,16 +142,15 @@ export default function Footer() {
                 Solution.
               </p>
             </div>
-            <div className="social-icon">
-              <Link to="https://www.facebook.com/BrainstormInnovationHub?_rdc=1&_rdr">
-                <IoLogoFacebook />
-              </Link>
-              <Link to="https://twitter.com/brainstorm_Hub">
-                <FaTwitter />
-              </Link>
-              <Link to="https://www.linkedin.com/company/brainstorm-innovation-hub/">
-                <FaLinkedinIn />
-              </Link>
+            <div>
+              <ul className="footer-nav">
+                <li>
+                  <Link to="#">Terms of Service</Link>
+                </li>
+                <li>
+                  <Link to="#">Privacy Policy</Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
