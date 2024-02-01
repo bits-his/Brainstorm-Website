@@ -78,7 +78,7 @@ a {
   margin-top: 50px;
 }
 .copy p {
-  font-size: 13px;
+  font-size: 14px;
   color: #131313;
   font-weight: 600;
 }
@@ -97,8 +97,40 @@ a {
   transition: all 0.4s ease-out;
 }
 .social-icon a:hover {
-  color: #EBEBEB;
   transform: rotateY(180deg);
+}
+.footer-nav li a {
+  position: relative;
+  color: #131313;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer-nav li a:hover {
+  color: var(--main-color);
+}
+.footer-nav {
+  position: relative;
+  text-align: right;
+}
+.footer-nav li {
+  position: relative;
+  display: inline-block;
+  margin-left: 29px;
+}
+.footer-nav li:first-child {
+  margin-left: 0px;
+}
+.footer-nav li:before {
+  position: absolute;
+  content: "";
+  background: #9ea0a9;
+  width: 1px;
+  height: 14px;
+  top: 7px;
+  left: -18px;
+}
+.footer-nav li:first-child:before {
+  display: none;
 }
 @media (max-width: 991px) {
   .logo {

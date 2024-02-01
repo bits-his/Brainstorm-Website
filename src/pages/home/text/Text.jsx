@@ -1,6 +1,5 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
-import './text.css'; // Import your CSS file
+import './text.css'; 
 
 export default function Text() {
   const words = ["Empower", "Innovate", "Create", "Deliver"];
@@ -15,20 +14,20 @@ export default function Text() {
     for (let i = 0; i <= wordLength; i++) {
       setTimeout(() => {
         setCurrentWord(word.slice(0, i));
-      }, i * 150); // Adjust the duration as needed
+      }, i * 150); 
     }
 
     setTimeout(() => {
       for (let i = wordLength; i >= 0; i--) {
         setTimeout(() => {
           setCurrentWord(word.slice(0, i));
-        }, (wordLength - i) * 150); // Adjust the duration as needed
+        }, (wordLength - i) * 150);
       }
 
       setTimeout(() => {
         setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-      }, (wordLength + 1) * 150); // Adjust the duration as needed
-    }, wordLength * 150 + 1500); // Total duration for writing + waiting
+      }, (wordLength + 1) * 150); 
+    }, wordLength * 150 + 1500); 
   };
   useEffect(() => {
     animateText();

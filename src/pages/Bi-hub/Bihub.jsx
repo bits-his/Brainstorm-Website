@@ -26,7 +26,7 @@ export default function Bihub() {
             million naira to proceed with its Research and development plan.
             With BI-Hub you can innovate and build on new solutions, connect,
             and share expertise with others."
-      /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      />
       <div className="container-fluid">
         <Scroll
           title="Get to Know Our Startup."
