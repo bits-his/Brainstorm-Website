@@ -13,14 +13,16 @@ import './customcard.css'
 
 const CustomCards = ({title="", techie = []}) => {
     return (
-        <div className='tech col-lg-4 col-md-6 col-12'>
-            <h3>{title}</h3>
+        <div className='tech col-12 col-sm-6 col-md-6 col-lg-4'>
+           <div className="inside-tech">
+           <h3>{title}</h3>
             <hr />
             <div className='d-flex techies'>
                 {techie.map((tech, index) => (
-                <button key={index} className='techie' type="button" class="btn btn-outline-primary m-1">{tech}</button>
+                <button key={index} type="button" className="btn m-1 techie">{tech}</button>
                 ))}
             </div>
+           </div>
         </div> 
     )
 }

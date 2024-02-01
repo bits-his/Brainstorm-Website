@@ -1,6 +1,6 @@
 /* This part is where the image that has a fixed background styling is located */
 .fixed-background {
-    background-image: url('../../../assets/img/1330557.jpg'); 
+    background-image: url('../../../assets/img/1330557.webp'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -28,7 +28,7 @@
 }
 @media(width <768px){
     .fixed-background{
-        height: 30vh;
+        height: 40vh;
     }
     .content{
         padding: 5px;

@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="header">
       <div className="logo-container">
       <NavLink to="/" className="logo-">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Brainstorm" fetchpriority='high' />
         </NavLink>
         </div>
       <div className={`head-main ${isMenuOpen ? 'open' : ''}`}>

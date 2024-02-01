@@ -4,19 +4,20 @@ import './customcard.css'
 
 export default function CustomCardContainer() {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
+       <h2 className='s-heading'>Technologies We Use</h2>
         <div className="row g-1">
         <CustomCards 
             title="Frontend"
             techie={['HTML', 'CSS', 'Javascript', 'Bootstrap']}
         />
         <CustomCards 
-            title="Javascript"
-            techie={['Node.js', 'React.js', 'React Native']}
+            title="Frameworks"
+            techie={['Vue js', 'React js', 'React Native', 'Angular js']}
         />
         <CustomCards 
             title="Security"
-            techie={['Web 3.0', 'Etherum', 'Machine Learning']}
+            techie={['Web 3.0', 'Nexus', 'Acunetix', 'Machine Learning']}
         />
         <CustomCards 
             title="Mobility"
@@ -24,11 +25,11 @@ export default function CustomCardContainer() {
         />
         <CustomCards 
             title="Backend"
-            techie={['Node.js', 'Express.js', 'PHP']}
+            techie={['Node js', 'Express js', 'PHP', 'Python']}
         />
         <CustomCards 
-            title="window"
-            techie={['text', 'title again', 'another']}
+            title="Blockchain"
+            techie={['Etherium', 'Rust', 'Solidity', ]}
         />
         </div>
     </div>
