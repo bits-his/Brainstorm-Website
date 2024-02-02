@@ -5,7 +5,7 @@ import WD from '../../services/img/WD.webp'
 import CSD from '../../services/img/CSD.webp'
 import CT from '../../services/img/CT.png'
 
-export default function HomeCardContainer() {
+export default function HomecardContainer() {
   return (
   <>
     <div className="row service-container">
