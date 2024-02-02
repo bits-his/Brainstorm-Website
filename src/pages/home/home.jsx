@@ -3,6 +3,7 @@ import "./home.css";
 import image from "../../assets/img/bg1.webp";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
+import Blogs from "../blogs/BlogContainer"
 import Stories from "./stories_home/Stories";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch"
@@ -31,6 +32,8 @@ export default function Home() {
       <div>
         <Stories />
       </div>
+
+      <Blogs />
 
       <Designed />
       <GetInTouch />

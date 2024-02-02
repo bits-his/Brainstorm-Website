@@ -13,7 +13,7 @@
   box-sizing: border-box;
   /* margin-inline: 5px ; */
   margin-bottom: 1rem;
-`}
+}
 .inner-service {
   display: flex;
   flex-direction: column;
