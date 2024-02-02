@@ -2,7 +2,7 @@
     position: relative;
     z-index: 2;
     justify-content: space-between;
-    width: 99%;
+    width: 95%;
     margin: 0 auto;
 }
 .service-icon svg{
@@ -20,15 +20,15 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     border-radius: 10px;
     /* background-color: #f2f2f2; */
-    box-shadow: 1px 5px 10px #b3b3b3;
+    box-shadow: 1px 1px 4px #b3b3b3;
     height: 300px;
 }
 .inner-service:hover{
     background-color: #f2f2f2;
-    scale: 1.05;
+    /* scale: 1.05; */
     /* border: 2px solid blueviolet; */
 }
 .service-info{
@@ -40,5 +40,5 @@
 }
 .s-heading{
     text-align: center;
-    color: #615CFD;
+    /* color: #615CFD; */
 }

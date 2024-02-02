@@ -1,40 +1,19 @@
 import React from "react";
 import "./home.css";
-import image4 from "../../assets/img/bg1.jpg";
+import image from "../../assets/img/bg1.webp";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
 import Blogs from "../blogs/BlogContainer"
 import Stories from "./stories_home/Stories";
 import What from "./What -we-do/what";
-import Faqs from "../../Components/Accordion/Faqs";
-import Responsive from "./Responsive Component/Responsive";
 import GetInTouch from "./brief-contact-us/GetInTouch"
-// import image1 from "./img/1158893.jpg";
-// import image2 from "./img/1158900.jpg";
-// import image3 from "./img/1158937.jpg";
-// import image5 from "./img/516089.png";
+import Designed from "./Design/Designed";
+import HomeCardContainer from "./services-card/HomecardContainer";
 
 export default function Home() {
-  // Array of background images
-  const images = [image4];
-
-  // Function to change the background image after a certain time
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     document.querySelector(".home-page").classList.add("animate");
-
-  //     setTimeout(() => {
-  //       setBgIndex((prevIndex) => (prevIndex + 1) % images.length);
-  //       document.querySelector(".home-page").classList.remove("animate");
-  //     }, 2000);
-  //   }, 4000);
-
-  //   return () => clearInterval(intervalId);
-  // }, [images.length]);
-
   return (
     <>
-      <div className="home-page" style={{ backgroundImage: `url(${images})` }}>
+      <div className="home-page" style={{ backgroundImage: `url(${image})` }}>
         <h1>Welcome to the Innovation Hub</h1>
         <p>
           We <Text /> digital solutions
@@ -49,16 +28,14 @@ export default function Home() {
         <Carousel />
       </div>
       <What />
-
-      <Responsive />
-
+      <HomeCardContainer /> 
       <div>
         <Stories />
       </div>
 
       <Blogs />
 
-      <Faqs />
+      <Designed />
       <GetInTouch />
     </>
   );

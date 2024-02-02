@@ -6,7 +6,7 @@ import fahad from "../../assets/team/fahad.jpg";
 import ishaq from "../../assets/team/ishaq1.jpg";
 import mustapha from "../../assets/team/musty.jpg";
 // import  from '../../assets/team/.jpg'
-import dadi from "../../assets/photo_2024-01-22_16-51-49.jpg";
+import dadi from "../../assets/team/photo_2024-01-22_16-51-49.jpg";
 // import nazif from '../../assets/team/musty.jpg'
 // import bashir from '../../assets/team/musty.jpg'
 // import mide from '../../assets/team/musty.jpg'

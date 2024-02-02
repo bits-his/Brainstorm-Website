@@ -1,20 +1,25 @@
-* {
-    box-sizing: border-box;
+.tech{
+    padding: 5px;
 }
-
-
-.tech {
-    border: 1px solid black;
+.inside-tech{
+    width: 95%;
+    border: 1px solid #dedede;
     border-radius: 10px;
-    padding: 10px;
-    margin: 5px;
+    padding: 10px 10px 30px;
+    margin: 0 auto 10px;
+    box-shadow: 1px 1px 4px #b3b3b3;
+    height: 100%;
 }
 
 .techie {
     border: 1px solid black;
     border-radius: 10px;
-    padding: 5px;
-    margin: 5px
+    padding: 10px;
+    margin: 25px
+}
+.techie:hover{
+    background-color: var(--main-color);
+    color: white;
 }
 
 .techies {

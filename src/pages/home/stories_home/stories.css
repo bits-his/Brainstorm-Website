@@ -1,179 +1,265 @@
+.story {
+  background-color: rgb(241, 240, 240);
+  padding: 100px 30px;
+}
+/* .story .top-text {
+  max-width: 500px;
+} */
+.story .top-text h3 {
+  font-weight: bold;
+  line-height: 1;
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.story .top-text p {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 20px;
+}
+.home-blog .home-blog-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transition: 0.4s ease-in-out;
+}
+.home-blog:hover .home-blog-img img {
+  opacity: 0.7;
+}
+.home-blog .home-blog-hero ul {
+  display: flex;
+  margin: 10px 0;
+}
+.home-blog .home-blog-hero ul li {
+  font-size: 15px;
+  margin-left: 5px;
+  color: GREY;
+  transition: 0.4s ease-in-out;
+}
+.home-blog .home-blog-hero ul li a:hover {
+  color: var(--main-color);
+}
+.home-blog .home-blog-content h3 a {
+  font-size: 23px;
+  color: var(--text-color);
+  transition: 0.4s ease-in-out;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.home-blog .home-blog-content h3:hover a {
+  color: var(--main-color);
+}
+.home-blog .home-blog-content p {
+  color: grey;
+  font-size: 15px;
+}
+.home-blog .home-blog-content a {
+  color: var(--red-color);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.4s ease-in-out;
+}
+.home-blog .home-blog-content a span {
+  color: var(--main-color);
+  transition: 0.4s ease-in-out;
+  font-size: 20px;
+}
+.home-blog .home-blog-content a:hover {
+  color: var(--main-color);
+  letter-spacing: 1px;
+}
+.home-blog .home-blog-content a:hover span {
+  color: var(--red-color);
+}
 .shift {
-    margin: 0 12px; /* Add margin to create space around the line */
+  margin: 0 12px; /* Add margin to create space around the line */
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .flex-container > div {
-    position: relative;
-    background-image: url('./paris.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-wrap: wrap;
-    padding: 10px;
-    font-size: 18px;
-    height: 250px;
-    transition: .8s;
-    color: white;
+  position: relative;
+  background-image: url("./paris.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-wrap: wrap;
+  padding: 10px;
+  font-size: 18px;
+  height: 250px;
+  transition: 0.8s;
+  color: white;
 }
 
 .flex-container > div::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: inherit;
-    background-repeat: inherit;
-    background-size: inherit;
-    filter: hue-rotate(200deg) saturate(150%) brightness(80%);
-    z-index: -1;
-    transition: 5s;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: inherit;
+  background-repeat: inherit;
+  background-size: inherit;
+  filter: hue-rotate(200deg) saturate(150%) brightness(80%);
+  z-index: -1;
+  transition: 5s;
 }
 
 .headline-hover-content {
-    display: none;
-    font-size: 16px;
+  display: none;
+  font-size: 16px;
 }
 
 .flex-container > div:hover {
-    background-image: none;
-    justify-content: flex-start;
-    color: black;
-    box-shadow: 1px 1px 7px gray;
+  background-image: none;
+  justify-content: flex-start;
+  color: black;
+  box-shadow: 1px 1px 7px gray;
 }
 
 .headline-description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
-    width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  width: 95%;
 }
 
 .flex-container > div:hover .headline-description {
-    display: none;
+  display: none;
 }
 
 .flex-container > div:hover .headline-hover-content {
-    display: block;
+  display: block;
 }
 
-.stories-head{
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
+.stories-head {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .stories-category {
-    font-size: 15px;
-    margin-bottom: 0;
+  font-size: 15px;
+  margin-bottom: 0;
 }
 
 .item1 {
-    width: 40%;
-    position: absolute;
-    top: 0;
-    z-index: 1;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 .item2 {
-   width: 59.4%;
-   position: absolute;
-   top: 0;
-   z-index: 1; 
+  width: 59.4%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 .item3 {
-    width: 49.4%;
-    position: absolute;
-    top: 0;
-    z-index: 1; 
+  width: 49.4%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 .item4 {
-    width: 24.7%;
-    position: absolute;
-    top: 0;
-    z-index: 1; 
+  width: 24.7%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 .item5 {
-    width: 24.7%;
-    position: absolute;
-    top: 0;
-    z-index: 1; 
+  width: 24.7%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1200px) {
-    .item1 {
-        width: 100%;
-    }
-    .item2 {
-       width: 49.7% 
-    }
-    .item3 {
-        width: 49.7%;
-    }
-    .item4 {
-        width: 49.7%;
-    }
-    .item5 {
-        width: 49.7%;
-    }
+  .item1 {
+    width: 100%;
+  }
+  .item2 {
+    width: 49.7%;
+  }
+  .item3 {
+    width: 49.7%;
+  }
+  .item4 {
+    width: 49.7%;
+  }
+  .item5 {
+    width: 49.7%;
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .item1 {
-        width: 100%;
-    }
-    .item2 {
-       width: 49.6% 
-    }
-    .item3 {
-        width: 49.6%;
-    }
-    .item4 {
-        width: 49.6%;
-    }
-    .item5 {
-        width: 49.6%;
-    }
+  .item1 {
+    width: 100%;
+  }
+  .item2 {
+    width: 49.6%;
+  }
+  .item3 {
+    width: 49.6%;
+  }
+  .item4 {
+    width: 49.6%;
+  }
+  .item5 {
+    width: 49.6%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .item1, .item2, .item3, .item4, .item5 {
-        width: 100%;
-    }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    width: 100%;
+  }
 }
 
 /* This is the starting point for the animated arrow button on top of the stories */
 .animated-arrow-button {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    background: none;
-    border: none;
-    color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
 }
 
 .animated-arrow {
-    position: relative;
-    animation-name: example;
-    animation-duration: .5s;
-    animation-timing-function: linear;
-    animation-delay: .1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 0.1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes example {
-    0%   {left:0px; top:0px;}
-    100% {left:10px; top:0px;}
+  0% {
+    left: 0px;
+    top: 0px;
   }
+  100% {
+    left: 10px;
+    top: 0px;
+  }
+}
 /* the animated arrow button stops here */
-

@@ -13,7 +13,7 @@ import SM from './img/SM.png'
 export default function CardContainer() {
   return (
     <div className=" my-5">
-      <Scroll title="Choose From Services" />
+      <Scroll title="Choose From Services" page='services' span='At Brainstorm, we go beyond providing services – we deliver solutions tailored to elevate your success. With a commitment to excellence and a passion for innovation, we stand as your partner in achieving your goals.' />
       <div className="row service-container">
         {/* <h2 className='s-heading'>Services</h2> */}
         <Card
