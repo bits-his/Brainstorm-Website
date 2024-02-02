@@ -5,8 +5,8 @@ import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
 import Stories from "./stories_home/Stories";
 import What from "./What -we-do/what";
-import GetInTouch from "./brief-contact-us/GetInTouch"
-import HomeCardContainer from "./services-card/HomecardContainer";
+import GetInTouch from "./brief-contact-us/GetInTouch";
+// import HomeCardContainer from "./services-card/HomecardContainer";
 import Designed from "./Design/Designed";
 
 export default function Home() {
@@ -27,12 +27,11 @@ export default function Home() {
         <Carousel />
       </div>
       <What />
-      <HomeCardContainer />
+      {/* <HomeCardContainer /> */}
       <div>
         <Stories />
       </div>
 
- 
       <Designed />
       <GetInTouch />
     </>
