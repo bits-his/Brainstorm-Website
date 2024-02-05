@@ -3,12 +3,11 @@ import "./home.css";
 import image from "../../assets/img/bg1.webp";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
-import Blogs from "../blogs/BlogContainer"
 import Stories from "./stories_home/Stories";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch"
 import Designed from "./Design/Designed";
-import HomecardContainer from "./services-card/HomecardContainer";
+import HomeCardContainer from "./services-card/HomeCardContainer";
 
 export default function Home() {
   return (
@@ -28,12 +27,10 @@ export default function Home() {
         <Carousel />
       </div>
       <What />
-      <HomecardContainer /> 
+      <HomeCardContainer /> 
       <div>
         <Stories />
       </div>
-
-      <Blogs />
 
       <Designed />
       <GetInTouch />
