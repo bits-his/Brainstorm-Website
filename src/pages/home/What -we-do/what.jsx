@@ -1,60 +1,94 @@
 import "./what.css";
 import "../../..";
-import Img from "../../../assets/img/ensuring.jpg";
+import Img from "../../../assets/1-3-5.png";
+import Img2 from "../../../assets/2-2-5.png";
 import { GoDotFill } from "react-icons/go";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { BiCheckDouble } from "react-icons/bi";
 import { Link } from "react-router-dom";
 function what() {
   return (
     <>
-      <div className="container bg-light mt-5 d-flex p-4 mb-5 what">
+      <div className="container mt-5 d-flex p-4 mb-5 m-5 what">
+      <div className="what-img m-3" >
+          <img src={Img} alt="" className="img-fluid" />
+        </div>
         <div className="what-text p-3">
-          <h2>
-            Ensuring the Well-being of Every Aspect in Your IT Environment.
-          </h2>
-          <div className="underline"></div>
+          <h3>
+          Make your business more competitive and  <br />sustainable.
+          </h3>
+          
           <span className="span">
             Holistic Management for Your Cloud or On-Premises Infrastructure and
             Applications.
           </span>
           <ul>
             <li>
-              <GoDotFill className="icon" />
+              <BiCheckDouble className="icon" />
+              
+Influencing Sales
+            </li>
+            <li>
+              <BiCheckDouble className="icon" />
+              Generating Insights
+            </li>
+            <li>
+              <BiCheckDouble className="icon" />
+              Boosting Operations
+            </li>
+            <li>
+              <BiCheckDouble className="icon" />
+              security
+            </li>
+            
+          </ul>
+         
+        </div>
+        
+      </div>
+      <div className="container mt-5 d-flex p-4 mb-5 m-5 what">
+      
+        <div className="what-text p-3">
+          <h3>
+          Make your business more competitive and  <br />sustainable.
+          </h3>
+          
+          <span className="span">
+            Holistic Management for Your Cloud or On-Premises Infrastructure and
+            Applications.
+          </span>
+          <ul>
+            <li>
+              <BiCheckDouble className="icon" />
               consulting
             </li>
             <li>
-              <GoDotFill className="icon" />
+              <BiCheckDouble className="icon" />
               implementation
             </li>
             <li>
-              <GoDotFill className="icon" />
-              maganagement and support
+              <BiCheckDouble className="icon" />
+              Engaging Customer
             </li>
             <li>
-              <GoDotFill className="icon" />
+              <BiCheckDouble className="icon" />
               security
             </li>
-            <li>
-              <GoDotFill className="icon" />
-              help desk and services
-            </li>
-            <li>
-              <GoDotFill className="icon" />
-              migration
-            </li>
+            
           </ul>
-          <div className="btns">
-            <Link to="#">
-              explore <IoIosArrowRoundForward />
-            </Link>
-          </div>
+         
         </div>
-        <div className="what-img">
-          <img src={Img} alt="" className="img-fluid" />
+        <div className="what-img m-3" >
+          <img src={Img2} alt="" className="img-fluid" />
         </div>
+        
       </div>
     </>
   );
 }
 
 export default what;
+
+
+
+
+
