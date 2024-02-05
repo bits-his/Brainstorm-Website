@@ -15,87 +15,91 @@ export default function Stories() {
             harum earum vel autem, reiciendis iusto quidem.
           </p>
         </div>
-        <div className="row">
-          <div className="home-blog col-lg-4 col-md-6 col-sm-12">
-            <div className="home-blog-img">
-              <img src={blog1} alt="blog1" />
-            </div>
-            <div className="home-blog-hero">
-              <ul>
-                <li>
-                  <Link to="/">Home /</Link>
-                </li>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="home-blog col-lg-4 col-md-12">
+              <div>
+                <div className="home-blog-img">
+                  <img src={blog1} alt="blog1" />
+                </div>
+                <div className="home-blog-hero">
+                  <ul>
+                    <li>
+                      <Link to="/">Home /</Link>
+                    </li>
 
-                <li>November 16, 2019</li>
-              </ul>
+                    <li>November 16, 2019</li>
+                  </ul>
+                </div>
+                <div className="home-blog-content">
+                  <h3>
+                    <Link to="/">
+                      Software Products Development for Global Webpages
+                    </Link>
+                  </h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elitconsectetur adipisicing elit...
+                  </p>
+                  <Link to="/">
+                    Read more <span>+</span>
+                  </Link>
+                </div>
+              </div>
             </div>
-            <div className="home-blog-content">
-              <h3>
+            <div className="home-blog col-lg-4 col-md-12">
+              <div className="home-blog-img">
+                <img src={blog2} alt="blog1" />
+              </div>
+              <div className="home-blog-hero">
+                <ul>
+                  <li>
+                    <Link to="/">Home /</Link>
+                  </li>
+
+                  <li>November 16, 2019</li>
+                </ul>
+              </div>
+              <div className="home-blog-content">
+                <h3>
+                  <Link to="/">Managing Robust Backends</Link>
+                </h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing
+                  elitconsectetur adipisicing elit...
+                </p>
                 <Link to="/">
-                  Software Products Development for Global Webpages
+                  Read more <span>+</span>
                 </Link>
-              </h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing
-                elitconsectetur adipisicing elit...
-              </p>
-              <Link to="/">
-                Read more <span>+</span>
-              </Link>
+              </div>
             </div>
-          </div>
-          <div className="home-blog col-lg-4 col-md-6 col-sm-12">
-            <div className="home-blog-img">
-              <img src={blog2} alt="blog1" />
-            </div>
-            <div className="home-blog-hero">
-              <ul>
-                <li>
-                  <Link to="/">Home /</Link>
-                </li>
+            <div className="home-blog col-lg-4 col-md-12">
+              <div className="home-blog-img">
+                <img src={blog3} alt="blog1" />
+              </div>
+              <div className="home-blog-hero">
+                <ul>
+                  <li>
+                    <Link to="/">Home /</Link>
+                  </li>
 
-                <li>November 16, 2019</li>
-              </ul>
-            </div>
-            <div className="home-blog-content">
-              <h3>
-                <Link to="/">Managing Robust Backends</Link>
-              </h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing
-                elitconsectetur adipisicing elit...
-              </p>
-              <Link to="/">
-                Read more <span>+</span>
-              </Link>
-            </div>
-          </div>
-          <div className="home-blog col-lg-4 col-md-6 col-sm-12">
-            <div className="home-blog-img">
-              <img src={blog3} alt="blog1" />
-            </div>
-            <div className="home-blog-hero">
-              <ul>
-                <li>
-                  <Link to="/">Home /</Link>
-                </li>
-
-                <li>November 16, 2019</li>
-              </ul>
-            </div>
-            <div className="home-blog-content">
-              <h3>
+                  <li>November 16, 2019</li>
+                </ul>
+              </div>
+              <div className="home-blog-content">
+                <h3>
+                  <Link to="/">
+                    Creating and Securing Dynamic Online Platforms (Web 3)
+                  </Link>
+                </h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing
+                  elitconsectetur adipisicing elit...
+                </p>
                 <Link to="/">
-                  Creating and Securing Dynamic Online Platforms (Web 3)
+                  Read more <span>+</span>
                 </Link>
-              </h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing
-                elitconsectetur adipisicing elit...
-              </p>
-              <Link to="/">
-                Read more <span>+</span>
-              </Link>
+              </div>
             </div>
           </div>
         </div>

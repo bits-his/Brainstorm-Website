@@ -43,7 +43,7 @@
   color: var(--main-color);
 }
 .home-blog .home-blog-content h3 a {
-  font-size: 23px;
+  font-size: 17px;
   color: var(--text-color);
   transition: 0.4s ease-in-out;
   font-weight: 600;
@@ -79,7 +79,7 @@
   margin: 0 12px; /* Add margin to create space around the line */
 }
 
-.flex-container {
+/* .flex-container {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
@@ -230,10 +230,10 @@
   .item5 {
     width: 100%;
   }
-}
+} */
 
 /* This is the starting point for the animated arrow button on top of the stories */
-.animated-arrow-button {
+/* .animated-arrow-button {
   position: absolute;
   bottom: 15px;
   right: 15px;
@@ -261,5 +261,5 @@
     left: 10px;
     top: 0px;
   }
-}
+} */
 /* the animated arrow button stops here */
