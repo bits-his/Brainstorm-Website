@@ -21,15 +21,15 @@
   /* align-items: center; */
   padding: 20px;
   transition: .4s ease-in-out;
-  /* border: 1px solid #ddd; */
-  /* border-radius: 10px; */
+  border: 1px solid #ebebebe1;
+  border-radius: 10px;
   /* background-color: #f2f2f2; */
   /* box-shadow: 1px 1px 4px #b3b3b3; */
   height: 300px;
 }
 .inner-service:hover {
   /* background-color: #f2f2f2; */
-  transform: translateY(-20px);
+  transform: translateY(-12px);
   box-shadow: 5px 5px 20px #b3b3b39d;
   /* scale: 1.05; */
   /* border: 2px solid blueviolet; */
@@ -50,4 +50,10 @@
 .s-heading {
   text-align: center;
   /* color: #615CFD; */
+}
+
+@media (width < 600px){
+  .inner-service{
+    height: 100%;
+  }
 }
