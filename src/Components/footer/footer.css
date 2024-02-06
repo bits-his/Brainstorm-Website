@@ -184,8 +184,8 @@ a {
   width: 42px;
   height: 42px;
   line-height: 42px;
-  background: var(--main-color);
-  color: #fff;
+  background: #d8d8d8;
+  color: #3f3e3e;
   text-align: center;
   border-radius: 50%;
 }
