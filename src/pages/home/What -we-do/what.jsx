@@ -1,7 +1,7 @@
 import "./what.css";
 import "../../..";
-import Img from "../../../assets/1-3-5.png";
-import Img2 from "../../../assets/2-2-5.png";
+import Img from "../../../assets/img.svg";
+import Img2 from "../../../assets/img2.svg";
 import { GoDotFill } from "react-icons/go";
 import { BiCheckDouble } from "react-icons/bi";
 import { Link } from "react-router-dom";
@@ -46,6 +46,7 @@ Influencing Sales
         </div>
         
       </div>
+      </div>
       <div className="container mt-5 d-flex p-4 mb-5 m-5 what">
       
         <div className="what-text p-3">
@@ -83,7 +84,7 @@ Influencing Sales
         </div>
         
       </div>
-      </div>
+  
     </>
   );
 }
