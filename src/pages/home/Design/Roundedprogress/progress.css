@@ -1,6 +1,6 @@
 .design {
   margin-bottom: 30px;
-  background-color: var(--main-color);
+  background-color: var(--rd-color);
   height: 250px;
   align-items:center;
   display: flex;
@@ -34,7 +34,7 @@
 
 .circle-text {
   font-size: 24px;
-  fill: #fff;
+  fill: var(--main-color);
   font-family: "Dosis", sans-serif;
   font-weight: 600;
 }
@@ -52,14 +52,14 @@
   font-family: "Dosis", sans-serif;
   font-weight: 600;
   font-size: 12px;
-  color: #fff;
+  color: var(--main-color);
 }
 .progres-text h3 {
   font-size: 1.8em;
   font-weight: 700;
   font-family: "Dosis", sans-serif;
   text-transform: capitalize;
-  color: #fff;
+  color: var(--main-color);
 }
 @media (max-width: 570px){
   .progres-text h3 {

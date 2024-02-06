@@ -2,9 +2,9 @@ import "./what.css";
 import "../../..";
 import Img from "../../../assets/1-3-5.png";
 import Img2 from "../../../assets/2-2-5.png";
-import { GoDotFill } from "react-icons/go";
+// import { GoDotFill } from "react-icons/go";
 import { BiCheckDouble } from "react-icons/bi";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function what() {
   return (
     <>

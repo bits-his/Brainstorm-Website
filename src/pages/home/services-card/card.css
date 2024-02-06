@@ -1,3 +1,7 @@
+
+.service-container{
+  margin-bottom: 10rem;
+}
 .card{
    display: flex;
    flex-direction: column;

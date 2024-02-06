@@ -8,7 +8,7 @@ import CT from '../../services/img/CT.png'
 export default function HomecardContainer() {
   return (
   <>
-    <div className="row service-container">
+    <div className="row service-container mb-5 pb-5">
      <Scroll page={'home'} title={'Our featured solutions'} span={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'} />
       <Card
           heading="Website Development"

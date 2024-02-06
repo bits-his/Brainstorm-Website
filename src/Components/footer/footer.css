@@ -2,8 +2,7 @@ footer {
   background-color: #EBEBEB;
 }
 .main-footer {
-  padding-top: 100px;
-  padding-bottom: 0;
+  padding: 60px 0 0 10px;
 }
 .logo {
   width: 50%;

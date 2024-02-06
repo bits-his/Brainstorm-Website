@@ -8,7 +8,7 @@ import Stories from "./stories_home/Stories";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch"
 import Designed from "./Design/Designed";
-// import HomecardContainer from "./services-card/HomecardContainer";
+import HomecardContainer from "./services-card/HomecardContainer";
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
         <Carousel />
       </div>
       <What />
-      {/* <HomecardContainer />  */}
+      <HomecardContainer /> 
       <div>
         <Stories />
       </div>
