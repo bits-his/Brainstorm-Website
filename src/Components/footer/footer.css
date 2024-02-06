@@ -41,8 +41,7 @@ footer {
   -o-animation-timing-function: linear;
 } */
 .main-footer {
-  padding-top: 100px;
-  padding-bottom: 0;
+  padding: 60px 0 0 10px;
 }
 .logo {
   width: 50%;
