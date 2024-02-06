@@ -1,3 +1,4 @@
+
 .story {
   background-color: rgb(241, 240, 240);
   padding: 100px 30px;
@@ -28,6 +29,7 @@
 }
 .home-blog:hover .home-blog-img img {
   opacity: 0.7px;
+  filter: brightness(0.5) sepia(1) saturate(3) hue-rotate(-10deg);
 }
 
 .home-blog:hover .animated-arrow {
@@ -98,8 +100,10 @@
   color: var(--main-color);
 }
 
-.shift {
-  margin: 0 12px; /* Add margin to create space around the line */
+.read-more {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
 }
 
 /* .flex-container {
