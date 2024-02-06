@@ -98,8 +98,10 @@
   color: var(--main-color);
 }
 
-.shift {
-  margin: 0 12px; /* Add margin to create space around the line */
+.read-more {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
 }
 
 /* .flex-container {
