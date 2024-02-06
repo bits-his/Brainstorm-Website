@@ -8,7 +8,7 @@ import BlogContainer from "./blogs/BlogsContainer";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch"
 import Designed from "./Design/Designed";
-import HomecardContainer from "./services-card/HomecardContainer";
+import HomecardContainer from "./services-card/HomeCardContainer";
 
 export default function Home() {
   return (
