@@ -4,7 +4,7 @@ import image from "../../assets/img/bg1.webp";
 import Text from "./text/Text";
 import Carousel from "./carousel/Carousel";
 // import Blogs from "../blogs/BlogContainer"
-import Stories from "./stories_home/Stories";
+import BlogContainer from "./blogs/BlogsContainer";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch"
 import Designed from "./Design/Designed";
@@ -30,7 +30,7 @@ export default function Home() {
       <What />
       <HomecardContainer /> 
       <div>
-        <Stories />
+        <BlogContainer />
       </div>
 
       {/* <Blogs /> */}
