@@ -46,6 +46,12 @@
   width: 85%;
   height: max-content;
 }
+.arrow{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
 @media(width < 992){
   .card-description{
     height: 100px;
