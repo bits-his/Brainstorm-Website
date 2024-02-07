@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root{
   --text-color:#111111;
   --red-color:#ff3b45;
@@ -14,7 +16,8 @@ html{
   color-scheme: dark light;
 }
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 

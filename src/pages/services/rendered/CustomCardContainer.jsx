@@ -1,11 +1,12 @@
 import React from 'react'
 import CustomCards from './CustomCards'
 import './customcard.css'
+import Scroll from '../../../Components/scroll/Scroll'
 
 export default function CustomCardContainer() {
   return (
     <div className='container-fluid'>
-       <h2 className='s-heading'>Technologies We Use</h2>
+       <Scroll title='Technology We Use' page='Services'/>
         <div className="row g-1">
         <CustomCards 
             title="Frontend"
@@ -13,11 +14,11 @@ export default function CustomCardContainer() {
         />
         <CustomCards 
             title="Frameworks"
-            techie={['Vue js', 'React js', 'React Native', 'Angular js']}
+            techie={['React js', 'React Native', 'Angular js']}
         />
         <CustomCards 
             title="Security"
-            techie={['Web 3.0', 'Nexus', 'Acunetix', 'Machine Learning']}
+            techie={['Web 3.0', 'Nexus', 'Acunetix']}
         />
         <CustomCards 
             title="Mobility"

@@ -1,0 +1,48 @@
+.box1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    opacity: .4;
+    border-radius: 50%;
+    top: 20.5%;
+    right: 8%;
+    animation: bannerAnimation 4s linear infinite;
+}
+.box{
+    position: absolute;
+    width: 26vw;
+    height: 26vw;
+    background-color: #ccc;
+    opacity: .8;
+    border-radius: 50%;
+    animation: bannerAnimation 5s linear infinite;
+}
+.overlay-hero{
+    z-index: 2;
+}
+@keyframes bannerAnimation{
+0% {
+    transform: translate(-20px, -50px);
+}
+20% {
+    transform: translate(20px,-55px);
+}
+40% {
+    transform: translate(50px,20px);
+}
+60% {
+    transform: translate(50px,50px);
+}
+80% {
+    transform: translate(-50px,50px);
+}
+100% {
+    transform: translate(-20px,-50px);
+}
+}
+@media (width < 900px){
+    box1{
+        display: none;
+    }
+}

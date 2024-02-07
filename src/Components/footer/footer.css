@@ -1,9 +1,47 @@
 footer {
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
+  background-image: url(../../assets//footer.svg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+/* .main-footer {
+  position: relative;
+  padding: 85px 0px 80px 0px; 
+} 
+.main-footer:before {
+  position: absolute;
+  content: "";
+  background: url(https://i.ibb.co/jyRLrBZ/world-map.png);
+  width: 744px;
+  height: 365px;
+  top: 45px;
+  right: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: float-bob;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: float-bob;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: float-bob;
+  -moz-animation-duration: 30s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: float-bob;
+  -ms-animation-duration: 30s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: float-bob;
+  -o-animation-duration: 30s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+} */
 .main-footer {
-  padding-top: 100px;
-  padding-bottom: 0;
+  padding: 60px 0 0 10px;
 }
 .logo {
   width: 50%;
@@ -132,6 +170,29 @@ a {
 .footer-nav li:first-child:before {
   display: none;
 }
+.single-footer-widget .footer-social li {
+  position: relative;
+  display: inline-block;
+  margin-right: 9px;
+}
+.single-footer-widget .footer-social li:last-child {
+  margin-right: 0px;
+}
+.single-footer-widget .footer-social li a {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  background: #d8d8d8;
+  color: #3f3e3e;
+  text-align: center;
+  border-radius: 50%;
+}
+.single-footer-widget .footer-social li a:hover {
+  color: #ffffff;
+  background: var(--button-color);
+}
 @media (max-width: 991px) {
   .logo {
     width: 30%;
@@ -144,7 +205,7 @@ a {
   .single-footer-widget h5 {
     margin-bottom: 5px;
   }
-  .bottom-footer{
+  .bottom-footer {
     flex-direction: column-reverse;
   }
 }

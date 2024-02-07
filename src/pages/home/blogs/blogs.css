@@ -1,3 +1,4 @@
+
 .story {
   background-color: rgb(241, 240, 240);
   padding: 100px 30px;
@@ -27,7 +28,8 @@
   transition: 0.4s ease-in-out;
 }
 .home-blog:hover .home-blog-img img {
-  opacity: 0.7;
+  opacity: 0.7px;
+  filter: brightness(0.5) sepia(1) saturate(3) hue-rotate(-10deg);
 }
 
 .home-blog:hover .animated-arrow {
@@ -70,7 +72,6 @@
   transition: 0.4s ease-in-out;
   font-weight: 600;
   line-height: 1.3;
-  height: 40px;
 }
 .home-blog .home-blog-content h3:hover a {
   color: var(--main-color);
@@ -80,7 +81,7 @@
   font-size: 15px;
 }
 .home-blog .home-blog-content a {
-  color: var(--red-color);
+  color: black;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -91,15 +92,18 @@
   transition: 0.4s ease-in-out;
   font-size: 20px;
 }
-.home-blog .home-blog-content a:hover {
-  color: var(--main-color);
+.home-blog:hover .home-blog-content a {
   letter-spacing: 1px;
 }
-.home-blog .home-blog-content a:hover span {
-  color: var(--red-color);
+
+.home-blog:hover .home-blog-content .read-more {
+  color: var(--main-color);
 }
-.shift {
-  margin: 0 12px; /* Add margin to create space around the line */
+
+.read-more {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
 }
 
 /* .flex-container {

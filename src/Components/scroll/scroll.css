@@ -16,13 +16,13 @@
 .scroll-text{
     width: 70%;
     /* height: 70vh; */
-    margin: 20vh auto 5vh;
+    margin: 10vh auto 5vh;
     text-align: center;
     z-index: 10;
 }
 .scroll-text span {
     color: hsla(0, 100%, 99%, 0.4);
-    background-image: linear-gradient(45deg, teal, black);
+    background-image: linear-gradient(45deg, black, black);
     background-size: 0% 100%;
     background-repeat: no-repeat;
     -webkit-background-clip: text;
@@ -33,6 +33,7 @@
 .scroll-text h3 span{
     animation-range-start:contain ;
     animation-range-end:contain 20vh;
+    font-weight: bold;
 }
 .scroll-text p span{
     animation-range-start: 30vh;

@@ -8,21 +8,21 @@ export default function Designed() {
         <div className="container">
           <div className="row">
             <ProgressBar
-              percent={65}
+              percent={85}
               col={3}
               col2={6}
               span="Design"
               h3="Coding"
             />
             <ProgressBar
-              percent={70}
+              percent={96}
               col={3}
               col2={6}
               span="our happy"
               h3="clients"
             />
             <ProgressBar
-              percent={85}
+              percent={95}
               col={3}
               col2={6}
               span="projects"
@@ -30,7 +30,7 @@ export default function Designed() {
             />
 
             <ProgressBar
-              percent={95}
+              percent={80}
               col={3}
               col2={6}
               span="Completed"
