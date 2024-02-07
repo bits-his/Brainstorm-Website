@@ -10,8 +10,9 @@
   /* display: grid;
     grid-template-columns: auto 2fr; */
   column-count: 2;
+  
 }
-
+ 
 .what-text h3 {
   color: var(--text-color);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -77,5 +78,10 @@
     padding: 0px;
     margin-bottom: 10px;
   }
+  .what {
+    height: 100vh;
 
+
+
+}
 }

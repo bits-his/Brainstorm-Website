@@ -8,8 +8,8 @@ import { BiCheckDouble } from "react-icons/bi";
 function what() {
   return (
     <>
-    <div className="bg-light">
-      <div className="container mt-5 d-flex p-4 mb-5 m-5 what">
+    <div className="bg-light ">
+      <div className="container mt-5 d-flex p-4 mb-5 m-5 what ">
       <div className="what-img m-3" >
           <img src={Img} alt="" className="img-fluid" />
         </div>
