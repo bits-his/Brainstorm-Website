@@ -9,12 +9,14 @@ export default function Parallex({page, details ,img}) {
     <div className="hero-p">
       <img fetchpriority='high' src={img ? img : hero} alt="img" />
       <div className="parallex-overlay">
-        <div className="section section-3">
+       <div className="container">
+       <div className="section section-3">
           <h1 className="heading mb-4">{page}</h1>
           <p className="details-for-paralax">
             {details}   
           </p>
         </div>
+       </div>
       </div>
     </div>
   );

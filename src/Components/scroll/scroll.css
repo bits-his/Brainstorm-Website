@@ -51,4 +51,7 @@
     .scroll-text{
         margin-top: 0;
     }
+    .scroll-text h3 span{
+        font-size: 1.5em;
+    }
 }
