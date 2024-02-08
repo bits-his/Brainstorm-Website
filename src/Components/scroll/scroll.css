@@ -34,6 +34,9 @@
     animation-range-start:contain ;
     animation-range-end:contain 20vh;
     font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
 }
 .scroll-text p span{
     animation-range-start: 30vh;

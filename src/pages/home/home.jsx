@@ -1,7 +1,6 @@
 import React from "react";
 import "./home.css";
 import Carousel from "./carousel/Carousel";
-// import Blogs from "../blogs/BlogContainer"
 import BlogContainer from "./blogs/BlogsContainer";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch"
@@ -26,9 +25,6 @@ export default function Home() {
       <div>
         <BlogContainer />
       </div>
-
-      {/* <Blogs /> */}
-
       <Designed />
       <GetInTouch />
     </>
