@@ -36,7 +36,7 @@
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 35px;
 }
 .scroll-text p span{
     animation-range-start: 30vh;
@@ -50,8 +50,9 @@
 @media (width < 768px){
     .scroll-text{
         margin-top: 0;
+        width: 95%;
     }
     .scroll-text h3 span{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 }
