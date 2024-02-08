@@ -191,7 +191,7 @@ a {
 }
 .single-footer-widget .footer-social li a:hover {
   color: #ffffff;
-  background: var(--button-color);
+  background: var(--main-color);
 }
 @media (max-width: 991px) {
   .logo {
@@ -202,9 +202,7 @@ a {
   .single-footer-widget {
     margin-bottom: 0;
   }
-  .single-footer-widget h5 {
-    margin-bottom: 5px;
-  }
+
   .bottom-footer {
     flex-direction: column-reverse;
   }

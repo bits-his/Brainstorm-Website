@@ -4,18 +4,20 @@
     background-color: red;
   } */
 .owl-carousel .owl-stage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 80px;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-bottom: 100px;
 }
 .caro {
   width: 70px;
   height: auto;
   margin: 0;
   padding: 0;
-  filter:grayscale();
+  filter: grayscale();
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 .caro:hover {
   filter: none;
@@ -25,6 +27,6 @@
     margin-left: 30px;
   }
   .caro {
-  filter: none;
-}
+    filter: none;
+  }
 }
