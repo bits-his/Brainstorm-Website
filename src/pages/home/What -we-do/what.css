@@ -1,15 +1,18 @@
 
 .what-img img {
   width: 100%;
-  height: 100%;
+  height: 300px;
+  filter: hue-rotate(0deg);
+  color: #007bff;
 }
 
 .what-text ul {
   /* display: grid;
     grid-template-columns: auto 2fr; */
   column-count: 2;
+  
 }
-
+ 
 .what-text h3 {
   color: var(--text-color);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -30,12 +33,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 70vh;
  
  
 }
 
 .what-text ul li {
-  padding: 7px;
+  margin-top: 7px;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.78;
@@ -65,20 +69,19 @@
   .what {
     display: grid !important;
     width: 80%;
+   
   }
   .what-text ul {
     display: grid;
     grid-template-columns: 1fr !important;
     margin: 0px;
     padding: 0px;
+    margin-bottom: 10px;
   }
+  .what {
+    height: 100vh;
 
-  .what-img {
-    width: 100%;
-    margin-top: 20px;
-    height: 90%;
-    position: relative;
-    left: 0;
-    bottom: 0;
-  }
+
+
+}
 }
