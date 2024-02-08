@@ -26,12 +26,7 @@ export default function OurClient() {
         brainstorm, we are committed to delivering cutting-edge software
         solutions tailored to meet the unique needs of your business.
       </p>
-      <p className="paragraph">
-        Our journey with clients like you has been both inspiring and rewarding.
-        Your success stories motivate us to continually innovate and exceed your
-        expectations. As we work together to navigate the dynamic landscape of
-        the digital world, we are grateful for the trust you place in our team.
-      </p>
+      
       <div className="contain">
         <div className="row">
           <CustumeClient

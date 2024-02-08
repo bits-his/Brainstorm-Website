@@ -11,12 +11,12 @@ import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
 import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
-import Hero from "../../Components/Hero/Hero";
+// import Hero from "../../Components/Hero/Hero";
 export default function Bihub() {
   return (
     <>
       <Parallex
-        page={<Hero page={"Bihub"} />}
+        page="Bi-Hub"
         details="In order to give back to the society, we created an innovation space
             known as Bi-Hub where young innovative minds come to learn more
             about technology and create businesses out of it. Some of the

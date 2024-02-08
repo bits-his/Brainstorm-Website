@@ -8,12 +8,13 @@
 }
 .div {
   width: 30%;
-  height: 50%;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 20px;
 }
 .div img {
-  width: 100%;
-  height: auto;
-  margin-right: 20px;
+  width: 70px;
+  height: 70px;
   align-items: center;
 }
 .text {
@@ -24,11 +25,11 @@
   font-weight: 600;
   text-transform: capitalize;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
 }
-@media (max-width: 574px) { 
-.contain {
-  padding: 20px;
-}
+@media (max-width: 574px) {
+  .contain {
+    padding: 20px;
+  }
 }

@@ -8,7 +8,6 @@ import Designed from "./Design/Designed";
 import HomecardContainer from './services-card/HomecardContainer.jsx'
 
 import Hero from "./hero/Hero";
-import HomecardContainer from "./services-card/HomecardContainer";
 
 export default function Home() {
   const nam = "Mustapha";
