@@ -1,7 +1,7 @@
 
 .story {
   background-color: rgb(241, 240, 240);
-  padding: 100px 30px;
+  padding: 40px 30px;
 }
 /* .story .top-text {
   max-width: 500px;
@@ -29,7 +29,7 @@
 }
 .home-blog:hover .home-blog-img img {
   opacity: 0.7px;
-  filter: brightness(0.5) sepia(1) saturate(3) hue-rotate(-10deg);
+  filter: brightness(0.5) sepia(1) saturate(15) hue-rotate(-20deg);
 }
 
 .home-blog:hover .animated-arrow {
@@ -51,6 +51,12 @@
     left: 10px;
     top: 0px;
   }
+}
+.animated-arrow svg{
+  color: black;
+}
+.home-blog:hover .animated-arrow svg {
+  color: red
 }
 
 .home-blog .home-blog-hero ul {
