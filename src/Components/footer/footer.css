@@ -205,5 +205,6 @@ a {
 
   .bottom-footer {
     flex-direction: column-reverse;
+    text-align: center;
   }
 }
