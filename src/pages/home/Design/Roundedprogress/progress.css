@@ -1,8 +1,8 @@
 .design {
   /* margin-bottom: 30px; */
-  background-color: var(--rd-color);
+  /* background-color: var(--red-color); */
   height: 250px;
-  align-items:center;
+  align-items: center;
   display: flex;
 }
 
@@ -61,7 +61,7 @@
   text-transform: capitalize;
   color: var(--main-color);
 }
-@media (max-width: 570px){
+@media (max-width: 570px) {
   .progres-text h3 {
     font-size: 1rem;
   }

@@ -4,7 +4,7 @@ import ProgressBar from "./Roundedprogress/ProgressBar";
 export default function Designed() {
   return (
     <>
-      <div className="design">
+      <div className="design" data-aos="fade-up" data-aos-once="true">
         <div className="container">
           <div className="row">
             <ProgressBar
