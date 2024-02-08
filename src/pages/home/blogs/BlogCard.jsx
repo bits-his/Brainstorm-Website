@@ -17,7 +17,7 @@ export default function BlogCard({ img, headline, details }) {
             <Link to="/" className="read-more">
               Read more{" "}
               <span className="animated-arrow">
-                <HiArrowNarrowRight size={20} color="black" fontWeight={600} />
+                <HiArrowNarrowRight size={20} fontWeight={600} />
               </span>
             </Link>
           </div>
