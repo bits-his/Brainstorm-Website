@@ -205,9 +205,15 @@ a {
 
   .bottom-footer {
     flex-direction: column-reverse;
-    text-align: center;
   }
   .single-footer-widget .footer-social li a {
     background-color: var(--main-color);
+    color: #fff;
+  }
+  .copy p {
+    text-align: center;
+  }
+  .footer-nav {
+    text-align: center;
   }
 }
