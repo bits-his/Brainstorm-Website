@@ -8,7 +8,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import HomeCard from "./HomeCard";
 import { Link } from "react-router-dom";
 
-export default function HomecardContainer() {
+export default function HomeCardContainer() {
   return (
     <>
       <div className="row service-container mb-5 pb-5">

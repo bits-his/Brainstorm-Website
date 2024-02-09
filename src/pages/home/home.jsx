@@ -21,7 +21,7 @@ export default function Home() {
         <Carousel />
       </div>
       <What />
-      <HomecardContainer />
+      <HomeCardContainer />
 
       <BlogContainer />
 
