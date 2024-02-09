@@ -4,12 +4,11 @@ import "./about-us.css";
 import Img from "../../assets/download.jpg";
 import TeamContainer from "./TeamContainer";
 import Parallex from "../../Components/parallex/Parallex";
-import BlogContainer from "../home/blogs/BlogsContainer";
 import Designed from "../home/Design/Designed";
-import HomeCard from "../home/services-card/HomeCard";
-import WD from '../../pages/services/img/WD.webp'
-import CSD from '../../pages/services/img/CSD.webp'
-import CT from '../../pages/services/img/CT.png'
+import AboutCard from "./AboutCard";
+// import WD from '../../pages/services/img/WD.webp'
+// import CSD from '../../pages/services/img/CSD.webp'
+// import CT from '../../pages/services/img/CT.png'
 
 export default function AboutUs() {
   let startYear = 2006;
@@ -19,7 +18,7 @@ export default function AboutUs() {
   return (
     <>
       <Parallex page={"About Us"} details />
-      <div className="container mt-5 d-flex p-4 mb-5 about-container what">
+      <div className="container mt-5 d-flex p-4 mb- about-container what">
         <div className="what-text ">
           <h2
             data-aos="fade-right"
@@ -55,25 +54,23 @@ export default function AboutUs() {
           <img src={Img} alt="" className />
         </div>
       </div>
-      <div className="row service-container">
-        <HomeCard
-          heading="Website Development"
+      <div className="row service-container container">
+        <AboutCard
+          heading="Our Mission"
           describtion="Enhance your online presence with cutting-edge web applications. We specialize in creating dynamic and user-friendly web solutions that deliver seamless experiences across devices."
-          img={WD}
+          // img={WD}
         />
-        <HomeCard
-          heading="Software Development"
+        <AboutCard
+          heading="Our History"
           describtion="Empower your business with cutting-edge software solutions tailored to your unique needs. Our software development expertise ensures scalable and efficient solutions accross all devices."
-          img={CSD}
+          // img={CSD}
         />
-        <HomeCard
-          heading="Co-operate Trainings"
+        <AboutCard
+          heading="Who we are "
           describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
-          img={CT}
+          // img={CT}
         />
       </div>
-
-      <BlogContainer />
 
       <Designed />
       {/* <Hero page='About'/> */}
