@@ -23,22 +23,24 @@ export default function HomeCardContainer() {
           heading="Website Development"
           describtion="Enhance your online presence with cutting-edge web applications. We specialize in creating dynamic and user-friendly web solutions that deliver seamless experiences across devices."
           img={WD}
+          time={100}
         />
         <HomeCard
           heading="Software Development"
           describtion="Empower your business with cutting-edge software solutions tailored to your unique needs. Our software development expertise ensures scalable and efficient solutions accross all devices."
           img={CSD}
+          time={200}
         />
         <HomeCard
           heading="Co-operate Trainings"
           describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
           img={CT}
+          time={300}
         />
-        <Link to='/services#service' className="more-service">
-          
+        <Link to='/services#service' className="more-service home-to-service">
             Find More{" "}
             <span className="arrow">
-            <HiArrowNarrowRight size={20} color="black" fontWeight={600} />
+            <HiArrowNarrowRight size={20} fontWeight={600} />
           </span>
         </Link>
       </div>
