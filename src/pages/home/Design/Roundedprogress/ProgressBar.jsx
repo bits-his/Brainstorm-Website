@@ -1,18 +1,46 @@
-import React from "react";
+import React, {useState, useEffect, useRef} from "react";
 import "./progress.css";
 
 export default function ProgressBar({ percent, col, col2, h3, span }) {
-  // Calculate the circumference of the circle
-  const circumference = 2 * Math.PI * 45;
-  // Calculate the dash offset based on the percentage
-  const dashOffset = circumference - (percent / 100) * circumference;
+ const svgRef = useRef(null);
+ const [inView, setInView] = useState(false);
+ const circumference = 2 * Math.PI * 45;
+ const dashOffset = circumference - (percent / 100) * circumference;
+
+ useEffect(() => {
+   const options = {
+     root: null,
+     rootMargin: "0px",
+     threshold: 0.5, 
+   };
+  
+
+  const observer = new IntersectionObserver((entries) => {
+     entries.forEach((entry) => {
+       if (entry.isIntersecting) {
+         setInView(true);
+         observer.unobserve(entry.target);
+       }
+     });
+   }, options);
+
+   if (svgRef.current) {
+     observer.observe(svgRef.current);
+   }
+
+   return () => {
+     if (svgRef.current) {
+       observer.unobserve(svgRef.current);
+     }
+   };
+ }, []);
 
   return (
     <>
       <div className={`col-lg-${col} col-sm-${col}  col-${col2} col-md-${col}`}>
         <div className="d-flex d-sm-block d-lg-flex align-items-center">
           <div className="circle-container">
-            <svg className="circle-svg" viewBox="0 0 100 100">
+            <svg className="circle-svg" viewBox="0 0 100 100" ref={svgRef}>
               <circle className="circle-background" cx="50" cy="50" r="45" />
               <circle
                 className="circle-progress"
@@ -21,10 +49,13 @@ export default function ProgressBar({ percent, col, col2, h3, span }) {
                 r="45"
                 style={{
                   strokeDasharray: circumference,
-                  strokeDashoffset: dashOffset,
-                  transform: "rotate(-90deg)", 
+                  strokeDashoffset: inView ? dashOffset : circumference,
+                  transform: "rotate(-90deg)",
                   transformOrigin: "50% 50%",
-                  animation: "fillAnimation 1s ease forwards",
+                  transition: "stroke-dashoffset 1s ease",
+                  fill: "none",
+                  stroke: "var(--red-color)",
+                  strokeWidth: 5,
                 }}
               />
               <text

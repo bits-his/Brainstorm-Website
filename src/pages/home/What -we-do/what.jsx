@@ -2,14 +2,14 @@ import "./what.css";
 import "../../..";
 import Img from "../../../assets/img.svg";
 import Img2 from "../../../assets/img2.svg";
-import { GoDotFill } from "react-icons/go";
+// import { GoDotFill } from "react-icons/go";
 import { BiCheckDouble } from "react-icons/bi";
 // import { Link } from "react-router-dom";
 function what() {
   return (
     <>
       <div className="bg-light ">
-        <div className="container mt-5 d-flex p-4 mb-5 m-5 what ">
+        <div className="container-fluid mt-5 d-flex p-4 what ">
           <div
             className="what-img m-3"
             data-aos="zoom-in-left"
@@ -49,8 +49,7 @@ function what() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container mt-5 d-flex p-4 mb-5 m-5 what">
+        <div className="container mt-5 d-flex p-4 mb-5 what">
         <div className="what-text p-3">
           <h3 data-aos="fade-right" data-aos-once="true">
             Make your business more competitive and <br />
@@ -90,6 +89,8 @@ function what() {
           <img src={Img2} alt="" className="img-fluid" />
         </div>
       </div>
+      </div>
+    
     </>
   );
 }

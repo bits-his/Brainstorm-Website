@@ -1,48 +1,87 @@
-.box1{
+.box {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  background-color: #ccc;
+  opacity: 0.8;
+  border-radius: 50%;
+  animation: bannerAnimation 5s linear infinite;
+}
+.box1 {
     position: absolute;
     width: 100px;
     height: 100px;
     background-color: var(--main-color);
-    opacity: .4;
+    opacity: 0.4;
     border-radius: 50%;
     top: 20.5%;
     right: 8%;
-    animation: bannerAnimation 4s linear infinite;
-}
-.box{
+    animation: bannerAnimation 7s linear infinite;
+  }
+  .box2 {
     position: absolute;
-    width: 26vw;
-    height: 26vw;
-    background-color: #ccc;
-    opacity: .8;
+    width: 65px;
+    height: 65px;
+    background-color: grey;
+    opacity: 0;
     border-radius: 50%;
-    animation: bannerAnimation 5s linear infinite;
+    bottom: 21.2%;
+    right: 10.3%;
+    /* animation: bannerAnimation 10s linear infinite; */
+  }
+  .box3 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: grey;
+    opacity: 0;
+    border-radius: 50%;
+    top: 24.3%;
+    left: 10.3%;
+    /* animation: bannerAnimation 6.5s linear infinite; */
+  }
+  .box4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    opacity: 0.4;
+    border-radius: 50%;
+    bottom: 17.3%;
+    left: 8%;
+    animation: bannerAnimation 4.7s linear infinite;
+  }
+.overlay-hero {
+  z-index: 2;
 }
-.overlay-hero{
-    z-index: 2;
+@keyframes bannerAnimation {
+  0% {
+    transform: translate(-25px, -35px);
+  }
+  20% {
+    transform: translate(20px, -25px);
+  }
+  40% {
+    transform: translate(45px, -10px);
+  }
+  60% {
+    transform: translate(35px, 35px);
+  }
+  80% {
+    transform: translate(-30px, 35px);
+  }
+  100% {
+    transform: translate(-25px, -35px);
+  }
 }
-@keyframes bannerAnimation{
-0% {
-    transform: translate(-20px, -50px);
+@media (width < 900px) {
+  .box1,.box2,.box3,.box4 {
+    display: none;
+  }
 }
-20% {
-    transform: translate(20px,-55px);
-}
-40% {
-    transform: translate(50px,20px);
-}
-60% {
-    transform: translate(50px,50px);
-}
-80% {
-    transform: translate(-50px,50px);
-}
-100% {
-    transform: translate(-20px,-50px);
-}
-}
-@media (width < 900px){
-    box1{
-        display: none;
-    }
+@media (width <500px) {
+  .box {
+    width: 55vw;
+    height: 55vw;
+  }
 }

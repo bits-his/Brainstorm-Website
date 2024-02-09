@@ -34,9 +34,10 @@ export default function HomecardContainer() {
           describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
           img={CT}
         />
-        <Link to='/services#service'>
-          <span className="arrow">
+        <Link to='/services#service' className="more-service">
+          
             Find More{" "}
+            <span className="arrow">
             <HiArrowNarrowRight size={20} color="black" fontWeight={600} />
           </span>
         </Link>

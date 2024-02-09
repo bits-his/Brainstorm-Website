@@ -1,12 +1,11 @@
 import React from "react";
 import "./home.css";
 import Carousel from "./carousel/Carousel";
-// import Blogs from "../blogs/BlogContainer"
 import BlogContainer from "./blogs/BlogsContainer";
 import What from "./What -we-do/what";
-import GetInTouch from "./brief-contact-us/GetInTouch"
+import GetInTouch from "./brief-contact-us/GetInTouch";
 import Designed from "./Design/Designed";
-
+import HomecardContainer from './services-card/HomecardContainer.jsx'
 import Hero from "./hero/Hero";
 
 export default function Home() {
@@ -22,14 +21,12 @@ export default function Home() {
         <Carousel />
       </div>
       <What />
-      {/* <HomecardContainer />  */}
-      <div>
-        <BlogContainer />
-      </div>
+      <HomecardContainer />
 
-      {/* <Blogs /> */}
+      <BlogContainer />
 
       <Designed />
+      
       <GetInTouch />
     </>
   );
