@@ -4,7 +4,7 @@
   background-color: #fff;
   /* align-items: center; */
   padding: 20px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
   border: 1px solid #ebebebe1;
   border-radius: 10px;
   position: relative;
@@ -18,10 +18,17 @@
   transform: translateY(-12px);
   box-shadow: 5px 5px 20px #b3b3b39d;
   transition: 1s;
-  background-image: linear-gradient(45deg,var(--red-color),var(--red-color),rgba(255, 255, 255, 0.612),var(--main-color),var(--main-color));
+  background-image: linear-gradient(
+    45deg,
+    var(--red-color),
+    var(--red-color),
+    rgba(255, 255, 255, 0.612),
+    var(--main-color),
+    var(--main-color)
+  );
   /* background-repeat: no-repeat; */
 }
-.main-card-icon{
+.main-card-icon {
   display: inline-flex;
   justify-content: end;
   position: absolute;
@@ -31,8 +38,8 @@
 /* .main-card:hover .main-card-icon::before{
   background-color: var(--grey-color);
 } */
-.main-card-icon::before{
-  content: '';
+.main-card-icon::before {
+  content: "";
   position: absolute;
   background-color: var(--grey-background);
   transition: 1s;
@@ -42,27 +49,31 @@
   top: -25px;
   right: -25px;
 }
-.main-card-icon img{
+.main-card-icon img {
   padding: 20px;
   z-index: 2;
-
 }
-.main-card .service-info{
+.main-card .service-info {
   width: 85%;
   height: max-content;
 }
-.more-service{
+.more-service {
   display: flex;
   justify-content: end;
   align-items: center;
   gap: 15px;
   margin-top: 10px;
 }
-.arrow{
+.service-info h4 {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.arrow {
   display: flex;
   align-items: center;
 }
-.more-service:hover .arrow{
+.more-service:hover .arrow {
   position: relative;
   animation-name: example;
   animation-duration: 0.5s;
@@ -72,23 +83,18 @@
   animation-direction: alternate;
 }
 
-@media(width < 992px){
-  .main-card{
-    padding-bottom:10px;
+@media (width < 992px) {
+  .main-card {
+    padding-bottom: 10px;
     padding-left: 15px;
   }
-  .service-info h4{
+  .service-info h4 {
     width: 90%;
   }
-  .main-card .card-description{
+  .main-card .card-description {
     margin-bottom: 0;
   }
 }
-
-
-
-
-
 
 /* 
 

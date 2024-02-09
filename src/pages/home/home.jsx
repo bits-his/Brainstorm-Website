@@ -5,7 +5,7 @@ import BlogContainer from "./blogs/BlogsContainer";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch";
 import Designed from "./Design/Designed";
-import HomeCardContainer from './services-card/HomeCardContainer.jsx'
+import HomecardContainer from "./services-card/HomecardContainer.jsx";
 import Hero from "./hero/Hero";
 
 export default function Home() {
@@ -21,12 +21,12 @@ export default function Home() {
         <Carousel />
       </div>
       <What />
-      <HomeCardContainer />
+      <HomecardContainer />
 
       <BlogContainer />
 
       <Designed />
-      
+
       <GetInTouch />
     </>
   );
