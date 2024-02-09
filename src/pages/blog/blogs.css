@@ -7,7 +7,7 @@
     filter: hue-rotate(25deg);
     display: flex;
     align-items: center;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     color: white;
     overflow: hidden;
@@ -17,29 +17,79 @@
     position: absolute;
     height: 150%;
     width: 150px;
-    transform: rotate(-35deg);
-    animation-name: slideIn;
-    animation-duration: 1.5s;  
-}
-
-.strip .red {
-    animation-delay: 0.3s;
+    transform: rotate(-35deg);  
 }
 
 @keyframes slideIn {
     0%   {
+        opacity: 0;
         right: 0;
+    }
+
+    100%    {
+        opacity: 0.7;
+        right: 450px;
+    }
+}
+@keyframes slideIn1 {
+    0%   {
+        opacity: 0.1;
+        right: 0;
+    }
+
+    100%    {
+        opacity: .4;
+        right: 250px;
     }
 }
 
 .blue {
     background-color: #076ACD;
-    opacity: 0.8;
-    right: 450px;
+    opacity: 0;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .red {
     background-color: #ff3b45;
-    opacity: 0.4;
-    right: 250px;
+    opacity: 0;
+    animation-name: slideIn1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .31s;
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-buttons button {
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 0 20px;
+    width: 120px;
+    border: 1px solid #ff3b45;
+    color: black;
+}
+
+.pagination-buttons button:hover {
+    background-color: #076ACD;
+    border: none;
+    color: white;
+}
+
+.pagination-buttons button:disabled {
+    opacity: 0.3;
+    background-color: white;
+    border: 1px solid #ff3b45;
+    color: black;
+}
+
+.pagination-buttons button:active {
+    background-color: #076ACD;
+    border: none;
+    color: white;
 }
