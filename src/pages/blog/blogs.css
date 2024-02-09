@@ -17,7 +17,15 @@
     position: absolute;
     height: 150%;
     width: 150px;
-    transform: rotate(-35deg);  
+    transform: rotate(-35deg);
+    animation-name: slideIn;
+    animation-duration: 1s;  
+}
+
+@keyframes slideIn {
+    0%   {
+        right: 0;
+    }
 }
 
 .blue {
