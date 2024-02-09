@@ -68,7 +68,7 @@
 @media only screen and (max-width: 1000px) {
   .what {
     display: grid !important;
-    width: 80%;
+    /* width: 80%; */
    
   }
   .what-text ul {

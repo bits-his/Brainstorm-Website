@@ -1,29 +1,19 @@
-.Hero{
-    background-image: url('../../assets/download.jpg');
-    margin: -10vh 0;
-    opacity: 0.8;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    min-height: 70vh;
-    position: relative;
+.about-container{
+    display: flex;
 }
-.overlay{
-    position: absolute;
-    bottom: 0;
-    left: 10px;
+.years::after{
+    content: '+';
 }
 .team-card{
     width: 100%;
     margin-bottom: 10px;
     /* padding:10px; */
     border-radius: 10px;
-    box-shadow: 1px 1px 5px #dedede;
+    /* box-shadow: 1px 1px 5px #dedede; */
     transition: .3s;
 }
 .team-card:hover .social{
-    bottom: 0px;
+    bottom: 30px;
     display: flex;
     transform: translateY(10%);
     opacity: 1;
@@ -32,8 +22,9 @@
 }
 .cards img {
     width: 100%;
-    height: 300px;
-    border-radius: 10px 10px 0 0;
+    /* height: 270px; */
+    border-radius: 10px;
+    object-fit: cover;
 }
 .connect{
     position: relative;
@@ -48,6 +39,7 @@
     opacity: 0;
     color: #dedede;
     justify-content: center;
+    z-index: 3;
 }
 .social li{
     background-color: var(--main-color);
@@ -58,6 +50,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 3;
+    position: relative;
 }
 .social ul {
     display: flex;
@@ -66,8 +60,15 @@
     width: 70%;
 }
 .info{
-    padding: 5px;
-
+    padding: 25px;
+    width: 80%;
+    margin: -50px auto 0;
+    border: #dedede50 1px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #dedede;
+    background-color: #dedede;
+    z-index: 2;
+    position: relative;
 }
 .role{
     margin-bottom: 2px;
@@ -76,6 +77,11 @@
     text-align: center;
 
 }
+@media( width<992px){
+    .about-container{
+        display: grid;
+    }
+}
 
 @media (width < 546px){
     .team-card{
@@ -83,11 +89,11 @@
         height: 415px;
         margin-inline: auto;
     }
-   .team-card img{
+   /* .team-card img{
     height: 350px;
-   }
+   } */
     .social{
-        bottom: 5px;
+        bottom: 30px;
         opacity: 1;
     }
     .social ul{

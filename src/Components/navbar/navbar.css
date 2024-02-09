@@ -97,7 +97,8 @@ header {
   background-color: var(--red-color);
   transition: linear .2s;
 }
-.navlist a:hover::after {
+.navlist a:hover::after,
+.navlist a:active::after {
   /* bottom: 5px; */
   width: 100%;
   left: 0;
@@ -272,6 +273,12 @@ header {
   header.sticly {
     padding: 14px 4%;
     transition: 0.2s;
+  }
+  .navlist a::after{
+    bottom: 5px;
+  }
+  .navlist a:hover::after{
+    scale: 0;
   }
 }
 

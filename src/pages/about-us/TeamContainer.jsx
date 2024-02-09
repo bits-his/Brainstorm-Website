@@ -1,16 +1,16 @@
 import React from "react";
-import murtala from "../../assets/team/murtala.jpg";
+import murtala from "../../assets/team/murtala1.jpg";
 import mary from "../../assets/team/marry.jpg";
-import isah from "../../assets/team/isah.jpg";
-import fahad from "../../assets/team/fahad.jpg";
-import ishaq from "../../assets/team/ishaq1.jpg";
-import mustapha from "../../assets/team/musty.jpg";
+import isah from "../../assets/team/ishah3.jpg";
+import fahad from "../../assets/team/fahad3.jpg";
+import ishaq from "../../assets/team/ishaqtg.png";
+import mustapha from "../../assets/team/mustyy.jpg";
 // import  from '../../assets/team/.jpg'
-import dadi from "../../assets/team/photo_2024-01-22_16-51-49.jpg";
+import dadi from "../../assets/team/daddy2.jpg";
 // import nazif from '../../assets/team/musty.jpg'
 // import bashir from '../../assets/team/musty.jpg'
 // import mide from '../../assets/team/musty.jpg'
-import sadiq from "../../assets/team/sadiq.jpg";
+import sadiq from "../../assets/team/mide4.jpg";
 import TeamCard from "./TeamCard";
 import Scroll from "../../Components/scroll/Scroll";
 
@@ -18,7 +18,7 @@ export default function TeamContainer() {
   const nam = "Mustapha";
   const role = "Senior Developer";
   return (
-    <div className="container-fluid mt-5 pt-5">
+    <div className="container-fluid mt-5 pt-5 mb-5 bg-light">
       {/* <h2 className='s-heading'>Our Creative Team</h2> */}
       <Scroll title="MEET OUR TEAM" page="about" />
       <div className="container">

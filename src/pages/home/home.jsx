@@ -5,13 +5,10 @@ import BlogContainer from "./blogs/BlogsContainer";
 import What from "./What -we-do/what";
 import GetInTouch from "./brief-contact-us/GetInTouch";
 import Designed from "./Design/Designed";
-import HomecardContainer from './services-card/HomecardContainer.jsx'
-
+import HomecardContainer from './services-card/HomeCardContainer.jsx'
 import Hero from "./hero/Hero";
 
 export default function Home() {
-  const nam = "Mustapha";
-  const role = "Senior Developer";
   return (
     <>
       <Hero />

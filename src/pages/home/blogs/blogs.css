@@ -1,7 +1,7 @@
 
 .story {
-  background-color: #f1f0f0;
-  padding: 40px 30px;
+  background-color: rgb(241, 240, 240);
+  padding: 40px 10px;
 }
 /* .story .top-text {
   max-width: 500px;
@@ -21,6 +21,11 @@
   color: grey;
   margin-bottom: 20px;
 }
+
+.home-blog {
+  cursor: pointer;
+}
+
 .home-blog .home-blog-img img {
   width: 100%;
   height: 100%;
@@ -29,7 +34,8 @@
 }
 .home-blog:hover .home-blog-img img {
   opacity: 0.7px;
-  filter: brightness(0.5) sepia(1) saturate(15) hue-rotate(-20deg);
+  /* filter: brightness(0.5) sepia(1) saturate(15) hue-rotate(-20deg);
+  transition: 0.7s ease-in-out; */
 }
 
 .home-blog:hover .animated-arrow {
