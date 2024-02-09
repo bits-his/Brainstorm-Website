@@ -22,12 +22,12 @@
 
 .blue {
     background-color: #076ACD;
-    opacity: 0.7;
-    right: 500px;
+    opacity: 0.8;
+    right: 450px;
 }
 
 .red {
-    background-color: #076ACD;
-    opacity: 0.5;
+    background-color: #ff3b45;
+    opacity: 0.4;
     right: 250px;
 }
