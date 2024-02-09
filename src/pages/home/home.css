@@ -39,9 +39,9 @@
 .subheading {
   display: inline-block;
   padding: 5px 20px;
-  color: #FBB244;
+  color: var(--red-color);
   text-transform: uppercase;
-  background-color: rgba(251, 178, 68, 0.2);
+  background-color: #ff3b4542;
   border-radius: 30px;
   font-size: 10px;
   text-transform: uppercase;

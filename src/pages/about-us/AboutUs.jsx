@@ -26,7 +26,7 @@ export default function AboutUs() {
           </h2>
           <div data-aos="fade-up" data-aos-once="true">
             <h1 className="spa">
-              We have be Innovation for <span>{years}</span>
+              We have be Innovating for <span className="years">{years}</span>
             </h1>
             <p>
               Brainstorm IT Solutions is a software solution company with a wide
