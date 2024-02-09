@@ -4,6 +4,28 @@
 .years::after{
     content: '+';
 }
+.about-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    /* align-items: center; */
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #ebebebe1;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: max-content;
+}
+.about-card:hover{
+    transform: translateY(-12px);
+    box-shadow: 5px 5px 20px #b3b3b39d;
+    transition: 1s;
+}
+.about-card h4{
+    font-weight: bold;
+    font-size: 1.25em;
+}
 .team-card{
     width: 100%;
     margin-bottom: 10px;
