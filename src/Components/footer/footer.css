@@ -207,4 +207,7 @@ a {
     flex-direction: column-reverse;
     text-align: center;
   }
+  .single-footer-widget .footer-social li a {
+    background-color: var(--main-color);
+  }
 }
