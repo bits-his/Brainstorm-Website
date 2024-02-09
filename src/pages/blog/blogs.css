@@ -17,29 +17,47 @@
     position: absolute;
     height: 150%;
     width: 150px;
-    transform: rotate(-35deg);
-    animation-name: slideIn;
-    animation-duration: 1.5s;  
-}
-
-.strip .red {
-    animation-delay: 0.3s;
+    transform: rotate(-35deg);  
 }
 
 @keyframes slideIn {
     0%   {
+        opacity: 0;
         right: 0;
+    }
+
+    100%    {
+        opacity: 1;
+        right: 450px;
+    }
+}
+@keyframes slideIn1 {
+    0%   {
+        opacity: 0.4;
+        right: 0;
+    }
+
+    100%    {
+        opacity: .8;
+        right: 250px;
     }
 }
 
 .blue {
     background-color: #076ACD;
-    opacity: 0.8;
-    right: 450px;
+    opacity: 0;
+    /* right: 450px; */
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .red {
     background-color: #ff3b45;
-    opacity: 0.4;
-    right: 250px;
+    opacity: 0;
+    /* right: 250px; */
+    animation-name: slideIn1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .31s;
 }
