@@ -7,7 +7,7 @@
     filter: hue-rotate(25deg);
     display: flex;
     align-items: center;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 900;
     color: white;
     overflow: hidden;
@@ -58,4 +58,38 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-delay: .31s;
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-buttons button {
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 0 20px;
+    width: 120px;
+    border: 1px solid #ff3b45;
+    color: black;
+}
+
+.pagination-buttons button:hover {
+    background-color: #076ACD;
+    border: none;
+    color: white;
+}
+
+.pagination-buttons button:disabled {
+    opacity: 0.3;
+    background-color: white;
+    border: 1px solid #ff3b45;
+    color: black;
+}
+
+.pagination-buttons button:active {
+    background-color: #076ACD;
+    border: none;
+    color: white;
 }
