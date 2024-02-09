@@ -22,10 +22,7 @@ export default function Bihub() {
             about technology and create businesses out of it. Some of the
             innovations that are as a result of this initiative include Chiniki
             which raised over $50,000 in grants for its intelligent surveillance
-            system. BCScan detects breast cancer at early stage; it bagged a
-            million naira to proceed with its Research and development plan.
-            With BI-Hub you can innovate and build on new solutions, connect,
-            and share expertise with others."
+            system."
       />
       <div className="container-fluid">
         <Scroll

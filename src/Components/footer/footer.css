@@ -188,6 +188,7 @@ a {
   color: #3f3e3e;
   text-align: center;
   border-radius: 50%;
+  font-size: 20px;
 }
 .single-footer-widget .footer-social li a:hover {
   color: #ffffff;
