@@ -3,7 +3,7 @@ import murtala from "../../assets/team/murtala1.jpg";
 import mary from "../../assets/team/marry.jpg";
 import isah from "../../assets/team/ishah3.jpg";
 import fahad from "../../assets/team/fahad3.jpg";
-import ishaq from "../../assets/team/ishaqtg.jpg";
+import ishaq from "../../assets/team/ishaqtg.png";
 import mustapha from "../../assets/team/mustyy.jpg";
 // import  from '../../assets/team/.jpg'
 import dadi from "../../assets/team/daddy2.jpg";
