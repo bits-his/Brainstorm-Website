@@ -122,12 +122,13 @@
 }
 .home-page h1{
   color: var(--text-color);
-  font-size: 3.5rem;
+  font-size: 4rem;
+  font-weight:600;
 }
 .home-page p{
   color:var(--text-color);
   font-size: 2rem;
-  width: 55%;
+  width: 65%;
   margin: 10px auto 0;
 }
 .home-page.animate {

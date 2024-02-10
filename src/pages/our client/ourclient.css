@@ -12,14 +12,14 @@
   font-family: "dosis" sans-serif;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
 }
 
 .cl {
   background-image: url("../../assets/bg-our-client.jpg");
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 60vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -47,12 +47,19 @@
   font-weight: 600;
   margin: 20px 0;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 @media (max-width: 574px) {
   .paragraph {
-    max-width: 90%;
+    max-width: 100%;
+    width: 90%;
+  }
+}
+@media (max-width: 394px) {
+  .paragraph {
+    font-size: 16px;
+    top: 45%;
   }
 }

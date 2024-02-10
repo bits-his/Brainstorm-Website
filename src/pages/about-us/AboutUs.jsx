@@ -59,16 +59,19 @@ export default function AboutUs() {
           heading="Our Mission"
           describtion="Enhance your online presence with cutting-edge web applications. We specialize in creating dynamic and user-friendly web solutions that deliver seamless experiences across devices."
           // img={WD}
+          time={100}
         />
         <AboutCard
           heading="Our History"
           describtion="Empower your business with cutting-edge software solutions tailored to your unique needs. Our software development expertise ensures scalable and efficient solutions accross all devices."
           // img={CSD}
+          time={200}
         />
         <AboutCard
           heading="Who we are "
           describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
           // img={CT}
+          time={300}
         />
       </div>
 

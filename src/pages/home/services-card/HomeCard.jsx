@@ -3,7 +3,7 @@ import './card.css'
 
 export default function HomeCard(props) {
   return (
-    <div className="col-12 col-md-6 col-lg-4 service-card">
+    <div className="col-12 col-md-6 col-lg-4 service-card" data-aos="fade-up" data-aos-once="true" data-aos-delay={props.time}>
     <div className="main-card">
     <div className="main-card-icon">
       <img src={props.img} alt="" />
