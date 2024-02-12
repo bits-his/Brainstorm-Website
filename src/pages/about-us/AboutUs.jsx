@@ -1,7 +1,7 @@
 import React from "react";
 import "./about-us.css";
 // import Hero from '../../Components/Hero/Hero'
-import Img from "../../assets/img/ensuring.jpg";
+import Img from "../../assets/download.jpg";
 import TeamContainer from "./TeamContainer";
 // import Parallex from "../../Components/parallex/Parallex";
 import Designed from "../home/Design/Designed";
@@ -10,6 +10,7 @@ import AboutCard from "./AboutCard";
 // import CSD from '../../pages/services/img/CSD.webp'
 // import CT from '../../pages/services/img/CT.png'
 
+import Parallex from "../../Components/parallex/Parallex";
 export default function AboutUs() {
   let startYear = 2006;
   let currentYear = new Date().getFullYear();
@@ -17,14 +18,14 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="about-head-img">
+      <div className="blog-head-img">
         <div className="container">
           <div>About Us</div>
         </div>
         <div className="strip blue"></div>
         <div className="strip red"></div>
       </div>
-      <div className="container mt-1 d-flex p-4 mb- about-container what">
+      <div className="container mt-1 d-flex p-4 mb- about-container">
         <div className="what-text ">
           <h2
             data-aos="fade-right"
