@@ -1,7 +1,7 @@
 import React from "react";
 import "./about-us.css";
 // import Hero from '../../Components/Hero/Hero'
-import Img from "../../assets/download.jpg";
+import Img from "../../assets/img/ensuring.jpg";
 import TeamContainer from "./TeamContainer";
 import Parallex from "../../Components/parallex/Parallex";
 import Designed from "../home/Design/Designed";
@@ -18,8 +18,8 @@ export default function AboutUs() {
   return (
     <>
       <Parallex page={"About Us"} details />
-      <div className="container mt-5 d-flex p-4 mb- about-container what">
-        <div className="what-text ">
+      <div className="row container m-md-5 justify-content-center align-items-center">
+        <div className="col-md-7 ">
           <h2
             data-aos="fade-right"
             data-aos-once="true"
@@ -27,9 +27,10 @@ export default function AboutUs() {
           >
             About Us
           </h2>
-          <div data-aos="fade-up" data-aos-once="true">
+          <div data-aos="fade-up" data-aos-once="true" className="about-text">
             <h1 className="spa">
-              We have be Innovating for <span className="years">{years}</span>
+              We have been Innovating for over{" "}
+              <span className="years">{years}</span>
             </h1>
             <p>
               Brainstorm IT Solutions is a software solution company with a wide
@@ -47,13 +48,14 @@ export default function AboutUs() {
           </div>
         </div>
         <div
-          className="what-img m-3"
+          className="col-md-5 about-img"
           data-aos="zoom-in-left"
           data-aos-once="true"
         >
-          <img src={Img} alt="" className />
+          <img src={Img} alt="aboutplaceholder" />
         </div>
       </div>
+
       <div className="row service-container container">
         <AboutCard
           heading="Our Mission"
