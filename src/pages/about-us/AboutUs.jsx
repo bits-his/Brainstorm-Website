@@ -17,7 +17,7 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="blog-head-img">
+      <div className="about-head-img">
         <div className="container">
           <div>About Us</div>
         </div>
