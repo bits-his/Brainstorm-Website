@@ -4,6 +4,12 @@ import "./about-us.css";
 import Img from "../../assets/download.jpg";
 import TeamContainer from "./TeamContainer";
 import Parallex from "../../Components/parallex/Parallex";
+import Designed from "../home/Design/Designed";
+import AboutCard from "./AboutCard";
+// import WD from '../../pages/services/img/WD.webp'
+// import CSD from '../../pages/services/img/CSD.webp'
+// import CT from '../../pages/services/img/CT.png'
+
 export default function AboutUs() {
   let startYear = 2006;
   let currentYear = new Date().getFullYear();
@@ -11,10 +17,13 @@ export default function AboutUs() {
 
   return (
     <>
-      <Parallex
-        page={"About Us"}
-        details
-      />
+      <div className="about-head-img">
+        <div className="container">
+          <div>About Us</div>
+        </div>
+        <div className="strip blue"></div>
+        <div className="strip red"></div>
+      </div>
       <div className="container mt-5 d-flex p-4 mb-5 about-container what">
         <div className="what-text ">
           <h2
@@ -52,6 +61,28 @@ export default function AboutUs() {
         </div>
       </div>
 
+      <div className="row service-container container">
+        <AboutCard
+          heading="Our Mission"
+          describtion="Enhance your online presence with cutting-edge web applications. We specialize in creating dynamic and user-friendly web solutions that deliver seamless experiences across devices."
+          // img={WD}
+          time={100}
+        />
+        <AboutCard
+          heading="Our History"
+          describtion="Empower your business with cutting-edge software solutions tailored to your unique needs. Our software development expertise ensures scalable and efficient solutions accross all devices."
+          // img={CSD}
+          time={200}
+        />
+        <AboutCard
+          heading="Who we are "
+          describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
+          // img={CT}
+          time={300}
+        />
+      </div>
+
+      <Designed />
       {/* <Hero page='About'/> */}
 
       <TeamContainer />
