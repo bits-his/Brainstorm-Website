@@ -3,7 +3,7 @@ import "./about-us.css";
 // import Hero from '../../Components/Hero/Hero'
 import Img from "../../assets/img/ensuring.jpg";
 import TeamContainer from "./TeamContainer";
-import Parallex from "../../Components/parallex/Parallex";
+// import Parallex from "../../Components/parallex/Parallex";
 import Designed from "../home/Design/Designed";
 import AboutCard from "./AboutCard";
 // import WD from '../../pages/services/img/WD.webp'
