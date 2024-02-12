@@ -85,7 +85,8 @@ a {
   transition: all 0.4s ease-in-out;
 }
 .single-footer-widget ul > li > a:hover {
-  color: #3f3e3e;
+  color: #000;
+  font-weight: 600;
 }
 .footer-contact h5 {
   color: var(--text-color);
