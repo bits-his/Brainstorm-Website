@@ -11,10 +11,13 @@ export default function AboutUs() {
 
   return (
     <>
-      <Parallex
-        page={"About Us"}
-        details
-      />
+      <div className="about-head-img">
+        <div className="container">
+          <div>About </div>
+        </div>
+        <div className="strip blue"></div>
+        <div className="strip red"></div>
+      </div>
       <div className="container mt-5 d-flex p-4 mb-5 about-container what">
         <div className="what-text ">
           <h2
