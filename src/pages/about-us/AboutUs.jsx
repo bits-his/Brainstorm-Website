@@ -17,8 +17,17 @@ export default function AboutUs() {
 
   return (
     <>
-      <Parallex page={"About Us"} details />
-      <div className="container mt-5 d-flex p-4 mb- about-container what">
+      <div className="blog-head-img">
+        <div className="container">
+          <div>About Us</div>
+        </div>
+        <div className="rounded-circle balls-one-about-us"></div>
+        <div className="rounded-circle balls-two-about-us"></div>
+        <div className="rounded-circle balls-three-about-us"></div>
+        <div className="rounded-circle balls-four-about-us"></div>
+        <div className="rounded-circle balls-five-about-us"></div>
+      </div>
+      <div className="container mt-1 d-flex p-4 mb- about-container what">
         <div className="what-text ">
           <h2
             data-aos="fade-right"
