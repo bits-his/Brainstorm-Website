@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .hero-p img{
    position: relative; 
@@ -121,3 +122,179 @@
         height: 100vh;
     }
 } */
+
+.balls-one-about-us {
+    position: absolute;
+    top: 10%;
+    height: 150px;
+    width: 150px;
+    background-color: #076ACD;
+    opacity: 0;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.balls-two-about-us {
+    position: absolute;
+    top: 43%;
+    height: 40px;
+    width: 40px;
+    background-color: #ff3b45;
+    opacity: 0;
+    animation-name: ball2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .31s;
+}
+
+.balls-three-about-us {
+    position: absolute;
+    top: 30%;
+    height: 75px;
+    width: 75px;
+    background-color: #ff3b45;
+    opacity: 0;
+    animation-name: ball3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+.balls-four-about-us {
+    position: absolute;
+    top: 55%;
+    height: 100px;
+    width: 100px;
+    background-color: #076ACD;
+    opacity: 0;
+    animation-name: ball4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .62s;
+}
+
+.balls-five-about-us {
+    position: absolute;
+    top: 72%;
+    height: 70px;
+    width: 70px;
+    background-color: #ff3b45;
+    opacity: 0;
+    animation-name: ball5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .7s;
+}
+
+.balls-six-about-us {
+    position: absolute;
+    top: 12%;
+    height: 80px;
+    width: 80px;
+    background-color: var(--main-color);
+    opacity: 0;
+    animation-name: ball6;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .47s;
+}
+
+.balls-seven-about-us {
+    position: absolute;
+    top: 80%;
+    height: 200px;
+    width: 200px;
+    background-color: #ff3b45;
+    opacity: 0;
+    animation-name: ball7;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .8s;
+}
+
+@keyframes ball2 {
+    0%   {
+        opacity: 0.1;
+        left: 0;
+    }
+
+    100%    {
+        opacity: .4;
+        left: 250px;
+    }
+}
+
+@keyframes ball3 {
+    0%   {
+        opacity: 0.1;
+        right: 0;
+    }
+
+    100%    {
+        opacity: .4;
+        right: 150px;
+    }
+}
+
+@keyframes ball4 {
+    0%   {
+        opacity: 0.1;
+        left: 0;
+    }
+
+    100%    {
+        opacity: .4;
+        left: 500px;
+    }
+}
+
+@keyframes ball5 {
+    0%   {
+        opacity: 0.1;
+        right: 0;
+    }
+
+    100%    {
+        opacity: .5;
+        right: 350px;
+    }
+}
+
+@keyframes ball6 {
+    0%   {
+        opacity: 0.1;
+        left: 0;
+    }
+
+    100%    {
+        opacity: .4;
+        left: 400px;
+    }
+}
+
+@keyframes ball7 {
+    0%   {
+        opacity: 0.1;
+        left: 0;
+    }
+
+    100%    {
+        opacity: .4;
+        left: 90px;
+    }
+}
+
+@media (max-width: 1150px){
+    .balls-one-about-us {
+        display: none;
+    }
+
+    .balls-six-about-us {
+        display: none;
+    }
+
+    .balls-seven-about-us {
+        display: none;
+    }
+}

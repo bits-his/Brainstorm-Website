@@ -18,6 +18,13 @@ export default function Parallex({page, details ,img}) {
         </div>
        </div>
       </div>
+      <div className="rounded-circle balls-one-about-us"></div>
+      <div className="rounded-circle balls-two-about-us"></div>
+      <div className="rounded-circle balls-three-about-us"></div>
+      <div className="rounded-circle balls-four-about-us"></div>
+      <div className="rounded-circle balls-five-about-us"></div>
+      <div className="rounded-circle balls-six-about-us"></div>
+      <div className="rounded-circle balls-seven-about-us"></div>
     </div>
   );
 }
