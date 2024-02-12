@@ -125,6 +125,22 @@
     }
 }
 
+
+.blog-head-img{
+    background: url("../../assets/img/about-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+    position: relative;
+    filter: hue-rotate(25deg);
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    overflow: hidden;
+}
+
 .balls-one-about-us {
     position: absolute;
     top: 10%;

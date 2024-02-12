@@ -21,11 +21,8 @@ export default function AboutUs() {
         <div className="container">
           <div>About Us</div>
         </div>
-        <div className="rounded-circle balls-one-about-us"></div>
-        <div className="rounded-circle balls-two-about-us"></div>
-        <div className="rounded-circle balls-three-about-us"></div>
-        <div className="rounded-circle balls-four-about-us"></div>
-        <div className="rounded-circle balls-five-about-us"></div>
+        <div className="strip blue"></div>
+        <div className="strip red"></div>
       </div>
       <div className="container mt-1 d-flex p-4 mb- about-container what">
         <div className="what-text ">
