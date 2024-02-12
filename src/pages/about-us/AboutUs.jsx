@@ -3,14 +3,13 @@ import "./about-us.css";
 // import Hero from '../../Components/Hero/Hero'
 import Img from "../../assets/download.jpg";
 import TeamContainer from "./TeamContainer";
-// import Parallex from "../../Components/parallex/Parallex";
+import Parallex from "../../Components/parallex/Parallex";
 import Designed from "../home/Design/Designed";
 import AboutCard from "./AboutCard";
 // import WD from '../../pages/services/img/WD.webp'
 // import CSD from '../../pages/services/img/CSD.webp'
 // import CT from '../../pages/services/img/CT.png'
 
-import Parallex from "../../Components/parallex/Parallex";
 export default function AboutUs() {
   let startYear = 2006;
   let currentYear = new Date().getFullYear();
@@ -18,13 +17,7 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="blog-head-img">
-        <div className="container">
-          <div>About Us</div>
-        </div>
-        <div className="strip blue"></div>
-        <div className="strip red"></div>
-      </div>
+      <Parallex  page='About'/>
       <div className="container mt-1 d-flex p-4 mb- about-container">
         <div className="what-text ">
           <h2
@@ -55,7 +48,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div
-          className="col-md-5 about-img"
+          className=" about-img"
           data-aos="zoom-in-left"
           data-aos-once="true"
         >
