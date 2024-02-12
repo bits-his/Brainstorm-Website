@@ -17,10 +17,6 @@ export default function AboutUs() {
 
   return (
     <>
-<<<<<<< HEAD
-      <Parallex  page='About'/>
-      <div className="container mt-1 d-flex p-4 mb- about-container">
-=======
       <div className="about-head-img">
         <div className="container">
           <div>About Us</div>
@@ -29,7 +25,6 @@ export default function AboutUs() {
         <div className="strip red"></div>
       </div>
       <div className="container mt-5 d-flex p-4 mb-5 about-container what">
->>>>>>> 2282a153f95bceab0ba42f560b97564bb6792d0c
         <div className="what-text ">
           <h2
             data-aos="fade-right"
@@ -63,7 +58,7 @@ export default function AboutUs() {
           data-aos="zoom-in-left"
           data-aos-once="true"
         >
-          <img src={Img} alt="aboutplaceholder" />
+          {/* <img src={Img} alt="aboutplaceholder" /> */}
         </div>
       </div>
 
