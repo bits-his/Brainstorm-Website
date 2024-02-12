@@ -1,6 +1,7 @@
 import BlogsCard from "./BlogsCard"
 import blog1 from "../../assets/img/blog1-5-510x400.jpg";
 import { useState } from "react";
+import { HiArrowNarrowRight,HiArrowNarrowLeft } from "react-icons/hi";
 import "./blogs.css"
 
 const cards = [
@@ -49,8 +50,9 @@ export default function Blogs() {
                     ))}
                 </div>
                 <div className="pagination-buttons mb-4 mt-3">
-                    <button onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
-                    <button onClick={handleNextPage} disabled={indexOfLastCard >= cards.length}>Next</button>
+                    <button onClick={handlePrevPage} disabled={currentPage === 1}><HiArrowNarrowLeft size={20} fontWeight={600} /></button>
+                    <span className="current-page">{currentPage}</span>
+                    <button onClick={handleNextPage} disabled={indexOfLastCard >= cards.length}><HiArrowNarrowRight size={20} fontWeight={600} /></button>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ export default function TeamCard({pic,name,role,ceo,delay}) {
       </div>
       <div className="info">
         <h4>{name}</h4>
-        <p className="role"> {role} {ceo} </p>
+        <p className="role"> {role} <br/>{ceo} </p>
       </div>
      </div> 
      </div>

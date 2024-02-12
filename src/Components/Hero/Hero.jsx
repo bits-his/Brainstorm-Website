@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 export default function Hero({ page }) {
   return (
     <>
-      <div className="overlay">
+     <div className="Hero">
+     <div className="overlay">
         <h1 className="hero-heading">{page}</h1>
         <ul>
           <li>
@@ -15,6 +16,7 @@ export default function Hero({ page }) {
           <li>{page}</li>
         </ul>
       </div>
+     </div>
     </>
   );
 }

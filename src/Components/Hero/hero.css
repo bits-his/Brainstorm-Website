@@ -1,25 +1,25 @@
-/* .Hero{
-    background-image: url('../../assets/img/260168\ \(2\).jpg');
-    margin: -10vh 0;
-    opacity: 0.8;
+.Hero{
+    background-image: url('../../assets/img/about-hero.jpg');
+    /* margin: -10vh 0; */
+    /* opacity: 0.8; */
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     background-position: center center;
-    min-height: 90dvh;
+    min-height: 65dvh;
     position: relative;
-} */
-/* .hero-heading {
+}
+ .hero-heading {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 3rem;
     font-family: tahoma;
     color: #f1f1f1;
-} */
+}
 .overlay {
   position: absolute;
-  /* top: 50%; */
-  /* left: 10%; */
+  top: 50%;
+  left: 10%;
   top: 0px;
   left: 120px;
   margin-bottom: 20px;

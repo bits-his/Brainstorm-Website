@@ -63,21 +63,27 @@
 .pagination-buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .pagination-buttons button {
     margin: 0 5px;
-    background-color: white;
-    border-radius: 7px;
-    padding: 0 20px;
-    width: 120px;
+    background-color: transparent;
+    border-radius: inherit;
+    padding: 8px;
+    outline: none;
     border: 1px solid #ff3b45;
     color: black;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.pagination-buttons button:hover {
+.pagination-buttons button:hover,
+.pagination-buttons button:active  {
     background-color: #076ACD;
-    border: none;
+    border: transparent 1px solid;
     color: white;
 }
 
@@ -87,9 +93,7 @@
     border: 1px solid #ff3b45;
     color: black;
 }
-
-.pagination-buttons button:active {
-    background-color: #076ACD;
-    border: none;
-    color: white;
+.current-page{
+    padding: 5px 10px;
+    font-size: 19px;
 }
