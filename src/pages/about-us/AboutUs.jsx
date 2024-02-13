@@ -3,7 +3,7 @@ import "./about-us.css";
 // import Hero from '../../Components/Hero/Hero'
 // import Img from "../../assets/download.jpg";
 import TeamContainer from "./TeamContainer";
-// import Parallex from "../../Components/parallex/Parallex";
+import Parallex from "../../Components/parallex/Parallex";
 import Designed from "../home/Design/Designed";
 import AboutCard from "./AboutCard";
 // import WD from '../../pages/services/img/WD.webp'
@@ -17,13 +17,7 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="about-head-img">
-        <div className="container">
-          <div>About Us</div>
-        </div>
-        <div className="strip blue"></div>
-        <div className="strip red"></div>
-      </div>
+     <Parallex page='About US' />
       <div className="container mt-5 d-flex p-4 mb-5 about-container what">
         <div className="what-text ">
           <h2
@@ -36,7 +30,7 @@ export default function AboutUs() {
           <div data-aos="fade-up" data-aos-once="true" className="about-text">
             <h1 className="spa">
               We have been Innovating for over{" "}
-              <span className="years">{years}</span>
+              <span className="years">{years}</span> years
             </h1>
             <p>
               Brainstorm IT Solutions is a software solution company with a wide

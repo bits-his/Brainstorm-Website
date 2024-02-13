@@ -7,8 +7,8 @@ export default function Team() {
   return (
    <>
     <Hero />
-    <div className="container">
-    <Scroll title='Meet Our Amazing teams'/>
+    <div className="container pt-3">
+    <Scroll title='Meet Our Developers' page=''/>
     <TeamCardsContainer />
     </div>
    </>
