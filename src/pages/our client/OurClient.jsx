@@ -19,13 +19,16 @@ export default function OurClient() {
   return (
     <>
       <div className="cl">
-        <h3 className="claye">Our Clients</h3>
+        <div className="clll">
+          <h3 className="claye">Our Clients</h3>
+          <p className="paragraph">
+            Thank you for choosing Brainstorm as your trusted technology
+            partner. At brainstorm, we are committed to delivering cutting-edge
+            software solutions tailored to meet the unique needs of your
+            business.
+          </p>
+        </div>
       </div>
-      <p className="paragraph">
-        Thank you for choosing Brainstorm as your trusted technology partner. At
-        brainstorm, we are committed to delivering cutting-edge software
-        solutions tailored to meet the unique needs of your business.
-      </p>
 
       <div className="contain">
         <div className="row">
