@@ -59,6 +59,16 @@
     color: black;
     font-weight: normal;
 }
+.parallex-strip{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2;
+    padding: 0 100px;
+}
 
 /* .parallex-overlay h1{
     animation: fade-up linear;

@@ -18,19 +18,19 @@
   transform: translateY(-12px);
   box-shadow: 5px 5px 20px #b3b3b39d;
   transition: 1s;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     45deg,
     var(--red-color),
     var(--red-color),
     rgba(255, 255, 255, 0.612),
     var(--main-color),
     var(--main-color)
-  );
+  ); */
   /* background-repeat: no-repeat; */
 }
 .main-card-icon {
   display: inline-flex;
-  justify-content: end;
+  justify-content: flex-end;
   position: absolute;
   right: 0;
   top: 0;
@@ -59,7 +59,7 @@
 }
 .more-service {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   gap: 15px;
   margin-top: 10px;

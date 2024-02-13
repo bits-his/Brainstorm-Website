@@ -15,9 +15,7 @@ export default function HomeCardContainer() {
         <Scroll
           page={"home"}
           title={"Our featured solutions"}
-          span={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
+          span
         />
         <HomeCard
           heading="Website Development"
