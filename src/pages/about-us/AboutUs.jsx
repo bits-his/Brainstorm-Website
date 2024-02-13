@@ -17,7 +17,7 @@ export default function AboutUs() {
 
   return (
     <>
-     <Parallex page='About US' strip={true}/>
+     <Parallex page='About Us' strip={true}/>
       <div className="container mt-5 d-flex p-4 mb-5 about-container what">
         <div className="what-text ">
           <h2
