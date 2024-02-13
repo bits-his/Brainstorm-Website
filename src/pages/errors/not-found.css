@@ -4,6 +4,39 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    text-align: center;
 }
 
+h4.error-code {
+    font-size: 1.2rem;
+    color: var(--red-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.error h2 {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.error p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.error-nav-buttons button {
+    border-radius: 8px;
+    border: none;
+    background-color: var(--main-color);
+    padding: 5px 9px;
+    transition: background-color .3s;
+}
+
+.error-nav-buttons button a{
+    color: white;
+}
+
+.error-nav-buttons button:hover {
+    background-color: var(--red-color);
+    box-shadow: 1px 0 7px black;
+}
