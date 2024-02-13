@@ -11,8 +11,8 @@ export default function BlogsContainer() {
         <div className="top-text">
           <h3>Our recent story</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            harum earum vel autem, reiciendis iusto quidem.
+            {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            harum earum vel autem, reiciendis iusto quidem. */}
           </p>
         </div>
         <div className="container">

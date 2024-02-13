@@ -24,7 +24,7 @@ export default function Bihub() {
             which raised over $50,000 in grants for its intelligent surveillance
             system."
       />
-      <div className="container-fluid">
+      <div className="container-fluid my-5">
         <Scroll
           title="Get to Know Our Startup."
           page="bihub"

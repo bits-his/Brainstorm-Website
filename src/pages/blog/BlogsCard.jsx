@@ -16,9 +16,9 @@ export default function BlogCard({ img, title, date }) {
           <div className="home-blog-content mb-4">
             <small>{date}</small>
             <h3>
-              <Link>{title}</Link>
+              <Link to="/blog/blogdetails">{title}</Link>
             </h3>
-            <Link className="read-more">
+            <Link to="/blog/blogdetails" className="read-more">
               Read more{" "}
               <span className="animated-arrow">
                 <HiArrowNarrowRight size={20} fontWeight={600} />
