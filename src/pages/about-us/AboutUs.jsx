@@ -17,19 +17,8 @@ export default function AboutUs() {
 
   return (
     <>
-<<<<<<< HEAD
-      <div className="about-head-img">
-        <div className="container">
-            <div>About Us</div>
-        </div>
-        <div className="strip blue"></div>
-        <div className="strip red"></div>
-      </div>
-      <div className="container d-flex p-4 mb-5 about-container what">
-=======
      <Parallex page='About Us' strip={true}/>
       <div className="container mt-5 d-flex p-4 mb-5 about-container what">
->>>>>>> 99535538d18b9f5d85c265143613e54d9abe43aa
         <div className="what-text ">
           <h2
             data-aos="fade-right"
