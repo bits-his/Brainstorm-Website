@@ -15,7 +15,7 @@ export default function BlogCard({ img, headline, details }) {
           </div>
           <div className="home-blog-content mb-4">
             <h3>
-              <Link>{headline}</Link>
+              {headline}
             </h3>
             <p>{details}</p>
             <Link className="read-more">
