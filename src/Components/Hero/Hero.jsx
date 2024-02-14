@@ -1,6 +1,5 @@
 import "./hero.css";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Hero({ page }) {
   return (
@@ -9,10 +8,7 @@ export default function Hero({ page }) {
      <div className="overlay">
         <h1 className="hero-heading">{page}</h1>
         <ul>
-          <li>
-            <Link to="/">home /</Link>
-          </li>
-
+          <li></li>
           <li>{page}</li>
         </ul>
       </div>

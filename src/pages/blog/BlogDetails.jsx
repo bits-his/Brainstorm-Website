@@ -1,12 +1,13 @@
 import React from 'react'
 import './details.css'
-import Hero from '../../Components/Hero/Hero'
 
 export default function BlogDetails() {
   return (
-    <div>
-        <Hero />
-        This is Blog lor
-    </div>
+    <>
+       <div className='blog-details-nav-img'></div>
+       <div className='container'>
+        <div className='row'></div>
+       </div>
+    </>
   )
 }
