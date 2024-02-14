@@ -9,7 +9,7 @@ import pic5 from '../../assets/team/ahmad2.png'
 import pic6 from '../../assets/team/sadiq1.png'
 import pic7 from '../../assets/team/ahmad.jpg'
 import pic8 from '../../assets/team/Abdurrahman-removebg-preview.png'
-import pic9 from '../../assets/team/nagudu.png'
+import pic9 from '../../assets/team/Nagudu.png'
 import pic10 from '../../assets/team/nazif.png'
 import pic11 from '../../assets/team/mide.png'
 
