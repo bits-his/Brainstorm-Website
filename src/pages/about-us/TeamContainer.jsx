@@ -1,6 +1,6 @@
 import React from "react";
 import murtala from "../../assets/team/murtala1.png";
-import dangana from '../../assets/team/mr-dangana.jpg'
+import dangana from '../../assets/team/mr-dangana.png'
 import mary from "../../assets/team/marry1.png";
 import isah from "../../assets/team/isah1.png";
 import fahad from "../../assets/team/fahad1.png";
@@ -18,8 +18,8 @@ export default function TeamContainer() {
       <Scroll title="Managemet" page="about" />
       <div className="container">
         <div className="team row pt-3">
-          <TeamCard pic={dangana} name="Idris Abdulkadir" role='Ceo Brainstorm' delay={50} />
-          <TeamCard pic={isah} name="Isah" role='Coo Brainstorm'  delay={100} />
+          <TeamCard pic={dangana} name="Idris Abdulkadir Dangana" role='Ceo Brainstorm' delay={50} />
+          <TeamCard pic={isah} name="Isah Muhd Rabiu" role='Ceo Islahpay'  delay={100} />
           <TeamCard pic={mary} name={"Mary"} role='Manager' delay={130} />
           <TeamCard pic={mustapha} name={nam} role='Ceo Mylikita' delay={200} />
           <TeamCard pic={ishaq} name={"Ishaq"} role='Ceo Wonda Homes' delay={250} />

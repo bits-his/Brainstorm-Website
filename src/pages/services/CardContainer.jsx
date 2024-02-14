@@ -60,7 +60,7 @@ export default function CardContainer() {
         />
         <Card
           heading="Software Consultancy"
-          describtion="We advise on technology selection, architecture, implementation methodology, and best practices. Our expert team of engineers can advise on any aspect of software engineering development."
+          describtion="We advise on technology selection, architecture, implementation methodology, and best practices. Our expert team of engineers can advise on any aspect of software engineering development and improvement."
           img={SC}
           time={500}
         />

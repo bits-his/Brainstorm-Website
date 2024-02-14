@@ -50,6 +50,7 @@
     height: 170%;
     width: 150px;
     transform: rotate(-35deg);  
+    z-index: 2;
 }
 
 @keyframes slideIn {
@@ -84,7 +85,7 @@
 }
 
 .red {
-    background-color: #ff3b45;
+    background-color: var(--red-color);
     opacity: 0;
     animation-name: slideIn1;
     animation-duration: 1s;

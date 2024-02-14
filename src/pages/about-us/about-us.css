@@ -126,6 +126,9 @@
         /* height: 350px; */
         margin-inline: auto;
     }
+    .team-card:hover .social{
+        transform: none;
+    }
    /* .team-card img{
     height: 350px;
    } */
