@@ -1,5 +1,6 @@
 import BlogsCard from "./BlogsCard";
 import blog1 from "../../assets/img/blog1-5-510x400.jpg";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { HiArrowNarrowRight,HiArrowNarrowLeft } from "react-icons/hi";
 import "./blogs.css"
@@ -81,7 +82,9 @@ export default function Blogs() {
             <div className="card-pagination">
                 <div className="card-list row">
                     {currentCards.map((card, index) => (
-                    <BlogsCard key={index} {...card} />
+                    <Link to={"/blog/blogdetails/"+card.id} className="home-blog col-lg-4 col-md-6 col-sm-12 p-3 mb-4 position-relative">
+                      <BlogsCard key={index} {...card} />
+                    </Link>
                     ))}
                 </div>
                 <div className="pagination-buttons mb-4 mt-3">
