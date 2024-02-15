@@ -38,7 +38,7 @@
 }
 
 .grey-img {
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   opacity: 1;
   position: absolute;
   transition: filter 0.5s ease,  opacity 0.5s ease, transform 0.5s ease;
@@ -53,7 +53,7 @@
   transform: translateY(-100%);
 }
 
-.div:hover .grey-img {
+/* .div:hover .grey-img {
   opacity: 0; 
   transform: translateY(100%);
 }
@@ -61,7 +61,7 @@
 .div:hover .color-img {
   opacity: 1;
   transform: translateY(0%);
-}
+} */
 }
 
 @media (max-width: 574px) {

@@ -7,9 +7,9 @@
 }
 .claye {
   color: var(--main-color);
-  font-size: 40px;
+  /* font-size: 40px; */
   font-weight: 700;
-  font-family: "dosis" sans-serif;
+  /* font-family: "dosis" sans-serif; */
   text-align: center;
 }
 
@@ -29,7 +29,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100%; /* Adjust height as needed */
+    height: 70%; /* Adjust height as needed */
     background: linear-gradient(
     to bottom,
     transparent 0%,
@@ -44,7 +44,7 @@
 .paragraph {
   text-align: center;
   max-width: 60%;
-  font-size: 17px;
+  font-size: 1.25rem;
   font-weight: 600;
   margin: 20px auto;
 }
