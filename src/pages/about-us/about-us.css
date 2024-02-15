@@ -9,7 +9,7 @@
 .about-card{
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: var(--grey-background);
     /* align-items: center; */
     padding: 14px;
     transition: 0.3s ease-in-out;

@@ -17,13 +17,13 @@
     font-weight: bold;
     font-size: 3rem;
     font-family: tahoma;
-    color: #f1f1f1;
+    color: var(--main-color);
 }
 .overlay {
   position: absolute;
   top: 50%;
   left: 10%;
-  top: 0px;
+  /* top: 0px; */
   left: 120px;
   margin-bottom: 20px;
 }
