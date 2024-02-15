@@ -72,13 +72,11 @@ export default function AboutUs() {
         <AboutCard
           heading="Who we are "
           describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
-          // img={CT}
           time={300}
         />
       </div>
 
       <Designed />
-      {/* <Hero page='About'/> */}
 
       <TeamContainer />
     </>

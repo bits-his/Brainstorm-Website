@@ -19,65 +19,68 @@ export default function OurClient() {
   return (
     <>
       <div className="cl">
-        <h3 className="claye">Our Clients</h3>
+        <div className="clll">
+          <h3 className="claye">Our Clients</h3>
+          <p className="paragraph">
+            Thank you for choosing Brainstorm as your trusted technology
+            partner. At brainstorm, we are committed to delivering cutting-edge
+            software solutions tailored to meet the unique needs of your
+            business.
+          </p>
+        </div>
       </div>
-      <p className="paragraph">
-        Thank you for choosing Brainstorm as your trusted technology partner. At
-        brainstorm, we are committed to delivering cutting-edge software
-        solutions tailored to meet the unique needs of your business.
-      </p>
 
       <div className="contain">
         <div className="row">
           <CustumeClient
             col="3"
             col2="6"
-            alt="sanda"
-            img={govt}
+            greyImg={govt}
+            colorImg={govt}
             text="Kano State Govt"
           />
           <CustumeClient
             col="3"
             col2="6"
-            alt="sanda"
-            img={aminu}
-            text="Aminu Kano"
+            greyImg={aminu}
+            colorImg={aminu}
+            text="Aminu Kano Teaching Hospital"
           />
 
           <CustumeClient
             col="3"
             col2="6"
-            alt="sanda"
-            img={state}
+            greyImg={state}
+            colorImg={state}
+            text="Kano Local Govt"
+          />
+          <CustumeClient
+            col="3"
+            col2="6"
+            greyImg={health}
+            colorImg={health}
+            text="kSCHMA"
+          />
+          <CustumeClient
+            col="3"
+            col2="6"
+            greyImg={sanda}
+            colorImg={sanda}
             text="sanda tireda"
           />
           <CustumeClient
             col="3"
             col2="6"
-            alt="sanda"
-            img={health}
-            text="sanda tireda"
-          />
-          <CustumeClient
-            col="3"
-            alt="sanda"
-            col2="6"
-            img={sanda}
-            text="sanda tireda"
-          />
-          <CustumeClient
-            col="3"
-            col2="6"
-            alt="sanda"
-            img={zagis}
-            text="sanda tireda"
+            greyImg={zagis}
+            colorImg={zagis}
+            text="ZAGIS"
           />
 
           <CustumeClient
             col="3"
-            alt="sanda"
             col2="6"
-            img={pikme}
+            greyImg={pikme}
+            colorImg={pikme}
             text="Pikme"
             circle="rounded-circle"
           />
@@ -85,7 +88,8 @@ export default function OurClient() {
             col="3"
             col2="6"
             alt="sanda"
-            img={katsina}
+            greyImg={katsina}
+            colorImg={katsina}
             text="Katsina State Govt"
           />
 
@@ -93,45 +97,50 @@ export default function OurClient() {
             col="3"
             col2="6"
             alt="sanda"
-            img={insurance}
-            text="sanda tireda"
+            greyImg={insurance}
+            colorImg={insurance}
+            text="national health insurance scheme"
           />
 
           <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
-            img={immigration}
-            text="sanda tireda"
+            greyImg={immigration}
+            colorImg={immigration}
+            text="immigration"
           />
           <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
-            img={habeeby}
-            text="sanda tireda"
+            greyImg={habeeby}
+            colorImg={habeeby}
+            text="habeeby health LTD"
           />
 
           <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
-            img={kano}
-            text="sanda tireda"
+            greyImg={kano}
+            colorImg={kano}
+            text="SFTAS Kano"
           />
           <CustumeClient
             col="3"
             alt="sanda"
             col2="6"
-            img={prime}
-            text="sanda tireda"
+            greyImg={prime}
+            colorImg={prime}
+            text="prime Specialist clinic"
           />
           <CustumeClient
             col="3"
             col2="6"
-            alt="sanda"
-            img={loogo}
-            text="sanda tireda"
+            greyImg={loogo}
+            colorImg={loogo}
+            text="Remedix"
           />
         </div>
       </div>
