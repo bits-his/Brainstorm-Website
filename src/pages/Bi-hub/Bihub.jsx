@@ -17,18 +17,22 @@ export default function Bihub() {
     <>
       <Parallex
         page="Bi-Hub"
-        details="In order to give back to the society, we created an innovation space
-            known as Bi-Hub where young innovative minds come to learn more
-            about technology and create businesses out of it. Some of the
-            innovations that are as a result of this initiative include Chiniki
-            which raised over $50,000 in grants for its intelligent surveillance
-            system."
+        details="
+        We created Bi-Hub, an innovation space where young minds 
+        learn about technology and create businesses. 
+        Notable success includes Chiniki, which raised over 
+        $50,000 for its intelligent surveillance system."
       />
       <div className="container-fluid my-5">
         <Scroll
           title="Get to Know Our Startup."
           page="bihub"
-          span="Welcome to Bihub - your go-to destination for top-tier software solutions. We turn ideas into reality, delivering innovative and user-friendly software that sets you apart in the digital realm. Join us on this exciting journey of transformation through technology."
+          span="
+          Welcome to Bihub - your go-to destination for top-tier 
+          software solutions. We turn ideas into reality, delivering 
+          innovative and user-friendly software that sets you apart in 
+          the digital realm. Join us on this exciting journey of transformation
+          through technology."
         />
       </div>
       {/* <div className="cared">
@@ -58,7 +62,10 @@ export default function Bihub() {
             alt="mylikita"
             image={mylikita}
             title="Mylikita"
-            text="An EMR that improves teamwork enables better patient care and improves patient satisfaction, all while reducing the cost of care, through partnerships and integrations to deliver a superior,
+            text="
+             An EMR that improves teamwork enables better patient 
+             care and improves patient satisfaction, all while reducing 
+             the cost of care, through partnerships and integrations to deliver a superior,
              user-centric experience and enable seamless
              collaboration with a team of medical professionals."
           />
@@ -80,7 +87,8 @@ export default function Bihub() {
             image={pharmpay}
             title="Pharmpay"
             text="Pharmpay is payment system for associations to manage their
-            members’ monthly, annual dues as well as providing adequate reporting. Other services it provides include association voting, announcements and 
+            members’ monthly, annual dues as well as providing adequate reporting. 
+            Other services it provides include association voting, announcements and 
             association events registration and management."
             number="146"
           />

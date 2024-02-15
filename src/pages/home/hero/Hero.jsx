@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="box">
         </div>
       <div className="overlay-hero">
-      <h1>Welcome to the Innovation Hub</h1>
+      <h1>Welcome Our to Innovation Hub</h1>
         <p>
           We <Text /> digital solutions
         </p>

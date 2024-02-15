@@ -3,7 +3,7 @@ import "./ourclient.css";
 import CustumeClient from "./CustumeClient";
 import sanda from "../../assets/logos/sanda.png";
 import prime from "../../assets/logos/pscprime_logo.png";
-import pikme from "../../assets/logos/pick.png";
+// import pikme from "../../assets/logos/pick.png";
 import katsina from "../../assets/logos/sftas-katsina.png";
 import habeeby from "../../assets/logos/IMG_20220801_152803.jpg";
 import zagis from "../../assets/logos/sftas-zamf.jpg";
@@ -20,7 +20,7 @@ export default function OurClient() {
     <>
       <div className="cl">
         <div className="clll">
-          <h3 className="claye">Our Clients</h3>
+          <h1 className="claye">Our Clients</h1>
           <p className="paragraph">
             Thank you for choosing Brainstorm as your trusted technology
             partner. At brainstorm, we are committed to delivering cutting-edge
@@ -76,14 +76,14 @@ export default function OurClient() {
             text="ZAGIS"
           />
 
-          <CustumeClient
+          {/* <CustumeClient
             col="3"
             col2="6"
             greyImg={pikme}
             colorImg={pikme}
             text="Pikme"
             circle="rounded-circle"
-          />
+          /> */}
           <CustumeClient
             col="3"
             col2="6"
