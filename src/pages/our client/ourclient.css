@@ -6,7 +6,7 @@
   background-position: center;
 }
 .claye {
-  color: #1f1f1f;
+  color: var(--main-color);
   font-size: 40px;
   font-weight: 700;
   font-family: "dosis" sans-serif;

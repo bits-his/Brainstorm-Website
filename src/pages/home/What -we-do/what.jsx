@@ -1,6 +1,6 @@
 import "./what.css";
 import "../../..";
-import Img from "../../../assets/img.svg";
+import Img from "../../../assets/usability-testing-concept_207579-29.avif";
 import Img2 from "../../../assets/img2.svg";
 // import { GoDotFill } from "react-icons/go";
 import { BiCheckDouble } from "react-icons/bi";
@@ -49,7 +49,7 @@ function what() {
             </div>
           </div>
         </div>
-        <div className="container mt-5 d-flex p-4 mb-5 what">
+        <div className="container d-flex p-4 mb-5 what">
           <div className="what-text p-3">
             <h3 data-aos="fade-right" data-aos-once="true">
               Focus on what counts while we manage the <br /> day-to-day
