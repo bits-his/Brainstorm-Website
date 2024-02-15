@@ -52,67 +52,65 @@
 } */
 
 @media (max-width: 872px) {
-.cared {
+  .cared {
     width: 80%;
-}
-}
-@media (min-width: 769px){
-.cared:hover {
-  transform: scale(1.04);
-}
-@keyframes anim {
-  0% {
-    transform: translateY(0);
   }
+}
+@media (min-width: 769px) {
+  .cared:hover {
+    transform: scale(1.04);
+  }
+  @keyframes anim {
+    0% {
+      transform: translateY(0);
+    }
 
-  50% {
-    transform: translateY(-30px);
-  }
-  75% {
-    transform: translateY(50px);
-  }
+    50% {
+      transform: translateY(-30px);
+    }
+    75% {
+      transform: translateY(50px);
+    }
 
-  100% {
-    transform: translateY(0);
+    100% {
+      transform: translateY(0);
+    }
   }
-}
-.cared:hover > .img {
-  height: 55%;
-  filter: blur(7px);
-  animation: anim 3s infinite;
-}
-
+  .cared:hover > .img {
+    height: 55%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+  }
 }
 @media (max-width: 769px) {
+  .cared .img {
+    height: 18%;
+    animation: anim 3s infinite;
+    position: static;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+    margin: 5px 0;
+  }
 
-.cared .img {
-  height: 18%;
-  animation: anim 3s infinite;
-  position: static;
-  transition: 0.2s ease-in-out;
-  z-index: 1;
-  margin: 5px 0;
-}
-
-.cared .textBox {
-  opacity: 1;
-}
-.textBox > .price {
-  font-size: 15px;
-  font-weight: 400;
-}
+  .cared .textBox {
+    opacity: 1;
+  }
+  .textBox > .price {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 @media (max-width: 560px) {
   /* .textBox > .price {
   font-size: 15px;
   font-weight: 400;
 } */
-.cared .img img{
-  width: 200px;
-  height: 10%;
-  margin: auto;
-}
-.cared {
-  display: block;
-}
+  .cared .img img {
+    width: 200px;
+    height: 10%;
+    margin: auto;
+  }
+  .cared {
+    display: block;
+  }
 }
