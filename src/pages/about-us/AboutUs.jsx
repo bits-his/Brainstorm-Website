@@ -65,7 +65,8 @@ export default function AboutUs() {
         />
         <AboutCard
           heading="Our History"
-          describtion="Empower your business with cutting-edge software solutions tailored to your unique needs. Our software development expertise ensures scalable and efficient solutions accross all devices."
+          describtion="We have also empower business with cutting-edge software solutions tailored to thier unique needs. Our software development expertise ensures scalable and efficient solutions accross all devices."
+          // img={CSD}
           time={200}
         />
         <AboutCard
