@@ -63,8 +63,8 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/our-client" >
-              Our Client
+            <NavLink to="/our-clients" >
+              Our Clients
             </NavLink>
           </li>
           <li>

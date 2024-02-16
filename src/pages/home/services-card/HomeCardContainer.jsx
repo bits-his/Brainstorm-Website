@@ -13,7 +13,6 @@ export default function HomeCardContainer() {
     <>
       <div className="row service-container mb-5 pb-5">
         <Scroll
-          page={"home"}
           title={"Our featured solutions"}
           span
         />

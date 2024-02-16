@@ -9,11 +9,7 @@ export default function BlogsContainer() {
     <div>
       <div className="story">
         <div className="top-text">
-          <h3>Our recent story</h3>
-          <p>
-            {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            harum earum vel autem, reiciendis iusto quidem. */}
-          </p>
+          <h3>Our recent stories</h3>
         </div>
         <div className="container">
           <div className="row">

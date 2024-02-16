@@ -63,20 +63,18 @@ export default function AboutUs() {
         <AboutCard
           heading="Our Mission"
           describtion="
-          To provide localized custom software, training, and consultancy services 
-          to our clients that are budget-friendly using standard computing practice."
+          Our mission is to deliver budget-friendly solutions 
+          in custom software development, training, and consultancy services, 
+          to meet the needs of our clients while 
+          adhering to industry-standard computing practices."
           // img={WD}
           time={100}
         />
         <AboutCard
           heading="Our Vision"
-          describtion="To be a distinct pace setter
-          I C T Company committed to
-          the provision of
-          sophisticated and innovative
-          customized software
-          solutions and I C T service
-          delivery."
+          describtion="We aspire to be a distinct pace setter ICT Company, 
+          dedicated to providing sophisticated and innovative customized 
+          software solutions, and exceptional ICT service delivery."
           // img={CSD}
           time={200}
         />
