@@ -11,6 +11,7 @@ import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
 import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
+
 // import Hero from "../../Components/Hero/Hero";
 export default function Bihub() {
   return (
@@ -119,6 +120,39 @@ export default function Bihub() {
             text="DrugCipher introduces a safer and reliable means of 
             eradicating the problems of drug counterfeiting in an ever growing
               world of the pharmaceutical Industry."
+            number="146"
+          />
+          <CustumeCard
+            col="4"
+            col2="6"
+            alt="pikme"
+            image={pikme}
+            title="Pikme"
+            text="A ride hailing platform that enable users
+            to book a ride at their convenience while improving the drivers’ 
+            income generation as well as keep record of his/her earnings"
+            number="146"
+          />
+          <CustumeCard
+            col="4"
+            col2="6"
+            alt="pikme"
+            image={pikme}
+            title="Pikme"
+            text="A ride hailing platform that enable users
+            to book a ride at their convenience while improving the drivers’ 
+            income generation as well as keep record of his/her earnings"
+            number="146"
+          />
+          <CustumeCard
+            col="4"
+            col2="6"
+            alt="pikme"
+            image={pikme}
+            title="Pikme"
+            text="A ride hailing platform that enable users
+            to book a ride at their convenience while improving the drivers’ 
+            income generation as well as keep record of his/her earnings"
             number="146"
           />
           <CustumeCard
