@@ -11,6 +11,8 @@ import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
 import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
+import islahpay from "../../assets/logos/Islahpay logo No Background.png";
+import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
 
 // import Hero from "../../Components/Hero/Hero";
 export default function Bihub() {
@@ -27,7 +29,6 @@ export default function Bihub() {
       <div className="container-fluid my-5">
         <Scroll
           title="Get to Know Our Startups."
-          
           span="
           Welcome to Bihub - your go-to destination for top-tier 
           software solutions. We turn ideas into reality, delivering 
@@ -137,34 +138,18 @@ export default function Bihub() {
             col="4"
             col2="6"
             alt="pikme"
-            image={pikme}
-            title="Pikme"
-            text="A ride hailing platform that enable users
-            to book a ride at their convenience while improving the drivers’ 
-            income generation as well as keep record of his/her earnings"
-            number="146"
+            image={islahpay}
+            title="IslahPay"
+            text="At Islahpay, we are revolutionizing the financial landscape with cutting-edge Islamic fintech solutions. As a forward-thinking Islamic fintech group, we specialize in providing ethical and Sharia-compliant financial services. Explore our range of services that include digital Islamic banking, Sharia-compliant payment systems, crowdfunding, Robo-advisors, and more."
+            number="250"
           />
           <CustumeCard
             col="4"
             col2="6"
             alt="pikme"
-            image={pikme}
-            title="Pikme"
-            text="A ride hailing platform that enable users
-            to book a ride at their convenience while improving the drivers’ 
-            income generation as well as keep record of his/her earnings"
-            number="146"
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="pikme"
-            image={pikme}
-            title="Pikme"
-            text="A ride hailing platform that enable users
-            to book a ride at their convenience while improving the drivers’ 
-            income generation as well as keep record of his/her earnings"
-            number="146"
+            image={wonderhomes}
+            title="Wonda Homes"
+            text="WondaHomes Unlock access to homes and properties from anywhere, right at your fingertips."
           />
         </div>
       </div>
