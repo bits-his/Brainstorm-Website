@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <div className="center-text">
         <p>
-          Since 2006. For millions of users. We transform businesses with
+          We transform businesses with
           powerful and adaptable digital solutions that satisfy the needs of
           today and unlock the opportunities of tomorrow.
         </p>

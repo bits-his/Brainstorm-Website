@@ -13,7 +13,7 @@ import SC from './img/SC.png'
 export default function CardContainer() {
   return (
     <div className=" my-5" id="service" >
-      <Scroll title="Choose From Services" page='services' span='
+      <Scroll title="Choose From Services" span='
       At Brainstorm, we go beyond providing services – we deliver 
       solutions tailored to elevate your success. With a commitment 
       to excellence and a passion for innovation, we stand as your 
@@ -84,10 +84,9 @@ export default function CardContainer() {
         <Card
           heading="Mentorship"
           describtion="
-          We offer personalized mentorship services for individuals and organizations 
-          in the tech industry. Our seasoned mentors provide tailored guidance and support 
-          to help you reach your full potential, whether you're a budding entrepreneur, 
-          seasoned professional, or tech enthusiast."
+          Experience personalized mentorship services for individuals and
+          organizations in the tech industry. Our seasoned mentors provide 
+          tailored guidance to help you reach your full potential."
           img={SC}
           time={500}
         />

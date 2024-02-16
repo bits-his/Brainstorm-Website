@@ -25,8 +25,8 @@ export default function Bihub() {
       />
       <div className="container-fluid my-5">
         <Scroll
-          title="Get to Know Our Startup."
-          page="bihub"
+          title="Get to Know Our Startups."
+          
           span="
           Welcome to Bihub - your go-to destination for top-tier 
           software solutions. We turn ideas into reality, delivering 

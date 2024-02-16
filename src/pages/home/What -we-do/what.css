@@ -65,6 +65,12 @@
   margin: 2px;
 
 }
+.icon{
+  color: #fff;
+  background: var(--main-color);
+  border-radius: 3px;
+  margin: 2px;
+}
 @media only screen and (max-width: 1000px) {
   .what {
     display: grid !important;

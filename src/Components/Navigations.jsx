@@ -18,7 +18,7 @@ export default function Navigations() {
         <Route path='/' element={<Home />} />
         <Route path='/about-us' element={<AboutUs />} />
         <Route path='/contact' element={<Contact />}/>
-        <Route path='/our-client' element={<OurClient />} />
+        <Route path='/our-clients' element={<OurClient />} />
         <Route path='/services' element={<Services /> } />
         <Route path='/blog' element={<Blogs />}/>
         <Route path='/blog/blogdetails/:id' element={<BlogDetails />} />

@@ -6,7 +6,7 @@ import Scroll from '../../../Components/scroll/Scroll'
 export default function CustomCardContainer() {
   return (
     <div className='container-fluid mb-5'>
-       <Scroll title='Technologies We Use' page='Services' span='We use a wide variety of technolies to give you the best treatment you deserve'/>
+       <Scroll title='Technologies We Use' span='We use a wide variety of technolies to give you the best treatment you deserve'/>
         <div className="row g-1">
         <CustomCards 
             title="Frontend"
