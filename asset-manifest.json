@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Brainstorm-update/static/css/main.75bff647.css",
-    "main.js": "/Brainstorm-update/static/js/main.97cba295.js",
+    "main.css": "/Brainstorm-update/static/css/main.61a6e3fe.css",
+    "main.js": "/Brainstorm-update/static/js/main.4304aebe.js",
     "static/js/787.d6554153.chunk.js": "/Brainstorm-update/static/js/787.d6554153.chunk.js",
     "static/media/IMG_20220801_152803.jpg": "/Brainstorm-update/static/media/IMG_20220801_152803.e953f9f4c6e2120945f9.jpg",
     "static/media/marry1.png": "/Brainstorm-update/static/media/marry1.cc18470dedee46a36248.png",
@@ -35,6 +35,7 @@
     "static/media/drugcipher-removebg-preview.png": "/Brainstorm-update/static/media/drugcipher-removebg-preview.fdf593ce5feec843ec40.png",
     "static/media/logo.png": "/Brainstorm-update/static/media/logo.965f4a06b57240d34221.png",
     "static/media/mlt.png": "/Brainstorm-update/static/media/mlt.1de5bb248e2c93684113.png",
+    "static/media/wondahomes-removebg-preview.png": "/Brainstorm-update/static/media/wondahomes-removebg-preview.cc0ca213e77f41a1a9b2.png",
     "static/media/blog1-5-510x400.jpg": "/Brainstorm-update/static/media/blog1-5-510x400.4c502cdb1afbdbc80c7f.jpg",
     "static/media/blog3-5-510x400.jpg": "/Brainstorm-update/static/media/blog3-5-510x400.8c7463bb81e0663f88ee.jpg",
     "static/media/inv.png": "/Brainstorm-update/static/media/inv.1bbac2f97c4a1ee2f2cd.png",
@@ -42,6 +43,7 @@
     "static/media/blog2-5-510x400.jpg": "/Brainstorm-update/static/media/blog2-5-510x400.d1f7a849f9011a748e9f.jpg",
     "static/media/sanda.png": "/Brainstorm-update/static/media/sanda.be51c27571d677281ce0.png",
     "static/media/4.jpg": "/Brainstorm-update/static/media/4.4445d4b5091a74d51e72.jpg",
+    "static/media/Islahpay logo No Background.png": "/Brainstorm-update/static/media/Islahpay logo No Background.df29286744306ad13691.png",
     "static/media/1.jpg": "/Brainstorm-update/static/media/1.5c3a72d8fb9b50495453.jpg",
     "static/media/pick.png": "/Brainstorm-update/static/media/pick.48738c31b632e4318909.png",
     "static/media/6.jpg": "/Brainstorm-update/static/media/6.729031516ec0571430eb.jpg",
@@ -56,12 +58,12 @@
     "static/media/message.webp": "/Brainstorm-update/static/media/message.d2931d3d4f8b43cdbc57.webp",
     "static/media/call.webp": "/Brainstorm-update/static/media/call.1f72ce64f0dbed42e517.webp",
     "static/media/map.webp": "/Brainstorm-update/static/media/map.aef6eb5196012af84589.webp",
-    "main.75bff647.css.map": "/Brainstorm-update/static/css/main.75bff647.css.map",
-    "main.97cba295.js.map": "/Brainstorm-update/static/js/main.97cba295.js.map",
+    "main.61a6e3fe.css.map": "/Brainstorm-update/static/css/main.61a6e3fe.css.map",
+    "main.4304aebe.js.map": "/Brainstorm-update/static/js/main.4304aebe.js.map",
     "787.d6554153.chunk.js.map": "/Brainstorm-update/static/js/787.d6554153.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75bff647.css",
-    "static/js/main.97cba295.js"
+    "static/css/main.61a6e3fe.css",
+    "static/js/main.4304aebe.js"
   ]
 }
