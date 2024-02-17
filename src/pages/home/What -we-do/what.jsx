@@ -25,25 +25,32 @@ function what() {
 
             <div data-aos="fade-up" data-aos-once="true">
               <span className="span">
-                Holistic Management for Your Cloud or On-Premises Infrastructure
-                and Applications.
+              Brainstorm IT Solutions has a wide range of experience in different sectors of the economy.
               </span>
               <ul>
                 <li>
                   <BiCheckDouble className="icon" />
-                  Influencing Sales
+                  Ecommerce
                 </li>
                 <li>
                   <BiCheckDouble className="icon" />
-                  Generating Insights
+                  Agritech
                 </li>
                 <li>
                   <BiCheckDouble className="icon" />
-                  Boosting Operations
+                  PharmaTech
                 </li>
                 <li>
                   <BiCheckDouble className="icon" />
-                  security
+                  Inventory
+                </li>
+                <li>
+                  <BiCheckDouble className="icon" />
+                  Real Estate
+                </li>
+                <li>
+                  <BiCheckDouble className="icon" />
+                  EduTech
                 </li>
               </ul>
             </div>
