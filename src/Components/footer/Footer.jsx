@@ -72,7 +72,7 @@ export default function Footer() {
                       <Link to="/services">Services</Link>
                     </li>
                     <li className="mb-2">
-                      <Link to="/our-client">Our client</Link>
+                      <Link to="/our-client">Our clients</Link>
                     </li>
                     <li className="mb-2">
                       <Link to="/Bi-hub">Bi-hub</Link>
@@ -85,7 +85,7 @@ export default function Footer() {
               </div>
               <div className="col-6 col-sm-6 col-md-4 ps-sm-5 col-lg-3 col-xl-3">
                 <div className="single-footer-widget">
-                  <h5 className="mt-5">Our startup</h5>
+                  <h5 className="mt-5">Our startups</h5>
                   <div
                     className="underline w-25"
                     style={{ marginTop: "-20px" }}

@@ -1,6 +1,7 @@
 {
   "name": "brainstorm",
   "version": "0.1.0",
+  "homepage": "https://aiialpha.github.io/Brainstorm-update/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
     "@types/bootstrap": "^5.2.10",
     "eslint": "^8.56.0",
     "eslint-config-react-app": "^7.0.1",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "miragejs": "^0.1.48"
   }
 }

@@ -1,6 +1,6 @@
 import "./what.css";
 import "../../..";
-import Img from "../../../assets/img.svg";
+import Img from "../../../assets/usability-testing-concept_207579-29.avif";
 import Img2 from "../../../assets/img2.svg";
 // import { GoDotFill } from "react-icons/go";
 import { BiCheckDouble } from "react-icons/bi";
@@ -25,31 +25,38 @@ function what() {
 
             <div data-aos="fade-up" data-aos-once="true">
               <span className="span">
-                Holistic Management for Your Cloud or On-Premises Infrastructure
-                and Applications.
+              Brainstorm IT Solutions has a wide range of experience in different sectors of the economy.
               </span>
               <ul>
                 <li>
                   <BiCheckDouble className="icon" />
-                  Influencing Sales
+                  Ecommerce
                 </li>
                 <li>
                   <BiCheckDouble className="icon" />
-                  Generating Insights
+                  Agritech
                 </li>
                 <li>
                   <BiCheckDouble className="icon" />
-                  Boosting Operations
+                  PharmaTech
                 </li>
                 <li>
                   <BiCheckDouble className="icon" />
-                  security
+                  Inventory
+                </li>
+                <li>
+                  <BiCheckDouble className="icon" />
+                  Real Estate
+                </li>
+                <li>
+                  <BiCheckDouble className="icon" />
+                  EduTech
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="container mt-5 d-flex p-4 mb-5 what">
+        <div className="container d-flex p-4 mb-5 what">
           <div className="what-text p-3">
             <h3 data-aos="fade-right" data-aos-once="true">
               Focus on what counts while we manage the <br /> day-to-day

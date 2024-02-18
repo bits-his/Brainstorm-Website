@@ -22,16 +22,16 @@ export default function TeamCardsContainer() {
         <TeamCard name='' delay={100} pic={pic1} role={'Developer'} ceo={''}/>
         <TeamCard name='' delay={100} pic={pic2} role={'Developer'} ceo={''}/>
         <TeamCard name='' delay={100} pic={pic3} role={'Developer'} ceo={''}/> */}
-        <TeamCard name='Abdulsalam' delay={100} pic={pic4} role={'Developer'} ceo={''}/>
-        <TeamCard name='Sadiq' delay={100} pic={pic6} role={'Developer'} ceo={''}/>
-        <TeamCard name='Ahmad' delay={100} pic={pic7} role={'Developer'} ceo={''}/>
-        <TeamCard name='Khalifa' delay={100} pic={pic9} role={'Developer'} ceo={''}/>
-        <TeamCard name='Abdulrahman' delay={100} pic={pic8} role={'Developer'} ceo={''}/>
-        <TeamCard name='Nazif' delay={100} pic={pic10} role={'Developer'} ceo={''}/>
-        <TeamCard name='Ahmad' delay={100} pic={pic5} role={'Developer'} ceo={''}/>
-        <TeamCard name='Ayomide' delay={100} pic={pic11} role={'Developer'} ceo={''}/>
-        <TeamCard name='Bashir' delay={100} pic={pic2} role={'Developer'} ceo={''}/>
-        <TeamCard name='Abba' delay={100} pic={pic2} role={'Developer'} ceo={''}/>
+        <TeamCard name='Abdulsalam Abubakar' delay={100} pic={pic4} role={'Developer'} ceo={''}/>
+        <TeamCard name='Sadiq Naibawa' delay={200} pic={pic6} role={'Developer'} ceo={''}/>
+        <TeamCard name='Ahmad Kabir' delay={300} pic={pic7} role={'Developer'} ceo={''}/>
+        <TeamCard name='Halifa Shuaibu' delay={400} pic={pic9} role={'Developer'} ceo={''}/>
+        <TeamCard name='Abdulrahman Nasir' delay={500} pic={pic8} role={'Developer'} ceo={''}/>
+        <TeamCard name='Nazif Abdullahi' delay={600} pic={pic10} role={'Developer'} ceo={''}/>
+        <TeamCard name='Ahmad Ismail' delay={700} pic={pic5} role={'Developer'} ceo={''}/>
+        <TeamCard name='Elemije Ayomide' delay={800} pic={pic11} role={'Developer'} ceo={''}/>
+        <TeamCard name='Bashir Jibril' delay={900} pic={pic2} role={'Developer'} ceo={''}/>
+        <TeamCard name='Abba Boss' delay={1000} pic={pic2} role={'Developer'} ceo={''}/>
         {/* <TeamCard name='' delay={100} pic={pic14} role={'Developer'} ceo={''}/>
         <TeamCard name='' delay={100} pic={pic15} role={'Developer'} ceo={''}/> */}
     </div>

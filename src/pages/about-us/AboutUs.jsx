@@ -11,23 +11,26 @@ import AboutCard from "./AboutCard";
 // import CT from '../../pages/services/img/CT.png'
 
 export default function AboutUs() {
-  let startYear = 2006;
+  let startYear = 2009;
   let currentYear = new Date().getFullYear();
   let years = currentYear - startYear;
 
   return (
     <>
-     <Parallex page='About Us' strip={true}/>
-      <div className="container mt-5 d-flex p-4 mb-5 about-container what">
+     <Parallex page='About Us' details='
+     Brainstorm registered since 2009 has been a customized software
+     solutions provider to its clients using the state-of-the-art technology,
+     corporate training, consultancy and other I.T related services.'/>
+      <div className="container mt-5 d-flex p-4 mb-5 about-container wha">
         <div className="what-text ">
           <h2
-            data-aos="fade-right"
+            data-aos="fade-righ"
             data-aos-once="true"
             className="subheading mb-2"
           >
             About Us
           </h2>
-          <div data-aos="fade-up" data-aos-once="true" className="about-text">
+          <div data-aos="fade-u" data-aos-once="true" className="about-text">
             <h1 className="spa">
               We have been Innovating for over{" "}
               <span className="years">{years}</span> years
@@ -59,19 +62,30 @@ export default function AboutUs() {
       <div className="row service-container container">
         <AboutCard
           heading="Our Mission"
-          describtion="Enhance your online presence with cutting-edge web applications. We specialize in creating dynamic and user-friendly web solutions that deliver seamless experiences across devices."
+          describtion="
+          Our mission is to deliver budget-friendly solutions 
+          in custom software development, training, and consultancy services, 
+          to meet the needs of our clients while 
+          adhering to industry-standard computing practices."
           // img={WD}
           time={100}
         />
         <AboutCard
-          heading="Our History"
-          describtion="We have also empower business with cutting-edge software solutions tailored to thier unique needs. Our software development expertise ensures scalable and efficient solutions accross all devices."
+          heading="Our Vision"
+          describtion="We aspire to be a distinct pace setter ICT Company, 
+          dedicated to providing sophisticated and innovative customized 
+          software solutions, and exceptional ICT service delivery."
           // img={CSD}
           time={200}
         />
         <AboutCard
-          heading="Who we are "
-          describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
+          heading="Core Values "
+          describtion="Brainstorm introduces ingenuity and
+          environment friendly projects into
+          the IT industry to enhance the
+          general welfare of the client
+          communities on the basis of a
+          mutual benefits and dignity."
           time={300}
         />
       </div>

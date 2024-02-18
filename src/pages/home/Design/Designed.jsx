@@ -5,8 +5,8 @@ export default function Designed() {
   return (
     <>
       <div className="design" data-aos="fade-up" data-aos-once="true">
-        <div className="container">
-          <div className="row">
+        <div className="container mx-auto">
+          <div className="row justify">
             <ProgressBar
               percent={85}
               col={3}
@@ -18,23 +18,23 @@ export default function Designed() {
               percent={96}
               col={3}
               col2={6}
-              span="our happy"
+              span=" happy"
               h3="clients"
             />
-            <ProgressBar
+            {/* <ProgressBar
               percent={95}
               col={3}
               col2={6}
-              span="projects"
-              h3="Design"
-            />
+              span="years of"
+              h3="Experience"
+            /> */}
 
             <ProgressBar
               percent={80}
               col={3}
               col2={6}
-              span="Completed"
-              h3="projects"
+              span="project"
+              h3="Completed"
             />
           </div>
         </div>

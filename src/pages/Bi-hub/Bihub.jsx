@@ -11,24 +11,30 @@ import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
 import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
+import islahpay from "../../assets/logos/Islahpay logo No Background.png";
+import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
+
 // import Hero from "../../Components/Hero/Hero";
 export default function Bihub() {
   return (
     <>
       <Parallex
         page="Bi-Hub"
-        details="In order to give back to the society, we created an innovation space
-            known as Bi-Hub where young innovative minds come to learn more
-            about technology and create businesses out of it. Some of the
-            innovations that are as a result of this initiative include Chiniki
-            which raised over $50,000 in grants for its intelligent surveillance
-            system."
+        details="
+        We created Bi-Hub, an innovation space where young minds 
+        learn about technology and create businesses. 
+        Notable success includes Chiniki, which raised over 
+        $50,000 for its intelligent surveillance system."
       />
       <div className="container-fluid my-5">
         <Scroll
-          title="Get to Know Our Startup."
-          page="bihub"
-          span="Welcome to Bihub - your go-to destination for top-tier software solutions. We turn ideas into reality, delivering innovative and user-friendly software that sets you apart in the digital realm. Join us on this exciting journey of transformation through technology."
+          title="Get to Know Our Startups."
+          span="
+          Welcome to Bihub - your go-to destination for top-tier 
+          software solutions. We turn ideas into reality, delivering 
+          innovative and user-friendly software that sets you apart in 
+          the digital realm. Join us on this exciting journey of transformation
+          through technology."
         />
       </div>
       {/* <div className="cared">
@@ -58,7 +64,10 @@ export default function Bihub() {
             alt="mylikita"
             image={mylikita}
             title="Mylikita"
-            text="An EMR that improves teamwork enables better patient care and improves patient satisfaction, all while reducing the cost of care, through partnerships and integrations to deliver a superior,
+            text="
+             An EMR that improves teamwork enables better patient 
+             care and improves patient satisfaction, all while reducing 
+             the cost of care, through partnerships and integrations to deliver a superior,
              user-centric experience and enable seamless
              collaboration with a team of medical professionals."
           />
@@ -80,7 +89,8 @@ export default function Bihub() {
             image={pharmpay}
             title="Pharmpay"
             text="Pharmpay is payment system for associations to manage their
-            members’ monthly, annual dues as well as providing adequate reporting. Other services it provides include association voting, announcements and 
+            members’ monthly, annual dues as well as providing adequate reporting. 
+            Other services it provides include association voting, announcements and 
             association events registration and management."
             number="146"
           />
@@ -123,6 +133,23 @@ export default function Bihub() {
             to book a ride at their convenience while improving the drivers’ 
             income generation as well as keep record of his/her earnings"
             number="146"
+          />
+          <CustumeCard
+            col="4"
+            col2="6"
+            alt="pikme"
+            image={islahpay}
+            title="IslahPay"
+            text="At Islahpay, we are revolutionizing the financial landscape with cutting-edge Islamic fintech solutions. As a forward-thinking Islamic fintech group, we specialize in providing ethical and Sharia-compliant financial services. Explore our range of services that include digital Islamic banking, Sharia-compliant payment systems, crowdfunding, Robo-advisors, and more."
+            number="250"
+          />
+          <CustumeCard
+            col="4"
+            col2="6"
+            alt="pikme"
+            image={wonderhomes}
+            title="Wonda Homes"
+            text="WondaHomes Unlock access to homes and properties from anywhere, right at your fingertips."
           />
         </div>
       </div>
