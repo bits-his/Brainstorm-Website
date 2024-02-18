@@ -53,7 +53,7 @@ export default function BlogDetails() {
           </div>
           <div className='col-lg-4 col-md-12 right-body'>
             <form className="search-box" onSubmit={e=>e.preventDefault()}><input type='search' /><button type='submit' >search</button></form>
-            <BlogDetails />
+            {/* <BlogDetails /> */}
             </div>
         </div>
        </div>
