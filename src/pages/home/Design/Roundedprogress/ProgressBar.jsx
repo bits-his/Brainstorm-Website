@@ -1,43 +1,45 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./progress.css";
 
-export default function ProgressBar({ percent, col, col2, h3, span }) {
-  const svgRef = useRef(null);
-  const [inView, setInView] = useState(false);
-  const circumference = 2 * Math.PI * 45;
-  const dashOffset = circumference - (percent / 100) * circumference;
+export default function ProgressBar({ icon, col, col2, h3, span }) {
+  // const svgRef = useRef(null);
+  // const [inView, setInView] = useState(false);
+  // const circumference = 2 * Math.PI * 45;
+  // const dashOffset = circumference - (percent / 100) * circumference;
 
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.5,
-    };
+  // useEffect(() => {
+  //   const options = {
+  //     root: null,
+  //     rootMargin: "0px",
+  //     threshold: 0.5,
+  //   };
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setInView(true);
-          observer.unobserve(entry.target);
-        }
-      });
-    }, options);
+  // const observer = new IntersectionObserver((entries) => {
+  //   entries.forEach((entry) => {
+  //     if (entry.isIntersecting) {
+  //       setInView(true);
+  //       observer.unobserve(entry.target);
+  //     }
+  //   });
+  // }, options);
 
-    if (svgRef.current) {
-      observer.observe(svgRef.current);
-    }
+  // if (svgRef.current) {
+  //   observer.observe(svgRef.current);
+  // }
 
-    return () => {
-      if (svgRef.current) {
-        observer.unobserve(svgRef.current);
-      }
-    };
-  }, []);
+  //   return () => {
+  //     if (svgRef.current) {
+  //       observer.unobserve(svgRef.current);
+  //     }
+  //   };
+  // }, []);
 
   return (
     <>
-      <div className={`col-lg-${col} col-sm-${col}  col-${col2} col-md-${col} round-pad`}>
-        <div className="d-flex d-sm-block d-lg-flex align-items-center">
+      <div
+        className={`col-lg-${col} col-sm-${col}  col-${col2} col-md-${col} round-pad`}
+      >
+        {/* <div className="d-flex d-sm-block d-lg-flex align-items-center">
           <div className="circle-container">
             <svg className="circle-svg" viewBox="0 0 100 100" ref={svgRef}>
               <circle className="circle-background" cx="50" cy="50" r="45" />
@@ -71,6 +73,14 @@ export default function ProgressBar({ percent, col, col2, h3, span }) {
           <div className="ms-3 progres-text">
             <span>{span}</span>
             <h3>{h3}</h3>
+          </div>
+        </div> */}
+
+        <div class="counter-card d-flex align-items-center">
+          <div class="counter-icon">{icon}</div>
+          <div className="d-block">
+            <h3>{h3} <span>+</span> </h3>
+            <p>{span}.</p>
           </div>
         </div>
       </div>
