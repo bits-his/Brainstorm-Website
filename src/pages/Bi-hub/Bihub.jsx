@@ -65,11 +65,9 @@ export default function Bihub() {
             image={mylikita}
             title="Mylikita"
             text="
-             An EMR that improves teamwork enables better patient 
-             care and improves patient satisfaction, all while reducing 
-             the cost of care, through partnerships and integrations to deliver a superior,
-             user-centric experience and enable seamless
-             collaboration with a team of medical professionals."
+            The EMR boosts teamwork, enhances patient care, and cuts costs by 
+            fostering collaboration among medical professionals. Through strategic 
+            partnerships and integrations, it ensures a user-friendly experience for seamless collaboration."
           />
           <CustumeCard
             col="4"
@@ -77,10 +75,10 @@ export default function Bihub() {
             alt="bitcoops"
             image={Bitcoops}
             title="Bitcoops"
-            text="An automated Cooperative Society management system 
-            that helps cooperative societies manages their funds, contributions,
-            loans, withdrawals etc. It includes dashboard for tracking payments made
-             by the cooperators using the integrated payment gateway or other methods of payment."
+            text="
+            An automated system for cooperative societies manages funds, 
+            contributions, loans, withdrawals, and tracks member payments through a 
+            user-friendly dashboard with integrated payment options."
           />
           <CustumeCard
             col="4"
@@ -88,10 +86,10 @@ export default function Bihub() {
             alt="Pharmpay"
             image={pharmpay}
             title="Pharmpay"
-            text="Pharmpay is payment system for associations to manage their
-            members’ monthly, annual dues as well as providing adequate reporting. 
-            Other services it provides include association voting, announcements and 
-            association events registration and management."
+            text="
+            Pharmpay simplifies payment management for associations, handling dues 
+            and providing reporting. It also offers features like voting, announcements, 
+            and event management for improved efficiency."
             number="146"
           />
           <CustumeCard
@@ -140,7 +138,10 @@ export default function Bihub() {
             alt="pikme"
             image={islahpay}
             title="IslahPay"
-            text="At Islahpay, we are revolutionizing the financial landscape with cutting-edge Islamic fintech solutions. As a forward-thinking Islamic fintech group, we specialize in providing ethical and Sharia-compliant financial services. Explore our range of services that include digital Islamic banking, Sharia-compliant payment systems, crowdfunding, Robo-advisors, and more."
+            text="
+            Islahpay offers innovative Islamic fintech solutions like digital banking, 
+            Sharia-compliant payments, crowdfunding, and Robo-advisors, ensuring transparency and 
+            convenience for clients while adhering to ethical principles."
             number="250"
           />
           <CustumeCard
@@ -149,7 +150,9 @@ export default function Bihub() {
             alt="pikme"
             image={wonderhomes}
             title="Wonda Homes"
-            text="WondaHomes Unlock access to homes and properties from anywhere, right at your fingertips."
+            text="
+            WondaHomes Unlock access to homes and properties from anywhere, right at 
+            your fingertips."
           />
         </div>
       </div>

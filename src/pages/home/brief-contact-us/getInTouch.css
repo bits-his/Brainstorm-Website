@@ -1,6 +1,7 @@
 /* This part is where the image that has a fixed background styling is located */
 .fixed-background {
-    background-image: url('../../../assets/img/1330557.webp'); 
+    background-color: var(--main-color);
+    background-image: url('../../../assets/img/image.svg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

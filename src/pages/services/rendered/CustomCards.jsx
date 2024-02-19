@@ -11,7 +11,7 @@ import './customcard.css'
 // import git from '../../../assets/tech/git.png'
 // import threejs from '../../../assets/tech/threejs.svg'
 
-const CustomCards = ({title="", techie = []}) => {
+const CustomCards = ({title="", techie = []}, img) => {
     return (
         <div className='tech col-12 col-sm-6 col-md-6 col-lg-4'>
            <div className="inside-tech">
@@ -19,7 +19,11 @@ const CustomCards = ({title="", techie = []}) => {
             <hr />
             <div className='d-flex techies'>
                 {techie.map((tech, index) => (
-                <button key={index} type="button" className="btn m-1 techie">{tech}</button>
+               <div className='techie' key={index}> 
+               {/* <button key={index} type="button" className="btn m-1 techie">{tech}</button> */}
+               <img src={tech.img} alt={tech.name} />
+                <span className='tech-name'>{tech.name}</span>
+                </div>
                 ))}
             </div>
            </div>

@@ -25,7 +25,7 @@ export default function TeamContainer() {
           />
           <TeamCard
             pic={isah}
-            name="Isa Rabiu Muhammad"
+            name="Isah Muhammad Rabiu"
             role="COO Brainstorm"
             delay={100}
           />
@@ -33,7 +33,7 @@ export default function TeamContainer() {
             pic={mary}
             name="Mary Festus"
             last={true}
-            role="Hub Manager"
+            role="HUB Manager"
             delay={130}
           />
           <TeamCard

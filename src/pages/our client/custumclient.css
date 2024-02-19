@@ -24,7 +24,7 @@
 }
 
 .text p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -73,5 +73,8 @@
   height: 50px;
   margin-bottom: 10px;
   margin-right: 20px;
+}
+.text p{
+  font-size: 22px;
 }
 }

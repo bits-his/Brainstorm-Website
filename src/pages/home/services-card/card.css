@@ -44,17 +44,19 @@
   background-color: var(--grey-background);
   transition: 1s;
   border-radius: 50%;
-  height: 135%;
-  width: 140%;
+  height: 125%;
+  width: 125%;
   top: -25px;
   right: -25px;
 }
 .main-card-icon img {
   padding: 20px;
   z-index: 2;
+  margin-left: 5px;
+  width: 90%;
 }
 .main-card .service-info {
-  width: 85%;
+  width: 90%;
   height: max-content;
 }
 .more-service {
@@ -66,7 +68,7 @@
 }
 .service-info h4 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 25.5px;
   margin-bottom: 10px;
 }
 .home-to-service:hover{
