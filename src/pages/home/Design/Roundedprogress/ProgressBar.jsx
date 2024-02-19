@@ -1,39 +1,38 @@
-import React, {useState, useEffect, useRef} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./progress.css";
 
 export default function ProgressBar({ percent, col, col2, h3, span }) {
- const svgRef = useRef(null);
- const [inView, setInView] = useState(false);
- const circumference = 2 * Math.PI * 45;
- const dashOffset = circumference - (percent / 100) * circumference;
+  const svgRef = useRef(null);
+  const [inView, setInView] = useState(false);
+  const circumference = 2 * Math.PI * 45;
+  const dashOffset = circumference - (percent / 100) * circumference;
 
- useEffect(() => {
-   const options = {
-     root: null,
-     rootMargin: "0px",
-     threshold: 0.5, 
-   };
-  
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
 
-  const observer = new IntersectionObserver((entries) => {
-     entries.forEach((entry) => {
-       if (entry.isIntersecting) {
-         setInView(true);
-         observer.unobserve(entry.target);
-       }
-     });
-   }, options);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, options);
 
-   if (svgRef.current) {
-     observer.observe(svgRef.current);
-   }
+    if (svgRef.current) {
+      observer.observe(svgRef.current);
+    }
 
-  //  return () => {
-  //    if (svgRef.current) {
-  //      observer.unobserve(svgRef.current);
-  //    }
-  //  };
- }, []);
+    return () => {
+      if (svgRef.current) {
+        observer.unobserve(svgRef.current);
+      }
+    };
+  }, []);
 
   return (
     <>
