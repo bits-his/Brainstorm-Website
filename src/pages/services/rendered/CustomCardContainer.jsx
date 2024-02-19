@@ -9,10 +9,10 @@ import typescript from '../../../assets/tech/typescript.png'
 import reactjs from '../../../assets/tech/reactjs.png'
 import redux from '../../../assets/tech/redux.png'
 import mongodb from '../../../assets/tech/mongodb.png'
-import figma from '../../../assets/tech/figma.png'
+// import figma from '../../../assets/tech/figma.png'
 import nodejs from '../../../assets/tech/nodejs.png'
-import git from '../../../assets/tech/git.png'
-import threejs from '../../../assets/tech/threejs.svg'
+// import git from '../../../assets/tech/git.png'
+// import threejs from '../../../assets/tech/threejs.svg'
 
 export default function CustomCardContainer() {
   return (
