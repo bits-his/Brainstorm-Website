@@ -9,7 +9,6 @@ import 'aos/dist/aos.css';
 
 
 
-
 function App() {
   AOS.init()
   const{pathname} = useLocation()

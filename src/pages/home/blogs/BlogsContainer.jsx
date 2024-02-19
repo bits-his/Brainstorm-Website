@@ -13,9 +13,29 @@ export default function BlogsContainer() {
         </div>
         <div className="container">
           <div className="row">
-            <BlogCard img={blog1} headline={"Software Products Development for Global Webpages"} details={"Lorem, ipsum dolor sit amet consectetur adipisicing elitconsectetur adipisicing elit..."} date={"November 16, 2023"} />
-            <BlogCard img={blog2} headline={"Managing Robust Backends"} details={"Lorem, ipsum dolor sit amet consectetur adipisicing elitconsectetur adipisicing elit..."} date={"November 16, 2023"} />
-            <BlogCard img={blog3} headline={"Creating and Securing Dynamic Online Platforms (Web 3)"} details={"Lorem, ipsum dolor sit amet consectetur adipisicing elitconsectetur adipisicing elit..."} date={"November 16, 2023"} />
+            <BlogCard img={blog1} 
+              title={"Free Javascript Bootcamp at Bayero University Kano"} 
+              id={1}
+              description={`On the 9th - 10th January 2024, Brainstorm IT Solutions organized a 
+              JavaScript Boot camp at the Department of Software Engineering Bayero University Kano. 
+              With the rapidly evolving technology landscape, we believe that equipping students with 
+              practical programming skills is essential for their future success.`} 
+              date={"November 16, 2023"} 
+            />
+            <BlogCard img={blog2} 
+              title={"Computer Science Department BUK Students visits Brainstorm"} 
+              description={`The Students of Computer Science Department of 
+              Bayero University Kano (BUK) paid an educational visit to Brainstorm Innovation Hub to get some .`} 
+              date={"November 16, 2023"} 
+              id={2}
+            />
+            <BlogCard img={blog3} 
+            title={"Creating and Securing Dynamic Online Platforms (Web 3)"} 
+            description={"Lorem, ipsum dolor sit amet consectetur adipisicing elitconsectetur adipisicing elit..."} 
+            date={"November 16, 2023"} 
+            id={3}
+            />
+            
           </div>
         </div>
 

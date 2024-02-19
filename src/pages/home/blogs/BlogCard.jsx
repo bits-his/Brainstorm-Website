@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { FaPlus } from "react-icons/fa6";
 
-export default function BlogCard({ img, headline, details }) {
+export default function BlogCard({ img, title, description,id }) {
   return (
     <>
-      <Link to="/blog/blogdetails" className="home-blog col-lg-4 col-md-6 col-sm-12 p-3 mb-4 position-relative">
+      <Link to={`/blog/blogdetails/:${id}`} className="home-blog col-lg-4 col-md-6 col-sm-12 p-3 mb-4 position-relative">
         <div className="home-blog-main">
           <div className="home-blog-img mb-3">
             <img src={img} alt="blog1" />
@@ -15,15 +15,15 @@ export default function BlogCard({ img, headline, details }) {
           </div>
           <div className="home-blog-content mb-4">
             <h3>
-              {headline}
+              {title}
             </h3>
-            <p>{details}</p>
-            <Link className="read-more">
+            <p className="blog-clamp">{description}</p>
+            <span className="read-more">
               Read more{" "}
               <span className="animated-arrow">
                 <HiArrowNarrowRight size={20} fontWeight={600} />
               </span>
-            </Link>
+            </span>
           </div>
         </div>
       </Link>

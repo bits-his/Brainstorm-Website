@@ -38,6 +38,12 @@
   font-family: "Dosis", sans-serif;
   font-weight: 600;
 }
+
+
+.justify{
+  justify-content: space-around;
+}
+
 @keyframes fillAnimation {
   from {
     stroke-dashoffset: 440;
@@ -61,11 +67,15 @@
   text-transform: capitalize;
   color: var(--main-color);
 }
+
 @media (max-width: 570px) {
   .progres-text h3 {
     font-size: 1rem;
   }
   .progres-text span {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+  }
+  .round-pad{
+  padding: 0;
   }
 }

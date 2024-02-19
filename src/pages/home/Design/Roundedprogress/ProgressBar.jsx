@@ -27,6 +27,12 @@ export default function ProgressBar({ percent, col, col2, h3, span }) {
       observer.observe(svgRef.current);
     }
 
+  //  return () => {
+  //    if (svgRef.current) {
+  //      observer.unobserve(svgRef.current);
+  //    }
+  //  };
+ }, []);
     return () => {
       if (svgRef.current) {
         observer.unobserve(svgRef.current);
@@ -36,7 +42,7 @@ export default function ProgressBar({ percent, col, col2, h3, span }) {
 
   return (
     <>
-      <div className={`col-lg-${col} col-sm-${col}  col-${col2} col-md-${col}`}>
+      <div className={`col-lg-${col} col-sm-${col}  col-${col2} col-md-${col} round-pad`}>
         <div className="d-flex d-sm-block d-lg-flex align-items-center">
           <div className="circle-container">
             <svg className="circle-svg" viewBox="0 0 100 100" ref={svgRef}>
