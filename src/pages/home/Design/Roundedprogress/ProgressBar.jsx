@@ -69,7 +69,7 @@ export default function ProgressBar({ percent, col, col2, h3, span }) {
               </text>
             </svg>
           </div>
-          <div className="ms-3 progres-text">
+          <div className="ms-1 progres-text">
             <span>{span}</span>
             <h3>{h3}</h3>
           </div>

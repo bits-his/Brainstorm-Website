@@ -2,7 +2,7 @@ import React from 'react'
 import TeamCard from '../../pages/about-us/TeamCard'
 // import pic0 from '../../assets/team/fahad1.png'
 // import pic1 from '../../assets/team/ishaq1.png'
-import pic2 from '../../assets/team/mide2.jpg'
+import pic2 from '../../assets/team/bashir.png'
 // import pic3 from '../../assets/team/musty1.png'
 import pic4 from '../../assets/team/daddy.png'
 import pic5 from '../../assets/team/ahmad2.png'
@@ -30,8 +30,8 @@ export default function TeamCardsContainer() {
         <TeamCard name='Nazif Abdullahi' delay={600} pic={pic10} role={'Developer'} ceo={''}/>
         <TeamCard name='Ahmad Ismail' delay={700} pic={pic5} role={'Developer'} ceo={''}/>
         <TeamCard name='Elemije Ayomide' delay={800} pic={pic11} role={'Developer'} ceo={''}/>
-        <TeamCard name='Bashir Jibril' delay={900} pic={pic2} role={'Developer'} ceo={''}/>
-        <TeamCard name='Abba Boss' delay={1000} pic={pic2} role={'Developer'} ceo={''}/>
+        <TeamCard name='Bashir Jibrin' delay={900} pic={pic2} role={'Developer'} ceo={''}/>
+        {/* <TeamCard name='Abba Boss' delay={1000} pic={pic2} role={'Developer'} ceo={''}/> */}
         {/* <TeamCard name='' delay={100} pic={pic14} role={'Developer'} ceo={''}/>
         <TeamCard name='' delay={100} pic={pic15} role={'Developer'} ceo={''}/> */}
     </div>

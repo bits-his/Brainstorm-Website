@@ -42,10 +42,6 @@ function what() {
                 </li>
                 <li>
                   <BiCheckDouble className="icon" />
-                  Inventory
-                </li>
-                <li>
-                  <BiCheckDouble className="icon" />
                   Real Estate
                 </li>
                 <li>
@@ -56,7 +52,7 @@ function what() {
             </div>
           </div>
         </div>
-        <div className="container d-flex p-4 mb-5 what">
+        <div className="container d-flex p-4 mt-3 mb-5 what">
           <div className="what-text p-3">
             <h3 data-aos="fade-right" data-aos-once="true">
               Focus on what counts while we manage the <br /> day-to-day

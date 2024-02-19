@@ -20,6 +20,8 @@
   background-color: #fff;
   /* align-items: center; */
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
   transition: .4s ease-in-out;
   border: 1px solid #ebebebe1;
   border-radius: 10px;

@@ -109,7 +109,7 @@ a {
 }
 .bottom-footer {
   background-color: #d8d8d8;
-  width: calc(100% + 20px);
+  width: calc(100%);
   margin-left: -10px;
   padding: 10px;
   display: flex;

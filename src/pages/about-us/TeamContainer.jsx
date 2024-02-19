@@ -39,7 +39,7 @@ export default function TeamContainer() {
           <TeamCard
             pic={mustapha}
             name="Mustapha Issa Toyin"
-            role="Business Development Officer"
+            role="BDO Brainstorm"
             delay={200}
           />
           <TeamCard
@@ -52,7 +52,7 @@ export default function TeamContainer() {
           <TeamCard
             pic={murtala}
             name="Murtala Adewale Akinyemi"
-            role="Finance Manager"
+            role="CFO barinstorm"
             delay={300}
           />
           <TeamCard

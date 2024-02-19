@@ -1,8 +1,8 @@
 import "./blogs.css";
 import BlogCard from "./BlogCard";
-import blog1 from "../../../assets/img/blog1-5-510x400.jpg";
-import blog2 from "../../../assets/img/blog2-5-510x400.jpg";
-import blog3 from "../../../assets/img/blog3-5-510x400.jpg";
+import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
+import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
+import blog3 from "../../../assets/blog/DSC_0211.JPG";
 
 export default function BlogsContainer() {
   return (
@@ -30,8 +30,9 @@ export default function BlogsContainer() {
               id={2}
             />
             <BlogCard img={blog3} 
-            title={"Creating and Securing Dynamic Online Platforms (Web 3)"} 
-            description={"Lorem, ipsum dolor sit amet consectetur adipisicing elitconsectetur adipisicing elit..."} 
+            title={"2 Days Workshop with Ministry of Finance Kano"} 
+            description={`Brainstorm organise a 2 days workshop for the ministry of finance, 
+            budget and planning in which the of the platforms developed by brainstorm were lucnched`} 
             date={"November 16, 2023"} 
             id={3}
             />

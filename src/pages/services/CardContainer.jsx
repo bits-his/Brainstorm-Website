@@ -2,11 +2,11 @@ import React from "react";
 import Card from "./Card";
 import Scroll from "../../Components/scroll/Scroll";
 // import BC from './img/BC.png'
-import MD from './img/MD.png'
+// import MD from './img/MD.png'
 import CT from './img/CT.png'
 import CSD from './img/CSD.webp'
 // import DO from './img/DO.webp'
-import WD from './img/WD.webp'
+// import WD from './img/WD.webp'
 import SC from './img/SC.png'
 // import SM from './img/SM.png'
 
@@ -20,7 +20,7 @@ export default function CardContainer() {
       partner in achieving your goals.' />
       <div className="row service-container" id='service'>
         {/* <h2 className='s-heading'>Services</h2> */}
-        <Card
+        {/* <Card
           heading="Website Development"
           describtion="
           Enhance your online presence with cutting-edge web applications.
@@ -28,7 +28,7 @@ export default function CardContainer() {
           that deliver seamless experiences across devices."
           img={WD}
           time={150}
-        />
+        /> */}
         <Card
           heading="Software Development"
           describtion="
@@ -56,7 +56,7 @@ export default function CardContainer() {
           img={SC}
           time={300}
         />
-        <Card
+        {/* <Card
           heading="Mobile App"
           describtion="
           Stay connected with your audience on the go. Our mobile app development 
@@ -64,7 +64,7 @@ export default function CardContainer() {
           users wherever they are."
           img={MD}
           time={350}
-        />
+        /> */}
         {/* <Card
           heading="Blockchain Technology"
           describtion="Explore the benefits of transparent and secure transactions, 

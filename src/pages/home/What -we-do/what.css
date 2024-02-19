@@ -1,6 +1,8 @@
 
 .what-img img {
-  width: 100%;
+  /* width: 100%; */
+  display: block;
+  margin: 0 auto;
   height: 300px;
   filter: hue-rotate(0deg);
   color: #007bff;
@@ -9,8 +11,9 @@
 .what-text ul {
   /* display: grid;
     grid-template-columns: auto 2fr; */
-  column-count: 2;
-  
+  /* column-count: 2; */
+  display: flex;
+  flex-wrap: wrap;
 }
  
 .what-text h3 {
@@ -39,6 +42,7 @@
 }
 
 .what-text ul li {
+  width: 50%;
   margin-top: 7px;
   color: var(--text-color);
   font-size: 16px;
@@ -77,17 +81,22 @@
     /* width: 80%; */
    
   }
-  .what-text ul {
+  /* .what-text ul {
     display: grid;
     grid-template-columns: 1fr !important;
     margin: 0px;
     padding: 0px;
     margin-bottom: 10px;
-  }
+  } */
   .what {
     height: 100vh;
-
-
+}
 
 }
+
+
+@media (width <768px){
+  .what-text ul li {
+    width: 100%;
+  }
 }
