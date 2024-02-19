@@ -39,8 +39,7 @@
   font-weight: 600;
 }
 
-
-.justify{
+.justify {
   justify-content: space-around;
 }
 
@@ -67,7 +66,41 @@
   text-transform: capitalize;
   color: var(--main-color);
 }
-
+.counter-inner-box {
+  background: linear-gradient(231.69deg, #c255be 13.24%, #485bbc 97.21%);
+  padding: 80px;
+  border-radius: 5px;
+}
+.counter-card .counter-icon {
+  width: 85px;
+  height: 110px;
+  background-color: var(--red-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.counter-card:hover .counter-icon {
+  background-color: var(--main-color);
+}
+.counter-card:hover .counter-icon svg {
+  color: #fff;
+}
+.counter-card .counter-icon svg {
+  font-size: 43px;
+  color: var(--grey-color);
+}
+.counter-card h3 {
+  /* color: #fff?; */
+  font-size: 36px;
+  font-weight: 600;
+}
+.counter-card h3 span {
+  vertical-align: center;
+}
 @media (max-width: 570px) {
   .progres-text h3 {
     font-size: 1rem;
@@ -75,7 +108,7 @@
   .progres-text span {
     font-size: 0.8rem;
   }
-  .round-pad{
-  padding: 0;
+  .round-pad {
+    padding: 0;
   }
 }
