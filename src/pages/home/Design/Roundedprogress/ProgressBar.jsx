@@ -27,12 +27,6 @@ export default function ProgressBar({ percent, col, col2, h3, span }) {
       observer.observe(svgRef.current);
     }
 
-  //  return () => {
-  //    if (svgRef.current) {
-  //      observer.unobserve(svgRef.current);
-  //    }
-  //  };
- }, []);
     return () => {
       if (svgRef.current) {
         observer.unobserve(svgRef.current);
