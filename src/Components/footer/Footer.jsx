@@ -112,20 +112,20 @@ export default function Footer() {
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://play.google.com/store/apps/details?id=com.psn_payment"
+                        href="https://islahpay.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        PharmPay
+                        Islahpay
                       </a>
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://estarbuy.ng/"
+                        href="https://inventria-new.netlify.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Estarbuy
+                        Inventria
                       </a>
                     </li>
                     <li className="mb-2">
