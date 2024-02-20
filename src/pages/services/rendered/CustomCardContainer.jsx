@@ -62,7 +62,7 @@ export default function CustomCardContainer() {
         },      
         {
             title:"Security",
-            techie:[{name:'Web 3.0'}, {name:''},{ name:'Cisco', img:cisco}]
+            techie:[{name:'Web 3.0'}, {name:'Acunetix'},{ name:'Cisco', img:cisco}]
         }
     ]
   return (
