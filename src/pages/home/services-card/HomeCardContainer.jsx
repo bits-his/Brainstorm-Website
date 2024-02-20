@@ -34,6 +34,12 @@ export default function HomeCardContainer() {
           img={CT}
           time={300}
         />
+         <HomeCard
+          heading="Co-operate Trainings"
+          describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
+          img={CT}
+          time={300}
+        />
         <Link to='/services#service' className="more-service home-to-service">
             Find More{" "}
             <span className="arrow">
