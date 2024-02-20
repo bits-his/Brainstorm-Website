@@ -26,7 +26,8 @@ export default function Home() {
       </div>
       {/* <What /> */}
       <HomeCardContainer />
-      <Bihub />      <div className="container mt-5 d-flex p-4 mb-5 about-container wha">
+      <Bihub />
+      <div className="container mt-5 d-flex p-4 mb-5 about-container wha">
         <div className="what-text ">
           <h2
             data-aos="fade-righ"
