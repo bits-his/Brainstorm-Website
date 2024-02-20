@@ -18,21 +18,22 @@ import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
 export default function Bihub() {
   return (
     <>
-      <Parallex
+      {/* <Parallex
         page="Bi-Hub"
         details="
         Brainstorm Innovation Hub is a dynamic space
         for young minds to engage with technology, gain insights,
         and develop entrepreneurial ventures, fostering collaboration
          and empowering aspiring innovators for success."
-      />
+      /> */}
       <div className="container-fluid my-5">
         <Scroll
+        page="Bi-Hub"
           title="Get to Know Our Startups."
           // span="
-          // Welcome to Bihub - your go-to destination for top-tier 
-          // software solutions. We turn ideas into reality, delivering 
-          // innovative and user-friendly software that sets you apart in 
+          // Welcome to Bihub - your go-to destination for top-tier
+          // software solutions. We turn ideas into reality, delivering
+          // innovative and user-friendly software that sets you apart in
           // the digital realm. Join us on this exciting journey of transformation
           // through technology."
         />

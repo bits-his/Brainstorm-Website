@@ -14,7 +14,7 @@ export default function HomeCardContainer() {
       <div className="row service-container mb-5 pb-5">
         <Scroll
           title={"Our featured solutions"}
-          span
+          page="Services"
         />
         <HomeCard
           heading="Software Development"

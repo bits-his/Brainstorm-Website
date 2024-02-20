@@ -7,10 +7,11 @@ import GetInTouch from "./brief-contact-us/GetInTouch";
 import Designed from "./Design/Designed";
 import HomeCardContainer from "./services-card/HomeCardContainer.jsx";
 import Hero from "./hero/Hero";
+import Bihub from "../Bi-hub/Bihub.jsx";
 
 export default function Home() {
   return (
-    <>
+    <div id="home">
       <Hero />
       <div className="center-text">
         <p>
@@ -22,12 +23,12 @@ export default function Home() {
       </div>
       <What />
       <HomeCardContainer />
-
+      <Bihub />
       <BlogContainer />
 
       <Designed />
 
       <GetInTouch />
-    </>
+    </div>
   );
 }
