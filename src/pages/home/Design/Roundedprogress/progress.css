@@ -39,9 +39,9 @@
   font-weight: 600;
 }
 
-.justify {
+/* .justify {
   justify-content: space-around;
-}
+} */
 
 @keyframes fillAnimation {
   from {

@@ -26,7 +26,7 @@
   height: 75px;
 }
 .techie:hover .tech-name{
-  bottom: 0;
+  bottom: -5px;
   color: var(--text-color);
   /* background-image: url('../../../assets/tech/css.png'); */
   /* background-color: var(--main-color); */
@@ -42,7 +42,8 @@
   font-size: 18px;
   font-weight: 600;
   font-family: 'Dosis', sans-serif;
-  bottom: 0%;
+  bottom: -10px;
   /* color: transparent; */
   transition: all linear .3s;
+  background-color: #b3b3b3;
 }

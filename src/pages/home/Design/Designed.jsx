@@ -15,14 +15,14 @@ export default function Designed() {
               col={3}
               col2={6}
               span="Completed project ."
-              target="730"
+              target="70"
             />
             <ProgressBar
               icon={<FaRegUserCircle />}
               col={3}
               col2={6}
               span="Satisfied clients."
-              target="620"
+              target="50"
             />
             <ProgressBar
               icon={<BiLayer />}
@@ -37,7 +37,7 @@ export default function Designed() {
               col={3}
               col2={6}
               span="Industries served."
-              target="320"
+              target="10"
             />
           </div>
         </div>

@@ -62,7 +62,7 @@ export default function ProgressBar({ icon, col, col2, target, span }) {
 
   const startAnimation = () => {
     let currentCount = 0;
-    const increment = Math.ceil(target / 100); // Adjust the increment as needed
+    const increment = Math.ceil(target / 5); // Adjust the increment as needed
     const speed = 30; // Adjust the speed as needed
 
     const timer = setInterval(() => {
