@@ -17,9 +17,9 @@ import sql from '../../../assets/tech/SQL_Logo.svg'
 import express from '../../../assets/tech/Express_js_logo.png'
 import python from '../../../assets/tech/Python_logo.png'
 import etherium from '../../../assets/tech/ethereum.png'
-import graph from '../../../assets/tech/GraphQL_Logo.svg.png'
-import postgresql from '../../../assets/tech/Postgresql_elephant.svg'
-import docker from '../../../assets/tech/docker.png'
+// import graph from '../../../assets/tech/GraphQL_Logo.svg.png'
+// import postgresql from '../../../assets/tech/Postgresql_elephant.svg'
+// import docker from '../../../assets/tech/docker.png'
 import ios from '../../../assets/tech/ios_logo.png'
 import rust from '../../../assets/tech/rust-logo.svg'
 // import sql from '../../../assets/tech/'
@@ -35,34 +35,45 @@ import rust from '../../../assets/tech/rust-logo.svg'
 
 
 export default function CustomCardContainer() {
+    const data=[
+        {
+            title:"Frontend",
+            techie:[
+                {name:'HTML', img:html},
+            {name:'CSS', img:css}, 
+            {name:'Javascript', img:javascript}, 
+            {name:'Bootstrap', img:bootstrap}]
+        },
+        {
+            title:"Backend",
+            techie:[{name:'Node js', img:nodejs}, {name:'Express js', img:express}, {name:'Python', img:python}]
+        },
+        {
+            title:"Frameworks",
+            techie:[{name:'ReactJs', img:reactjs}, {name:' Native' , img:reactjs},{name:'NextJs', img:typescript}, {name:'VueJs' , img:redux}]
+        },      
+        {
+            title:"Database",
+            techie:[{name:'Android', img:android},{ name:'IOS' ,img:ios}, {name:'Mangodb', img:mongodb}, {name:'SQL', img: sql}]
+        },      
+        {
+            title:"BlockChain",
+            techie:[{name:'Etherium', img:etherium}, {name:'Rust', img:rust}, {name:'Solidity'}, ]
+        },      
+        {
+            title:"Security",
+            techie:[{name:'Web 3.0'}, {name:''},{ name:'Cisco', img:cisco}]
+        }
+    ]
   return (
     <div className='container-fluid mb-5'>
        <Scroll title='Technologies We Use' span='We use a wide variety of technologies to give you the best treatment you deserve'/>
         <div className="row g-1">
-        <CustomCards 
-            title="Frontend"
-            techie={[{name:'HTML', img:html}, {name:'CSS', img:css}, {name:'Javascript', img:javascript}, {name:'Bootstrap', img:bootstrap}]}
-        />
-        <CustomCards 
-            title="Frameworks"
-            techie={[{name:'React js', img:reactjs}, {name:' Native' , img:reactjs},{name:'TypeScript', img:typescript}, {name:'Redux' , img:redux}]}
-        />
-        <CustomCards 
-            title="Security"
-            techie={[{name:'Web 3.0'}, {name:'Nexus'},{ name:'Cisco', img:cisco}]}
-        />
-        <CustomCards 
-            title="Database"
-            techie={[{name:'Android', img:android},{ name:'IOS' ,img:ios}, {name:'Mangodb', img:mongodb}, {name:'SQL', img: sql}]}
-        />
-        <CustomCards 
-            title="Backend"
-            techie={[{name:'Node js', img:nodejs}, {name:'Express js', img:express}, {name:'Python', img:python}]}
-        />
-        <CustomCards 
-            title="Blockchain"
-            techie={[{name:'Etherium', img:etherium}, {name:'Rust', img:rust}, {name:'Solidity'}, ]}
-        />
+      {data.map((item)=>(  <CustomCards 
+        title={item.title}
+        techie={item.techie}
+
+    />))}
         </div>
     </div>
   )
