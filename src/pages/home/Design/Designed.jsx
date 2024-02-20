@@ -14,30 +14,30 @@ export default function Designed() {
               icon={<BiCheckShield />}
               col={3}
               col2={6}
-              span="Completed project dolor sit amet."
-              h3="730"
+              span="Completed project ."
+              target="730"
             />
             <ProgressBar
               icon={<FaRegUserCircle />}
               col={3}
               col2={6}
-              span="Satisfied clients dolor sit lorem amet."
-              h3="620"
+              span="Satisfied clients."
+              target="620"
             />
-            {/* <ProgressBar
-              icon={95}
+            <ProgressBar
+              icon={<BiLayer />}
               col={3}
               col2={6}
-              span="years of"
-              h3="Experience"
-            /> */}
+              span="years of Experience "
+              target="15"
+            />
 
             <ProgressBar
               icon={<BiCheckShield />}
               col={3}
               col2={6}
-              span="Industries served dolor sit amet."
-              h3="320"
+              span="Industries served."
+              target="320"
             />
           </div>
         </div>

@@ -74,7 +74,7 @@
 .counter-card .counter-icon {
   width: 85px;
   height: 110px;
-  background-color: var(--red-color);
+  background-color: var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;

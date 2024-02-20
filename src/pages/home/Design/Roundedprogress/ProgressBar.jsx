@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef} from "react";
 import "./progress.css";
 
-export default function ProgressBar({ icon, col, col2, h3, span }) {
-  // const svgRef = useRef(null);
+export default function ProgressBar({ icon, col, col2, target, span }) {
+  // const countRef = useRef(null);
   // const [inView, setInView] = useState(false);
   // const circumference = 2 * Math.PI * 45;
   // const dashOffset = circumference - (percent / 100) * circumference;
@@ -21,7 +21,7 @@ export default function ProgressBar({ icon, col, col2, h3, span }) {
   //       observer.unobserve(entry.target);
   //     }
   //   });
-  // }, options);
+  // }, []);
 
   // if (svgRef.current) {
   //   observer.observe(svgRef.current);
@@ -33,6 +33,49 @@ export default function ProgressBar({ icon, col, col2, h3, span }) {
   //     }
   //   };
   // }, []);
+
+  const [isVisible, setIsVisible] = useState(false);
+  const [count, setCount] = useState(0);
+  const counterRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting);
+      if (entry.isIntersecting) {
+        startAnimation();
+        observer.unobserve(entry.target);
+      }
+    }, options);
+
+    if (counterRef.current) {
+      observer.observe(counterRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
+  const startAnimation = () => {
+    let currentCount = 0;
+    const increment = Math.ceil(target / 100); // Adjust the increment as needed
+    const speed = 30; // Adjust the speed as needed
+
+    const timer = setInterval(() => {
+      currentCount += increment;
+      if (currentCount > target) {
+        currentCount = target;
+        clearInterval(timer);
+      }
+      setCount(currentCount);
+    }, speed);
+  };
+
+
 
   return (
     <>
@@ -79,7 +122,7 @@ export default function ProgressBar({ icon, col, col2, h3, span }) {
         <div class="counter-card d-flex align-items-center">
           <div class="counter-icon">{icon}</div>
           <div className="d-block">
-            <h3>{h3} <span>+</span> </h3>
+            <h3 ref={counterRef}>{isVisible ? count : 0} <span>+</span> </h3>
             <p>{span}.</p>
           </div>
         </div>
