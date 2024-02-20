@@ -1,28 +1,31 @@
 import React from "react";
 import ProgressBar from "./Roundedprogress/ProgressBar";
+import { FaRegUserCircle } from "react-icons/fa";
+import { BiCheckShield } from "react-icons/bi";
+import { BiLayer } from "react-icons/bi";
 
 export default function Designed() {
   return (
     <>
       <div className="design" data-aos="fade-up" data-aos-once="true">
-        <div className="container mx-auto">
+        <div className="container mx-auto ">
           <div className="row justify">
             <ProgressBar
-              percent={85}
+              icon={<BiCheckShield />}
               col={3}
               col2={6}
-              span="Design"
-              h3="Coding"
+              span="Completed project dolor sit amet."
+              h3="730"
             />
             <ProgressBar
-              percent={96}
+              icon={<FaRegUserCircle />}
               col={3}
               col2={6}
-              span=" happy"
-              h3="clients"
+              span="Satisfied clients dolor sit lorem amet."
+              h3="620"
             />
             {/* <ProgressBar
-              percent={95}
+              icon={95}
               col={3}
               col2={6}
               span="years of"
@@ -30,11 +33,11 @@ export default function Designed() {
             /> */}
 
             <ProgressBar
-              percent={80}
+              icon={<BiCheckShield />}
               col={3}
               col2={6}
-              span="project"
-              h3="Completed"
+              span="Industries served dolor sit amet."
+              h3="320"
             />
           </div>
         </div>
