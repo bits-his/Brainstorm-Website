@@ -34,7 +34,7 @@ export default function Home({sections}) {
       <HomeCardContainer refi={sections.services}/>
       <Bihub  refi={sections.bihub}/>
       <div className="container mt-5 d-flex p-4 mb-5 about-container wha" id="about" ref={sections.about}>
-        <div className="what-text ">
+        <div className="what-text pt-5">
           <h2
             data-aos="fade-righ"
             data-aos-once="true"

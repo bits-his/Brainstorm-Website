@@ -3,14 +3,16 @@ import BlogCard from "./BlogCard";
 import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
 import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
 import blog3 from "../../../assets/blog/DSC_0211.JPG";
+import Scroll from "../../../Components/scroll/Scroll";
 
 export default function BlogsContainer({refi}) {
   return (
     <div id="blog" ref={refi}>
       <div className="story">
-        <div className="top-text">
+        {/* <div className="top-text">
           <h3>Our recent stories</h3>
-        </div>
+        </div> */}
+        <Scroll title={"Our recent stories"} page={'blog'}/>
         <div className="container">
           <div className="row">
             <BlogCard img={blog1} 

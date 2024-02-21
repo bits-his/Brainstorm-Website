@@ -16,7 +16,7 @@
 .scroll-text{
     width: 70%;
     /* height: 70vh; */
-    margin: 10vh auto 1vh;
+    margin: 5vh auto 1vh;
     text-align: center;
     z-index: 10;
 }

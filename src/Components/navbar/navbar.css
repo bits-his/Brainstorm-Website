@@ -105,8 +105,8 @@ header {
   transition: linear .2s;
 }
 .navlist .active::after {
-  width: 100%;
-  left: 0;
+  width: 80%;
+  left: 9%;
   scale: 1;
   transition: linear 0.2s;
 }
