@@ -9,13 +9,13 @@ import esterbuy from "../../assets/logos/estar.png";
 import iventria from "../../assets/logos/inv.png";
 import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
-import Parallex from "../../Components/parallex/Parallex";
+// import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
 import islahpay from "../../assets/logos/Islahpay logo No Background.png";
 import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
 
 // import Hero from "../../Components/Hero/Hero";
-export default function Bihub() {
+export default function Bihub({refi}) {
   return (
     <>
       {/* <Parallex
@@ -26,7 +26,7 @@ export default function Bihub() {
         and develop entrepreneurial ventures, fostering collaboration
          and empowering aspiring innovators for success."
       /> */}
-      <div className="container-fluid my-5">
+      <div className="container-fluid mt-5 pt-5" id="bihub"  ref={refi}>
         <Scroll
         page="Bi-Hub"
           title="Get to Know Our Startups."

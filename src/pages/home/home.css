@@ -135,14 +135,15 @@
   animation: widenAndFadeOut 5s ease-in-out;
 }
 .center-text{
-  margin: 80px auto;
+  margin: 10px auto;
+  padding-top: 100px;
 }
-.center-text p{
+.center-text .p{
   max-width: 70%;
   text-align: center;
   font-size: 1.2rem;
   line-height: 1.2;
-  margin: 0px auto 80px;
+  margin: 0px auto 90px;
 }
 
 /* @keyframes widenAndFadeOut {

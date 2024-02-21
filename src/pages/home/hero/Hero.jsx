@@ -3,9 +3,9 @@ import './hero.css'
 import Text from "../text/Text";
 import image from "../../../assets/img/bg1.webp";
 
-export default function Hero() {
+export default function Hero({sectionRef}) {
   return (
-    <div className="home-page" style={{ backgroundImage: `url(${image})` }}>
+    <div className="home-page" style={{ backgroundImage: `url(${image})` }} id='home' ref={sectionRef}>
         <div className="box1">
         </div>
         <div className="box2"></div>

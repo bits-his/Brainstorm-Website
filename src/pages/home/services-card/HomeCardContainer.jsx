@@ -3,15 +3,15 @@ import Scroll from "../../../Components/scroll/Scroll";
 import WD from "../../services/img/WD.webp";
 import CSD from "../../services/img/CSD.webp";
 import CT from "../../services/img/CT.png";
-import { HiArrowNarrowRight } from "react-icons/hi";
+// import { HiArrowNarrowRight } from "react-icons/hi";
 
 import HomeCard from "./HomeCard";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-export default function HomeCardContainer() {
+export default function HomeCardContainer({refi}) {
   return (
     <>
-      <div className="row service-container mb-5 pb-5">
+      <div className="row service-container my-5 py-5" id="services" ref={refi}>
         <Scroll
           title={"Our featured solutions"}
           page="Services"
@@ -40,12 +40,12 @@ export default function HomeCardContainer() {
           img={CT}
           time={300}
         />
-        <Link to='/services#service' className="more-service home-to-service">
+        {/* <Link to='/services#service' className="more-service home-to-service">
             Find More{" "}
             <span className="arrow">
             <HiArrowNarrowRight size={20} fontWeight={600} />
           </span>
-        </Link>
+        </Link> */}
       </div>
     </>
   );

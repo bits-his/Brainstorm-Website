@@ -7,7 +7,7 @@ import { AiOutlineMenu,  AiOutlineClose} from "react-icons/ai"
 
 
 
-export default function Navbar() {
+export default function Navbar({sectionRefs}) {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
 
@@ -18,6 +18,34 @@ export default function Navbar() {
   const handleLinkClick = () => {
     setIsMenuOpen(false);
   };
+  const [activeSection, setActiveSection] = useState(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    // Object.values(sectionRefs).forEach((ref) => {
+    //   observer.observe(ref.current);
+    // });
+    Object.keys(sectionRefs).forEach((key) => {
+      if (sectionRefs[key].current) {
+        observer.observe(sectionRefs[key].current);
+      }
+    });
+    console.log(activeSection)
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [activeSection, sectionRefs]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,39 +71,39 @@ export default function Navbar() {
       <div className="inner">
        <ul className={`navlist`} onClick={handleLinkClick}>
           <li>
-            <NavLink to="/" >
+            <a href="#home" className={activeSection === 'home' ? 'active' : ''}>
               Home
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink to="/about-us" >
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/services" >
-              Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/bi-hub" >
-              Bi-Hub
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/our-clients" >
+            <a href="#clients" className={activeSection === 'clients' ? 'active' : ''}>
               Our Clients
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink to="/blog" >
+            <a href="#services" className={activeSection === 'services' ? 'active' : ''} >
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#bihub" className={activeSection === 'bihub' ? 'active' : ''} >
+              Bi-Hub
+            </a>
+          </li>
+          <li>
+            <a href="#about" className={activeSection === 'about' ? 'active' : ''} >
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#blog" className={activeSection === 'blog' ? 'active' : ''}>
               Blog
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink to="/team" >
+            <a href="#team" className={activeSection === 'team' ? 'active' : ''}>
               Team
-            </NavLink>
+            </a>
           </li>
         </ul>
        </div>

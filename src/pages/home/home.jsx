@@ -9,15 +9,21 @@ import HomeCardContainer from "./services-card/HomeCardContainer.jsx";
 import Hero from "./hero/Hero";
 import Bihub from "../Bi-hub/Bihub.jsx";
 import AboutCard from "../about-us/AboutCard.jsx";
+import '../about-us/about-us.css'
+import '../services/services.css'
+import Scroll from "../../Components/scroll/Scroll.jsx";
 
-export default function Home() {
+export default function Home({sections}) {
   let years = new Date().getFullYear() - 2009;
+
   return (
-    <div id="home">
-      <Hero />
-      <div className="center-text">
-         <h3 className="heading my-2 text-center">Our Clients</h3>
-        <p>
+    <div id="">
+      <Hero sectionRef={sections.home}/>
+      <div className="center-text" id="clients" ref={sections.clients}>
+        {/* <h3 className='sub-heading'>Client</h3>
+         <h3 className="heading my-2 text-center">Our Clients</h3> */}
+         <Scroll title={'Our Clients'} page={'client'}/>
+        <p className="p">
           We transform businesses with
           powerful and adaptable digital solutions that satisfy the needs of
           today and unlock the opportunities of tomorrow.
@@ -25,9 +31,9 @@ export default function Home() {
         <Carousel />
       </div>
       {/* <What /> */}
-      <HomeCardContainer />
-      <Bihub />
-      <div className="container mt-5 d-flex p-4 mb-5 about-container wha">
+      <HomeCardContainer refi={sections.services}/>
+      <Bihub  refi={sections.bihub}/>
+      <div className="container mt-5 d-flex p-4 mb-5 about-container wha" id="about" ref={sections.about}>
         <div className="what-text ">
           <h2
             data-aos="fade-righ"
@@ -98,7 +104,7 @@ export default function Home() {
       
 
       <Designed />
-      <BlogContainer />
+      <BlogContainer refi={sections.blog}/>
 
       <GetInTouch />
     </div>
