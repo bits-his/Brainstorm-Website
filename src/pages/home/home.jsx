@@ -47,7 +47,7 @@ export default function Home({sections}) {
               We have been Innovating for over{" "}
               <span className="years">{years}</span> years
             </h1>
-            <p>
+            <p style={{ textAlign: "justify" }}>
               Brainstorm IT Solutions is a software solution company with a wide
               range of experience in different sectors of the economy. It was
               founded in 2006 and has since been working with different
@@ -101,7 +101,6 @@ export default function Home({sections}) {
           time={300}
         />
       </div>
-      
 
       <Designed />
       <BlogContainer refi={sections.blog}/>

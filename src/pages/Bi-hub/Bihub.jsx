@@ -57,7 +57,7 @@ export default function Bihub({refi}) {
         </div>
       </div> */}
 
-      <div className="styled">
+      <div className="container styled">
         <div className="row">
           <CustumeCard
             col="4"

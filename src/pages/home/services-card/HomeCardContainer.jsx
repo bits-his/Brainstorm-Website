@@ -34,7 +34,7 @@ export default function HomeCardContainer({refi}) {
           img={CT}
           time={300}
         />
-         <HomeCard
+        <HomeCard
           heading="Co-operate Trainings"
           describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
           img={CT}

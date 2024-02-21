@@ -1,5 +1,5 @@
-import React from 'react'
-import './hero.css'
+import React from "react";
+import "./hero.css";
 import Text from "../text/Text";
 import image from "../../../assets/img/bg1.webp";
 
@@ -14,16 +14,16 @@ export default function Hero({sectionRef}) {
         <div className="box">
         </div>
       <div className="overlay-hero">
-      <h1>Welcome to Our Innovation Hub</h1>
+        <h1>Welcome to Brainstorm I.T Solutions</h1>
         <p>
           We <Text /> digital solutions
         </p>
       </div>
 
-        {/* <h1>Welcome to the Innovation Hub</h1>
+      {/* <h1>Welcome to the Innovation Hub</h1>
         <p>
           We <Text /> digital solutions
         </p> */}
-      </div>
-  )
+    </div>
+  );
 }

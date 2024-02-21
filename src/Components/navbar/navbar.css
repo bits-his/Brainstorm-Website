@@ -72,15 +72,14 @@ header {
   padding: 0;
 }
 .navlist a {
-  font-weight: 600;
+  font-weight: 700;
   color: #1f1f1f;
   padding: 15px 10px;
-  font-size: 16px !important;
+  font-size: 16px;
   transition: all 0.36s ease;
   text-decoration: none;
   text-transform: capitalize;
   position: relative;
-  font-size: 15px;
 }
 .navlist a::after {
   content: "";
@@ -100,12 +99,14 @@ header {
 .navlist a:hover::after,
 .navlist a:active::after {
   /* bottom: 5px; */
-  width: 100%;
+  width: 95%;
   left: 0;
   scale: 1;
   transition: linear .2s;
 }
 .navlist .active::after {
+  width: 100%;
+  left: 0;
   scale: 1;
   transition: linear 0.2s;
 }
