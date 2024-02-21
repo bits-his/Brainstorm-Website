@@ -16,11 +16,11 @@ export default function Home() {
     <div id="home">
       <Hero />
       <div className="center-text">
-         <h3 className="heading my-2 text-center">Our Clients</h3>
+        <h3 className="heading my-2 text-center">Our Clients</h3>
         <p>
-          We transform businesses with
-          powerful and adaptable digital solutions that satisfy the needs of
-          today and unlock the opportunities of tomorrow.
+          We transform businesses with powerful and adaptable digital solutions
+          that satisfy the needs of today and unlock the opportunities of
+          tomorrow.
         </p>
         <Carousel />
       </div>
@@ -41,7 +41,7 @@ export default function Home() {
               We have been Innovating for over{" "}
               <span className="years">{years}</span> years
             </h1>
-            <p>
+            <p style={{ textAlign: "justify" }}>
               Brainstorm IT Solutions is a software solution company with a wide
               range of experience in different sectors of the economy. It was
               founded in 2006 and has since been working with different
@@ -95,7 +95,6 @@ export default function Home() {
           time={300}
         />
       </div>
-      
 
       <Designed />
       <BlogContainer />

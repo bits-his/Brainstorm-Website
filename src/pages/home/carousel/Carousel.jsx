@@ -2,7 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import './carousel.css'
+import "./carousel.css";
 import sanda from "../../../assets/logos/sanda.png";
 import prime from "../../../assets/logos/pscprime_logo.png";
 import pikme from "../../../assets/logos/pick.png";
@@ -48,72 +48,72 @@ export default function Carousel() {
   return (
     <>
       <OwlCarousel className="owl-theme" {...options}>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={state} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={kano} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={katsina} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={aminu} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={insurance} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={health} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={govt} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={immigration} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={pikme} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={prime} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={sanda} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={zagis} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={loogo} alt="sii" />
           </div>
         </div>
-        <div className="item" style = {{width: 100}}>
+        <div className="item" style={{ width: 100 }}>
           <div className="caro">
             <img src={habeeby} alt="sii" />
           </div>

@@ -12,10 +12,7 @@ export default function HomeCardContainer() {
   return (
     <>
       <div className="row service-container mb-5 pb-5">
-        <Scroll
-          title={"Our featured solutions"}
-          page="Services"
-        />
+        <Scroll title={"Our featured solutions"} page="Services" />
         <HomeCard
           heading="Software Development"
           describtion="Enhance your online presence with cutting-edge web applications. We specialize in creating dynamic and user-friendly web solutions that deliver seamless experiences across devices."
@@ -34,15 +31,15 @@ export default function HomeCardContainer() {
           img={CT}
           time={300}
         />
-         <HomeCard
+        <HomeCard
           heading="Co-operate Trainings"
           describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
           img={CT}
           time={300}
         />
-        <Link to='/services#service' className="more-service home-to-service">
-            Find More{" "}
-            <span className="arrow">
+        <Link to="/services#service" className="more-service home-to-service">
+          Find More{" "}
+          <span className="arrow">
             <HiArrowNarrowRight size={20} fontWeight={600} />
           </span>
         </Link>
