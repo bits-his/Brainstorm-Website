@@ -80,7 +80,7 @@ export default function ProgressBar({ icon, col, col2, target, span }) {
   return (
     <>
       <div
-        className={`col-lg-${col} col-sm-${col}  col-${col2} col-md-${col} round-pad`}
+        className={`col-lg-${col} col-sm-${col2}  col-${col2} col-md-${col} round-pad  ps-3 pb-3`}
       >
         {/* <div className="d-flex d-sm-block d-lg-flex align-items-center">
           <div className="circle-container">
@@ -122,7 +122,9 @@ export default function ProgressBar({ icon, col, col2, target, span }) {
         <div class="counter-card d-flex align-items-center">
           <div class="counter-icon">{icon}</div>
           <div className="d-block">
-            <h3 ref={counterRef}>{isVisible ? count : 0} <span>+</span> </h3>
+            <h3 ref={counterRef}>
+              {isVisible ? count : 0} <span>+</span>{" "}
+            </h3>
             <p>{span}.</p>
           </div>
         </div>

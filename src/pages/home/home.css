@@ -181,7 +181,7 @@
 .home-page {
   height: 90vh;
 }
-.center-text p{
-  max-width: 80%;
+.center-text .p{
+  max-width: 95%;
 }
 }

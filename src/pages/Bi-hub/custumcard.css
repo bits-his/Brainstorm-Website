@@ -1,5 +1,6 @@
 .carded {
   position: relative;
+  width: 95%;
   height: 200px;
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -12,6 +13,7 @@
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   margin-bottom: 20px;
   z-index: 10;
+  border: 2px solid #ebebebe1;
 }
 
 .carded img {

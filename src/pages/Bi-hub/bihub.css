@@ -35,9 +35,9 @@
   transition: 0.2s ease-in-out;
   z-index: 1;
 }
-.styled {
-  /* padding: 50px; */
-}
+/* .styled {
+   padding: 50px; 
+} */
 
 .textBox > .price {
   font-size: 17px;
