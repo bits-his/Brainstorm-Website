@@ -15,7 +15,7 @@ import islahpay from "../../assets/logos/Islahpay logo No Background.png";
 import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
 
 // import Hero from "../../Components/Hero/Hero";
-export default function Bihub({refi}) {
+export default function Bihub({ refi }) {
   return (
     <>
       {/* <Parallex
@@ -26,16 +26,15 @@ export default function Bihub({refi}) {
         and develop entrepreneurial ventures, fostering collaboration
          and empowering aspiring innovators for success."
       /> */}
-      <div className="container-fluid mt-5 pt-5" id="bihub"  ref={refi}>
+      <div className="container-fluid mt-5 pt-5" id="bihub" ref={refi}>
         <Scroll
-        page="Bi-Hub"
+          page="Bi-Hub"
           title="Get to Know Our Startups."
-          // span="
-          // Welcome to Bihub - your go-to destination for top-tier
-          // software solutions. We turn ideas into reality, delivering
-          // innovative and user-friendly software that sets you apart in
-          // the digital realm. Join us on this exciting journey of transformation
-          // through technology."
+          span="
+          Brainstorm Innovation Hub (Bi-Hub) is a dynamic space for young minds
+          to engage with technology, gain insights, and develop entrepreneurial
+          ventures,
+          fostering collaboration and empowering aspiring innovators for success."
         />
       </div>
       {/* <div className="cared">
