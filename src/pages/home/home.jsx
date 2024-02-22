@@ -106,7 +106,7 @@ export default function Home({sections}) {
       </div>
 
       <Designed />
-      <Products refi={sections.Products}/>
+      <Products refi={sections.products}/>
       <BlogContainer refi={sections.blog}/>
 
       <GetInTouch />

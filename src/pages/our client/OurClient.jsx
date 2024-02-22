@@ -18,7 +18,7 @@ import health from "../../assets/logos/6.jpg";
 export default function OurClient() {
   return (
     <>
-      <div className="cl">
+      {/* <div className="cl">
         <div className="clll">
           <h1 className="claye">Our Clients</h1>
           <p className="paragraph">
@@ -28,7 +28,7 @@ export default function OurClient() {
             business.
           </p>
         </div>
-      </div>
+      </div> */}
 
       <div className="contain">
         <div className="row">
