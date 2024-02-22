@@ -12,6 +12,8 @@ import AboutCard from "../about-us/AboutCard.jsx";
 import '../about-us/about-us.css'
 import '../services/services.css'
 import Scroll from "../../Components/scroll/Scroll.jsx";
+import TeamContainer from '../about-us/TeamContainer.jsx'
+import Products from "./products/Products.jsx";
 
 export default function Home({sections}) {
   let years = new Date().getFullYear() - 2009;
@@ -34,7 +36,7 @@ export default function Home({sections}) {
       <HomeCardContainer refi={sections.services}/>
       <Bihub  refi={sections.bihub}/>
       <div className="container mt-5 d-flex p-4 mb-5 about-container wha" id="about" ref={sections.about}>
-        <div className="what-text ">
+        <div className="what-text pt-5">
           <h2
             data-aos="fade-righ"
             data-aos-once="true"
@@ -100,9 +102,11 @@ export default function Home({sections}) {
           mutual benefits and dignity."
           time={300}
         />
+        <TeamContainer />
       </div>
 
       <Designed />
+      <Products refi={sections.Products}/>
       <BlogContainer refi={sections.blog}/>
 
       <GetInTouch />

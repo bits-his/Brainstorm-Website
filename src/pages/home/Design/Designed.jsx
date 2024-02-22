@@ -14,14 +14,14 @@ export default function Designed() {
               icon={<BiCheckShield />}
               col={3}
               col2={6}
-              span="Completed project ."
+              span="Completed project"
               target="70"
             />
             <ProgressBar
               icon={<FaRegUserCircle />}
               col={3}
               col2={6}
-              span="Satisfied clients."
+              span="Satisfied clients"
               target="50"
             />
             <ProgressBar
@@ -36,7 +36,7 @@ export default function Designed() {
               icon={<BiCheckShield />}
               col={3}
               col2={6}
-              span="Industries served."
+              span="Industries served"
               target="10"
             />
           </div>

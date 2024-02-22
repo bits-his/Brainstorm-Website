@@ -12,7 +12,7 @@ import Scroll from "../../Components/scroll/Scroll";
 
 export default function TeamContainer() {
   return (
-    <div className="container-fluid mt-5 pt-5 pb-5 bg-light">
+    <div className="container-fluid mt-5 pt-5 pb-5 bg-ligh">
       {/* <h2 className='s-heading'>Our Creative Team</h2> */}
       <Scroll title="Management Team" page="about" />
       <div className="container">
@@ -31,8 +31,8 @@ export default function TeamContainer() {
           />
           <TeamCard
             pic={mary}
-            name="Mary Festus"
-            last={true}
+            name="Mary Festus Daniel"
+            // last={true}
             role="HUB Manager"
             delay={130}
           />
@@ -44,8 +44,8 @@ export default function TeamContainer() {
           />
           <TeamCard
             pic={ishaq}
-            name="Ishaq Ibrahim"
-            last={true}
+            name="Ishaq Ibrahim Bagwai"
+            // last={true}
             role="CTO Brainstorm"
             delay={250}
           />

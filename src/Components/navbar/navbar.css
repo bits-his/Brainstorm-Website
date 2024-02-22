@@ -96,19 +96,19 @@ header {
   background-color: var(--red-color);
   transition: linear .2s;
 }
-.navlist a:hover::after,
+/* .navlist a:hover::after,
 .navlist a:active::after {
-  /* bottom: 5px; */
+  bottom: 5px;
   width: 95%;
-  left: 0;
+  left: ;
   scale: 1;
   transition: linear .2s;
-}
+} */
 .navlist .active::after {
-  width: 100%;
-  left: 0;
+  width: 80%;
+  left: 9%;
   scale: 1;
-  transition: linear 0.2s;
+  transition: linear 0.3s;
 }
 .navlist .active {
   color: var(--main-color);

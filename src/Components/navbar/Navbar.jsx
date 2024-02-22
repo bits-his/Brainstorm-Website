@@ -96,13 +96,13 @@ export default function Navbar({sectionRefs}) {
             </a>
           </li>
           <li>
-            <a href="#blog" className={activeSection === 'blog' ? 'active' : ''}>
-              Blog
+            <a href="#products" className={activeSection === 'products' ? 'active' : ''}>
+              Products
             </a>
           </li>
           <li>
-            <a href="#team" className={activeSection === 'team' ? 'active' : ''}>
-              Team
+            <a href="#blog" className={activeSection === 'blog' ? 'active' : ''}>
+              Blog
             </a>
           </li>
         </ul>

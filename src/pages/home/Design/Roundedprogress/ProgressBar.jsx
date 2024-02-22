@@ -58,6 +58,7 @@ export default function ProgressBar({ icon, col, col2, target, span }) {
     }
 
     return () => observer.disconnect();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const startAnimation = () => {
@@ -119,8 +120,8 @@ export default function ProgressBar({ icon, col, col2, target, span }) {
           </div>
         </div> */}
 
-        <div class="counter-card d-flex align-items-center">
-          <div class="counter-icon">{icon}</div>
+        <div className="counter-card d-flex align-items-center">
+          <div className="counter-icon">{icon}</div>
           <div className="d-block">
             <h3 ref={counterRef}>
               {isVisible ? count : 0} <span>+</span>{" "}

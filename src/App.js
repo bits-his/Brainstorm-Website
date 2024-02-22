@@ -24,8 +24,9 @@ function App() {
     services: useRef(),
     bihub: useRef(),
     about: useRef(),
+    products: useRef(),
     blog: useRef(),
-    team: useRef(),
+    
   };
 
   return (

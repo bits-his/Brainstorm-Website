@@ -88,6 +88,9 @@
   animation-direction: alternate;
   color: var(--red-color);
 }
+.main-card .card-description {
+  margin-bottom: 0;
+}
 
 @media (width < 992px) {
   .main-card {
