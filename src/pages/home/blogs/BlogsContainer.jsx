@@ -4,6 +4,7 @@ import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
 import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
 import blog3 from "../../../assets/blog/DSC_0211.JPG";
 import Scroll from "../../../Components/scroll/Scroll";
+import { Link } from "react-router-dom";
 
 export default function BlogsContainer({refi}) {
   return (
@@ -40,6 +41,11 @@ export default function BlogsContainer({refi}) {
             />
             
           </div>
+           <div className="find-more">
+           <Link to='blog' >
+            Blog
+          </Link>
+           </div>
         </div>
 
         {/* <div className='container mt-4 mb-4'>

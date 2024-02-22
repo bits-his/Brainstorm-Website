@@ -17,7 +17,7 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    height: max-content;
+    height: min-content;
 }
 .hmm{
     margin: auto;
@@ -93,7 +93,7 @@
     width: 70%;
 }
 .info{
-    padding: 15px 25px;
+    padding: 15px 21px;
     width: 80%;
     margin: -50px auto 0;
     border: #dedede50 1px solid;
