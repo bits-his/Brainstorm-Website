@@ -1,20 +1,20 @@
 import React from "react";
 import "./ourclient.css";
 import CustumeClient from "./CustumeClient";
-import sanda from "../../assets/logos/sanda.png";
-import prime from "../../assets/logos/pscprime_logo.png";
+// import sanda from "../../assets/logos/sanda.png";
+// import prime from "../../assets/logos/pscprime_logo.png";
 // import pikme from "../../assets/logos/pick.png";
-import katsina from "../../assets/logos/sftas-katsina.png";
-import habeeby from "../../assets/logos/IMG_20220801_152803.e953f9f4c6e2120945f9-removebg-preview.png";
-import zagis from "../../assets/logos/sftas-zamf.jpg";
-import kano from "../../assets/logos/sftas.0be359df22c1da61850f-removebg-preview.png";
-import loogo from "../../assets/logos/loogo.png";
-import insurance from "../../assets/logos/1.jpg";
-import immigration from "../../assets/logos/2.jpg";
+// import katsina from "../../assets/logos/sftas-katsina.png";
+// import habeeby from "../../assets/logos/IMG_20220801_152803.e953f9f4c6e2120945f9-removebg-preview.png";
+// import zagis from "../../assets/logos/sftas-zamf.jpg";
+// import kano from "../../assets/logos/sftas.0be359df22c1da61850f-removebg-preview.png";
+// import loogo from "../../assets/logos/loogo.png";
+// import insurance from "../../assets/logos/1.jpg";
+// import immigration from "../../assets/logos/2.jpg";
 import aminu from "../../assets/logos/3.jpg";
 import govt from "../../assets/logos/4.jpg";
 import state from "../../assets/logos/5.jpg";
-import health from "../../assets/logos/6.jpg";
+// import health from "../../assets/logos/6.jpg";
 export default function OurClient() {
   return (
     <>
@@ -37,14 +37,14 @@ export default function OurClient() {
             col2="6"
             greyImg={govt}
             colorImg={govt}
-            text="Kano State Govt"
+            text="KIRMAS"
           />
           <CustumeClient
             col="3"
             col2="6"
             greyImg={aminu}
             colorImg={aminu}
-            text="Aminu Kano Teaching Hospital"
+            text="T-BEAMS"
           />
 
           <CustumeClient
@@ -52,9 +52,9 @@ export default function OurClient() {
             col2="6"
             greyImg={state}
             colorImg={state}
-            text="Kano Local Govt"
+            text="E-BUDGET"
           />
-          <CustumeClient
+          {/* <CustumeClient
             col="3"
             col2="6"
             greyImg={health}
@@ -74,7 +74,7 @@ export default function OurClient() {
             greyImg={zagis}
             colorImg={zagis}
             text="ZAGIS"
-          />
+          /> */}
 
           {/* <CustumeClient
             col="3"
@@ -84,7 +84,7 @@ export default function OurClient() {
             text="Pikme"
             circle="rounded-circle"
           /> */}
-          <CustumeClient
+          {/* <CustumeClient
             col="3"
             col2="6"
             alt="sanda"
@@ -134,14 +134,14 @@ export default function OurClient() {
             greyImg={prime}
             colorImg={prime}
             text="prime Specialist clinic"
-          />
-          <CustumeClient
+          /> */}
+          {/* <CustumeClient
             col="3"
             col2="6"
             greyImg={loogo}
             colorImg={loogo}
             text="Remedix"
-          />
+          /> */}
         </div>
       </div>
     </>
