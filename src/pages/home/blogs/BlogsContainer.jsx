@@ -2,7 +2,7 @@ import "./blogs.css";
 import BlogCard from "./BlogCard";
 import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
 import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
-import blog3 from "../../../assets/blog/DSC_0211.JPG";
+import blog3 from "../../../assets/blog/Workshop.jpg";
 import Scroll from "../../../Components/scroll/Scroll";
 import { Link } from "react-router-dom";
 
