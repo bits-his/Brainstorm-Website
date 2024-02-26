@@ -33,14 +33,14 @@ export default function OurClient() {
       <div className="contain">
         <div className="row">
           <CustumeClient
-            col="3"
+            col="4"
             col2="6"
             greyImg={govt}
             colorImg={govt}
             text="KIRMAS"
           />
           <CustumeClient
-            col="3"
+            col="4"
             col2="6"
             greyImg={aminu}
             colorImg={aminu}
@@ -48,7 +48,7 @@ export default function OurClient() {
           />
 
           <CustumeClient
-            col="3"
+            col="4"
             col2="6"
             greyImg={state}
             colorImg={state}

@@ -42,6 +42,11 @@
     animation-range-start: 30vh;
     animation-range-end: 60vh;
 }
+.about-text .years {
+  color: var(--red-color);
+  text-shadow: none;
+  text-decoration-thickness: none;
+}
 @keyframes scroll{
     to{
         background-size: 100% 100%;
@@ -53,6 +58,9 @@
         width: 95%;
     }
     .scroll-text h3 span{
+        font-size: 1.4em;
+    }
+    .about-text .years{
         font-size: 1.4em;
     }
 }

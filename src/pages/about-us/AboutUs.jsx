@@ -6,6 +6,7 @@ import TeamContainer from "./TeamContainer";
 import Parallex from "../../Components/parallex/Parallex";
 import Designed from "../home/Design/Designed";
 import AboutCard from "./AboutCard";
+import Scroll from "../../Components/scroll/Scroll";
 // import WD from '../../pages/services/img/WD.webp'
 // import CSD from '../../pages/services/img/CSD.webp'
 // import CT from '../../pages/services/img/CT.png'
@@ -17,10 +18,13 @@ export default function AboutUs() {
 
   return (
     <>
-     <Parallex page='About Us' details='
+      <Parallex
+        page="About Us"
+        details="
      Brainstorm registered since 2009 has been a customized software
      solutions provider to its clients using the state-of-the-art technology,
-     corporate training, consultancy and other I.T related services.'/>
+     corporate training, consultancy and other I.T related services."
+      />
       <div className="container mt-5 d-flex p-4 mb-5 about-container wha">
         <div className="what-text ">
           <h2

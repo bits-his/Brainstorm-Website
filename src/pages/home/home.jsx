@@ -9,50 +9,53 @@ import HomeCardContainer from "./services-card/HomeCardContainer.jsx";
 import Hero from "./hero/Hero";
 import Bihub from "../Bi-hub/Bihub.jsx";
 import AboutCard from "../about-us/AboutCard.jsx";
-import '../about-us/about-us.css'
-import '../services/services.css'
+import "../about-us/about-us.css";
+import "../services/services.css";
 import Scroll from "../../Components/scroll/Scroll.jsx";
-import TeamContainer from '../about-us/TeamContainer.jsx'
+import TeamContainer from "../about-us/TeamContainer.jsx";
 import Products from "./products/Products.jsx";
 
-export default function Home({sections}) {
+export default function Home({ sections }) {
   let years = new Date().getFullYear() - 2009;
 
   return (
     <div id="">
-      <Hero sectionRef={sections.home}/>
+      <Hero sectionRef={sections.home} />
+
       <div className="center-text" id="clients" ref={sections.clients}>
-        {/* <h3 className='sub-heading'>Client</h3>
-         <h3 className="heading my-2 text-center">Our Clients</h3> */}
-         <Scroll title={'Our Clients'} page={'client'}/>
+        <Scroll title={"Our Clients"} page={"client"} />
         <p className="p">
-          We transform businesses with
-          powerful and adaptable digital solutions that satisfy the needs of
-          today and unlock the opportunities of tomorrow.
+          We transform businesses with powerful and adaptable digital solutions
+          that satisfy the needs of today and unlock the opportunities of
+          tomorrow.
         </p>
         <Carousel />
       </div>
-      {/* <What /> */}
-      <HomeCardContainer refi={sections.services}/>
-      <Bihub  refi={sections.bihub}/>
-      <div className="container mt-5 d-flex p-4 mb-5 about-container wha" id="about" ref={sections.about}>
+
+      <HomeCardContainer id="services" refi={sections.services} />
+
+      <Bihub refi={sections.bihub} />
+
+      <div
+        className="container mt-5 d-flex p-4 mb-5 about-container wha"
+        id="about"
+        ref={sections.about}
+      >
         <div className="what-text pt-5">
-          <h2
-            data-aos="fade-righ"
-            data-aos-once="true"
-            className="subheading mb-2"
-          >
-            About Us
-          </h2>
           <div data-aos="fade-u" data-aos-once="true" className="about-text">
-            <h1 className="spa">
-              We have been Innovating for over{" "}
-              <span className="years">{years}</span> years
-            </h1>
-            <p style={{ textAlign: "justify" }}>
+            <Scroll
+              page={"About us"}
+              title={
+                <span>
+                  We have been Innovating for over{" "}
+                  <span className="years">{years}</span> years
+                </span>
+              }
+            />
+            <p style={{ textAlign: "justify", fontSize: "18px" }}>
               Brainstorm IT Solutions is a software solution company with a wide
               range of experience in different sectors of the economy. It was
-              founded in 2006 and has since been working with different
+              founded in 2009 and has since been working with different
               organizations in building reliable and innovative solutions Our
               goal is to exceed the expectations of every client by offering
               outstanding customer service, increased flexibility, and greater
@@ -106,8 +109,8 @@ export default function Home({sections}) {
       </div>
 
       <Designed />
-      <Products refi={sections.products}/>
-      <BlogContainer refi={sections.blog}/>
+      <Products refi={sections.products} />
+      <BlogContainer refi={sections.blog} />
 
       <GetInTouch />
     </div>
