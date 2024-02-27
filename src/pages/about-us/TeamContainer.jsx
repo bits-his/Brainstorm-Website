@@ -31,7 +31,7 @@ export default function TeamContainer() {
           />
           <TeamCard
             pic={mary}
-            name="Mary Festus Daniel"
+            name="Mary Festus Dania"
             // last={true}
             role="HUB Manager"
             delay={130}

@@ -14,6 +14,9 @@ import CustumeClient from "./CustumeClient";
 import aminu from "../../assets/logos/3.jpg";
 import govt from "../../assets/logos/4.jpg";
 import state from "../../assets/logos/5.jpg";
+import sirmas from "../../assets/logos/sirmas.png";
+import tbeams from "../../assets/logos/T-beams.png";
+import ebudget from "../../assets/logos/e-budget.png";
 // import health from "../../assets/logos/6.jpg";
 export default function OurClient() {
   return (
@@ -35,26 +38,69 @@ export default function OurClient() {
           <CustumeClient
             col="4"
             col2="6"
-            greyImg={govt}
-            colorImg={govt}
-            text="KIRMAS"
+            greyImg={sirmas}
+            colorImg={sirmas}
+            text="SIRMAS"
           />
           <CustumeClient
             col="4"
             col2="6"
-            greyImg={aminu}
-            colorImg={aminu}
+            greyImg={tbeams}
+            colorImg={tbeams}
             text="T-BEAMS"
           />
 
           <CustumeClient
             col="4"
             col2="6"
-            greyImg={state}
-            colorImg={state}
+            greyImg={ebudget}
+            colorImg={ebudget}
             text="E-BUDGET"
           />
-          {/* <CustumeClient
+          <CustumeClient
+            col="4"
+            col2="6"
+            greyImg={state}
+            colorImg={state}
+            text="SIPPIS"
+          />
+          <CustumeClient
+            col="4"
+            col2="6"
+            greyImg={govt}
+            colorImg={state}
+            text="SIPS"
+          />
+          <CustumeClient
+            col="4"
+            col2="6"
+            greyImg={aminu}
+            colorImg={state}
+            text="Public Financial Management Suite"
+          />
+          <CustumeClient
+            col="4"
+            col2="6"
+            greyImg={state}
+            colorImg={state}
+            text="Enrollee Audit Software"
+          />
+          <CustumeClient
+            col="4"
+            col2="6"
+            greyImg={state}
+            colorImg={state}
+            text="End to End Remmitance Disbursement"
+          />
+          {/*
+          1. E- Budget software
+2. Treasury - Budget Expenditure and Accountability Management System (T-BEAMS)
+3. State Integrated and Assurance Management System
+4. Public Financial Management Suite
+5. TSA Suite
+6. Enrollee Audit Software
+7. End to End Remmitance Disbursement
+          <CustumeClient
             col="3"
             col2="6"
             greyImg={health}

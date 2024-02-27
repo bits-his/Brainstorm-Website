@@ -3,6 +3,7 @@ import Scroll from "../../../Components/scroll/Scroll";
 import WD from "../../services/img/WD.webp";
 import CSD from "../../services/img/CSD.webp";
 import CT from "../../services/img/CT.png";
+import SC from "../../services/img/SC.png";
 // import { HiArrowNarrowRight } from "react-icons/hi";
 
 import HomeCard from "./HomeCard";
@@ -12,10 +13,7 @@ export default function HomeCardContainer({refi}) {
   return (
     <>
       <div className="row service-container my-5 py-5" id="services" ref={refi}>
-        <Scroll
-          title={"Our featured solutions"}
-          page="Services"
-        />
+        <Scroll title={"Our featured solutions"} page="Services" />
         <HomeCard
           heading="Software Development"
           describtion="Enhance your online presence with cutting-edge web applications. We specialize in creating dynamic and user-friendly web solutions that deliver seamless experiences across devices."
@@ -35,10 +33,13 @@ export default function HomeCardContainer({refi}) {
           time={300}
         />
         <HomeCard
-          heading="Co-operate Trainings"
-          describtion="In addition to our development services, we offer corporate training programs designed to enhance the skills and capabilities of your team. From the latest technologies to industry best practices."
-          img={CT}
-          time={300}
+          heading="Mentorship"
+          describtion="
+          Experience personalized mentorship services for individuals and
+          organizations in the tech industry. Our seasoned mentors provide 
+          tailored guidance to help you reach your full potential."
+          img={SC}
+          time={500}
         />
         {/* <Link to='/services#service' className="more-service home-to-service">
             Find More{" "}

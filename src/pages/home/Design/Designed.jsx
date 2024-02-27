@@ -14,7 +14,7 @@ export default function Designed() {
               icon={<BiCheckShield />}
               col={3}
               col2={6}
-              span="Completed project"
+              span="Completed projects"
               target="70"
             />
             <ProgressBar
@@ -28,7 +28,7 @@ export default function Designed() {
               icon={<BiLayer />}
               col={3}
               col2={6}
-              span="years of Experience "
+              span="Years of experience "
               target="15"
             />
 

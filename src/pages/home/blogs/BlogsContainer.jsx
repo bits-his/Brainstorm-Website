@@ -2,15 +2,18 @@ import "./blogs.css";
 import BlogCard from "./BlogCard";
 import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
 import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
-import blog3 from "../../../assets/blog/Bootcamp 1.jpg";
+import blog3 from "../../../assets/blog/Workshop.jpg";
+import Scroll from "../../../Components/scroll/Scroll";
+import { Link } from "react-router-dom";
 
-export default function BlogsContainer() {
+export default function BlogsContainer({refi}) {
   return (
-    <div>
+    <div id="blog" ref={refi}>
       <div className="story">
-        <div className="top-text">
+        {/* <div className="top-text">
           <h3>Our recent stories</h3>
-        </div>
+        </div> */}
+        <Scroll title={"Our recent stories"} page={'blog'}/>
         <div className="container">
           <div className="row">
             <BlogCard img={blog1} 
@@ -30,13 +33,19 @@ export default function BlogsContainer() {
               id={2}
             />
             <BlogCard img={blog3} 
-            title={"Creating and Securing Dynamic Online Platforms (Web 3)"} 
-            description={"Lorem, ipsum dolor sit amet consectetur adipisicing elitconsectetur adipisicing elit..."} 
+            title={"2 Days Workshop with Ministry of Finance Kano"} 
+            description={`Brainstorm organise a 2 days workshop for the ministry of finance, 
+            budget and planning in which the of the platforms developed by brainstorm were lucnched`} 
             date={"November 16, 2023"} 
             id={3}
             />
             
           </div>
+           <div className="find-more">
+           <Link to='blog' >
+            Blog
+          </Link>
+           </div>
         </div>
 
         {/* <div className='container mt-4 mb-4'>
@@ -66,7 +75,8 @@ export default function BlogsContainer() {
                     </button>
                   </div>
 
-                </div>
+Ayomide, [2/26/2024 11:41 AM]
+</div>
                 <div className="item2">
                   <div className='headline-stories'>
                     <div className='stories-head'>Creating and Securing Dynamic Online Platforms (Web 3)</div>
