@@ -41,11 +41,11 @@ export default function BlogsContainer({refi}) {
             />
             
           </div>
-           <div className="find-more">
-           <Link to='blog' >
-            Blog
-          </Link>
-           </div>
+          <div className="find-more">
+            <Link to='blog' >
+              Blog 
+            </Link>
+          </div>
         </div>
 
         {/* <div className='container mt-4 mb-4'>
