@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, Outlet } from "react-router-dom"
 import { useLocation } from "react-router-dom"
 import React, { useLayoutEffect, useRef } from 'react';
 import AOS from 'aos';
@@ -9,6 +9,7 @@ import Blog from "../blog/Blogs.jsx"
 import NotFound from "../errors/NotFound.jsx"
 import Navbar from '../../Components/navbar/Navbar';
 import Footer from "../../Components/footer/Footer.jsx"
+import BlogDetails from "../blog/BlogDetails.jsx";
 
 
 function Nav() {
@@ -38,6 +39,7 @@ function Nav() {
         <Routes>
             <Route exact path='/' element={<Home sections={sectionRefs}/>} />
             <Route path='/blog' element={<Blog />} />
+            <Route path='/blog/blog_details/:id' element={<BlogDetails />} />
             <Route path='/contact' element={<Contact />}/>
             <Route path='*' element={<NotFound />} />
         </Routes>

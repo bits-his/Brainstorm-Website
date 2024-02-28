@@ -50,7 +50,7 @@ export default function ContactForm() {
                 a large language ocean.
               </p>
               <p>
-                <Link to="#" className="btn btn-primary mr-2">
+                <Link to="#" className="btn btn-primary me-2">
                   How we work
                 </Link>
                 <button className="btn btn-outline-primary">Contact us</button>
