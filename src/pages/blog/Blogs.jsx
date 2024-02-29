@@ -59,6 +59,7 @@ export default function Blogs() {
                   <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">
                     <Spinner animation="grow" variant="primary" />
                   </div>
+                  
                 </div>
                 ) : (
                   <div className="card-list row">

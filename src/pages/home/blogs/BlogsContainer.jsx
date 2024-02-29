@@ -1,22 +1,55 @@
 import "./blogs.css";
-import BlogCard from "./BlogCard";
-import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
-import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
-import blog3 from "../../../assets/blog/Workshop.jpg";
+// import BlogCard from "./BlogCard";
+// import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
+// import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
+// import blog3 from "../../../assets/blog/Workshop.jpg";
 import Scroll from "../../../Components/scroll/Scroll";
+import BlogsCard from "../../../pages/blog/BlogsCard";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Spinner } from 'react-bootstrap';
 
 export default function BlogsContainer({refi}) {
+  const [blog,setBlog] = useState([])
+  const [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    fetch('https://bits-blog-faef777253aa.herokuapp.com/api/get_blog?ORDERBY=DESC')
+    .then(res =>res.json())
+    .then(data => (setBlog(data.data.slice(0,3))) (setLoading(false)))
+    .catch(e=>console.log(e))
+  },[])
+
   return (
     <div id="blog" ref={refi}>
       <div className="story">
-        {/* <div className="top-text">
-          <h3>Our recent stories</h3>
-        </div> */}
+
         <Scroll title={"Our recent stories"} page={'blog'}/>
         <div className="container">
           <div className="row">
-            <BlogCard img={blog1} 
+          {loading ? ( 
+                <div className="row">
+                  <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">
+                    <Spinner animation="grow" variant="primary" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">
+                    <Spinner animation="grow" variant="primary" />
+                  </div>
+                  <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">
+                    <Spinner animation="grow" variant="primary" />
+                  </div>
+                </div>
+                ) : (
+                  <div className="card-list row">
+                      {blog.map((card, index) => (
+                      <Link to={"/blog/blog_details/"+card.id}  key={index} className="home-blog col-lg-4 col-md-6 col-sm-12 p-3 mb-4 position-relative">
+                        <BlogsCard key={index} card={card} />
+                      </Link>
+                      ))}
+                  </div>
+                )
+              }
+            {/* <BlogCard img={blog1} 
               title={"Free Javascript Bootcamp at Bayero University Kano"} 
               id={1}
               description={`On the 9th - 10th January 2024, Brainstorm IT Solutions organized a 
@@ -38,7 +71,7 @@ export default function BlogsContainer({refi}) {
             budget and planning in which the of the platforms developed by brainstorm were lucnched`} 
             date={"November 16, 2023"} 
             id={3}
-            />
+            /> */}
             
           </div>
           <div className="find-more">
@@ -47,112 +80,6 @@ export default function BlogsContainer({refi}) {
             </Link>
           </div>
         </div>
-
-        {/* <div className='container mt-4 mb-4'>
-            <div className='row mb-3'>
-              <h2 className='mb-0'>Success Stories</h2>
-              <p className='underline shift'></p>
-            </div>
-            <div className='row'>
-              <div className="flex-container">
-                <div className="item1">
-                  <div className='headline-stories'>
-                    <div className='stories-head'>Software Products Development for Global Webpages</div>
-                    <p className='underline'></p>
-                  </div>
-                  <div className='headline-description'>
-                    <p className='stories-category'>Product Development</p>
-                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
-                  </div>
-                  <div className='headline-hover-content'>
-                    <div>
-                      <p>React</p>
-                      <p>React Native</p>
-                      <p>3D Designing</p>
-                    </div>
-                    <button className="animated-arrow-button">
-                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
-                    </button>
-                  </div>
-
-Ayomide, [2/26/2024 11:41 AM]
-</div>
-                <div className="item2">
-                  <div className='headline-stories'>
-                    <div className='stories-head'>Creating and Securing Dynamic Online Platforms (Web 3)</div>
-                    <p className='underline'></p>
-                  </div>
-                  <div className='headline-description'>
-                    <p className='stories-category'>Secure Programming</p>
-                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
-                  </div>
-                  <div className='headline-hover-content'>
-                    <div>
-                      <p>Blockchain</p>
-                    </div>
-                    <button className="animated-arrow-button">
-                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
-                    </button>
-                  </div>
-                </div>
-                <div className="item3">
-                  <div className='headline-stories'>
-                    <div className='stories-head'> Managing Robust Backends</div>
-                    <p className='underline'></p>
-                  </div>
-                  <div className='headline-description'>
-                    <p className='stories-category'>Service</p>
-                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
-                  </div>
-                  <div className='headline-hover-content'>
-                    <div>
-                      <p>Node js</p>
-                      <p>Kubernets</p>
-                    </div>
-                    <button className="animated-arrow-button">
-                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
-                    </button>
-                  </div>
-                </div>
-                <div className="item4">
-                  <div className='headline-stories'>
-                    <div className='stories-head'>Providing Hosting Services</div>
-                    <p className='underline'></p>
-                  </div>
-                  <div className='headline-description'>
-                    <p className='stories-category'>Service</p>
-                    <HiArrowNarrowRight size={20} color="white" fontWeight={600} />
-                  </div>
-                  <div className='headline-hover-content'>
-                    <div>
-                      <p>Cloud Computing</p>
-                    </div>
-                    <button className="animated-arrow-button">
-                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
-                    </button>
-                  </div>
-                </div>
-                <div className="item5">
-                  <div className='headline-stories'>
-                    <div className='stories-head'>Utilizing Core Technologies for Efficient Servicing and Cybersecurity</div>
-                    <p className='underline'></p>
-                  </div>
-                  <div className='headline-description'>
-                    <p className='stories-category'>Software Testing</p>
-                  </div>
-                  <div className='headline-hover-content'>
-                    <div>
-                      <p>Web Pentest</p>
-                      <p>Application Pentest</p>
-                    </div>
-                    <button className="animated-arrow-button">
-                      Find more <span className="animated-arrow"><HiArrowNarrowRight size={20} color="black" fontWeight={600} /></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div> */}
       </div>
     </div>
   );

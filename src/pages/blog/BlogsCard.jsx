@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { FaPlus } from "react-icons/fa6";
 
@@ -13,7 +12,6 @@ export default function BlogCard({ card }) {
           </div>
         </div>
         <div className="home-blog-content mb-4">
-          {/* <small>{card.created_at}</small> */}
           <h3>
             {card.title}
           </h3>
@@ -29,5 +27,3 @@ export default function BlogCard({ card }) {
     </>
   );
 }
-
-// attachment, title, created_at, content
