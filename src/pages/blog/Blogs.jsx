@@ -50,13 +50,13 @@ export default function Blogs() {
             <div className="card-pagination">
               {loading ? ( // Display loading indicator while data is being fetched
                 <div className="row">
-                  <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">
+                  <div className="col-lg-4 col-md-12 col-sm-12 p-3 mb-4 spinner-box">
                     <Spinner animation="grow" variant="primary" />
                   </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">
+                  <div className="col-lg-4 col-md-12 col-sm-12 p-3 mb-4 spinner-box">
                     <Spinner animation="grow" variant="primary" />
                   </div>
-                  <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">
+                  <div className="col-lg-4 col-md-12 col-sm-12 p-3 mb-4 spinner-box">
                     <Spinner animation="grow" variant="primary" />
                   </div>
                   

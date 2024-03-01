@@ -61,7 +61,7 @@ export default function Navbar({sectionRefs}) {
   const navigate = useNavigate()
   return (
     <>
-    {JSON.stringify(activeSection)}
+    {/* {JSON.stringify(activeSection)} */}
       <header className={` ${isSticky ? 'isSticky' : ''}`} >
       <div className="header">
       <div className="logo-container">

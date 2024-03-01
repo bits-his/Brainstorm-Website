@@ -1,8 +1,4 @@
 import "./blogs.css";
-// import BlogCard from "./BlogCard";
-// import blog1 from "../../../assets/blog/Bootcamp 1.jpg";
-// import blog2 from "../../../assets/blog/BUK Students Visit.jpg";
-// import blog3 from "../../../assets/blog/Workshop.jpg";
 import Scroll from "../../../Components/scroll/Scroll";
 import BlogsCard from "../../../pages/blog/BlogsCard";
 import { Link } from "react-router-dom";
@@ -12,6 +8,22 @@ import { Spinner } from 'react-bootstrap';
 export default function BlogsContainer({refi}) {
   const [blog,setBlog] = useState([])
   const [loading, setLoading] = useState(true);
+
+
+  const [isLoading, setIsLoading] = useState(false);
+
+  // Function to handle button click
+  const handleClick = () => {
+    // Set isLoading to true to trigger the loading animation
+    setIsLoading(true);
+
+    // Simulate an async operation (e.g., fetching data from an API)
+    setTimeout(() => {
+      // Once the operation is completed, set isLoading back to false
+      setIsLoading(false);
+    }, 2000); // Simulate a 2-second delay
+  };
+
 
   useEffect(()=>{
     fetch('https://bits-blog-faef777253aa.herokuapp.com/api/get_blog?ORDERBY=DESC')
@@ -49,36 +61,15 @@ export default function BlogsContainer({refi}) {
                   </div>
                 )
               }
-            {/* <BlogCard img={blog1} 
-              title={"Free Javascript Bootcamp at Bayero University Kano"} 
-              id={1}
-              description={`On the 9th - 10th January 2024, Brainstorm IT Solutions organized a 
-              JavaScript Boot camp at the Department of Software Engineering Bayero University Kano. 
-              With the rapidly evolving technology landscape, we believe that equipping students with 
-              practical programming skills is essential for their future success.`} 
-              date={"November 16, 2023"} 
-            />
-            <BlogCard img={blog2} 
-              title={"Computer Science Department BUK Students visits Brainstorm"} 
-              description={`The Students of Computer Science Department of 
-              Bayero University Kano (BUK) paid an educational visit to Brainstorm Innovation Hub to get some .`} 
-              date={"November 16, 2023"} 
-              id={2}
-            />
-            <BlogCard img={blog3} 
-            title={"2 Days Workshop with Ministry of Finance Kano"} 
-            description={`Brainstorm organise a 2 days workshop for the ministry of finance, 
-            budget and planning in which the of the platforms developed by brainstorm were lucnched`} 
-            date={"November 16, 2023"} 
-            id={3}
-            /> */}
-            
           </div>
-          <div className="find-more">
-            <Link to='blog' >
-              Blog 
+          <div className="blog-link">
+            <Link to='blog'>
+              <button className="loading-button" onClick={handleClick} disabled={isLoading}>
+                {isLoading ? 'Loading...' : 'View blog'}
+              </button>
             </Link>
           </div>
+          
         </div>
       </div>
     </div>

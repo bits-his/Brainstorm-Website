@@ -111,18 +111,47 @@
   color: var(--main-color);
 }
 
-.find-more a {
-  margin: 0 auto;
-  padding: 10px 15px;
-  border-radius: 8px;
-  border: 1px solid #dededeaa;
-  width: 15%;
-  text-align: center;
-  color: white;
-  font-weight: 600;
-  font-size: 18px;
-  background-color: var(--red-color);
+
+/* begin of the styling of blog button  */
+
+.blog-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.loading-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--main-color);
+  border-radius: 14px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loading-button:hover {
+  background-color: #0056b3;
+}
+
+.loading-button:disabled {
+  cursor: not-allowed;
+}
+
+.loading-button:disabled:hover {
+  background-color: #007bff;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* end for styling of blog button */
+
+
 .blog-clamp {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
