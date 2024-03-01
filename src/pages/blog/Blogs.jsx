@@ -27,7 +27,7 @@ export default function Blogs() {
   const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
-    fetch('https://bits-blog-faef777253aa.herokuapp.com/api/get_blog?ORDERBY=DESC')
+    fetch('https://bits-blog-faef777253aa.herokuapp.com/api/get_blog')
     .then(res =>res.json())
     .then(data => (setBlog(data.data)) (setLoading(false)))
     .catch(e=>console.log(e))
