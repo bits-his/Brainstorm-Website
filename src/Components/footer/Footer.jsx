@@ -170,9 +170,9 @@ export default function Footer() {
         </div>
         <div className="bottom-footer">
           <div className="copy">
-            <p>
+            <p className="ms-2">
               Copyright &copy;{date} All right reserved | Brainstorm IT
-              Solution.
+              Solutions.
             </p>
           </div>
           <div>
