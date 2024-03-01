@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import Logo from '../../assets/logos/logo.png';
 import { AiOutlineMenu,  AiOutlineClose} from "react-icons/ai"
 // import {FaSearch } from 'react-icons/fa';
@@ -57,9 +57,11 @@ export default function Navbar({sectionRefs}) {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
+  const location = useLocation()
+  const navigate = useNavigate()
   return (
     <>
+    {JSON.stringify(activeSection)}
       <header className={` ${isSticky ? 'isSticky' : ''}`} >
       <div className="header">
       <div className="logo-container">
@@ -70,7 +72,9 @@ export default function Navbar({sectionRefs}) {
       <div className={`head-main ${isMenuOpen ? 'open' : ''}`}>
       <div className="inner">
        <ul className={`navlist`} onClick={handleLinkClick}>
-          <li>
+          <li onClick={
+            location.pathname==="/"?null:()=>navigate("/#home")
+          }>
             <a href="#home" className={activeSection === 'home' ? 'active' : ''}>
               Home
             </a>
@@ -109,7 +113,7 @@ export default function Navbar({sectionRefs}) {
        </div>
        <div className="last" onClick={handleMenuClick}>
         <ul>
-        <li className='contact'>
+        <li className='contact' onClick={()=>setActiveSection("")}>
               <NavLink to="/contact">
               Contact
               </NavLink>

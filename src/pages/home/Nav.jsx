@@ -1,4 +1,4 @@
-import { Routes, Route, Outlet } from "react-router-dom"
+import { Routes, Route, Navigate } from "react-router-dom"
 import { useLocation } from "react-router-dom"
 import React, { useLayoutEffect, useRef } from 'react';
 import AOS from 'aos';
@@ -20,7 +20,7 @@ function Nav() {
     const{pathname} = useLocation()
     useLayoutEffect(() => {
         window.scrollTo(0,0);
-    }, [pathname]);
+    }, [location.pathname]);
     const sectionRefs = {
         home: useRef(),
         clients: useRef(),
@@ -32,12 +32,23 @@ function Nav() {
         
     };
 
+    const navigateToHome = () => {
+        if (location.pathname.startsWith('/blog')) {
+          return <Navigate to="/" />;
+        }
+      };
+
     return (
     <>
         {!invalidRoute &&  <Navbar sectionRefs = {sectionRefs}/>}
 
         <Routes>
-            <Route exact path='/' element={<Home sections={sectionRefs}/>} />
+            <Route exact path='/' element={
+                <>
+                {navigateToHome()}
+                <Home sections={sectionRefs} />
+                </>
+            } />
             <Route path='/blog' element={<Blog />} />
             <Route path='/blog/blog_details/:id' element={<BlogDetails />} />
             <Route path='/contact' element={<Contact />}/>
