@@ -8,6 +8,7 @@ export default function CustumeClient({
   colorImg = {},
   text = "",
   circle = "",
+  number = "",
 }) {
   // alert(`ol col2`)
   return (
@@ -15,11 +16,10 @@ export default function CustumeClient({
       <div className={`col-lg-${col} col-sm-${col2}`}>
         <div className="d-flex align-items-center style">
           <div className="div">
-            <img src={greyImg} alt={text} className={`${circle} grey-img`} />
             <img
-              src={colorImg}
+              src={greyImg}
               alt={text}
-              className={`${circle} color-img d-md-block d-sm-none d-none`}
+              // className={`${circle}`}
             />
           </div>
           <div className="text">

@@ -1,5 +1,5 @@
 .style {
-  padding: 20px 20px 20px 2px;
+  padding: 20px 20px 0px 2px;
   margin-bottom: 20px;
   border-bottom: 2px solid rgb(217, 215, 215);
 }
@@ -8,19 +8,19 @@
 }
 .div {
   width: 30%;
-  height: 50px;
-  margin-bottom: 10px;
-  margin-right: 20px;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 5px;
 }
 .div img {
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: auto;
   align-items: center;
 }
 
-
 .text {
-  width: 70%;
+  width: 60%;
 }
 
 .text p {
@@ -33,27 +33,27 @@
   text-transform: capitalize;
 }
 @media screen and (min-width: 767px) {
-   .div {
-  position: relative; 
-}
+  .div {
+    position: relative;
+  }
 
-.grey-img {
-  /* filter: grayscale(100%); */
-  opacity: 1;
-  position: absolute;
-  transition: filter 0.5s ease,  opacity 0.5s ease, transform 0.5s ease;
-}
+  .grey-img {
+    /* filter: grayscale(100%); */
+    opacity: 1;
+    position: absolute;
+    transition: filter 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+  }
 
-.color-img {
-  filter: grayscale(0%);
-  position: absolute; 
-  top: 0; 
-  transition: opacity 0.5s ease, transform 0.5s ease;
-  opacity: 0; 
-  transform: translateY(-100%);
-}
+  .color-img {
+    filter: grayscale(0%);
+    position: absolute;
+    top: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(-100%);
+  }
 
-/* .div:hover .grey-img {
+  /* .div:hover .grey-img {
   opacity: 0; 
   transform: translateY(100%);
 }
@@ -69,12 +69,12 @@
     padding: 20px;
   }
   .div {
-  width: 20%;
-  height: 50px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-}
-.text p{
-  font-size: 22px;
-}
+    width: 20%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  .text p {
+    font-size: 22px;
+  }
 }

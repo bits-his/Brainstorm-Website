@@ -15,7 +15,11 @@ export default function CustumeCard({
       <div className={`col-lg-${col} col-md-${col2}`}>
         <div className="carded">
           <div className="d-block">
-            <img src={image} alt={alt} style={{ width: `${number}px` }} />
+            <img
+              src={image}
+              alt={alt}
+              style={{ width: `${number}px`, height: `${number}px` }}
+            />
             <span className="d-lg-none d-block text-center mt-3 ">
               Click Me
             </span>
