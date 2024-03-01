@@ -8,9 +8,10 @@
 }
 .div {
   width: 30%;
-  height: 100px;
+  height: 150px;
+  display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   margin-right: 5px;
 }
 .div img {
@@ -24,7 +25,7 @@
 }
 
 .text p {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   text-transform: capitalize;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

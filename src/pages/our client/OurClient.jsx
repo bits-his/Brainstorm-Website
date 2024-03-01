@@ -6,6 +6,7 @@ import tbeams from "../../assets/logos/T-beams.png";
 import ebudget from "../../assets/logos/e-budget.png";
 import EAS from "../../assets/logos/eas.png"
 import e2e from "../../assets/logos/e2e.png"
+import pfm from "../../assets/logos/pfm.png"
 export default function OurClient() {
   return (
     <>
@@ -23,13 +24,13 @@ export default function OurClient() {
           <CustumeClient col="4" col2="6" greyImg={ebudget} text="E-BUDGET" />
           {/* <CustumeClient col="4" col2="6" greyImg={ebudget} text="SIPPIS" />
           <CustumeClient col="4" col2="6" greyImg={tbeams} text="SIPS" /> */}
-          {/* <CustumeClient
+          <CustumeClient
             col="4"
             col2="6"
-            greyImg={tbeams}
+            greyImg={pfm}
             text="PFMS"
             // text="public financial management suite"
-          /> */}
+          />
           <CustumeClient
             col="4"
             col2="6"
