@@ -4,6 +4,8 @@ import CustumeClient from "./CustumeClient";
 import sirmas from "../../assets/logos/sirmas.png";
 import tbeams from "../../assets/logos/T-beams.png";
 import ebudget from "../../assets/logos/e-budget.png";
+import EAS from "../../assets/logos/eas.png"
+import e2e from "../../assets/logos/e2e.png"
 export default function OurClient() {
   return (
     <>
@@ -31,14 +33,14 @@ export default function OurClient() {
           <CustumeClient
             col="4"
             col2="6"
-            greyImg={ebudget}
+            greyImg={EAS}
             text="EAS"
             // text="Enrollee Audit System"
           />
           <CustumeClient
             col="4"
             col2="6"
-            greyImg={ebudget}
+            greyImg={e2e}
             text="E2ERD"
             // text="End to End Remmitance Disbursement"
           />
