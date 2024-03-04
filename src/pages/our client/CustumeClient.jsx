@@ -6,24 +6,26 @@ export default function CustumeClient({
   col2 = "",
   greyImg = {},
   text = "",
-  width="",
+  content = "",
+  width = ""
 }) {
   // alert(`ol col2`)
   return (
     <>
       <div className={`col-lg-${col} col-sm-${col2}`}>
         <div className="d-flex align-items-center style">
-          <div className="div">
-            <img
-              src={greyImg}
-              alt={text}
-              style={{width: `${width}%` }}
-              // className={`${circle}`}
-            />
+          <div className="product">
+            <div className="d-flex justify-content-center align-items-center flex-column">
+              <img src={greyImg} alt={text} className="product__image" style={{ width: `${width}%`}} />
+              <span className="d-lg-none d-block text-center mt-3 ">
+                Click Me
+              </span>
+            </div>
+            <div className="product__content">
+              <p className="product__title">{text}</p>
+              <p className="product__description">{content}</p>
+            </div>
           </div>
-          {/* <div className="text">
-            <p>{text}</p>
-          </div> */}
         </div>
       </div>
     </>
