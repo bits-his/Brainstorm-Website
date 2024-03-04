@@ -3,6 +3,8 @@ import "./details.css";
 import blogimg from "../../assets/img/blog1-5-510x400.jpg";
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 export default function BlogDetails() {
   const [blog,setBlog] = useState([])
@@ -11,9 +13,8 @@ export default function BlogDetails() {
   const {id} = useParams()
   useEffect(()=>{
     fetch(`https://bits-blog-faef777253aa.herokuapp.com/api/get_blog?query_type=view&id=${id}`)
-    // fetch(`https://bits-blog-faef777253aa.herokuapp.com/api/get_blog?query_type=view&id=${id}`)
     .then(res =>res.json())
-    .then(data => (setBlog(data.data)))
+    .then(data => (setBlog(data.data)) (setLoading(false)))
     .catch(e=>console.log(e))
   },[])
 
@@ -36,22 +37,19 @@ export default function BlogDetails() {
       
       <div className="news-article mb-4 pt-5">
         <div className="row mx-5">
-          <div className="col-lg-8 col-md-12 left-body">
-            <img src={blog[0]?.attechment} alt="news" className="w-100 main-blog-img" />
-            <h2>{blog[0]?.title}</h2>
-            <p>
-              {/* {JSON.stringify(blog)} */}
-              {blog[0]?.content}
-            </p>
+          <div className="col-12 left-body">
+            <h2 className="mb-lg-5 mb-md-3 text-center">{blog[0]?.title || <Skeleton />}</h2>
+            <div className="content-body">
+            {loading ? (
+                <Skeleton className="blog-img-skeleton"/>
+              ) : (
+                <img src={blog[0]?.attechment || <Skeleton />} alt="news" className="w-50 main-blog-img" />
+              )
+            }
+            {/* {JSON.stringify(blog)} */}
+            {blog[0]?.content || <Skeleton count={17} className="content-skeleton"/>}
+            </div>
           </div>
-          {/* <div className="col-lg-4 col-md-12 right-body">
-            <form className="search-box" onSubmit={(e) => e.preventDefault()}>
-              {" "}
-              <input type="search" />
-              <button type="submit">search</button>
-            </form>
-          </div> */}
-            {/* <BlogDetails /> */}
         </div>
       </div>
     </>

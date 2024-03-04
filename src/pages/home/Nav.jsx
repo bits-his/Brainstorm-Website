@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom"
 import { useLocation } from "react-router-dom"
 import React, { useLayoutEffect, useRef } from 'react';
+import { SkeletonTheme } from "react-loading-skeleton";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Home from "../home/home.jsx"
@@ -42,6 +43,8 @@ function Nav() {
     <>
         {!invalidRoute &&  <Navbar sectionRefs = {sectionRefs}/>}
 
+
+        <SkeletonTheme baseColor="#076ACD6c" highlightColor="#ff3b456c">
         <Routes>
             <Route exact path='/' element={
                 <>
@@ -54,6 +57,7 @@ function Nav() {
             <Route path='/contact' element={<Contact />}/>
             <Route path='*' element={<NotFound />} />
         </Routes>
+        </SkeletonTheme>
 
         {!invalidRoute &&  <Footer />}
     </>
