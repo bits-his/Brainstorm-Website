@@ -5,10 +5,8 @@ export default function CustumeClient({
   col = "",
   col2 = "",
   greyImg = {},
-  colorImg = {},
   text = "",
-  circle = "",
-  number = "",
+  width="",
 }) {
   // alert(`ol col2`)
   return (
@@ -19,12 +17,13 @@ export default function CustumeClient({
             <img
               src={greyImg}
               alt={text}
+              style={{width: `${width}%` }}
               // className={`${circle}`}
             />
           </div>
-          <div className="text">
+          {/* <div className="text">
             <p>{text}</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
