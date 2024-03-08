@@ -27,7 +27,7 @@ export default function Blogs() {
   const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
-    fetch('https://bits-blog-faef777253aa.herokuapp.com/api/get_blog')
+    fetch('https://galaxybis.ebudgetkano.ng/bits-blog-api/get_blog?query_type=select')
     .then(res =>res.json())
     .then(data => (setBlog(data.data)) (setLoading(false)))
     .catch(e=>console.log(e))
