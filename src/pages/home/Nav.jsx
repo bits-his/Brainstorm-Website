@@ -29,8 +29,7 @@ function Nav() {
         bihub: useRef(),
         about: useRef(),
         products: useRef(),
-        blog: useRef(),
-        
+        blog: useRef(),   
     };
 
     const navigateToHome = () => {

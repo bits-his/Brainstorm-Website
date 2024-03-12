@@ -1,6 +1,5 @@
 import React from "react";
 import "./details.css";
-import blogimg from "../../assets/img/blog1-5-510x400.jpg";
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Skeleton from 'react-loading-skeleton'
@@ -12,7 +11,7 @@ export default function BlogDetails() {
 
   const {id} = useParams()
   useEffect(()=>{
-    fetch(`https://bits-blog-faef777253aa.herokuapp.com/api/get_blog?query_type=view&id=${id}`)
+    fetch(`https://galaxybis.ebudgetkano.ng/bits-blog-api/get_blog?query_type=view&id=${id}`)
     .then(res =>res.json())
     .then(data => (setBlog(data.data)) (setLoading(false)))
     .catch(e=>console.log(e))
@@ -23,7 +22,7 @@ export default function BlogDetails() {
   return (
     <>
       <div className="blog-details-nav-img">
-        <ul>
+        {/* <ul>
           <li>
             <Link to="../Blog">Blog</Link>
           </li>
@@ -31,7 +30,7 @@ export default function BlogDetails() {
           <li>
             <Link to="">Blog Details</Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
 
       
@@ -43,7 +42,7 @@ export default function BlogDetails() {
             {loading ? (
                 <Skeleton className="blog-img-skeleton"/>
               ) : (
-                <img src={blog[0]?.attechment || <Skeleton />} alt="news" className="w-50 main-blog-img" />
+                <img src={blog[0]?.attechment || <Skeleton />} alt="news" className="main-blog-img" />
               )
             }
             {/* {JSON.stringify(blog)} */}
