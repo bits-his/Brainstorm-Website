@@ -15,32 +15,44 @@ export default function TeamContainer() {
     <div className="container-fluid mt-5 pt-5 pb-5 bg-ligh">
       {/* <h2 className='s-heading'>Our Creative Team</h2> */}
       <Scroll title="Management Team" page="about" />
-      <div className="container">
+      <div className="container-fluid">
         <div className="team row pt-3">
           <TeamCard
             pic={dangana}
             name="Idris Abdulkadir Dangana"
             role="CEO Brainstorm"
             delay={50}
+            whatsapp={'#'}
+            twitter={'#'}
+            linkedin={'#'}
           />
           <TeamCard
             pic={isah}
             name="Isah Muhammad Rabiu"
             role="COO Brainstorm"
             delay={100}
+            whatsapp={'#'}
+            twitter={'#'}
+            linkedin={'#'}
           />
           <TeamCard
             pic={mary}
-            name="Mary Festus Dania"
+            name="Mary Festus Dania "
             // last={true}
             role="HUB Manager"
             delay={130}
+            whatsapp={'#'}
+            twitter={'#'}
+            linkedin={'#'}
           />
           <TeamCard
             pic={mustapha}
             name="Mustapha Issa Toyin"
             role="BDO Brainstorm"
             delay={200}
+            whatsapp={'#'}
+            twitter={'#'}
+            linkedin={'#'}
           />
           <TeamCard
             pic={ishaq}
@@ -48,18 +60,27 @@ export default function TeamContainer() {
             // last={true}
             role="CTO Brainstorm"
             delay={250}
+            whatsapp={'#'}
+            twitter={'#'}
+            linkedin={'#'}
           />
           <TeamCard
             pic={murtala}
             name="Murtala Adewale Akinyemi"
             role="CFO barinstorm"
             delay={300}
+            whatsapp={'#'}
+            twitter={'#'}
+            linkedin={'#'}
           />
           <TeamCard
             pic={fahad}
             name="Fahad Ado Muhammad"
             role="CPO Brainstorm"
             delay={350}
+            whatsapp={'#'}
+            twitter={'#'}
+            linkedin={'#'}
           />
           {/* <TeamCard pic={daddy} name="Fahad" role={role} ceo='C' delay={400} /> */}
         </div>

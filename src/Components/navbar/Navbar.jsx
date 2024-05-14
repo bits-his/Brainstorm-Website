@@ -40,7 +40,7 @@ export default function Navbar({sectionRefs}) {
         observer.observe(sectionRefs[key].current);
       }
     });
-    console.log(activeSection)
+
 
     return () => {
       observer.disconnect();

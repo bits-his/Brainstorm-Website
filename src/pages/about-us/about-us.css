@@ -93,7 +93,7 @@
   width: 70%;
 }
 .info {
-  padding: 15px 25px;
+  padding: 15px 28px;
   width: 86%;
   margin: -50px auto 0;
   border: #dedede50 1px solid;
@@ -103,7 +103,7 @@
   color: var(--main-color);
   z-index: 2;
   position: relative;
-  height: 148px;
+  height: 130px;
   box-sizing: border-box;
 }
 .role {
@@ -128,8 +128,15 @@
 }
 
 @media (width < 546px) {
+  .info{
+    height: 120px;
+    padding: 15px 45px !important;
+  }
+  .about-card:hover{
+    transform: translate(0);
+  }
   .team-card {
-    width: 85%;
+    /* width: 85%; */
     /* height: 350px; */
     margin-inline: auto;
   }
@@ -144,10 +151,14 @@
     opacity: 1;
   }
   .social ul {
-    width: 50%;
+    width: 65%;
   }
   .about-card {
-    height: 210px;
+    height: 220px;
+    padding-inline: 8px;
+  }
+  .card-description{
+    margin-bottom: 0;
   }
 }
 

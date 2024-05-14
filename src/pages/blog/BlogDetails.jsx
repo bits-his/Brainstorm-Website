@@ -1,6 +1,6 @@
 import React from "react";
 import "./details.css";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
@@ -15,7 +15,7 @@ export default function BlogDetails() {
     .then(res =>res.json())
     .then(data => (setBlog(data.data)) (setLoading(false)))
     .catch(e=>console.log(e))
-  },[])
+  },[id])
 
   
 

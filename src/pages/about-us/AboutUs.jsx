@@ -6,7 +6,7 @@ import TeamContainer from "./TeamContainer";
 import Parallex from "../../Components/parallex/Parallex";
 import Designed from "../home/Design/Designed";
 import AboutCard from "./AboutCard";
-import Scroll from "../../Components/scroll/Scroll";
+// import Scroll from "../../Components/scroll/Scroll";
 // import WD from '../../pages/services/img/WD.webp'
 // import CSD from '../../pages/services/img/CSD.webp'
 // import CT from '../../pages/services/img/CT.png'
@@ -25,7 +25,7 @@ export default function AboutUs() {
      solutions provider to its clients using the state-of-the-art technology,
      corporate training, consultancy and other I.T related services."
       />
-      <div className="container mt-5 d-flex p-4 mb-5 about-container wha">
+      <div className="container-fluid mt-5 d-flex p-4 mb-5 about-container w">
         <div className="what-text ">
           <h2
             data-aos="fade-righ"
@@ -39,7 +39,7 @@ export default function AboutUs() {
               We have been Innovating for over{" "}
               <span className="years">{years}</span> years
             </h1>
-            <p>
+            <p style={{textAlign:'center'}}>
               Brainstorm IT Solutions is a software solution company with a wide
               range of experience in different sectors of the economy. It was
               founded in 2006 and has since been working with different
@@ -63,14 +63,14 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="row service-container container">
+      <div className="row service-container container-fluid">
         <AboutCard
           heading="Our Mission"
           describtion="
           Our mission is to deliver budget-friendly solutions 
           in custom software development, training, and consultancy services, 
           to meet the needs of our clients while 
-          adhering to industry-standard computing practices."
+          adhering to industry-standard."
           // img={WD}
           time={100}
         />
@@ -94,9 +94,10 @@ export default function AboutUs() {
         />
       </div>
 
+
       <Designed />
 
-      <TeamContainer />
+ <TeamContainer />
     </>
   );
 }

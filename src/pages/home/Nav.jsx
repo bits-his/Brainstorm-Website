@@ -18,7 +18,7 @@ function Nav() {
     const invalidRoute = location.pathname === '*'
 
     AOS.init()
-    const{pathname} = useLocation()
+    // const{pathname} = useLocation()
     useLayoutEffect(() => {
         window.scrollTo(0,0);
     }, [location.pathname]);

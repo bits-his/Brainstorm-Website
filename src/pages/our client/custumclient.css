@@ -134,6 +134,9 @@
 }
 
 @media (max-width: 574px) {
+  .style{
+    padding: 0;
+  }
   .contain {
     padding: 20px;
   }

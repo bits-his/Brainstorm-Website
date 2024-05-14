@@ -104,7 +104,24 @@
     margin-bottom: 0;
   }
 }
-
+@media (width < 564px){
+  .main-card:hover{
+    transform: translate(0);
+  }
+  .main-card-icon{
+    top: -5px;
+    right: -5px;
+  }
+  .main-card-icon::before{
+    height: 125%;
+    width: 120%;
+  }
+  .main-card .service-info h4 {
+    width: 80%;
+    margin-top: -15px;
+    font-size: 1.3em;
+  }
+}
 /* 
 
 .card{

@@ -56,7 +56,7 @@ export default function Bihub({ refi }) {
         </div>
       </div> */}
 
-      <div className="container styled">
+      <div className="container-fluid styled">
         <div className="row">
           <CustumeCard
             col="4"
@@ -130,7 +130,7 @@ export default function Bihub({ refi }) {
             text="A ride hailing platform that enable users
             to book a ride at their convenience while improving the drivers’ 
             income generation as well as keep record of his/her earnings"
-            number="146"
+            number="140"
           />
           <CustumeCard
             col="4"
@@ -142,7 +142,7 @@ export default function Bihub({ refi }) {
             Islahpay offers innovative Islamic fintech solutions like digital banking, 
             Sharia-compliant payments, crowdfunding, and Robo-advisors, ensuring transparency and 
             convenience for clients while adhering to ethical principles."
-            number="250"
+            number="140"
           />
           <CustumeCard
             col="4"
@@ -153,6 +153,7 @@ export default function Bihub({ refi }) {
             text="
             WondaHomes Unlock access to homes and properties from anywhere, right at 
             your fingertips."
+            number="145"
           />
         </div>
       </div>
