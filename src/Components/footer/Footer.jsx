@@ -3,11 +3,13 @@ import Logo from "../../assets/logos/logo.png";
 import { Link } from "react-router-dom";
 import map from "../../assets/logos/map.webp";
 import call from "../../assets/logos/call.webp";
-import message from "../../assets/logos/message.webp";
+// import message from "../../assets/logos/message.webp";
 import "./footer.css";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
+
 
 export default function Footer() {
   const date = new Date().getFullYear();
@@ -35,6 +37,7 @@ export default function Footer() {
                   <p>
                     Discover the power of customized software at brainstorm.
                   </p>
+                 
                   <ul className="footer-social">
                     <li>
                       <Link to="https://www.facebook.com/BrainstormInnovationHub?_rdc=1&_rdr">
@@ -51,12 +54,29 @@ export default function Footer() {
                         <FaLinkedinIn />
                       </Link>
                     </li>
+                    <li>
+                      <a href="mailto:hello@brainstorm.ng">
+                        <FaMailBulk />
+                      </a>
+                    </li>
                   </ul>
+                  <div className="tel d-flex">
+                    <img src={call} alt="call" />
+                    <a href="tel: +234 903 281 8956" className="mb-">
+                      +234 903 281 8956
+                    </a>
+                  </div>
+                  {/* <div className="mail d-flex">
+                    <img src={message} alt="message" />
+                    <a href="mailto:hello@brainstorm.ng" className="">
+                      hello@brainstorm.ng
+                    </a>
+                  </div> */}
                 </div>
               </div>
               <div className="col-6 col-sm-6 col-md-4 ps-sm-5 col-lg-3 col-xl-3">
                 <div className="single-footer-widget">
-                  <h5 className="mt-5">Fast links</h5>
+                  <h5 className="mt-3">Fast links</h5>
                   <div
                     className="underline w-25"
                     style={{
@@ -66,26 +86,29 @@ export default function Footer() {
 
                   <ul>
                     <li className="mb-2">
-                      <Link to="/about-us">About us</Link>
+                      <a href="#about">About us</a>
                     </li>
                     <li className="mb-2">
-                      <Link to="/services">Services</Link>
+                      <a href="#services">Services</a>
                     </li>
                     <li className="mb-2">
-                      <Link to="/our-client">Our clients</Link>
+                      <a href="#client">Our clients</a>
                     </li>
                     <li className="mb-2">
-                      <Link to="/Bi-hub">Bi-hub</Link>
+                      <a href="#bihub">Bi-hub</a>
+                    </li>
+                    <li className="mb-2">
+                      <a href="#blog">Blog</a>
                     </li>
                     <li>
-                      <Link to="/Contactus">Contact us</Link>
+                      <a href="/contact">Contact us</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-6 col-sm-6 col-md-4 ps-sm-5 col-lg-3 col-xl-3">
                 <div className="single-footer-widget">
-                  <h5 className="mt-5">Our startups</h5>
+                  <h5 className="mt-3">Our startups</h5>
                   <div
                     className="underline w-25"
                     style={{ marginTop: "-20px" }}
@@ -129,16 +152,25 @@ export default function Footer() {
                       </a>
                     </li>
                     <li className="mb-2">
+                      <a
+                        href="https://wonderhomes.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Wonder homes
+                      </a>
+                    </li>
+                    <li className="mb-2">
                       <b>
-                        <Link to="/Bi-hub">Click to see more</Link>
+                        <Link to="#ihub">Click to see more</Link>
                       </b>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-4 ps-sm-5 col-lg-3 col-xl-3">
+              <div className="col-12 col-sm-12 col-md-4 ps-sm-1 col-lg-3 col-xl-3">
                 <div className="footer-contact">
-                  <h5 className="mt-5">Contact </h5>
+                  <h5 className="mt-3">Contact </h5>
                   <div
                     className="underline w-25"
                     style={{ marginTop: "-20px" }}
@@ -151,21 +183,30 @@ export default function Footer() {
                       Kano
                     </p>
                   </div>
-                  <div className="tel d-flex">
-                    <img src={call} alt="call" />
-                    <a href="tel: +234 903 281 8956" className="mb-3">
-                      +234 903 281 8956
-                    </a>
+                  <div className="location d-flex">
+                    <img src={map} alt="map" />
+                    <p>
+                    7 Bell Yard London WC2A 2JR United Kingdom
+                    </p>
                   </div>
-                  <div className="mail d-flex">
-                    <img src={message} alt="message" />
-                    <a href="mailto:hello@brainstorm.ng" className="">
-                      hello@brainstorm.ng
-                    </a>
+                  <div className="location d-flex">
+                    <img src={map} alt="map" />
+                    <p>
+                    16192 Coastal Highway, LewesCounty Essex, DE.19958-9776.USA
+                    </p>
                   </div>
+                  <div className="location d-flex">
+                    <img src={map} alt="map" />
+                    <p>
+                    104/105 Level1, Emaar Square Building 4 Sheikh Muhammad Bin Rashid Boulevard Dubai, United Arab Emirates
+                    </p>
+                  </div>
+                 
+                
                 </div>
               </div>
             </div>
+           
           </div>
         </div>
         <div className="bottom-footer">

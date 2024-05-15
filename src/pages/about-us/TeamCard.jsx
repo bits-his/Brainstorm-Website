@@ -14,9 +14,9 @@ export default function TeamCard({pic,name,role,ceo,delay,last,whatsapp,twitter,
       <img src={pic} alt="team" loading='lazy'/>
       <div className="social">  
         <ul>
-          <a href={whatsapp}><li><FaWhatsapp /></li></a>
-          <a href={twitter}><li><FaTwitter/></li></a>
-          <a href={linkedin}><li><FaLinkedin/></li></a>
+          <a href={whatsapp} target='blank'><li><FaWhatsapp /></li></a>
+          <a href={twitter} target='blank'><li><FaTwitter/></li></a>
+          <a href={linkedin} target='blank'><li><FaLinkedin/></li></a>
         </ul>
       </div>
       </div>

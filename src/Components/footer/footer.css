@@ -60,7 +60,9 @@ footer {
   font-size: 15px;
   font-weight: 600;
   margin-top: 0;
-  line-height: 1.9;
+  line-height: 1.8;
+  margin-bottom: .5rem;
+  padding-left: 5px;
 }
 ul {
   margin: 0;
@@ -102,10 +104,15 @@ a {
   text-decoration: none;
   font-size: 1em;
 }
-.footer-contact img {
+.footer-contact img , .tel img{
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+.tel {
+  margin: 0;
+  align-items: center;
+  padding: 15px 5px 5px;
 }
 .bottom-footer {
   background-color: #d8d8d8;
@@ -114,7 +121,7 @@ a {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .copy p {
   font-size: 14px;
@@ -194,6 +201,10 @@ a {
 .single-footer-widget .footer-social li a:hover {
   color: #ffffff;
   background: var(--main-color);
+}
+.location p{
+  font-size: 13px;
+  margin-bottom: .4rem;
 }
 @media (max-width: 991px) {
   .logo {

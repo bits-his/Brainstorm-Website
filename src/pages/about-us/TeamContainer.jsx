@@ -69,18 +69,18 @@ export default function TeamContainer() {
             name="Murtala Adewale Akinyemi"
             role="CFO barinstorm"
             delay={300}
-            whatsapp={'#'}
+            whatsapp={'https://wa.me/'}
             twitter={'#'}
-            linkedin={'#'}
+            linkedin={'https://www.linkedin.com/in/'}
           />
           <TeamCard
             pic={fahad}
             name="Fahad Ado Muhammad"
             role="CPO Brainstorm"
             delay={350}
-            whatsapp={'#'}
-            twitter={'#'}
-            linkedin={'#'}
+            whatsapp={'https://wa.me/070123456789'}
+            twitter={'https://twitter.com/'}
+            linkedin={'https://www.linkedin.com/in/muhammad-fahad-ado-1506a31a0/'}
           />
           {/* <TeamCard pic={daddy} name="Fahad" role={role} ceo='C' delay={400} /> */}
         </div>
