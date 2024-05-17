@@ -201,7 +201,12 @@ export default function Footer() {
                     104/105 Level1, Emaar Square Building 4 Sheikh Muhammad Bin Rashid Boulevard Dubai, United Arab Emirates
                     </p>
                   </div>
-                 
+                  <div className="location d-flex">
+                    <img src={map} alt="map" />
+                    <p>
+                    Behind Olu Wheel Balances Workshop, Gidan Dawa, Katsina State,Nigeria 
+                    </p>
+                  </div>
                 
                 </div>
               </div>
