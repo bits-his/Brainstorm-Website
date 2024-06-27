@@ -80,7 +80,7 @@ export default function Navbar({sectionRefs}) {
             </a>
           </li>
           <li onClick={
-            location.pathname==="/blog#clients"?null:()=>navigate("/#client")
+            location.pathname==="/blog#clients"?null:()=>navigate("/#clients")
           } >
             <a href="#clients" className={activeSection === 'clients' ? 'active' : ''}>
               Our Clients
