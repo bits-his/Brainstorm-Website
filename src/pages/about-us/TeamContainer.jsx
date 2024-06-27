@@ -67,7 +67,7 @@ export default function TeamContainer() {
           <TeamCard
             pic={murtala}
             name="Murtala Adewale Akinyemi"
-            role="CFO barinstorm"
+            role="CFO Brainstorm"
             delay={300}
             whatsapp={'https://wa.me/'}
             twitter={'#'}

@@ -36,7 +36,8 @@ header {
   justify-content: center;
 }
 .logo-container img {
-  width: 55%;
+  width: 50%;
+
 }
 .head-main{
   display: flex;

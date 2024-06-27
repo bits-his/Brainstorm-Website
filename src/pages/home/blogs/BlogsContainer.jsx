@@ -38,7 +38,7 @@ export default function BlogsContainer({refi}) {
 
         <Scroll title={"Our recent stories"} page={'blog'}/>
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
           {loading ? ( 
                 <div className="row">
                   <div className="col-lg-4 col-md-6 col-sm-12 p-3 mb-4 spinner-box">

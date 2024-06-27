@@ -79,27 +79,41 @@ export default function Navbar({sectionRefs}) {
               Home
             </a>
           </li>
-          <li>
+          <li onClick={
+            location.pathname==="/blog#clients"?null:()=>navigate("/#client")
+          } >
             <a href="#clients" className={activeSection === 'clients' ? 'active' : ''}>
               Our Clients
             </a>
           </li>
-          <li>
+          <li  onClick={
+            location.pathname==="/blog#service"?null:()=>navigate("/#service")
+          }
+          >
             <a href="#services" className={activeSection === 'services' ? 'active' : ''} >
               Services
             </a>
           </li>
-          <li>
+          <li onClick={
+            location.pathname==="/blog#bihub"?null:()=>navigate("/#bihub")
+          } 
+          >
             <a href="#bihub" className={activeSection === 'bihub' ? 'active' : ''} >
               Bi-Hub
             </a>
           </li>
-          <li>
+          <li  onClick={
+            location.pathname==="/blog#about"?null:()=>navigate("/#about")
+          }
+          >
             <a href="#about" className={activeSection === 'about' ? 'active' : ''} >
               About
             </a>
           </li>
-          <li>
+          <li  onClick={
+            location.pathname==="/blog#products"?null:()=>navigate("/#products")
+          }
+          >
             <a href="#products" className={activeSection === 'products' ? 'active' : ''}>
               Products
             </a>

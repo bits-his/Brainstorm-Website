@@ -207,7 +207,12 @@ export default function Footer() {
                     Behind Olu Wheel Balances Workshop, Gidan Dawa, Katsina State,Nigeria 
                     </p>
                   </div>
-                
+                  <div className="location d-flex">
+                    <img src={map} alt="map" />
+                    <p>
+                    Flat 42, DROL Estate Wuye Abuja,Nigeria 
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
