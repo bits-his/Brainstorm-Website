@@ -12,10 +12,12 @@ export default function BlogCard({ card }) {
           </div>
         </div>
         <div className="home-blog-content mb-4">
-          <h3>
-            {card.title}
-          </h3>
-          <p className="blog-clamp">{card.content}</p>
+          <h3 className="min-height">{card.title}</h3>
+          {/* <p className="blog-clamp">{card.content}</p> */}
+          <p
+            className="blog-clamp"
+            dangerouslySetInnerHTML={{ __html: card.content }}
+          />
           <span className="read-more">
             Read more{" "}
             <span className="animated-arrow">

@@ -157,4 +157,19 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   display: -webkit-box;
+
+  & span{
+    color: gray !important;
+    font-size: 15px !important;
+    font-family: inherit !important;;
+  }
+}
+.min-height{
+  height: 45px;
+}
+.news-article * img{
+  @media(width < 546px){
+    width: 100%;
+  }
+ 
 }

@@ -33,20 +33,26 @@ export default function BlogDetails() {
         </ul> */}
       </div>
 
-      
       <div className="news-article mb-4 pt-5">
         <div className="row mx-5">
           <div className="col-12 left-body">
-            <h2 className="mb-lg-5 mb-md-3 text-center">{blog[0]?.title || <Skeleton />}</h2>
+            <h2 className="mb-lg-5 mb-md-3 text-center">
+              {blog[0]?.title || <Skeleton />}
+            </h2>
             <div className="content-body">
-            {loading ? (
-                <Skeleton className="blog-img-skeleton"/>
+              {loading ? (
+                <Skeleton className="blog-img-skeleton" />
               ) : (
-                <img src={blog[0]?.attechment || <Skeleton />} alt="news" className="main-blog-img" />
-              )
-            }
-            {/* {JSON.stringify(blog)} */}
-            {blog[0]?.content || <Skeleton count={17} className="content-skeleton"/>}
+                <img
+                  src={blog[0]?.attechment || <Skeleton />}
+                  alt="news"
+                  className="main-blog-img"
+                />
+              )}
+              {<div dangerouslySetInnerHTML={{ __html: blog[0]?.content }} />
+               || (
+                <Skeleton count={17} className="content-skeleton" />
+              )}
             </div>
           </div>
         </div>
