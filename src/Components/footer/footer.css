@@ -61,7 +61,7 @@ footer {
   font-weight: 600;
   margin-top: 0;
   line-height: 1.8;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   padding-left: 5px;
 }
 ul {
@@ -104,7 +104,8 @@ a {
   text-decoration: none;
   font-size: 1em;
 }
-.footer-contact img , .tel img{
+.footer-contact img,
+.tel img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
@@ -202,12 +203,12 @@ a {
   color: #ffffff;
   background: var(--main-color);
 }
-.location img{
+.location img {
   margin-top: 5px;
 }
-.location p{
+.location p {
   font-size: 13px;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 @media (max-width: 991px) {
   .logo {
