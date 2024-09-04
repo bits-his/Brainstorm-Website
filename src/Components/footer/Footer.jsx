@@ -117,7 +117,7 @@ export default function Footer() {
                   <ul>
                     <li className="mb-2">
                       <a
-                        href="https://mylikita.clinic"
+                        href="https://mylikita.com"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -144,7 +144,7 @@ export default function Footer() {
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://inventria-new.netlify.app/"
+                        href="https://inventria.app/"
                         target="_blank"
                         rel="noreferrer"
                       >

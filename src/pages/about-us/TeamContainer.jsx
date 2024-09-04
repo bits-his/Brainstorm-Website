@@ -22,18 +22,18 @@ export default function TeamContainer() {
             name="Idris Abdulkadir Dangana"
             role="CEO Brainstorm"
             delay={50}
-            whatsapp={'#'}
-            twitter={'#'}
-            linkedin={'#'}
+            whatsapp={"#"}
+            twitter={"#"}
+            linkedin={"https://www.linkedin.com/in/dangana/"}
           />
           <TeamCard
             pic={isah}
             name="Isah Muhammad Rabiu"
             role="COO Brainstorm"
             delay={100}
-            whatsapp={'#'}
-            twitter={'#'}
-            linkedin={'#'}
+            whatsapp={"#"}
+            twitter={"#"}
+            linkedin={"https://www.linkedin.com/in/isahmrabiu/"}
           />
           <TeamCard
             pic={mary}
@@ -41,18 +41,18 @@ export default function TeamContainer() {
             // last={true}
             role="HUB Manager"
             delay={130}
-            whatsapp={'#'}
-            twitter={'#'}
-            linkedin={'#'}
+            whatsapp={"#"}
+            twitter={"#"}
+            linkedin={"https://www.linkedin.com/in/mary-dania-80b60275/"}
           />
           <TeamCard
             pic={mustapha}
             name="Mustapha Issa Toyin"
             role="BDO Brainstorm"
             delay={200}
-            whatsapp={'#'}
-            twitter={'#'}
-            linkedin={'#'}
+            whatsapp={"#"}
+            twitter={"#"}
+            linkedin={"https://www.linkedin.com/in/issa-mustapha-67733489/"}
           />
           <TeamCard
             pic={ishaq}
@@ -60,27 +60,29 @@ export default function TeamContainer() {
             // last={true}
             role="CTO Brainstorm"
             delay={250}
-            whatsapp={'#'}
-            twitter={'#'}
-            linkedin={'#'}
+            whatsapp={"#"}
+            twitter={"#"}
+            linkedin={"https://www.linkedin.com/in/ibagwai/"}
           />
           <TeamCard
             pic={murtala}
             name="Murtala Adewale Akinyemi"
             role="CFO Brainstorm"
             delay={300}
-            whatsapp={'https://wa.me/'}
-            twitter={'#'}
-            linkedin={'https://www.linkedin.com/in/'}
+            whatsapp={"#"}
+            twitter={"#"}
+            linkedin={"https://www.linkedin.com/in/muritala/"}
           />
           <TeamCard
             pic={fahad}
             name="Fahad Ado Muhammad"
             role="CPO Brainstorm"
             delay={350}
-            whatsapp={'https://wa.me/070123456789'}
-            twitter={'https://twitter.com/'}
-            linkedin={'https://www.linkedin.com/in/muhammad-fahad-ado-1506a31a0/'}
+            whatsapp={"https://wa.me/+2349031332845"}
+            twitter={"https://twitter.com/"}
+            linkedin={
+              "https://www.linkedin.com/in/muhammad-fahad-ado-1506a31a0/"
+            }
           />
           {/* <TeamCard pic={daddy} name="Fahad" role={role} ceo='C' delay={400} /> */}
         </div>
