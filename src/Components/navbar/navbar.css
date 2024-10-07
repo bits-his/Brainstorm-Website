@@ -117,6 +117,21 @@ header {
 .navlist a:hover {
   color: var(--main-color);
 }
+.tech {
+  background: var(--main-color);
+  height: 3rem;
+  color: #fff;
+  position: relative;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: 3px solid var(--main-color);
+  overflow: hidden;
+  transition: color 0.3s 0.1s ease-out;
+}
 .contact {
   background: var(--main-color);
   height: 2rem;
@@ -135,6 +150,7 @@ header {
   position: relative;
 }
 .last ul:hover::after {
+  color: #fff;
   content: "";
   z-index: -1;
   display: inline-block;
@@ -253,6 +269,9 @@ header {
     right: 0;
     transition: linear 0.2s;
   }
+  .description{
+    margin-top: 18%;
+  }
 }
 @media (width <540px) {
   .header-icons {
@@ -260,6 +279,9 @@ header {
   }
   .logo-container img {
     width: 75%;
+  }
+  .description{
+    margin-top: 18%;
   }
 }
 @media (max-width: 992px) {
@@ -279,6 +301,9 @@ header {
   }
   .navlist a:hover::after {
     scale: 0;
+  }
+  .description{
+    margin-top: 18%;
   }
 }
 
