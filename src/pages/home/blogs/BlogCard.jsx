@@ -7,15 +7,13 @@ export default function BlogCard({ attechment, title, created_at, content }) {
       <div className="home-blog col-lg-4 col-md-6 col-sm-12 p-3 mb-4 position-relative">
         <div className="home-blog-main">
           <div className="home-blog-img mb-3">
-          <img src={attechment} alt="blog1" />
+            <img src={attechment} alt="blog1" />
             <div className="home-blog-img-click">
               <FaPlus size={20} fontWeight={600} color="white" />
             </div>
           </div>
           <div className="home-blog-content mb-4">
-            <h3>
-              {title}
-            </h3>
+            <h3>{title}</h3>
             <p className="blog-clamp">{content}</p>
             <span className="read-more">
               Read more{" "}
