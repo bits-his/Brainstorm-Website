@@ -1,6 +1,6 @@
 import React from "react";
-import murtala from "../../assets/team/murtala1.png";
-import dangana from '../../assets/team/mr-dangana.png'
+import murtala from "../../assets/team/murtala123.png";
+import dangana from "../../assets/team/mr-dangana.png";
 import mary from "../../assets/team/marry1.png";
 import isah from "../../assets/team/isah1.png";
 import fahad from "../../assets/team/fahad1.png";
@@ -22,8 +22,8 @@ export default function TeamContainer() {
             name="Idris Abdulkadir Dangana"
             role="CEO Brainstorm"
             delay={50}
-            whatsapp={"#"}
-            twitter={"#"}
+            mail={"mailto:dangana@brainstorm.ng"}
+            twitter={"https://x.com/Idris_Dangana"}
             linkedin={"https://www.linkedin.com/in/dangana/"}
           />
           <TeamCard
@@ -31,8 +31,8 @@ export default function TeamContainer() {
             name="Isah Muhammad Rabiu"
             role="COO Brainstorm"
             delay={100}
-            whatsapp={"#"}
-            twitter={"#"}
+            mail={"mailto:isah@brainstorm.ng"}
+            twitter={"https://www.twitter.com/IsahMuhammadRa3"}
             linkedin={"https://www.linkedin.com/in/isahmrabiu/"}
           />
           <TeamCard
@@ -41,8 +41,8 @@ export default function TeamContainer() {
             // last={true}
             role="HUB Manager"
             delay={130}
-            whatsapp={"#"}
-            twitter={"#"}
+            mail={"mailto:mary@brainstorm.ng"}
+            twitter={"https://x.com/eversmiling_MD"}
             linkedin={"https://www.linkedin.com/in/mary-dania-80b60275/"}
           />
           <TeamCard
@@ -50,27 +50,27 @@ export default function TeamContainer() {
             name="Mustapha Issa Toyin"
             role="BDO Brainstorm"
             delay={200}
-            whatsapp={"#"}
-            twitter={"#"}
+            mail={"mailto:mustapha@brainstorm.ng"}
+            twitter={"https://x.com/dev_emaitee"}
             linkedin={"https://www.linkedin.com/in/issa-mustapha-67733489/"}
           />
           <TeamCard
             pic={ishaq}
-            name="Ishaq Ibrahim Bagwai"
-            // last={true}
+            name={`Ishaq Ibrahim `}
+            last={true}
             role="CTO Brainstorm"
             delay={250}
-            whatsapp={"#"}
-            twitter={"#"}
+            mail={"mailto:ishaq@brainstorm.ng"}
+            twitter={"https://x.com/ishaq191"}
             linkedin={"https://www.linkedin.com/in/ibagwai/"}
           />
           <TeamCard
             pic={murtala}
-            name="Murtala Adewale Akinyemi"
+            name="Muritala Adewale Akinyemi"
             role="CFO Brainstorm"
             delay={300}
-            whatsapp={"#"}
-            twitter={"#"}
+            mail={"mailto:murtala@brainstorm.ng"}
+            twitter={"https://x.com/Akin__yemi"}
             linkedin={"https://www.linkedin.com/in/muritala/"}
           />
           <TeamCard
@@ -78,8 +78,8 @@ export default function TeamContainer() {
             name="Fahad Ado Muhammad"
             role="CPO Brainstorm"
             delay={350}
-            whatsapp={"https://wa.me/+2349031332845"}
-            twitter={"https://twitter.com/"}
+            mail={"mailto:fahad@brainstorm.ng"}
+            twitter={"https://x.com/8790Fahad"}
             linkedin={
               "https://www.linkedin.com/in/muhammad-fahad-ado-1506a31a0/"
             }
