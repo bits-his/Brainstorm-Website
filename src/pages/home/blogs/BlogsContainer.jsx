@@ -26,7 +26,7 @@ export default function BlogsContainer({refi}) {
 
 
   useEffect(()=>{
-    fetch('https://galaxybis.ebudgetkano.ng/bits-blog-api/get_blog?query_type=select')
+    fetch('https://server.brainstorm.ng/bits-blog/get_blog?query_type=select')
     .then(res =>res.json())
     .then(data => (setBlog(data.data.slice(0,3))) (setLoading(false)))
     .catch(e=>console.log(e))

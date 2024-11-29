@@ -27,10 +27,10 @@ export default function Blogs() {
   const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
-    fetch('https://galaxybis.ebudgetkano.ng/bits-blog-api/get_blog?query_type=select')
-    .then(res =>res.json())
-    .then(data => (setBlog(data.data)) (setLoading(false)))
-    .catch(e=>console.log(e))
+    fetch("https://server.brainstorm.ng/bits-blog/get_blog?query_type=select")
+      .then((res) => res.json())
+      .then((data) => setBlog(data.data)(setLoading(false)))
+      .catch((e) => console.log(e));
   },[])
   
   const currentCards = blog.slice(indexOfFirstCard, indexOfLastCard);

@@ -6,13 +6,17 @@ import mylikita from "../../assets/logos/mlt.png";
 import Bitcoops from "../../assets/logos/bit-removebg-preview.png";
 import pharmpay from "../../assets/logos/P-P.png";
 import esterbuy from "../../assets/logos/estar.png";
+import kasuwamall from "../../assets/logos/KASUWAMALL__2_-removebg-preview.png";
 import iventria from "../../assets/logos/inv.png";
 import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
 // import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
 import islahpay from "../../assets/logos/Islahpay logo No Background.png";
+import knowtify from "../../assets/logos/knowtify.png";
 import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
+import { Link } from "react-router-dom";
+import { Col, Row } from "reactstrap";
 
 // import Hero from "../../Components/Hero/Hero";
 export default function Bihub({ refi }) {
@@ -58,61 +62,97 @@ export default function Bihub({ refi }) {
 
       <div className="container-fluid styled">
         <div className="row">
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="mylikita"
-            image={mylikita}
-            title="Mylikita"
-            text="
+          <Row>
+            <Col md={4}>
+              <Link to="https://mylikita.com" target="_blank">
+                <CustumeCard
+                  alt="mylikita"
+                  image={mylikita}
+                  title="Mylikita"
+                  text="
             The EMR boosts teamwork, enhances patient care, and cuts costs by 
             fostering collaboration among medical professionals. Through strategic 
             partnerships and integrations, it ensures a user-friendly experience for seamless collaboration."
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="bitcoops"
-            image={Bitcoops}
-            title="Bitcoops"
-            text="
+                />
+              </Link>
+            </Col>
+            <Col md={4}>
+              <Link to="https://www.bitcoops.com" target="_blank">
+                <CustumeCard
+                  alt="bitcoops"
+                  image={Bitcoops}
+                  title="Bitcoops"
+                  text="
             An automated system for cooperative societies manages funds, 
             contributions, loans, withdrawals, and tracks member payments through a 
             user-friendly dashboard with integrated payment options."
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="Pharmpay"
-            image={pharmpay}
-            title="Pharmpay"
-            text="
+                />
+              </Link>
+            </Col>
+            <Col md={4}>
+              <Link to="https://pharmpay.brainstorm.ng/" target="_blank">
+                <CustumeCard
+                  alt="Pharmpay"
+                  image={pharmpay}
+                  title="Pharmpay"
+                  text="
             Pharmpay simplifies payment management for associations, handling dues 
             and providing reporting. It also offers features like voting, announcements, 
             and event management for improved efficiency."
-            number="146"
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="Estarbuy"
-            image={esterbuy}
-            title="Estarbuy"
-            text="Estarbuy is a utility app for purchase of electricity units
-            and payment of electricity bills for both prepaid and postpaid consumers."
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="iventria"
-            image={iventria}
-            title="Inventria"
-            text="Inventria is a platform that helps small and medium businesses owners to track
+                  number="146"
+                />
+              </Link>
+            </Col>
+            <Col md={4}>
+              <Link to="https://kasuwamall.com" target="_blank">
+                <CustumeCard
+                  alt="Kasuwa Mall"
+                  image={kasuwamall}
+                  title="Kasuwa Mall"
+                  text="Kasuwa Mall is an online marketplace platform offering various products and services. It appears to have multiple interfaces, including a main site and a shop-specific portal. The platform focuses on simplifying commerce by providing a user-friendly experience for shopping and selling​"
+                />
+              </Link>
+            </Col>
+            <Col md={4}>
+              <Link to="https://inventria-new.netlify.app" target="_blank">
+                <CustumeCard
+                  alt="iventria"
+                  image={iventria}
+                  title="Inventria"
+                  text="Inventria is a platform that helps small and medium businesses owners to track
             their inventory, revenue, expenses, debtors, creditors in a few clicks."
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
+                />
+              </Link>
+            </Col>
+            {/* <Col md={4}>
+              <Link to="https://pharmpay.com">
+                <CustumeCard
+                  alt="pikme"
+                  image={islahpay}
+                  title="IslahPay"
+                  text="
+            Islahpay offers innovative Islamic fintech solutions like digital banking, 
+            Sharia-compliant payments, crowdfunding, and Robo-advisors, ensuring transparency and 
+            convenience for clients while adhering to ethical principles."
+                  number="140"
+                />
+              </Link>
+            </Col> */}
+            <Col md={4}>
+              <Link to="https://www.knowtify.com.ng" target="_blank">
+                <CustumeCard
+                  alt="Knowtify"
+                  image={knowtify}
+                  title="Knowtify"
+                  text="Knowtify provide services like automated notifications via SMS and email, employee management, and business data organization. These platforms cater to businesses for seamless communication, productivity, and data intelligence management"
+                  number="145"
+                />
+              </Link>
+            </Col>
+          </Row>
+          {/* <CustumeCard
+            
+            
             alt="drugciper"
             image={drugciper}
             title="DrugCipher"
@@ -120,10 +160,10 @@ export default function Bihub({ refi }) {
             eradicating the problems of drug counterfeiting in an ever growing
               world of the pharmaceutical Industry."
             number="146"
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
+          /> */}
+          {/* <CustumeCard
+            
+            
             alt="pikme"
             image={pikme}
             title="Pikme"
@@ -131,30 +171,7 @@ export default function Bihub({ refi }) {
             to book a ride at their convenience while improving the drivers’ 
             income generation as well as keep record of his/her earnings"
             number="140"
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="pikme"
-            image={islahpay}
-            title="IslahPay"
-            text="
-            Islahpay offers innovative Islamic fintech solutions like digital banking, 
-            Sharia-compliant payments, crowdfunding, and Robo-advisors, ensuring transparency and 
-            convenience for clients while adhering to ethical principles."
-            number="140"
-          />
-          <CustumeCard
-            col="4"
-            col2="6"
-            alt="pikme"
-            image={wonderhomes}
-            title="Wonda Homes"
-            text="
-            WondaHomes Unlock access to homes and properties from anywhere, right at 
-            your fingertips."
-            number="145"
-          />
+          /> */}
         </div>
       </div>
     </>

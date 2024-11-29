@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 export default function ContactForm() {
 
   const [formData, setFormData] = useState({
-    fname: "",
-    lname: "",
+    firstname: "",
+    lastname: "",
     email: "",
     message: "",
   });
@@ -24,9 +24,17 @@ export default function ContactForm() {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Submitted. Form Data:", formData);
-    const stringifiedData = JSON.stringify(formData);
-    console.log("Stringified Form Data:", stringifiedData);
+    fetch("http://localhost:34567/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+    .then((response) => response.json())
+    .then((data) => {alert("Form submitted successfully!"); setFormData({firstname: "", lastname: "", email: "", message: ""}  )  })
+    .catch((error) => {alert("Failed to submit form. Please try again later.")})
+
     
   };
 
@@ -44,17 +52,15 @@ export default function ContactForm() {
               <span className="subheading">Contact</span>
               <h1 className="heading mb-3">Get In Touch</h1>
               <p className="mb-5">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
+               If you have any questions or need assistance, please don't hesitate to reach out.
+               Kindly fill out the form below and we'll get back to you as soon as possible.thank you!
               </p>
-              <p>
+              {/* <p>
                 <Link to="#" className="btn btn-primary me-2">
                   How we work
                 </Link>
                 <button className="btn btn-outline-primary">Contact us</button>
-              </p>
+              </p> */}
             </div>
             <div className="col-lg-6">
               <div
@@ -76,66 +82,66 @@ export default function ContactForm() {
                 <h2 className="heading">Let's have a talk</h2>
               </div>
               <form className="contact-form" onSubmit={handleSubmit}>
-        <div className="row">
-          <div className="col-6">
-            <div className="form-group mb-3">
-              <label className="text-black" htmlFor="fname">
-                First name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="fname"
-                value={formData.fname}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-          <div className="col-6">
-            <div className="form-group mb-3">
-              <label className="text-black" htmlFor="lname">
-                Last name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="lname"
-                value={formData.lname}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="form-group mb-3">
-          <label className="text-black" htmlFor="email">
-            Email address
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="email"
-            value={formData.email}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group mb-3">
-          <label className="text-black" htmlFor="message">
-            Message
-          </label>
-          <textarea
-            name=""
-            className="form-control"
-            id="message"
-            cols="30"
-            rows="5"
-            value={formData.message}
-            onChange={handleChange}
-          ></textarea>
-        </div>
-        <button type="submit" className="btn btn-primary">
-          Send Message
-        </button>
-      </form>
+                <div className="row">
+                  <div className="col-6">
+                    <div className="form-group mb-3">
+                      <label className="text-black" htmlFor="firstname">
+                        First name
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="firstname"
+                        value={formData.firstname}
+                        onChange={handleChange}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className="form-group mb-3">
+                      <label className="text-black" htmlFor="lastname">
+                        Last name
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="lastname"
+                        value={formData.lastname}
+                        onChange={handleChange}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="form-group mb-3">
+                  <label className="text-black" htmlFor="email">
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div className="form-group mb-3">
+                  <label className="text-black" htmlFor="message">
+                    Message
+                  </label>
+                  <textarea
+                    name=""
+                    className="form-control"
+                    id="message"
+                    cols="30"
+                    rows="5"
+                    value={formData.message}
+                    onChange={handleChange}
+                  ></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
             </div>
             <div className="col-lg-6 order-lg-1 mb-5 mb-lg-0 ">
               <iframe
