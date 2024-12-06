@@ -13,7 +13,7 @@ import pikme from "../../assets/logos/pick.png";
 // import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
 import islahpay from "../../assets/logos/Islahpay logo No Background.png";
-import knowtify from "../../assets/knowtify-removebg-preview.png";
+import knowtify from "../../assets/knowtify.png";
 import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
 import { Link } from "react-router-dom";
 import { Col, Row } from "reactstrap";
@@ -124,7 +124,7 @@ export default function Bihub({ refi }) {
                 image={elite}
                 title="Elite Academic Tech"
                 text="
-           Nigeria needs advanced Learning Management Software (LMS) to enhance education, training, and productivity across sectors, offering flexible and scalable e-learning solutions.
+           Elite Academic Tech is a Learning Management Software (LMS) to enhance education, training, and productivity across sectors, offering flexible and scalable e-learning solutions.
 ."
                 number="140"
                 number1="200"
@@ -155,7 +155,7 @@ export default function Bihub({ refi }) {
                 title="Knowtify"
                 text="Knowtify provide services like automated notifications via SMS and email, employee management, and business data organization. These platforms cater to businesses for seamless communication,"
                 number="140"
-                number1="200"
+                number1="230"
               />
               {/* </Link> */}
             </Col>
