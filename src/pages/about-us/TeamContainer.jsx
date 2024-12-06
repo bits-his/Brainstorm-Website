@@ -1,7 +1,7 @@
 import React from "react";
 import murtala from "../../assets/team/murtala123.png";
 import dangana from "../../assets/team/mr-dangana.png";
-import mary from "../../assets/team/marry1.png";
+import mary from "../../assets/team/mrs_mary.png";
 import isah from "../../assets/team/isah1.png";
 import fahad from "../../assets/team/fahad1.png";
 import ishaq from "../../assets/team/ishaq1.png";
@@ -37,7 +37,7 @@ export default function TeamContainer() {
           />
           <TeamCard
             pic={mary}
-            name="Mary Festus Dania "
+            name="Mary Dania "
             // last={true}
             role="HUB Manager"
             delay={130}
