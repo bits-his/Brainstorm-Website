@@ -28,7 +28,7 @@ header {
 .logo-container {
   width: 15%;
 }
-.logo-container a{
+.logo-container a {
   width: 100%;
   height: 100%;
   display: inline-flex;
@@ -37,9 +37,8 @@ header {
 }
 .logo-container img {
   width: 50%;
-
 }
-.head-main{
+.head-main {
   display: flex;
   width: 85%;
   transition: linear 1s ease-in-out;
@@ -95,7 +94,7 @@ header {
   scale: 0;
   transform-origin: center;
   background-color: var(--red-color);
-  transition: linear .2s;
+  transition: linear 0.2s;
 }
 /* .navlist a:hover::after,
 .navlist a:active::after {
@@ -132,9 +131,9 @@ header {
   overflow: hidden;
   transition: color 0.3s 0.1s ease-out;
 }
-.last ul{
+.last ul {
   position: relative;
-} 
+}
 .last ul:hover::after {
   content: "";
   z-index: -1;
@@ -199,7 +198,6 @@ header {
   display: none;
 }
 
-
 @media (width < 768px) {
   .header {
     justify-content: space-between;
@@ -224,13 +222,13 @@ header {
     position: relative;
     top: 4rem;
   }
-  .last{
+  .last {
     position: relative;
     width: 100%;
     bottom: -11vh;
   }
 
-  .head-main{
+  .head-main {
     position: absolute;
     flex-direction: column;
     align-items: center;
@@ -238,9 +236,9 @@ header {
     width: 60%;
     height: 100vh;
     right: -500px;
-    transition: linear .2s;
+    transition: linear 0.2s;
   }
-  .navlist{
+  .navlist {
     width: 100%;
     flex-direction: column;
   }
@@ -253,22 +251,22 @@ header {
   .head-main.open {
     /* left: 0; */
     right: 0;
-    transition: linear .2s ;
+    transition: linear 0.2s;
   }
 }
-@media (width <540px){
-  .header-icons{
+@media (width <540px) {
+  .header-icons {
     justify-content: flex-start;
   }
-  .logo-container img{
+  .logo-container img {
     width: 75%;
   }
 }
 @media (max-width: 992px) {
-  .navlist{
+  .navlist {
     width: 100%;
   }
-  .navlist a{
+  .navlist a {
     padding: 10px;
   }
 
@@ -276,10 +274,10 @@ header {
     padding: 14px 4%;
     transition: 0.2s;
   }
-  .navlist a::after{
+  .navlist a::after {
     bottom: 5px;
   }
-  .navlist a:hover::after{
+  .navlist a:hover::after {
     scale: 0;
   }
 }
@@ -296,16 +294,19 @@ header {
 }
 @keyframes sonar {
   0% {
-    box-shadow: 0 0 0 2px #466fce, 0 0 2px 1px #4a7aec, 0 0 0 2px #4a7aec,inset 0 0 0 2px #0c49d8;
+    box-shadow: 0 0 0 2px #466fce, 0 0 2px 1px #4a7aec, 0 0 0 2px #4a7aec,
+      inset 0 0 0 2px #0c49d8;
   }
   50% {
     opacity: 0.5;
     scale: 1.1;
-    box-shadow: 0 0 0 1px #4a7aec, 0 0 2px 1px #4a7aec, 0 0 0 1px #4a7aec, inset 0 0 0 2px #0c49d8;
+    box-shadow: 0 0 0 1px #4a7aec, 0 0 2px 1px #4a7aec, 0 0 0 1px #4a7aec,
+      inset 0 0 0 2px #0c49d8;
   }
   100% {
     opacity: 0;
-    box-shadow: 0 0 0 2px #4a7aec, 0 0 2px 1px #4a7aec, 0 0 0 2px #4a7aec, inset 0 0 0 2px #0c49d8;
+    box-shadow: 0 0 0 2px #4a7aec, 0 0 2px 1px #4a7aec, 0 0 0 2px #4a7aec,
+      inset 0 0 0 2px #0c49d8;
     scale: 1.3;
   }
 }

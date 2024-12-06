@@ -24,16 +24,21 @@ export default function ContactForm() {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:34567/contact", {
+    fetch("https://server.brainstorm.ng/bits-blog/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
     })
-    .then((response) => response.json())
-    .then((data) => {alert("Form submitted successfully!"); setFormData({firstname: "", lastname: "", email: "", message: ""}  )  })
-    .catch((error) => {alert("Failed to submit form. Please try again later.")})
+      .then((response) => response.json())
+      .then((data) => {
+        alert("Form submitted successfully!");
+        setFormData({ firstname: "", lastname: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        alert("Failed to submit form. Please try again later.");
+      });
 
     
   };
@@ -51,9 +56,15 @@ export default function ContactForm() {
             <div className="col-lg-5">
               <span className="subheading">Contact</span>
               <h1 className="heading mb-3">Get In Touch</h1>
-              <p className="mb-5">
-               If you have any questions or need assistance, please don't hesitate to reach out.
-               Kindly fill out the form below and we'll get back to you as soon as possible.thank you!
+              <p className="mb-5  contact-message">
+                If you have any questions, need assistance, or require further
+                information, we are here to help! Please don’t hesitate to reach
+                out to us. To ensure we can address your concerns efficiently,
+                we kindly ask that you take a moment to fill out the form below
+                with your details and the nature of your inquiry. Our team is
+                committed to providing prompt and comprehensive support, and we
+                will get back to you as soon as possible. Thank you for reaching
+                out to us, and we look forward to assisting you!{" "}
               </p>
               {/* <p>
                 <Link to="#" className="btn btn-primary me-2">

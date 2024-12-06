@@ -4,16 +4,16 @@ import "./bihub.css";
 import CustumeCard from "./CustumeCard";
 import mylikita from "../../assets/logos/mlt.png";
 import Bitcoops from "../../assets/logos/bit-removebg-preview.png";
-import pharmpay from "../../assets/logos/P-P.png";
+import elite from "../../assets/elite.png";
 import esterbuy from "../../assets/logos/estar.png";
-import kasuwamall from "../../assets/logos/KASUWAMALL__2_-removebg-preview.png";
+import kasuwamall from "../../assets/kasuwa-removebg-preview.png";
 import iventria from "../../assets/logos/inv.png";
 import drugciper from "../../assets/logos/drugcipher-removebg-preview.png";
 import pikme from "../../assets/logos/pick.png";
 // import Parallex from "../../Components/parallex/Parallex";
 import Scroll from "../../Components/scroll/Scroll";
 import islahpay from "../../assets/logos/Islahpay logo No Background.png";
-import knowtify from "../../assets/logos/knowtify.png";
+import knowtify from "../../assets/knowtify-removebg-preview.png";
 import wonderhomes from "../../assets/logos/wondahomes-removebg-preview.png";
 import { Link } from "react-router-dom";
 import { Col, Row } from "reactstrap";
@@ -64,66 +64,74 @@ export default function Bihub({ refi }) {
         <div className="row">
           <Row>
             <Col md={4}>
-              <Link to="https://mylikita.com" target="_blank">
-                <CustumeCard
-                  alt="mylikita"
-                  image={mylikita}
-                  title="Mylikita"
-                  text="
+              {/* <Link to="https://mylikita.com"> */}
+              <CustumeCard
+                handlebtnclick="https://mylikita.com"
+                alt="mylikita"
+                image={mylikita}
+                title="Mylikita"
+                text="
             The EMR boosts teamwork, enhances patient care, and cuts costs by 
             fostering collaboration among medical professionals. Through strategic 
             partnerships and integrations, it ensures a user-friendly experience for seamless collaboration."
-                />
-              </Link>
+              />
+              {/* </Link> */}
             </Col>
             <Col md={4}>
-              <Link to="https://www.bitcoops.com" target="_blank">
-                <CustumeCard
-                  alt="bitcoops"
-                  image={Bitcoops}
-                  title="Bitcoops"
-                  text="
+              {/* <Link to="https://www.bitcoops.com"> */}
+              <CustumeCard
+                handlebtnclick="https://www.bitcoops.com"
+                alt="bitcoops"
+                image={Bitcoops}
+                title="Bitcoops"
+                text="
             An automated system for cooperative societies manages funds, 
             contributions, loans, withdrawals, and tracks member payments through a 
             user-friendly dashboard with integrated payment options."
-                />
-              </Link>
+              />
+              {/* </Link> */}
             </Col>
             <Col md={4}>
-              <Link to="https://pharmpay.brainstorm.ng/" target="_blank">
-                <CustumeCard
-                  alt="Pharmpay"
-                  image={pharmpay}
-                  title="Pharmpay"
-                  text="
-            Pharmpay simplifies payment management for associations, handling dues 
-            and providing reporting. It also offers features like voting, announcements, 
-            and event management for improved efficiency."
-                  number="146"
-                />
-              </Link>
-            </Col>
-            <Col md={4}>
-              <Link to="https://kasuwamall.com" target="_blank">
-                <CustumeCard
-                  alt="Kasuwa Mall"
-                  image={kasuwamall}
-                  title="Kasuwa Mall"
-                  text="Kasuwa Mall is an online marketplace platform offering various products and services. It appears to have multiple interfaces, including a main site and a shop-specific portal. The platform focuses on simplifying commerce by providing a user-friendly experience for shopping and selling​"
-                />
-              </Link>
-            </Col>
-            <Col md={4}>
-              <Link to="https://inventria-new.netlify.app" target="_blank">
-                <CustumeCard
-                  alt="iventria"
-                  image={iventria}
-                  title="Inventria"
-                  text="Inventria is a platform that helps small and medium businesses owners to track
+              {/* <Link to="https://inventria-new.netlify.app"> */}
+              <CustumeCard
+                handlebtnclick="https://inventria-new.netlify.app"
+                alt="iventria"
+                image={iventria}
+                title="Inventria"
+                text="Inventria is a platform that helps small and medium businesses owners to track
             their inventory, revenue, expenses, debtors, creditors in a few clicks."
-                />
-              </Link>
+              />
+              {/* </Link> */}
             </Col>
+
+            <Col md={4}>
+              {/* <Link to="https://kasuwamall.com"> */}
+              <CustumeCard
+                handlebtnclick="https://kasuwamall.com"
+                alt="Kasuwa Mall"
+                image={kasuwamall}
+                title="Kasuwa Mall"
+                text="Kasuwa Mall is an online marketplace platform offering various products and services. It appears to have multiple interfaces, including a main site and a shop-specific portal."
+              />
+              {/* </Link> */}
+            </Col>
+
+            <Col md={4}>
+              {/* <Link to="https://elite.brainstorm.ng/"> */}
+              <CustumeCard
+                handlebtnclick="https://elscholar.ng"
+                alt="Elite Academic Tech"
+                image={elite}
+                title="Elite Academic Tech"
+                text="
+           Nigeria needs advanced Learning Management Software (LMS) to enhance education, training, and productivity across sectors, offering flexible and scalable e-learning solutions.
+."
+                number="140"
+                number1="200"
+              />
+              {/* </Link> */}
+            </Col>
+
             {/* <Col md={4}>
               <Link to="https://pharmpay.com">
                 <CustumeCard
@@ -139,15 +147,17 @@ export default function Bihub({ refi }) {
               </Link>
             </Col> */}
             <Col md={4}>
-              <Link to="https://www.knowtify.com.ng" target="_blank">
-                <CustumeCard
-                  alt="Knowtify"
-                  image={knowtify}
-                  title="Knowtify"
-                  text="Knowtify provide services like automated notifications via SMS and email, employee management, and business data organization. These platforms cater to businesses for seamless communication, productivity, and data intelligence management"
-                  number="145"
-                />
-              </Link>
+              {/* <Link to="https://www.knowtify.com.ng"> */}
+              <CustumeCard
+                handlebtnclick="https://www.knowtify.com.ng"
+                alt="Knowtify"
+                image={knowtify}
+                title="Knowtify"
+                text="Knowtify provide services like automated notifications via SMS and email, employee management, and business data organization. These platforms cater to businesses for seamless communication,"
+                number="140"
+                number1="200"
+              />
+              {/* </Link> */}
             </Col>
           </Row>
           {/* <CustumeCard

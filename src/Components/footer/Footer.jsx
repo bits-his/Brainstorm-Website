@@ -37,7 +37,7 @@ export default function Footer() {
                   <p>
                     Discover the power of customized software at brainstorm.
                   </p>
-                 
+
                   <ul className="footer-social">
                     <li>
                       <Link to="https://www.facebook.com/BrainstormInnovationHub?_rdc=1&_rdr">
@@ -117,7 +117,7 @@ export default function Footer() {
                   <ul>
                     <li className="mb-2">
                       <a
-                        href="https://mylikita.clinic"
+                        href="https://mylikita.com"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -135,16 +135,7 @@ export default function Footer() {
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://islahpay.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Islahpay
-                      </a>
-                    </li>
-                    <li className="mb-2">
-                      <a
-                        href="https://inventria-new.netlify.app/"
+                        href="https://inventria-new.netlify.app"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -153,18 +144,36 @@ export default function Footer() {
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://wonderhomes.com"
+                        href="https://kasuwamall.com"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Wonder homes
+                        Kasuwamall
                       </a>
                     </li>
                     <li className="mb-2">
+                      <a
+                        href="https://elscholar.ng"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Elite Academic Hub
+                      </a>
+                    </li>
+                    <li className="mb-2">
+                      <a
+                        href="https://www.knowtify.com.ng"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Knowtify
+                      </a>
+                    </li>
+                    {/* <li className="mb-2">
                       <b>
                         <Link to="#ihub">Click to see more</Link>
                       </b>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -185,38 +194,36 @@ export default function Footer() {
                   </div>
                   <div className="location d-flex">
                     <img src={map} alt="map" />
+                    <p>7 Bell Yard London WC2A 2JR United Kingdom</p>
+                  </div>
+                  <div className="location d-flex">
+                    <img src={map} alt="map" />
                     <p>
-                    7 Bell Yard London WC2A 2JR United Kingdom
+                      16192 Coastal Highway, LewesCounty Essex,
+                      DE.19958-9776.USA
                     </p>
                   </div>
                   <div className="location d-flex">
                     <img src={map} alt="map" />
                     <p>
-                    16192 Coastal Highway, LewesCounty Essex, DE.19958-9776.USA
+                      104/105 Level1, Emaar Square Building 4 Sheikh Muhammad
+                      Bin Rashid Boulevard Dubai, United Arab Emirates
                     </p>
                   </div>
                   <div className="location d-flex">
                     <img src={map} alt="map" />
                     <p>
-                    104/105 Level1, Emaar Square Building 4 Sheikh Muhammad Bin Rashid Boulevard Dubai, United Arab Emirates
+                      Behind Olu Wheel Balances Workshop, Gidan Dawa, Katsina
+                      State,Nigeria
                     </p>
                   </div>
                   <div className="location d-flex">
                     <img src={map} alt="map" />
-                    <p>
-                    Behind Olu Wheel Balances Workshop, Gidan Dawa, Katsina State,Nigeria 
-                    </p>
-                  </div>
-                  <div className="location d-flex">
-                    <img src={map} alt="map" />
-                    <p>
-                    Flat 42, DROL Estate Wuye Abuja,Nigeria 
-                    </p>
+                    <p>Flat 42, DROL Estate Wuye Abuja,Nigeria</p>
                   </div>
                 </div>
               </div>
             </div>
-           
           </div>
         </div>
         <div className="bottom-footer">
