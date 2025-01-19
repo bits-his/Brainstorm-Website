@@ -9,6 +9,7 @@ import { IoLogoFacebook } from "react-icons/io5";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 
 
 export default function Footer() {
@@ -46,7 +47,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <Link to="https://twitter.com/brainstorm_Hub">
-                        <FaTwitter />
+                        <BsTwitterX />
                       </Link>
                     </li>
                     <li>
@@ -108,7 +109,7 @@ export default function Footer() {
               </div>
               <div className="col-6 col-sm-6 col-md-4 ps-sm-5 col-lg-3 col-xl-3">
                 <div className="single-footer-widget">
-                  <h5 className="mt-3">Our startups</h5>
+                  <h5 className="mt-3">Our Products</h5>
                   <div
                     className="underline w-25"
                     style={{ marginTop: "-20px" }}
@@ -116,57 +117,49 @@ export default function Footer() {
 
                   <ul>
                     <li className="mb-2">
-                      <a
-                        href="https://mylikita.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Mylikita
+                      <a href="#" target="_blank" rel="noreferrer">
+                        Sirmas
+                      </a>
+                    </li>
+                    <li className="mb-2">
+                      <a href="#" target="_blank" rel="noreferrer">
+                        T-beams
                       </a>
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://www.bitcoops.com"
-                        target="_blank"
+                        href="#"
+                        // target="_blank"
                         rel="noreferrer"
                       >
-                        Bitscoops
+                        E-budget
                       </a>
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://inventria-new.netlify.app"
-                        target="_blank"
+                        href="#"
+                        // target="_blank"
                         rel="noreferrer"
                       >
-                        Inventria
+                        PFMS
                       </a>
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://kasuwamall.com"
-                        target="_blank"
+                        href="#"
+                        // target="_blank"
                         rel="noreferrer"
                       >
-                        Kasuwamall
+                        EAS
                       </a>
                     </li>
                     <li className="mb-2">
                       <a
-                        href="https://elscholar.ng"
-                        target="_blank"
+                        href="#"
+                        // target="_blank"
                         rel="noreferrer"
                       >
-                        Elite Academic Hub
-                      </a>
-                    </li>
-                    <li className="mb-2">
-                      <a
-                        href="https://www.knowtify.com.ng"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Knowtify
+                        E2ERD
                       </a>
                     </li>
                     {/* <li className="mb-2">
@@ -192,24 +185,24 @@ export default function Footer() {
                       Kano
                     </p>
                   </div>
-                  <div className="location d-flex">
+                  {/* <div className="location d-flex">
                     <img src={map} alt="map" />
                     <p>7 Bell Yard London WC2A 2JR United Kingdom</p>
-                  </div>
-                  <div className="location d-flex">
+                  </div> */}
+                  {/* <div className="location d-flex">
                     <img src={map} alt="map" />
                     <p>
                       16192 Coastal Highway, LewesCounty Essex,
                       DE.19958-9776.USA
                     </p>
-                  </div>
-                  <div className="location d-flex">
+                  </div> */}
+                  {/* <div className="location d-flex">
                     <img src={map} alt="map" />
                     <p>
                       104/105 Level1, Emaar Square Building 4 Sheikh Muhammad
                       Bin Rashid Boulevard Dubai, United Arab Emirates
                     </p>
-                  </div>
+                  </div> */}
                   <div className="location d-flex">
                     <img src={map} alt="map" />
                     <p>

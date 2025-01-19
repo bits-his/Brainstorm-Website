@@ -94,14 +94,14 @@ export default function Navbar({sectionRefs}) {
               Services
             </a>
           </li>
-          <li onClick={
+          {/* <li onClick={
             location.pathname==="/blog#bihub"?null:()=>navigate("/#bihub")
           } 
           >
             <a href="#bihub" className={activeSection === 'bihub' ? 'active' : ''} >
               Bi-Hub
             </a>
-          </li>
+          </li> */}
           <li  onClick={
             location.pathname==="/blog#about"?null:()=>navigate("/#about")
           }

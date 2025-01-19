@@ -5,6 +5,7 @@ import { BiCheckShield } from "react-icons/bi";
 import { BiLayer } from "react-icons/bi";
 
 export default function Designed() {
+  let years = new Date().getFullYear() - 2009;
   return (
     <>
       <div className="design" data-aos="fade-up" data-aos-once="true">
@@ -29,7 +30,7 @@ export default function Designed() {
               col={3}
               col2={6}
               span="Years of experience "
-              target="15"
+              target={years - 1}
             />
 
             <ProgressBar

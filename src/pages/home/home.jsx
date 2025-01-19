@@ -7,7 +7,7 @@ import GetInTouch from "./brief-contact-us/GetInTouch";
 import Designed from "./Design/Designed";
 import HomeCardContainer from "./services-card/HomeCardContainer.jsx";
 import Hero from "./hero/Hero";
-import Bihub from "../Bi-hub/Bihub.jsx";
+// import Bihub from "../Bi-hub/Bihub.jsx";
 import AboutCard from "../about-us/AboutCard.jsx";
 import "../about-us/about-us.css";
 import "../services/services.css";
@@ -34,7 +34,7 @@ export default function Home({ sections }) {
 
       <HomeCardContainer id="services" refi={sections.services} />
 
-      <Bihub refi={sections.bihub} />
+      {/* <Bihub refi={sections.bihub} /> */}
 
       <div
         className="container mt-5 d-flex p-4 mb-5 about-container wha"
@@ -48,12 +48,12 @@ export default function Home({ sections }) {
               title={
                 <span>
                   We have been Innovating for over{" "}
-                  <span className="years">{years}</span> years
+                  <span className="years">{years - 1}</span> years
                 </span>
               }
             />
             <p style={{ textAlign: "justify", fontSize: "18px" }}>
-              Brainstorm IT Solutions is a software solution company with a wide
+              {/* Brainstorm IT Solutions is a software solution company with a wide
               range of experience in different sectors of the economy. It was
               founded in 2009 and has since been working with different
               organizations in building reliable and innovative solutions Our
@@ -63,7 +63,21 @@ export default function Home({ sections }) {
               operational efficiency. Our staffs are distinguished by their
               functional and technical expertise combined with their hands-on
               experience, thereby ensuring that our clients receive the most
-              effective professional services.
+              effective professional services. */}
+              Brainstorm IT Solutions has been at the forefront of providing
+              innovative software solutions to both public and private
+              organizations since 2009. Over the years, the company has evolved
+              into a trusted name for delivering tailored technology that meets
+              the unique needs of its clients. In 2022, a strategic shift
+              focused on financial excellence led to the creation of the Public
+              Finance Management Suite (PFMS). This comprehensive suite of
+              software solutions addresses governance and financial oversight
+              challenges faced by public institutions in Nigeria and Africa.The
+              PFMS includes modules for budgeting, expenditure tracking, and
+              financial reporting, providing an end-to-end solution for
+              effective governance. Its E-Budget and Expenditure components have
+              already been implemented successfully by several state governments
+              in Nigeria.
             </p>
           </div>
         </div>

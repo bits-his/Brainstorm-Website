@@ -1,11 +1,11 @@
 import React from "react";
-import murtala from "../../assets/team/murtala123.png";
-import dangana from "../../assets/team/mr-dangana.png";
-import mary from "../../assets/team/mrs_mary.png";
-import isah from "../../assets/team/isah1.png";
-import fahad from "../../assets/team/fahad1.png";
-import ishaq from "../../assets/team/ishaq1.png";
-import mustapha from "../../assets/team/musty1.png";
+// import murtala from "../../assets/team/murtala123.png";
+import dangana from "../../assets/team/CEO.jpeg";
+import jagaban from "../../assets/team/Jagaban.png";
+import eucharia from "../../assets/team/eucharia.png";
+// import fahad from "../../assets/team/fahad1.png";
+// import ishaq from "../../assets/team/ishaq1.png";
+import munzali from "../../assets/team/munzali.png";
 // import daddy from '../../assets/team/daddy.jpg'
 import TeamCard from "./TeamCard";
 import Scroll from "../../Components/scroll/Scroll";
@@ -20,41 +20,41 @@ export default function TeamContainer() {
           <TeamCard
             pic={dangana}
             name="Idris Abdulkadir Dangana"
-            role="CEO Brainstorm"
+            role="MD/CEO Brainstorm"
             delay={50}
-            mail={"mailto:dangana@brainstorm.ng"}
-            twitter={"https://x.com/Idris_Dangana"}
+            // mail={"mailto:dangana@brainstorm.ng"}
+            // twitter={"https://x.com/Idris_Dangana"}
             linkedin={"https://www.linkedin.com/in/dangana/"}
           />
           <TeamCard
-            pic={isah}
-            name="Isah Muhammad Rabiu"
-            role="COO Brainstorm"
+            pic={eucharia}
+            name="Eucharia Ileka"
+            role="Team Lead Operations"
             delay={100}
-            mail={"mailto:isah@brainstorm.ng"}
+            mail={"mailto:eucharia.ileka@brainstorm.ng"}
             twitter={"https://www.twitter.com/IsahMuhammadRa3"}
-            linkedin={"https://www.linkedin.com/in/isahmrabiu/"}
+            linkedin={"https://www.linkedin.com/in/eucharia-ileka-3161a316a"}
           />
           <TeamCard
-            pic={mary}
-            name="Mary Dania "
+            pic={jagaban}
+            name="Ajisefinni Ayodeji Tajudeen"
             // last={true}
-            role="HUB Manager"
+            role="Team Lead Business Development"
             delay={130}
-            mail={"mailto:mary@brainstorm.ng"}
-            twitter={"https://x.com/eversmiling_MD"}
-            linkedin={"https://www.linkedin.com/in/mary-dania-80b60275/"}
+            mail={"mailto:ayoyemm2010@brainstorm.com"}
+            twitter={"#"}
+            // linkedin={"https://www.linkedin.com/in/Ajisefinni Ayodeji/"}
           />
           <TeamCard
-            pic={mustapha}
-            name="Mustapha Issa Toyin"
-            role="BDO Brainstorm"
+            pic={munzali}
+            name="Munzali Muktar"
+            role="Chief Finance Controller"
             delay={200}
-            mail={"mailto:mustapha@brainstorm.ng"}
-            twitter={"https://x.com/dev_emaitee"}
-            linkedin={"https://www.linkedin.com/in/issa-mustapha-67733489/"}
+            mail={"mailto:accountant@brainstorm.ng"}
+            twitter={"https://x.com/Munzali531283"}
+            // linkedin={"https://www.linkedin.com/in/munxali-idris-968093328/"}
           />
-          <TeamCard
+          {/* <TeamCard
             pic={ishaq}
             name={`Ishaq Ibrahim `}
             last={true}
@@ -63,8 +63,8 @@ export default function TeamContainer() {
             mail={"mailto:ishaq@brainstorm.ng"}
             twitter={"https://x.com/ishaq191"}
             linkedin={"https://www.linkedin.com/in/ibagwai/"}
-          />
-          <TeamCard
+          /> */}
+          {/* <TeamCard
             pic={murtala}
             name="Muritala Adewale Akinyemi"
             role="CFO Brainstorm"
@@ -72,8 +72,8 @@ export default function TeamContainer() {
             mail={"mailto:murtala@brainstorm.ng"}
             twitter={"https://x.com/Akin__yemi"}
             linkedin={"https://www.linkedin.com/in/muritala/"}
-          />
-          <TeamCard
+          /> */}
+          {/* <TeamCard
             pic={fahad}
             name="Fahad Ado Muhammad"
             role="CPO Brainstorm"
@@ -83,7 +83,7 @@ export default function TeamContainer() {
             linkedin={
               "https://www.linkedin.com/in/muhammad-fahad-ado-1506a31a0/"
             }
-          />
+          /> */}
           {/* <TeamCard pic={daddy} name="Fahad" role={role} ceo='C' delay={400} /> */}
         </div>
       </div>

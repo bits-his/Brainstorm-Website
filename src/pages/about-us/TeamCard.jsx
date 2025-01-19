@@ -30,17 +30,17 @@ export default function TeamCard({
             <img src={pic} alt="team" loading="lazy" />
             <div className="social">
               <ul>
-                <a href={mail}>
+                {/* <a href={mail}>
                   <li>
                     <IoMdMail />
                   </li>
-                </a>
-                <a href={twitter} target="blank">
+                </a> */}
+                {/* <a href={twitter} target="blank">
                   <li>
                     <BsTwitterX />
 
                   </li>
-                </a>
+                </a> */}
                 <a href={linkedin} target="blank">
                   <li>
                     <FaLinkedin />
