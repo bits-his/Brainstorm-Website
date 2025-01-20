@@ -20,7 +20,7 @@ export default function TeamContainer() {
           <TeamCard
             pic={dangana}
             name="Idris Abdulkadir Dangana"
-            role="MD/CEO Brainstorm"
+            role="MD/CEO"
             delay={50}
             // mail={"mailto:dangana@brainstorm.ng"}
             // twitter={"https://x.com/Idris_Dangana"}
